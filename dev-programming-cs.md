@@ -134,11 +134,13 @@
 
 
 ## Resources
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 - [600 Free Online Programming & Computer Science Courses You Can Start in January](https://medium.freecodecamp.org/600-free-online-programming-computer-science-courses-you-can-start-in-january-3d4b1ed473aa)
 - [530 Free Online Programming & Computer Science Courses You Can Start in May](https://medium.freecodecamp.org/530-free-online-programming-computer-science-courses-you-can-start-in-may-5e82f5307867)
 - [370 Online Courses With Real College Credit That You Can Access For Free](https://medium.freecodecamp.org/370-online-courses-with-real-college-credit-that-you-can-access-for-free-4fec5a28646)
 - [71 OF THE BEST PLACES TO LEARN TO CODE FOR FREE](https://learntocodewith.me/posts/code-for-free/)
-
+- [Datastructures and Algorithms - VisualGo.net](https://visualgo.net/en)
 - [Learn Programming (FAQ)](https://www.reddit.com/r/learnprogramming/wiki/faq)
 - [Learn Programming Language](https://www.reddit.com/r/learnprogramming/wiki/online)
 - [My giant JavaScript Basics course is now live on YouTube. And it’s 100% free.](https://medium.freecodecamp.org/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27)
@@ -158,6 +160,7 @@
 - [My rules coding for HTML, CSS and JavaScript development](https://github.com/LFeh/coding-style)
 - [Web Development Tools | Tools and programs I use every day as a developer.](https://kalob.io/blog/web-development-tools/)
 - [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
 
 - [Free PSD](https://365psd.com/free-psd)
 
@@ -284,6 +287,7 @@
 - [Learn Code the Hard Way](https://learncodethehardway.org/)
 - [RallyCoding](https://rallycoding.com/)
 - [DataCamp](https://www.datacamp.com/)
+- [tutorialspoint](https://www.tutorialspoint.com/index.htm)
 
 
 - [Rithm School](https://www.rithmschool.com/)
@@ -569,6 +573,8 @@
 - http://asafgivon.com/
 
 ### Blog
+- https://fatosmorina.com/
+- https://joeprevite.com/
 - [Kamran Ahmed](https://kamranahmed.info/)
 - [ZenDev](https://zendev.com/)
 - [Wolf Programmer](https://wolfprogrammer.com/)
