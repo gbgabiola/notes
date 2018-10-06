@@ -1,21 +1,23 @@
 # Web Development, Programming, Computer Science
 
 ## Experienced/blog
+- [Learning From the Feynman Technique](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230)
+- [Should you learn programming? Yes.](https://sivers.org/prog)
+- [Letter to aspiring web developers](https://medium.com/@francesco.agnoletto/letter-to-aspiring-web-developers-c5a3c2395a1)
+- [Essential skills every developer should master (besides coding)](https://medium.freecodecamp.org/3-essential-skills-every-developer-should-master-besides-coding-80e40e084241)
 - [A Mind for Numbers - by Barbara Oakley](https://sivers.org/book/MindForNumbers)
 - [Why Full Stack Development is Too Good For You in 2017](https://medium.com/dev-bits/why-full-stack-development-is-too-good-for-you-in-2017-3fd6fe207b34)
 - [Things I Wish Someone Had Told Me When I Was Learning How to Code](https://medium.freecodecamp.org/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329)
-- [Learning From the Feynman Technique](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230)
 - [How To Code your mind into Coding](https://medium.com/@adesso21/how-to-code-your-mind-into-coding-dc650ba9c304)
+- [Lessons from my month-long GitHub commit streak](https://medium.freecodecamp.org/lessons-from-my-month-long-github-commit-streak-b8f3167d34ac)
 - [Wanna be a developer? Here is what you need to take into account.](https://medium.freecodecamp.org/wanna-be-a-developer-here-is-what-you-need-to-take-into-account-7f59a059f39)
+- [“How much math do I need to know to program?” Not That Much, Actually.](https://inventwithpython.com/blog/2012/03/18/how-much-math-do-i-need-to-know-to-program-not-that-much-actually/)
 - [Every developer should have a blog. Here’s why, and how to stick with it.](https://medium.freecodecamp.org/every-developer-should-have-a-blog-heres-why-and-how-to-stick-with-it-5fd55a247fbf)
 - [every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)
+- [The Developer’s Edge: How To Become A Senior Developer](https://hackernoon.com/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45)
 - [How to get started with coding](https://kalob.io/blog/how-to-start-coding/)
+- [Learn to code in 2018, get hired, and have fun along the way](https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a)
 - [Pseudo-code, humor, and the art of Googling](https://medium.com/@josephcardillo/pseudo-code-humor-and-the-art-of-googling-71f6b5e8ce2e/)
-- [Letter to aspiring web developers](https://medium.com/@francesco.agnoletto/letter-to-aspiring-web-developers-c5a3c2395a1)
-- [Essential skills every developer should master (besides coding)](https://medium.freecodecamp.org/3-essential-skills-every-developer-should-master-besides-coding-80e40e084241)
-- [Should you learn programming? Yes.](https://sivers.org/prog)
-- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
-- [How to not f- up your local files with Git part 1](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c)
 - [How to Not Suck at Coding, Part 1](https://codeburst.io/how-to-not-suck-at-coding-part-1-bf00502326b0)
 - [Learning to Code: When It Gets Dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd)
 - [Which programming language should I learn?](https://hackernoon.com/which-programming-language-should-i-learn-8694cf757407)
@@ -70,13 +72,16 @@
 - [Computer Science VS Software Engineering — Which Major Is Best For You?](https://medium.freecodecamp.org/computer-science-vs-software-engineering-which-one-is-a-better-major-88482c38446b)
 - [How I went from newbie to Software Engineer in 9 months while working full time](https://medium.freecodecamp.org/how-i-went-from-newbie-to-software-engineer-in-9-months-while-working-full-time-460bd8485847)
 - [What exactly can you do with Python? Here are Python’s 3 main applications.](https://medium.freecodecamp.org/what-can-you-do-with-python-the-3-main-applications-518db9a68a78)
+- [50 resources to help you start learning JavaScript in 2017](https://medium.com/coderbyte/50-resources-to-help-you-start-learning-javascript-in-2017-4c70b222a3b9)
+- [A Beginner’s JavaScript Study Plan](https://medium.freecodecamp.org/a-beginners-javascript-study-plan-27f1d698ea5e)
+- [A Study Plan To Cure JavaScript Fatigue](https://medium.freecodecamp.org/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1)
 - [Learn these JavaScript fundamentals and become a better developer](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
-- [25 Free Resources for New JavaScript Developers](https://medium.freecodecamp.org/25-free-resources-for-new-javascript-developers-11342cf1f4df)
 - [The beginning of an adventure: 13 Weeks of JavaScript](https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533)
 - [5 Common mistakes that every new JavaScript programmer does](https://codeburst.io/5-common-mistakes-that-every-new-javascript-programmer-does-d0559770d345)
 - [You are learning JS wrong](https://hackernoon.com/you-are-learning-js-wrong-a004746d2ff5)
 - [Best courses to learn Javascript in 2017](https://codeburst.io/best-courses-to-learn-javascript-in-2017-fc3a254638cc)
-- [Know Shell Scripting !!!](https://hackernoon.com/know-shell-scripting-202b2fbe03a8)
+- [6 Skills Every JavaScript Programmer Needs to Have](https://www.jenniferbland.com/6-skills-every-javascript-programmer-needs-to-have/)
+- [12 Simple (Yet Powerful) JavaScript Tips](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/)
 - [Cognitive bias cheat sheet](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18) Because thinking is hard.
 - [JavaScript Symbols, Iterators, Generators, Async/Await, and Async Iterators — All Explained Simply](https://medium.freecodecamp.org/some-of-javascripts-most-useful-features-can-be-tricky-let-me-explain-them-4003d7bbed32)
 - [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)
@@ -92,6 +97,7 @@
 - [Understanding JavaScript OOP](http://robotlolita.me/2011/10/09/understanding-javascript-oop.html)
 - [What I know about testing in JavaScript!](https://medium.com/yazanaabed/what-i-know-about-testing-in-javascript-6657d2188c3a)
 - [An Introduction to Service Workers in JavaScript](https://codeburst.io/an-introduction-to-service-workers-in-javascript-27d6376460c2)
+- [Learn React tutorials for beginners](https://reactgo.com/)
 - [How to React](https://blog.kentcdodds.com/how-to-react-%EF%B8%8F-9e87f48414d2)
 - [React DevTools](https://blog.kentcdodds.com/react-devtools-c2d56a901f37)
 - [How to build your own React boilerplate](https://codeburst.io/how-to-build-your-own-react-boilerplate-1a97d09337fd)
@@ -130,10 +136,31 @@
 - [The Software Developer’s Guide to Building an Online Reputation](https://hackernoon.com/the-software-developers-guide-to-building-an-online-reputation-2cb206185af2)
 - [The Ultimate List of Resources for Remote Workers](https://hackernoon.com/the-ultimate-list-of-resources-for-remote-workers-aefb24529c4f)
 
+### Workflow
+- [GitHub On Demand](https://services.github.com/on-demand/)
+- [Know Shell Scripting !!!](https://hackernoon.com/know-shell-scripting-202b2fbe03a8)
+- [Learn How to Manage Dotfiles](https://hackernoon.com/learn-how-to-manage-dotfiles-b8b62c6c5491)
+- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+- [How to not f- up your local files with Git part 1](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c)
+- [Your Perfect Kickstart To Shell Scripting](https://codeburst.io/your-perfect-kickstart-to-shell-scripting-857b81c0939b)
+- [Dive into dotfiles Part 1 - An introduction to Dotfiles: how to take control of your development environment](https://medium.freecodecamp.org/dive-into-dotfiles-part-1-e4eb1003cff6)
+- [Dive into dotfiles Part 2 - How to make your Dotfile management a painless affair](https://medium.freecodecamp.org/dive-into-dotfiles-part-2-6321b4a73608)
+- [Intro to Dotfiles](https://thoughtbot.com/upcase/videos/intro-to-dotfiles)
+- [Getting Started With Dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
+- [dotfiles](https://dotfiles.github.io/)
+- [Dotfiles Are Meant to Be Forked](https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/)
+- [Shell Configuration: Hack Your ZSH](https://blog.apptension.com/2018/08/30/shell-configuration-hack-your-zsh/?utm_source=reddit.com&utm_medium=social&utm_campaign=reddit_zsh)
+
 ---
 
 
 ## Resources
+- [Programming - Learn. Love. Code.](https://medium.com/learn-love-code/tagged/programming)
+- [25 Free Resources for New JavaScript Developers](https://medium.freecodecamp.org/25-free-resources-for-new-javascript-developers-11342cf1f4df)
+- [100+ FREE Resources to Learn Full Stack Web Development](https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2)
+- [The Ultimate Guide to Learning Full Stack Web Development in 6 months, for $30](https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458)
+- [Full-Stack Web Development - the Complete Roadmap](https://hackernoon.com/full-stack-web-development-the-complete-roadmap-9fe43ec0ba32)
+- [JavaScript Is Sexy - Master JavaScript and Frontend Development](http://javascriptissexy.com/)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 - [600 Free Online Programming & Computer Science Courses You Can Start in January](https://medium.freecodecamp.org/600-free-online-programming-computer-science-courses-you-can-start-in-january-3d4b1ed473aa)
@@ -145,6 +172,7 @@
 - [Learn Programming Language](https://www.reddit.com/r/learnprogramming/wiki/online)
 - [My giant JavaScript Basics course is now live on YouTube. And it’s 100% free.](https://medium.freecodecamp.org/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27)
 - [Learnhowtoprogram](https://www.learnhowtoprogram.com/courses)
+- [Some useful websites for programmers](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [Python resources](https://www.reddit.com/r/learnpython/wiki/index#wiki_new_to_programming.3F)
 - [BEST RESOURCES FOR WEB DESIGN AND DEVELOPMENT WITH HTML5 & CSS3](http://www.chaudo.com/best-resources-for-web-design-and-development-with-html5-css3/)
 - [CSbooks](https://mega.nz/#F!EwAmBTCC!Tria60rjBtKFe2jB3i1d6A!84QWyRbY)
@@ -160,6 +188,8 @@
 - [My rules coding for HTML, CSS and JavaScript development](https://github.com/LFeh/coding-style)
 - [Web Development Tools | Tools and programs I use every day as a developer.](https://kalob.io/blog/web-development-tools/)
 - [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+- [Beginning JavaScript: Introduction to Functional Programming](https://training-6b9ec.firebaseapp.com/)
+- https://www.in5days.tech/
 
 
 - [Free PSD](https://365psd.com/free-psd)
@@ -174,7 +204,15 @@
 - [HTML Validator](https://validator.w3.org/) - tool to check markup accuracy
 - [CSS Lint](http://csslint.net/) - tool to check CSS accuracy
 - [JSLint](http://jslint.com/) - tool to check JS code quality
-- [Codepen](http://codepen.io/), [JS Bin](https://jsbin.com/?html,css,output), [JSFiddle](https://jsfiddle.net/), and [repl.it](https://repl.it/) - all great online code editors
+
+### Online Editors
+- [Cloud9 IDE](https://c9.io/)
+- [codeanywhere](https://codeanywhere.com/)
+- [codeenvy](https://codenvy.io/)
+- [Codepen](http://codepen.io/)
+- [JS Bin](https://jsbin.com/?html,css,output)
+- [JSFiddle](https://jsfiddle.net/)
+- [repl.it](https://repl.it/)
 
 
 ### Generators:
@@ -261,11 +299,29 @@
 
 ---
 
-
-## Courses
-- [Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn)
+## Bootcamps
+- https://studio.code.org/
+- [Flatiron School Free Bootcamp](https://learn.co)
+- [FullStack Academy](https://learn.fullstackacademy.com/)
+- [Rithm](https://www.rithmschool.com/)
+- [Hack Reactor](https://prep.hackreactor.com/courses/enrolled/118569)
+- [thinkster - A better way to learn](https://thinkster.io/)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 - [Codecademy](https://www.codecademy.com/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [Revature](https://revature.com)
+- [Lambda](https://lambdaschool.com)
+- [Fullstack Academy Bootcamp Prep](https://start.fullstackacademy.com/fullstack-academy-bootcamp-prep-at-your-own-pace?utm_campaign=LearnToCodeWithMe&utm_source=LearnToCodeWithMe&utm_medium=Email)
+- [Dash](https://dash.generalassemb.ly/)
+- [App Academy (No Job No Tuition)](https://www.appacademy.io/)
+- [RMOTR](https://rmotr.com/)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- [SoloLearn](https://www.sololearn.com/)
+- [Brilliant - More on Math](https://brilliant.org)
+
+
+## Courses & Docs
+- [Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn)
 - [Treehouse](https://teamtreehouse.com/tracks)
 - [Envato Tuts+](https://code.tutsplus.com/)
 - [Udemy](https://www.udemy.com/)
@@ -277,7 +333,6 @@
 - [Pluralsight](https://www.pluralsight.com/)
 - [Microsoft Virtual Academy](https://mva.microsoft.com/)
 - [Khan Academy](https://www.khanacademy.org/)
-- [The Odin Project](https://www.theodinproject.com/)
 - [Upskill](https://upskillcourses.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [Arkmont](https://arkmont.com/)
@@ -287,27 +342,23 @@
 - [Learn Code the Hard Way](https://learncodethehardway.org/)
 - [RallyCoding](https://rallycoding.com/)
 - [DataCamp](https://www.datacamp.com/)
-- [tutorialspoint](https://www.tutorialspoint.com/index.htm)
-
-
-- [Rithm School](https://www.rithmschool.com/)
-- [thinkster - A better way to learn](https://thinkster.io/)
+- [tutorialspoint](https://www.tutorialspoint.com/)
+- [Eduction simplified](https://www.studytonight.com/)
+- [BitDegree](https://www.bitdegree.org)4
+- [Wes Bos](https://wesbos.com/)
 - [coursetro](https://coursetro.com/)
 - [Code College](https://codecollege.ca/)
 - [CSX](https://csx.codesmith.io/)
 - [Learn How To Program Courses](https://www.learnhowtoprogram.com/courses)
 - [Learn to Code](http://www.webdesigndegreecenter.org/learn-to-code/)
 - [Learn the Web](https://learn-the-web.algonquindesign.ca/)
-- [Wes Bos](https://wesbos.com/)
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/)
 - [Learn To Code](http://thecodingtrain.com/)
 - [Online Classes by Skillshare](https://www.skillshare.com/?via=header)
 
-- [Learn - Bootcamp Prep](https://learn.co/tracks/bootcamp-prep)
-- [Lambda School](https://lambdaschool.com/)
-- [Fullstack Academy Bootcamp Prep](https://start.fullstackacademy.com/fullstack-academy-bootcamp-prep-at-your-own-pace?utm_campaign=LearnToCodeWithMe&utm_source=LearnToCodeWithMe&utm_medium=Email)
-- [SoloLearn](https://www.sololearn.com/)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+
+
+
 
 ### JS
 - [Rithm School JavaScript Fundamentals](https://www.rithmschool.com/courses/javascript)
@@ -388,6 +439,8 @@
 - [Exploring ES2016 and ES2017](http://exploringjs.com/es2016-es2017/index.html)
 - [Exploring ES2018 and ES2019](http://exploringjs.com/es2018-es2019/toc.html)
 - [Exploring ReasonML and functional programming](http://reasonmlhub.com/exploring-reasonml/toc.html)
+
+- [11 JavaScript Animation Libraries](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 
 #### React
 - [Learn React, By Itself](https://reactarmory.com/)
@@ -488,17 +541,32 @@
 
 
 ## Website/portfolio
+- http://findmatthew.com/
+- http://jtom.me/
+- https://caferati.me/
+- http://kyleledbetter.com/
+- http://jieverson.com/
+- https://andrewborstein.com/
+- https://www.adithyabhat.com/
+- http://www.pavelhuza.com/
+- [Frances Berriman](https://fberriman.com) for Abbyjel
 - http://www.albinotonnina.com/
 - http://willemwijnans.github.io/
 - https://www.stevelongoria.net/
 - http://sharynneazhar.com/
 - https://sachin5sos.github.io/
+- https://wb.gy/
+- https://nrobinson.me/
+- https://rphl.io/
+- https://asamshan.com/
 - https://davidpierre21.github.io/
 - https://syknapse.github.io/Syk-Houdeib/
 - https://sdabhi23.github.io/#home
 - https://danaguinaldo.github.io/
 - https://www.klarafleischmann.de/
 - https://celest.in/
+- https://tareqanwar.com/
+- [Jem Young: Software Engineer](https://jemyoung.com/about/)
 - https://raivivek.in/ (raivivek.github.io)
 - https://www.austintackaberry.co/
 - http://www.jdpenuliar.com/
@@ -564,6 +632,7 @@
 - http://www.mlpdesign.net/
 - https://iwakoscott.com/
 - https://www.hipstercode.com/
+- https://www.tiffanyrwhite.com/
 - https://www.dynanx.com/
 - https://www.myportfolio.com/
 
@@ -573,18 +642,41 @@
 - http://asafgivon.com/
 
 ### Blog
+- [TUTORIALS FOR CODERS](https://flaviocopes.com/)
+- [Awesome Dev Blogs](https://github.com/abdelhai/awesome-dev-blogs)
+- [Andrew Ray's Blog](https://blog.andrewray.me/)
+- [Addy Osmani](https://addyosmani.com/blog/)
+- [Tiffany R. White](https://tiffanywhite.tech/)
+- [2ality – JavaScript and more](http://2ality.com/)
+- [Caleb Curry](http://www.calebcurry.com/)
+- [Nick Taylor](https://www.iamdeveloper.com/)
+- https://nick.karnik.io/
+- https://upbeat-sinoussi-998f2b.netlify.com/
+- https://www.amitmerchant.com/
+- [Zen of Programming](https://zen-of-programming.com/)
+- [Jennifer Bland - Full Stack Software Engineer & World Traveler](https://www.jenniferbland.com)
 - https://fatosmorina.com/
 - https://joeprevite.com/
 - [Kamran Ahmed](https://kamranahmed.info/)
+- https://evdokimovm.github.io
+- https://zachholman.com/
+- [Ruben's Blog](https://vagr9k.me/)
 - [ZenDev](https://zendev.com/)
 - [Wolf Programmer](https://wolfprogrammer.com/)
+- https://www.kauress.me/
+- https://nikolaskama.me/
 - [Eric Douglas almost like a Blog](https://ericdouglas.github.io/)
 - http://btholt.github.io/
+- [Bricolage](https://www.bricolage.io/)
+- [Formidable](https://formidable.com/blog/)
+- [Dustin Schau](https://blog.dustinschau.com/)
 - [Linny blog](http://www.webeloo.com/)
 - https://alexsexton.com/
 - https://akhilo.me/
+- http://www.alecaddd.com/
 - https://sdabhi23.wordpress.com/
 - http://coenraets.org/blog/
+- http://parsecsreach.com/
 - https://tylermcginnis.com/blog/
 - http://coders-errand.com/
 - https://www.ericdecanini.com/blog/
@@ -599,6 +691,44 @@
 - https://aaayumi.github.io/
 - [X-TEAM blog](https://x-team.com/blog/)
 - https://www.dailycodingproblem.com/blog
+- [A Technology Blog by Alan James](http://justbuildsomething.com/)
+
+- [Coder Coacher](https://coder-coacher.github.io/)
+- [andrewgoss.com](http://andrewrgoss.github.io/)
+- http://sandordargo.com/
+- http://buddylee939.github.io/booknotes
+- https://nunie123.github.io/
+- https://www.codementor.io
+- https://toddmotto.com/
+- https://scotch.io/
+- https://davidwalsh.name/
+- http://dailyjs.com/
+- https://simpleprogrammer.com/
+- https://www.sitepoint.com/javascript/
+- https://www.javascript.com/
+- http://blog.teamtreehouse.com/
+- http://www.nearform.com/nodecrunch/
+- https://blog.risingstack.com/
+- [Thoughts On Technology & Growth](https://blog.apptension.com/)
+
+
+## Morning - Evening
+- Evening Journal
+- Review learnings or Problems before bed
+- Plan for tomorrow - todo list
+- Layout clothes
+- Clean up
+- Good & bad
+- Put cell phone away
+- Window breathing
+- Journal
+- Get dressed
+- Pack & plan for day
+- Shower
+- pushups or jumping jacks
+- Breathing techniques (Wim hof)
+- Make bed
+- Coffee, tea, propel
 
 
 ## Projects
@@ -742,7 +872,6 @@ For me, The Pragmatic Programmer was a big help.
 ## BEST RESOURCES FOR WEB DESIGN AND DEVELOPMENT WITH HTML5 & CSS3
 
 ### WEBDESIGN BASICS
-
 #### INTRODUCTION TO WEBDESIGN
 - [Design course in form of articles](https://hackdesign.org/lessons)
 - [Learn more about flat design](http://www.webdesignerdepot.com/2013/12/infographic-flat-design-vsskeuomorphism/)
@@ -810,8 +939,6 @@ Some amazing designers on Dribble:
 
 
 ### DIVE INTO HTML
-- The best [text editor](http://brackets.io/) for front-end web development in the world
-- Complete [HTML reference](http://www.w3schools.com/html)
 - [HTML special characters](https://css-tricks.com/snippets/html/glyphs/)
 
 
@@ -821,8 +948,8 @@ Some amazing designers on Dribble:
 net-16048)
 - Cool things you can do with [Google Chrome Developer Tools](http://www.labnol.org/solware/chrome-dev-tools-tutorial/28131/)
 
-### THE KILLER WEBSITE PROJECT
 
+### THE KILLER WEBSITE PROJECT
 #### REAL-WORLD STEPS TO A FUNCTIONAL WEBSITE
 1. Define your project (goal and audience)
 2. Plan out everything
@@ -844,7 +971,6 @@ net-16048)
 
 
 ### LET’S ADD SOME COOL EFFECTS
-
 #### LINKS USED IN THE COURSE
 - [Animate.css](http://daneden.github.io/animate.css/)
 
@@ -867,7 +993,6 @@ net-16048)
 - [Preview your website](http://www.responsinator.com/) on multiple mobile devices at once
 - [SEO checklist](http://webdesign.tutsplus.com/ar.cles/a-web-designers-seo-checklist-includingportable-formats–webdesign-10740)
 - [Google analytics](http://www.google.com/analytics/)
-
 
 ### KEEPING UP WITH THE WEB INDUSTRY
 - [Treehouse show](http://teamtreehouse.com/library/the-treehouse-show), weekly video about new things in webdesign and development
