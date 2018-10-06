@@ -1,4 +1,23 @@
-# Windows Subsystem Linux
+# Windows Subsystem Linux Setup for Development
+
+- [How to Install Zsh and Oh My Zsh on Windows 10](https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html)
+- [Shell Configuration: Hack Your ZSH](https://blog.apptension.com/2018/08/30/shell-configuration-hack-your-zsh/?utm_source=reddit.com&utm_medium=social&utm_campaign=reddit_zsh)
+- [[Guide] Developing on Windows 10 using WSL](https://discourse.roots.io/t/guide-developing-on-windows-10-using-wsl/9380)
+- [Webdev on Windows with WSL and VS Code](https://daverupert.com/2018/04/developing-on-windows-with-wsl-and-visual-studio-code/)
+- [My Windows 10 Dev Setup](https://medium.com/@dariuszparys/my-windows-10-dev-setup-67d7aecb63a6)
+- [How to set up the perfect modern dev environment on Windows](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows)
+- [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
+- [My WSL Setup for Development](https://github.com/lloydstubber/my-wsl-setup)
+- [Hyper.js + Oh My ZSH as Ubuntu on Windows (WSL) Terminal](https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97)
+- [WSL / Ubuntu / ZSH and Hyper Terminal](https://fcbrossard.net/blog/wsl-ubuntu-zsh-hyper-terminal)
+- [Running oh my zsh on Windows 10](https://winsmarts.com/running-oh-my-zsh-on-windows-10-6fcb0fbc736b)
+- [Windows Subsystem for Linux w/ zsh, tmux & Docker](https://blog.questionable.services/article/windows-subsystem-linux-zsh-tmux-docker/)
+- [Setting up Windows Subsystem for Linux with zsh + oh-my-zsh + ConEmu](https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/)
+- [How to Use Zsh (or Another Shell) in Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/)
+- [How to Set up Bash on Ubuntu on Windows, Zsh, and Hyper Terminal](https://davidtranscend.com/blog/windows-terminal-workflow-guide/)
+- []()
+
+- [Epic Development Environment using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61)
 
 - [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
 
@@ -326,3 +345,119 @@ sudo rm /usr/bin/python3
 
 sudo ln -s python3.5 /usr/bin/python3
 ```
+
+
+## Get your terminal
+- Download Hyper.js [here](https://hyper.is/)
+
+## Automatically open the terminal in Bash
+- Open up Hyper and type `Ctrl` + `,`
+- Scroll down to shell and change it to `shell: 'C:\\Windows\\System32\\bash.exe' then `shellArgs: ['--login']` or `shell: 'wsl.exe'` then `shellArgs: []`
+
+## Install Zsh
+- Run `sudo apt-get install zsh`
+- Open bash profile `nano ~/.bashrc`
+- Set ZSH as default:
+```sh
+# Launch zsh
+if [ -t 1 ]; then
+exec zsh
+fi
+```
+or `bash -c zsh`
+
+## Install a framework for ZSH
+- Install Oh My Zsh with `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+   - Read docs [here](https://github.com/robbyrussell/oh-my-zsh) on how to add more plugins and change themes (I went with their out of the box 'robbyrussell').
+
+## Add plugins in zsh
+- open .zshrc file `nano ~/.zshrc`
+- It will look like this `plugins=(git colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)`
+
+## Fix the ls and cd colours
+Out of the box when you `ls` or `cd` + `Tab` you get a ugly background colours on the directories. To fix this, open ~/.zshrc file and add this to the end:
+```sh
+#Change ls colours
+LS_COLORS="ow=01;36;40" && export LS_COLORS
+
+#make cd use the ls colours
+zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+autoload -Uz compinit
+compinit
+```
+
+## Install Git
+- Run this `sudo apt update`
+- Then run `sudo apt install git`
+
+## Setup a SSH key and link to your Github
+- Follow the Linux steps [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux) to create a key and add it to your SSH agent
+- Then type `cat ~/.ssh/id_rsa.pub`
+- Copy your key from the terminal and paste it into your Github keys
+
+## Install Node Version Manager
+ It is a little slow but is a known issue. To make the startup time a little faster:
+ ```sh
+ # Defer initialization of nvm until nvm, node or a node-dependent command is
+# run. Ensure this block is only run once if .bashrc gets sourced multiple times
+# by checking whether __init_nvm is a function.
+if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(whence -w __init_nvm)" = function ]; then
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
+  declare -a __node_commands=('nvm' 'node' 'npm' 'yarn' 'gulp' 'grunt' 'webpack')
+  function __init_nvm() {
+    for i in "${__node_commands[@]}"; do unalias $i; done
+    . "$NVM_DIR"/nvm.sh
+    unset __node_commands
+    unset -f __init_nvm
+  }
+  for i in "${__node_commands[@]}"; do alias $i='__init_nvm && '$i; done
+fi
+```
+
+
+## How to Uninstall (or Reinstall) Windows 10’s Ubuntu Bash Shell
+### How to Uninstall the Ubuntu Environment and Keep Your Home Folder
+To remove the downloaded Bash environment, open a Command Prompt window and run the following command. This will uninstall and delete the Ubuntu user environment from your system, including any Linux applications you downloaded and installed with apt-get or by compiling them from source.
+
+`lxrun /uninstall`
+
+![uninstall](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775b6e48c76c.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.8WCVcHMC-F.png)
+
+This command won’t delete your home folder and the files in it. If you’d like to completely wipe the Linux system, see the next section.
+
+### How to Uninstall the Ubuntu Environment and Delete Your Home Folder
+The above command won’t delete your Ubuntu user account’s home folder. The home folder contains user preferences and files. If you install a new Ubuntu user space image, the files in your home folder will be preserved and carried over.
+
+If you want to prevent this from happening, you’ll need to remove the downloaded Bash environment and completely wipe your home folder. To do so, run the following command:
+
+`lxrun /uninstall /full`
+
+You’ll be asked to confirm your choice. To automatically accept the confirmation, run the `lxrun /uninstall /y /full` command instead.
+
+![uninstall full](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775d5727fb2a.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.JTG6PTaTpY.png)
+
+### How to Reinstall the Ubuntu Environment
+To reinstall the Bash environment, you can just run the bash command again, as you did when installing Bash the first time. If a Ubuntu user space image isn’t installed, it will automatically download and install it.
+
+You can also run the following command yourself. This is the same command that bash.exe automatically runs if you launch it without a Ubuntu user space image installed.
+
+`lxrun /install`
+
+Whether you run `bash` or `lxrun /install`, the command will ask you to confirm your choice and enter a username and password for the user account in the Bash environment.
+
+To skip this process, you can run the following command instead. This command will automatically agree to the prompts, setting the “root” account as the default user account without a password. This is helpful if you want to automate the process of installing Bash in a script.
+
+`lxrun /install /y`
+
+![install](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775b6a54bc16.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.O7ApTrPisX.png)
+
+### How to Remove Windows 10’s Bash Tools Completely
+If you’d like to remove the bash.exe tool and the Windows Subsystem for Linux from your computer completely, you’ll need to revisit the “Turn Windows Features On or Off” dialog in the Control Panel.
+
+To find it, open the Control Panel and head to Programs > Turn Windows Features On or Off.
+
+Uncheck the “Windows Subsystem for Linux” option here and click OK. Windows will uninstall the Windows Subsystem for Linux, bash.exe, and lxrun.exe commands. You can always revisit the Windows Features dialog to reinstall them in the future.
+
+![remove completely](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775d5a6d9307.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic._PkHXdKHls.png)
+
