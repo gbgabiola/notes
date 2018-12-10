@@ -1,7 +1,8 @@
 # Related Error Messages, Questions, or Problems in Git or Terminal Commands
 
 ## Git
-…or create a new repository on the command line
+
+### Create a new repository on the command line
 ```
 echo "# description of readme" >> README.md
 git init
@@ -210,6 +211,141 @@ Turn on the credential helper so that Git will save your password in memory for 
   $ git config --global credential.helper 'cache --timeout=3600'
   # Set the cache to timeout after 1 hour (setting is in seconds)
   ```
+  
+---
+
+### [Changing a remote's URL](https://help.github.com/articles/changing-a-remote-s-url/)
+The `git remote set-url` command takes two arguments:
+- An existing remote name. For example, origin or upstream are two common choices.
+- A new URL for the remote. For example:
+  - If you're updating to use HTTPS, your URL might look like:
+  
+  ```sh
+  https://github.com/USERNAME/REPOSITORY.git
+  ```
+  
+  - If you're updating to use SSH, your URL might look like:
+  
+  ```sh
+  git@github.com:USERNAME/REPOSITORY.git
+  ```
+
+#### Switching remote URLs from SSH to HTTPS
+1. Open Git Bash.
+2. Change the current working directory to your local project.
+3. List your existing remotes in order to get the name of the remote you want to change.
+
+```sh
+$ git remote -v
+origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+origin  git@github.com:USERNAME/REPOSITORY.git (push)
+```
+
+4. Change your remote's URL from SSH to HTTPS with the `git remote set-url` command.
+
+```sh
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
+
+5. Verify that the remote URL has changed.
+
+```sh
+$ git remote -v
+# Verify new remote URL
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
+```
+
+The next time you `git fetch`, `git pull`, or `git push` to the remote repository, you'll be asked for your GitHub username and password.
+
+- If you have [two-factor authentication](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa) enabled, you must [create a personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line) to use instead of your GitHub password.
+
+#### Switching remote URLs from HTTPS to SSH
+1. Open Git Bash.
+2. Change the current working directory to your local project.
+3. List your existing remotes in order to get the name of the remote you want to change.
+
+```sh
+$ git remote -v
+origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+origin  https://github.com/USERNAME/REPOSITORY.git (push)
+```
+
+4. Change your remote's URL from HTTPS to SSH with the `git remote set-url` command.
+
+```sh
+$ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+```
+
+5. Verify that the remote URL has changed.
+
+```sh
+$ git remote -v
+# Verify new remote URL
+origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+origin  git@github.com:USERNAME/REPOSITORY.git (push)
+```
+
+---
+
+### [Sharing SSH With WSL](https://geedew.com/Sharing-SSH-With-WSL/)
+The first step within the WSL is to create an SSH config for your user that will use the Windows user’s files for keys.
+
+```sh
+mkdir -p ~/.ssh/config
+touch ~/.ssh/config # create a config only if it doesn't exist
+vi ~/.ssh/config #begin editing the config
+```
+
+Once in the Vi program (or use nano or whatever you like to edit with) enter the following config.
+
+`Host * IdentityFile /mnt/c/Users/WINDOWS_USER_NAME/.ssh/NAME_OF_KEY`
+
+You must replace `WINDOWS_USER_NAME` with the name of the account being used in windows. Also, tell the config file the `NAME_OF_KEY` that you’d like to share. Usually this is `id_rsa`.
+Finally, save the new config file and then we must change it’s permissions so that Linux will allow it to be used.
+
+```sh
+chmod 600 ~/.ssh/config
+chown $USER ~/.ssh/config
+```
+
+We are also able to share `known_hosts` so that the servers we are connecting to are in both environments.
+
+```sh
+touch /mnt/c/Users/WINDOWS_USER_NAME/.ssh/known_hosts
+ln -s /mnt/c/Users/WINDOWS_USER_NAME/.ssh/known_hosts ~/.ssh/known_hosts
+```
+
+This creates a symlink with the Windows `known_hosts` for better sharing in the system.
+
+---
+
+### [Delete Branch both Remote and Locally
+
+```sh
+$ git push --delete <remote_name> <branch_name> // Delete Remote Branch
+$ git branch -d <branch_name> // Delete Local Branch
+```
+
+---
+
+### [Ssh “permission are too open” Error](https://www.poftut.com/ssh-permission-open-error/)
+Ssh is secure protocol andit tries to make everything properly to continue securely. There are a lot of different ssh security configuration. It one of them are violated ssh do not operates one of them is
+
+```sh
+Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+```
+
+error.  It is related with the permission of id_rsa file. If the permission is like 777 it will give this error and will not start. To correct this error the permission of the id_rsa file has to changed more secure level like 600.
+
+```sh
+root@ubu1:~# chmod 400 .ssh/id_rsa 
+root@ubu1:~# ls -al .ssh/id_rsa 
+-r-------- 1 root root 1675 Nov  2 16:33 .ssh/id_rsa
+```
+
 
 ---
 
@@ -286,6 +422,19 @@ Replace `*` with the relevant directory or the exact filename that you want to e
 
 [Reference](http://thenubbyadmin.com/2012/02/16/how-to-list-linux-file-permissions-in-octal-notation/)
 
+---
+
+### What is the correct way to completely remove an application?
+It will purge required packages along with dependencies that are installed with those packages. The `--auto-remove` option (being an alias of `autoremove`) works similar to `sudo apt-get autoremove`. By using this command we can run a single command:
+
+`sudo apt-get purge --auto-remove packagename`
+
+Instead of:
+
+```sh
+sudo apt-get purge packagename
+sudo apt-get autoremove
+```
 
 ---
 
