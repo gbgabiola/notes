@@ -405,3 +405,8 @@ The rotate() method rotates an element clockwise or counter-clockwise, according
 
 
 _Negative value will result in a counter clockwise rotation._
+
+
+---
+
+Credits to [Idiomatic CSS](https://github.com/necolas/idiomatic-css), [GitHub Styleguide](http://github.com/styleguide) and mostly to [@mdo](http://codeguide.co/) for doing all the work.
