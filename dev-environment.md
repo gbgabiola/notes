@@ -1,5 +1,6 @@
 # Windows Subsystem Linux Setup for Development
 
+## WSL Development Environment Setup
 - [How to Install Zsh and Oh My Zsh on Windows 10](https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html)
 - [Shell Configuration: Hack Your ZSH](https://blog.apptension.com/2018/08/30/shell-configuration-hack-your-zsh/?utm_source=reddit.com&utm_medium=social&utm_campaign=reddit_zsh)
 - [[Guide] Developing on Windows 10 using WSL](https://discourse.roots.io/t/guide-developing-on-windows-10-using-wsl/9380)
@@ -15,13 +16,40 @@
 - [Setting up Windows Subsystem for Linux with zsh + oh-my-zsh + ConEmu](https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/)
 - [How to Use Zsh (or Another Shell) in Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/)
 - [How to Set up Bash on Ubuntu on Windows, Zsh, and Hyper Terminal](https://davidtranscend.com/blog/windows-terminal-workflow-guide/)
-- []()
-
 - [Epic Development Environment using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61)
-
 - [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
-
 - [How to set up the perfect modern dev environment on Windows](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows)
+- [Bashing Windows](https://www.herebedragons.io/bashing-windows)
+- [Use Windows Subsystem for Linux as integrated terminal](https://github.com/Microsoft/vscode/issues/22317)
+- [How do I use Bash on Ubuntu on Windows (WSL) for my VS Code terminal?](https://stackoverflow.com/questions/44450218/how-do-i-use-bash-on-ubuntu-on-windows-wsl-for-my-vs-code-terminal)
+- [How to install updates via command line?](https://askubuntu.com/questions/196768/how-to-install-updates-via-command-line/196777#196777)
+- [A tutorial about how to run desktop environment inside Windows Subsystem for Linux](https://github.com/QMonkey/wsl-tutorial)
+- [dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows](https://github.com/voku/dotfiles)
+- [Personal dotfiles for mac and wsl](https://github.com/ridhwaans/dotfiles)
+- [💎 Dev on Windows with WSL 👨‍💻| Developed gracefully with WSL on Windows https://spencerwoo.com/2018/10/01/WSL/](https://github.com/spencerwoo98/Dev-on-Windows-with-WSL#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C)
+- [Windows development in 2018: Setting up a coding environment using Windows Subsystems for Linux (WSL), Hyper, and Visual Studio Code (vscode) with Python.
+](https://gist.github.com/Voronoff/059c50f9fd354386c305c55af1f3a61f)
+- [Quick development setup for Windows Linux Subsystem with oh-my-zsh](https://github.com/baamenabar/codeBlog/blob/master/articulos/Quick-development-setup-for-Windows-Linux-Subsystem-with-oh-my-zsh.md)
+- [How to Install Zsh and Oh My Zsh on Windows 10](https://github.com/evdokimovm/evdokimovm.github.io/blob/c5e4eccfc779499bc5e47d82ee4e169c6919d01f/_posts/2017-02-24-how-to-install-zsh-and-oh-my-zsh-on-windows-10.md)
+- [Settings for my development environments](https://github.com/joelnet/development-environment)
+- [Data Science On WSL](https://github.com/joshpeng/Data-Science-On-WSL)
+- [WSL as a Development Environment](https://github.com/hsab/WSL-config
+- [Install Ruby On Rails on Windows 10](https://gorails.com/setup/windows/10)
+- [Installing Ruby on Rails in Windows 10 w/Bash & PostgreSQL](https://medium.com/@colinrubbert/installing-ruby-on-rails-in-windows-10-w-bash-postgresql-e48e55954fbf)
+- [Windows-Subsystem-For-Linux-Setup-Guide](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide)
+
+---
+
+## Managing Dotfiles
+- [In Unix, files beginning with a . (a period) are hidden files.](https://plus.google.com/+RobPikeTheHuman/posts/R58WgWwN9jp)
+- [Managing Your Dotfiles](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
+- [Learn How to Manage Dotfiles](https://hackernoon.com/learn-how-to-manage-dotfiles-b8b62c6c5491)
+- [Getting Started With Dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
+- https://github.com/anishathalye/dotfiles
+- [Git Documentation](https://git-scm.com/doc)
+- [dotfiles / Your unofficial guide to dotfiles on GitHub.](https://dotfiles.github.io/)
+
+---
 
 - type `Windows features` in windows
 - ‘Turn Windows features on or off’
@@ -228,12 +256,6 @@ Then try running `npm start`
 
 
 ---
-
-- [Bashing Windows](https://www.herebedragons.io/bashing-windows)
-- [Use Windows Subsystem for Linux as integrated terminal](https://github.com/Microsoft/vscode/issues/22317)
-- [How do I use Bash on Ubuntu on Windows (WSL) for my VS Code terminal?](https://stackoverflow.com/questions/44450218/how-do-i-use-bash-on-ubuntu-on-windows-wsl-for-my-vs-code-terminal)
-- [How to install updates via command line?](https://askubuntu.com/questions/196768/how-to-install-updates-via-command-line/196777#196777)
-
 
 
 
@@ -461,3 +483,53 @@ Uncheck the “Windows Subsystem for Linux” option here and click OK. Windows 
 
 ![remove completely](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775d5a6d9307.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic._PkHXdKHls.png)
 
+
+
+
+---
+
+### Yarn Installation
+
+```sh
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt install yarn
+```
+
+
+### [How to install MongoDB 3.6 on Windows 10 Subsystem for Linux](http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/)
+
+[MongoDB doc](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+
+1. Import the public key used by the package management system.
+
+```sh
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+```
+
+or 
+
+```sh
+curl -sL "https://www.mongodb.org/static/pgp/server-4.0.asc" | sudo apt-key add
+```
+
+2. Create a list file for MongoDB.
+
+```sh
+echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+```
+
+3. Reload local package database.
+
+```sh
+sudo apt-get update
+```
+
+4. Install the MongoDB packages.
+
+```sh
+sudo apt-get install -y mongodb-org
+```
+
+---
