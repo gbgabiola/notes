@@ -2,7 +2,10 @@
 
 ## Udemy Tutorials
 - [x] [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
-- [ ] [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+- [x] [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+- [x] [How to Use SMART Goals - Achieve More in Less Time](https://www.udemy.com/goal-setting/)
+- [x] [Pre-Programming- Everything you need to know before you code](https://www.udemy.com/pre-programming-everything-you-need-to-know-before-you-code)
+- [x] [JavaScript Basics for Beginners](https://www.udemy.com/javascript-basics-for-beginners/)
 - [ ] [The Complete JavaScript Course 2018: Build Real Projects!](https://www.udemy.com/the-complete-javascript-course/)
 - [ ] [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)
 - [ ] [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/)
@@ -22,11 +25,13 @@
 - [ ] [The Complete React Web Developer Course (with Redux)](https://www.udemy.com/react-2nd-edition/)
 - [ ] [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)
 - [ ] [Complete Python Bootcamp: Go from zero to hero in Python 3](https://www.udemy.com/complete-python-bootcamp/)
+
+## Other Courses
 - [ ] [Intro to JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)
 - [ ] [Calculus One](https://www.coursera.org/learn/calculus1)
-- [ ] [Calculus Two: Sequences and Series]
+- [ ] [Calculus Two: Sequences and Series]('Not available')
 
-
+---
 
 ## Web Development - Become a Web Developer
 - [x] HTML Essential Training
@@ -56,10 +61,10 @@
 - [ ] Sass Essential Training
 
 ## Become a Full-Stack Web Developer
-- [ ] Programming Foundations - Fundamentals
-- [ ] Web Development Foundations - Full-Stack vs Front-End
-- [ ] CSS Essential Training 1
-- [ ] CSS Essential Training 2
+- [x] Programming Foundations - Fundamentals
+- [x] Web Development Foundations - Full-Stack vs Front-End
+- [x] CSS Essential Training 1
+- [x] CSS Essential Training 2
 - [ ] HTML Essential Training
 - [ ] Programming Foundations - Databases
 - [ ] JavaScript Essential Training
@@ -101,7 +106,6 @@
 - [x] TutsPlus - SQL Essentials
    
 - [x] Python Crash Course For Beginners
-
 
 ---
 
