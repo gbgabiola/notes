@@ -66,6 +66,7 @@
 - [Learning How To Learn – Course Notes And Summary](https://www.sonnybrown.net/learning-learn-powerful-mental-tools-help-master-tough-subjects/)
 - [If You Want To Succeed In 2018, You Must Learn To Focus](https://medium.com/personal-growth/if-you-want-to-achieve-more-in-2018-youll-need-to-learn-to-focus-33529316418)
 - [7 Ways To Stay Motivated Long Enough To Replicate Success (Over And Over Again)](https://artplusmarketing.com/7-ways-to-stay-motivated-long-enough-to-replicate-success-over-and-over-again-386796fa28a8)
+- [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/)
 - [How to Learn a New Programming Language or Framework](https://hackernoon.com/how-to-learn-a-new-programming-language-faster-dc31ec8367cb)
 - [How I went from not knowing how to code to shipping 9 projects in 9 months — all before my 15th birthday](https://medium.freecodecamp.org/how-i-went-from-not-knowing-how-to-code-to-shipping-9-projects-in-9-months-all-before-my-15th-7ec3666072c3)
 - [Lessons from 7 self-taught coders who now work full time as software developers](https://medium.freecodecamp.org/inspirational-success-stories-from-self-taught-web-developers-4f6f375cf17d)
