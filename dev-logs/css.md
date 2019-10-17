@@ -1,11 +1,14 @@
-# CSS
+# CSS | BEM | Performance | Flexbox | etc
 
-- [Articles](#articles)
-- [Guides](#guides)
-- [Resources](#resources)
+- [CSS](#css)
+- [BEM](#bem)
+- [Flexbox](#flexbox)
+- [Performance](#performance)
 
 
-## Articles
+## CSS
+
+### Articles
 
 - [10 principles for smooth web animations](https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29)
 - [Best Practice for ID and Class Names](https://meiert.com/en/blog/best-practice-ids-and-classes/)
@@ -29,52 +32,64 @@
 - [What is Modular CSS?](https://spaceninja.com/2018/09/17/what-is-modular-css)
 - [Writing Good CSS](https://markrabey.com/2014/11/07/writing-good-css/)
 
-### BEM
-
-### Flexbox
-
-- [Flexbox: CSS Layout Design Done Right, Finally](https://medium.com/@ogilvydenver/flexbox-css-layout-design-done-right-finally-d8f712923060)
-- [Flexing with CSS Flexbox](https://blog.logrocket.com/flexing-with-css-flexbox-b7940b329a8a)
-- [Use Cases For Flexbox](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/)
-
-### Performance
-
-
-## Guides
+### Guides
 
 - [30 Seconds of CSS](https://atomiks.github.io/30-seconds-of-css)
 - [Expressive CSS](http://johnpolacek.github.io/expressive-css/)
+- [ITCSS: Scalable and Maintainable CSS Architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 - [The simpleton’s guide to CSS Grid](https://blog.logrocket.com/the-simpletons-guide-to-css-grid-1767565b3cf7)
 - [Three Techniques for Performant Custom Font Usage](https://css-tricks.com/three-techniques-performant-custom-font-usage)
 - [Using CSS variables correctly](https://www.madebymike.com.au/writing/using-css-variables/)
 - [Web Font Loading Patterns](https://www.bramstein.com/writing/web-font-loading-patterns.html)
 
-### BEM
+### Resources
+
+- [CSS Triggers](https://csstriggers.com)
+
+#### Book
+
+- [CSS Guidelines (2.2.5)](http://cssguidelin.es)
+
+#### Videos
+
+- [Where is CSS4? When is it coming out?](https://www.youtube.com/watch?v=Jtmkk6odggs)
+
+
+## BEM
+
+### Articles
+
+### Guides
 
 - [BEM 101](https://css-tricks.com/bem-101/)
 - [BEM. Block, Element, Modifier](https://en.bem.info)
 - [BEM Guidelines for component focused development](http://www.joelambert.co.uk/article/bem-guidelines)
+- [BEMIT: Taking the BEM Naming Convention a Step Further](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
 - [Get BEM - Easy | Modular | Flexible](http://getbem.com)
 
-### Flexbox
 
-### Performance
+## Flexbox
+
+### Articles
+
+- [Flexbox: CSS Layout Design Done Right, Finally](https://medium.com/@ogilvydenver/flexbox-css-layout-design-done-right-finally-d8f712923060)
+- [Flexing with CSS Flexbox](https://blog.logrocket.com/flexing-with-css-flexbox-b7940b329a8a)
+- [Use Cases For Flexbox](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/)
+
+### Resources
+
+#### Video
+
+- [What the Flexbox?!](http://flexbox.io)
+
+
+## Performance
+
+### Articles
+
+### Guides
 
 - [CSS performance revisited: selectors, bloat and expensive styles](https://benfrain.com/css-performance-revisited-selectors-bloat-expensive-styles/) (outdated)
 - [Efficiently Rendering CSS](https://css-tricks.com/efficiently-rendering-css)
 - [Improving CSS Performance](https://johno.com/css/2015/06/10/css-performance/)
 - [7 Tricks for Improving CSS Performance](https://www.keycdn.com/blog/css-performance)
-
-
-## Resources
-
-- [CSS Triggers](https://csstriggers.com)
-
-### Book
-
-- [CSS Guidelines (2.2.5)](http://cssguidelin.es)
-
-### Video
-
-- [What the Flexbox?!](http://flexbox.io)
-- [Where is CSS4? When is it coming out?](https://www.youtube.com/watch?v=Jtmkk6odggs)

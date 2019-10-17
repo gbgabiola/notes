@@ -21,6 +21,7 @@
 - [ES6 modules support lands in browsers: is it time to rethink bundling?](https://www.contentful.com/blog/2017/04/04/es6-modules-support-lands-in-browsers-is-it-time-to-rethink-bundling)
 - [ES8 was Released and here are its Main New Features](https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66)
 - [Feature watch: ECMAScript 2018](http://2ality.com/2017/02/ecmascript-2018.html)
+- [Human Readable JavaScript](https://dev.to/laurieontech/human-readable-javascript-337o)
 - [Introducing Javascript ES6 Proxies](https://codeburst.io/introducing-javascript-es6-proxies-1327419ab413)
 - [JavaScript's new #private class fields](http://thejameskyle.com/javascripts-new-private-class-fields.html)
 - [Learn ES2015](https://babeljs.io/docs/learn-es2015)
@@ -36,15 +37,21 @@
 - [Destructuring in JavaScript](https://medium.com/poka-techblog/destructuring-in-javascript-f4f56d5cbd80)
 - [ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org)
 - [ES2018: Rest/Spread Properties](https://2ality.com/2016/10/rest-spread-properties.html)
+- [How To Master JavaScript's "this" Keyword!!](https://blog.skylinee.me/how-to-master-javascripts-this-keyword-ck1052xz3002civs1hwsuwj9k)
 - [Learn Harmony](http://learnharmony.org)
+- [Practical Ways to Write Better JavaScript](https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/)
 - [Promises - A gentle introduction](http://bytearcher.com/articles/es6-promise-then-beginner-tutorial/)
 
 
 ## Resources
 
+- [60+ JavaScript Tutorials & Walkthroughs](https://codeburst.io/60-javascript-tutorials-walkthroughs-cb315cc1947e)
+- [A comprehensive list of new ES features, including ES2015 (ES6), ES2016, ES2017, ES2018, ES2019](https://github.com/daumann/ECMAScript-new-features-list)
 - [babili - an ES6+ aware minifier based on the Babel toolchain](https://github.com/babel/babili)
 - [ECMAScript 6 Compatibility](http://kangax.github.io/compat-table/es6)
 - [ES6 Katas- Learn ECMAScript6 by doing it!](http://es6katas.org)
+- [Ultimate JavaScript Resources That Every Programmer Should Know!!](https://blog.skylinee.me/ultimate-javascript-resources-that-every-programmer-should-know-cjwj5ikxg000o7ys1ar5pnqni)
+- [What to read to improve your JavaScript](https://habr.com/ru/post/117838/)
 
 ### Books
 

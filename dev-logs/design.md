@@ -11,6 +11,7 @@
 - [19 web design trends for 2018](https://webflow.com/blog/19-web-design-trends-for-2018)
 - [Before you can master design, you must first master the fundamentals](https://medium.com/free-code-camp/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
 - [Common webpage design mistakes](https://uxplanet.org/common-webpage-design-mistakes-59eed9831bd7)
+- [Designing a focus style](https://zellwk.com/blog/design-focus-style/)
 - [How to Work with Designers - a Cheat Sheet for Engineers and PMs](https://medium.com/the-year-of-the-looking-glass/how-to-work-with-designers-6c975dede146)
 - [Light or Dark UI? Tips to Choose a Proper Color Scheme for User Interface](https://uxplanet.org/light-or-dark-ui-tips-to-choose-a-proper-color-scheme-for-user-interface-9a12004bb79e)
 - [Questions UX designers should be asking](https://uxdesign.cc/questions-ux-designers-should-be-asking-bc9a6ba87a34)
@@ -25,6 +26,7 @@
 
 - [7 Practical Tips for Cheating at Design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [10 cheat codes for designing User Interfaces](https://medium.com/sketch-app-sources/design-cheatsheet-274384775da9)
+- [Creating Effective Websites: The No-Fluff Guide for Developers](https://studywebdevelopment.com/creating-websites.html)
 - [UI Design Best Practices for Better Scannability](https://www.toptal.com/designers/company-website-design/ui-design-best-practices)
 - [GoodUI - A Good User Interface Is One That's Backed By Reproducible Evidence](https://goodui.org/)
 - [The ultimate guide to proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)

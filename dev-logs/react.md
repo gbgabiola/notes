@@ -1,11 +1,17 @@
-# React
+# React and other things
 
-- [Articles](#articles)
-- [Guides](#guides)
-- [Resources](#resources)
+- [React](#react)
+- [Performance](#performance)
+- [Testing](#testing)
+- [Advanced Topics](#advanced-topics)
+- [React Fiber](#react-fiber)
+- [React Styling](#react-styling)
+- [React Hooks](#react-hooks)
 
 
-## Articles
+## React
+
+### Articles
 
 - [A thread by Dan on Concurrent React](https://threader.app/thread/1120971795425832961)
 - [All the Conditional Renderings in React](https://www.robinwieruch.de/conditional-rendering-react)
@@ -39,7 +45,56 @@
 - [When Does a Project Need React?](https://css-tricks.com/project-need-react) **_(must read)_**
 - [Will Google find your React content?](https://www.javascriptstuff.com/react-seo)
 
-### Performance
+### Guides
+
+- [5 Steps for Learning React Application Development](http://developer.telerik.com/featured/5-steps-for-learning-react-application-development/)
+- [Complete intro to React (with Redux)](https://btholt.github.io/complete-intro-to-react/all.html)
+- [How to Learn React: A Five-Step Plan](https://www.lullabot.com/articles/how-to-learn-react)
+- [How to Make Your React Apps 15x Faster](https://reactjsnews.com/how-to-make-your-react-apps-10x-faster)
+- [Organizing Large React Applications](http://engineering.kapost.com/2016/01/organizing-large-react-applications)
+- [React Bits](https://github.com/vasanthk/react-bits)
+- [React FAQ](https://reactfaq.site/)
+- [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
+- [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+- [React Tips and Best Practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
+- [Simple React Patterns](http://lucasmreis.github.io/blog/simple-react-patterns)
+
+### Resources
+
+- [Build with React - tutorials and advanced articles for the ReactJS library.](http://buildwithreact.com/)
+- [Learn React Online](https://www.codementor.io/learn-reactjs)
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+- [MERN starter - a boilerplate for getting started with MongoDB, Express, ReactJS and NodeJS](https://github.com/Hashnode/mern-starter)
+- [react-npm-boilerplate - Boilerplate for creating React Npm packages with ES2015](https://github.com/juliancwirko/react-npm-boilerplate)
+- [React - A Javascript Library for Building User Interfaces](https://facebook.github.io/react)
+- [React and Redux Cheatsheets](https://egghead.io/react-redux-cheatsheets) 
+- [React Best Practices](https://github.com/kudos-dude/react-best-practices)
+- [React Fundamentals](https://egghead.io/series/react-fundamentals)
+- [React Official Tutorial](https://facebook.github.io/react/docs/tutorial.html)
+- [react-powerplug - Renderless Containers](https://github.com/renatorib/react-powerplug)
+- [React Training](https://reacttraining.com/online)
+- [React Storybook](https://github.com/kadirahq/react-storybook)
+- [ReactJS For Dummies - React Redux, the Right Way.](https://reactjs.co/)
+
+#### Books
+
+- [Hacking with React](http://www.hackingwithreact.com/)
+- [react-webpack-cookbook - A cookbook for using Webpack with React JS.](https://christianalfoni.github.io/react-webpack-cookbook/index.html)
+- [React in Patterns](https://github.com/krasimir/react-in-patterns)
+- [SurviveJS - Webpack and React - from apprentice to master](http://survivejs.com)
+
+#### Videos
+
+- [Beyond React 16 by Dan Abramov - JSConf Iceland](https://www.youtube.com/watch?v=v6iR3Zk4oDY) **_(must watch)_**
+- [Concurrent Rendering in React](https://www.youtube.com/watch?v=ByBPyMBTzM0)
+- [React Rally 2019 videos](https://www.youtube.com/playlist?list=PLUD4kD-wL_zaXhR4KU1CkUSIzh1TrvnzA&fbclid=IwAR1hp21jJq98RoBcMQw3xJnYV2h7ehbiKbvB86kLnzyKfLbVmNi98a4SC48#reactrally2019)
+- [Why, What, and How of React Fiber with Dan Abramov and Andrew Clark](https://www.youtube.com/watch?v=crM1iRVGpGQ)
+
+
+
+## Performance
+
+### Articles
 
 - [Efficient React Components: A Guide to Optimizing React Performance](https://www.toptal.com/react/optimizing-react-performance)
 - [Fairytale about performance in web application](https://itnext.io/fairytale-about-performance-in-web-application-ed2bf12627fc)
@@ -55,7 +110,14 @@
 - [Use React.memo() wisely](https://dmitripavlutin.com/use-react-memo-wisely)
 - [Using React Router to Optimize Single Page Applications (SPAs)](https://blog.crowdbotics.com/introduction-to-react-router-v4-with-reactjs)
 
-### Testing
+### Guides
+
+- [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
+
+
+## Testing
+
+### Articles
 
 - [Modern React testing, part 1: best practices](https://blog.sapegin.me/all/react-testing-1-best-practices)
 - [Modern React testing, part 2: Jest and Enzyme](https://blog.sapegin.me/all/react-testing-2-jest-and-enzyme)
@@ -68,7 +130,19 @@
 - [Worthwhile Testing: What to test in a React app (and why)](https://daveceddia.com/what-to-test-in-react-app)
 - [Write fewer, longer tests](https://kentcdodds.com/blog/write-fewer-longer-tests)
 
-### Advanced Topics
+### Guides
+
+- [A Practical Guide to Testing React Apps](http://acco.io/a-practical-guide-to-testing-react-apps/#8220The_Art_of_Specs8221_with_Sun_True)
+- [Learn TDD in React](http://learntdd.in/react)
+
+### Resources
+
+- [Enzyme - JavaScript Testing Utilities for React](https://github.com/airbnb/enzyme)
+
+
+## Advanced Topics
+
+### Articles
 
 - [5 Projects to Help You Learn React](https://daveceddia.com/react-practice-projects)
 - [A deep dive into children in React](https://mxstbr.blog/2017/02/react-children-deepdive)
@@ -87,18 +161,45 @@
 - [The React license for founders and CTOs](https://medium.com/@ji/the-react-license-for-founders-and-ctos-b38d2538f3e5)
 - [When a good plan comes together: React project structure for scaling](http://thereactionary.net/when-a-good-plan-comes-together-react-project-structure-for-scaling/)
 
-### React Fiber
+### Guides
+
+- [Server-Side Rendering With React, Node And Express](https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/)
+- [React AJAX Best Practices](http://andrewhfarmer.com/react-ajax-best-practices)
+- [Using d3js transitions in React](http://swizec.com/blog/using-d3js-transitions-in-react/swizec/6797)
+- [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp)
+- [React Reconciliation](https://dev.to/ryanbas21/react-reconciliation)
+- [Best practices with React and Redux web application development](https://developers.redhat.com/blog/2017/11/15/best-practices-react-redux-web-application-development/)
+
+
+## React Fiber
+
+### Articles
 
 - [A look inside React Fiber - how work will get done](http://makersden.io/blog/look-inside-fiber/)
 - [Inside Fiber: in-depth overview of the new reconciliation algorithm in React](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 
-### React Styling
+### Guides
+
+- [What is React Fiber? And how can I try it out today?](https://gist.github.com/duivvv/2ba00d413b8ff7bc1fa5a2e51c61ba43)
+- [React Fiber Architecture - Understanding the structure of React Fiber ( walk through and pseudo-code)](https://github.com/SaeedMalikx/React-Fiber-Architecture) **_(must read)_**
+
+### Resources
+
+- [Fiber - Umbrella for remaining features / bugs](https://github.com/facebook/react/issues/7925)
+- [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
+
+## React Styling
+
+### Articles
 
 - [Modular CSS with React](https://medium.com/@pioul/modular-css-with-react-61638ae9ea3e#.vqdk24k0n)
 - [Structuring our Styled Components | Part I](https://tech.decisiv.com/structuring-our-styled-components-part-i-2bf21fa64b28)
 - [Structuring our Styled Components | Part II](https://tech.decisiv.com/structuring-our-styled-components-part-ii-99c336a3748f)
 
-### React Hooks
+
+## React Hooks
+
+### Articles
 
 - [5 Tips to Help You Avoid React Hooks Pitfalls](https://kentcdodds.com/blog/react-hooks-pitfalls)
 - [A Comprehensive Introduction To React Hooks](https://howchoo.com/g/njy1njc2yzk/introduction-to-react-hooks)
@@ -112,83 +213,17 @@
 - [What are React Hooks](https://www.robinwieruch.de/react-hooks)
 - [Why React Hooks?](https://tylermcginnis.com/why-react-hooks)
 
-
-## Guides
-
-- [5 Steps for Learning React Application Development](http://developer.telerik.com/featured/5-steps-for-learning-react-application-development/)
-- [Complete intro to React (with Redux)](https://btholt.github.io/complete-intro-to-react/all.html)
-- [How to Learn React: A Five-Step Plan](https://www.lullabot.com/articles/how-to-learn-react)
-- [How to Make Your React Apps 15x Faster](https://reactjsnews.com/how-to-make-your-react-apps-10x-faster)
-- [Organizing Large React Applications](http://engineering.kapost.com/2016/01/organizing-large-react-applications)
-- [React Bits](https://github.com/vasanthk/react-bits)
-- [React FAQ](https://reactfaq.site/)
-- [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
-- [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
-- [React Tips and Best Practices](http://aeflash.com/2015-02/react-tips-and-best-practices.html)
-- [Simple React Patterns](http://lucasmreis.github.io/blog/simple-react-patterns)
-
-### Testing
-
-- [A Practical Guide to Testing React Apps](http://acco.io/a-practical-guide-to-testing-react-apps/#8220The_Art_of_Specs8221_with_Sun_True)
-- [Learn TDD in React](http://learntdd.in/react)
-
-### Advanced Topics
-
-- [Server-Side Rendering With React, Node And Express](https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/)
-- [React AJAX Best Practices](http://andrewhfarmer.com/react-ajax-best-practices)
-- [Using d3js transitions in React](http://swizec.com/blog/using-d3js-transitions-in-react/swizec/6797)
-- [React Tutorial: Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp)
-- [React Reconciliation](https://dev.to/ryanbas21/react-reconciliation)
-- [Best practices with React and Redux web application development](https://developers.redhat.com/blog/2017/11/15/best-practices-react-redux-web-application-development/)
-
-### React Fiber
-
-- [What is React Fiber? And how can I try it out today?](https://gist.github.com/duivvv/2ba00d413b8ff7bc1fa5a2e51c61ba43)
-- [React Fiber Architecture - Understanding the structure of React Fiber ( walk through and pseudo-code)](https://github.com/SaeedMalikx/React-Fiber-Architecture) **_(must read)_**
-
-### React Hooks
+### Guides
 
 - [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect)
 - [React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
 
-
-## Resources
-
-- [Build with React - tutorials and advanced articles for the ReactJS library.](http://buildwithreact.com/)
-- [Enzyme - JavaScript Testing Utilities for React](https://github.com/airbnb/enzyme)
-- [Fiber - Umbrella for remaining features / bugs](https://github.com/facebook/react/issues/7925)
-- [Learn React Online](https://www.codementor.io/learn-reactjs)
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-- [MERN starter - a boilerplate for getting started with MongoDB, Express, ReactJS and NodeJS](https://github.com/Hashnode/mern-starter)
-- [react-npm-boilerplate - Boilerplate for creating React Npm packages with ES2015](https://github.com/juliancwirko/react-npm-boilerplate)
-- [React - A Javascript Library for Building User Interfaces](https://facebook.github.io/react)
-- [React and Redux Cheatsheets](https://egghead.io/react-redux-cheatsheets) 
-- [React Best Practices](https://github.com/kudos-dude/react-best-practices)
-- [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
-- [React Fundamentals](https://egghead.io/series/react-fundamentals)
-- [React Official Tutorial](https://facebook.github.io/react/docs/tutorial.html)
-- [react-powerplug - Renderless Containers](https://github.com/renatorib/react-powerplug)
-- [React Training](https://reacttraining.com/online)
-- [React Storybook](https://github.com/kadirahq/react-storybook)
-- [ReactJS For Dummies - React Redux, the Right Way.](https://reactjs.co/)
-
-### React Hooks
+### Resources
 
 - [Hook Flow](https://github.com/donavon/hook-flow)
 - [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 
-### Books
+#### Videos
 
-- [Hacking with React](http://www.hackingwithreact.com/)
-- [react-webpack-cookbook - A cookbook for using Webpack with React JS.](https://christianalfoni.github.io/react-webpack-cookbook/index.html)
-- [React in Patterns](https://github.com/krasimir/react-in-patterns)
-- [SurviveJS - Webpack and React - from apprentice to master](http://survivejs.com)
-
-### Videos
-
-- [Beyond React 16 by Dan Abramov - JSConf Iceland](https://www.youtube.com/watch?v=v6iR3Zk4oDY) **_(must watch)_**
-- [Concurrent Rendering in React](https://www.youtube.com/watch?v=ByBPyMBTzM0)
 - [Fun with React Hooks - Michael Jackson and Ryan Florence](https://www.youtube.com/watch?v=1jWS7cCuUXw)
-- [React Rally 2019 videos](https://www.youtube.com/playlist?list=PLUD4kD-wL_zaXhR4KU1CkUSIzh1TrvnzA&fbclid=IwAR1hp21jJq98RoBcMQw3xJnYV2h7ehbiKbvB86kLnzyKfLbVmNi98a4SC48#reactrally2019)
 - [React Today and Tomorrow and 90% Cleaner React With Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM) **_(must watch)_**
-- [Why, What, and How of React Fiber with Dan Abramov and Andrew Clark](https://www.youtube.com/watch?v=crM1iRVGpGQ)

@@ -10,7 +10,7 @@
 - [4 ways for making HTTP(S) requests with Node.js](https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c524f999942d)
 - [Best Practices For Using TypeScript with Node.js](https://blog.bitsrc.io/best-practices-for-using-typescript-with-node-js-50907f8cc803)
 - [bulletproof node.js coding](http://stella.laurenzo.org/2011/03/bulletproof-node-js-coding)
-- [CommonJS Modules](http://usejsdoc.org/howto-commonjs-modules.html)
+- [ComJS Modules](http://usejsdoc.org/howto-commonjs-modules.html)
 - [From Express.js to AWS Lambda: Migrating existing Node.js applications to serverless](https://hackernoon.com/from-express-js-to-aws-lambda-migrating-existing-node-js-applications-to-serverless-7473041ecc56)
 - [How JavaScript works: inside the V8 engine](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
 - [How to prevent your Node.js process from crashing](https://medium.com/dailyjs/how-to-prevent-your-node-js-process-from-crashing-5d40247b8ab2)
@@ -35,6 +35,7 @@
 
 - [Advanced Node.js Project Structure Tutorial](https://blog.codeship.com/advanced-node-js-project-structure-tutorial)
 - [Build a NodeJS cinema microservice and deploying it with docker ](https://medium.com/@cramirez92/build-a-nodejs-cinema-microservice-and-deploying-it-with-docker-part-1-7e28e25bfa8b)
+- [Building a Simple CRUD Application with Express and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)
 - [Getting Node.js Testing and TDD Right - Node.js at Scale](https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/)
 - [Writing Command-Line Applications in NodeJS](https://medium.freecodecamp.com/writing-command-line-applications-in-nodejs-2cf8327eee2)
 
@@ -48,6 +49,7 @@
 - [Modules - Node.js Documentation](https://nodejs.org/docs/latest/api/modules.html)
 - [Nodeschool - Open source workshops that teach web software skills](http://nodeschool.io)
 - [Performance of ES6 features relative to the ES5 baseline operations per second.](http://kpdecker.github.io/six-speed/)
+- [Learn Node by Wes Bos](https://learnnode.com/)
 
 ### Books
 
