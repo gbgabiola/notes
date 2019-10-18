@@ -2,7 +2,8 @@
 
 ## HTML Guide
 
-#### Syntax
+### Syntax
+
 - Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.
 - Nested elements should be indented once (two spaces).
 - Always use double quotes, never single quotes, on attributes.
@@ -26,7 +27,8 @@
 </html>
 ```
 
-#### Attribute order
+### Attribute order
+
 HTML attributes should come in this particular order for easier reading of code.
 
 - `class`
@@ -51,7 +53,8 @@ Classes make for great reusable components, so they come first. Ids are more spe
 
 ## CSS Guide
 
-#### Syntax
+### Syntax
+
 - Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.
 - When grouping selectors, keep individual selectors to a single line.
 - Include one space before the opening brace of declaration blocks for legibility.
@@ -67,7 +70,8 @@ Classes make for great reusable components, so they come first. Ids are more spe
 - Quote attribute values in selectors, e.g., `input[type="text"]`. [They’re only optional in some cases](http://mathiasbynens.be/notes/unquoted-attribute-values#css), and it’s a good practice for consistency.
 - Avoid specifying units for zero values, e.g., `margin: 0`; instead of `margin: 0px;`.
 
-#### Declaration Order
+### Declaration Order
+
 Related property declarations should be grouped together following the order:
 
 1. Positioning
@@ -226,7 +230,8 @@ Related property declarations should be grouped together following the order:
 
 Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.
 
-#### Don't use @import
+### Don't use @import
+
 Compared to `<link>`s, `@import` is slower, adds extra page requests, and can cause other unforeseen problems. Avoid them and instead opt for an alternate approach:
 
 - Use multiple `<link>` elements
@@ -243,7 +248,8 @@ Compared to `<link>`s, `@import` is slower, adds extra page requests, and can ca
 </style>
 ```
 
-#### Media query placement
+### Media query placement
+
 Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document. Doing so only makes it easier for folks to miss them in the future. Here's a typical setup.
 
 ```css
@@ -258,7 +264,8 @@ Place media queries as close to their relevant rule sets whenever possible. Don'
 }
 ```
 
-#### Prefixed properties
+### Prefixed properties
+
 When using vendor prefixed properties, indent each property such that the declaration's value lines up vertically for easy multi-line editing.
 
 ```css
@@ -269,7 +276,8 @@ When using vendor prefixed properties, indent each property such that the declar
 }
 ```
 
-#### Single declarations
+### Single declarations
+
 In instances where a rule set includes only one declaration, consider removing line breaks for readability and faster editing. Any rule set with multiple declarations should be split to separate lines.
 
 ```css
@@ -284,7 +292,8 @@ In instances where a rule set includes only one declaration, consider removing l
 .icon-account   { background-position: 0 -40px; }
 ```
 
-#### Shorthand notation
+### Shorthand notation
+
 Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:
 
 - `padding`
@@ -315,7 +324,8 @@ Often times we don't need to set all the values a shorthand property represents.
 }
 ```
 
-#### Comments
+### Comments
+
 Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.
 
 Be sure to write in complete sentences for larger comments and succinct phrases for general notes.
@@ -334,7 +344,8 @@ Be sure to write in complete sentences for larger comments and succinct phrases 
 }
 ```
 
-#### Class names
+### Class names
+
 - Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., `.btn` and `.btn-danger`).
 - Avoid excessive and arbitrary shorthand notation. `.btn` is useful for _button_, but `.s` doesn't mean anything.
 - Keep classes as short and succinct as possible.
@@ -344,13 +355,15 @@ Be sure to write in complete sentences for larger comments and succinct phrases 
 
 It's also useful to apply many of these same rules when creating Sass and Less variable names.
 
-#### Selectors
+### Selectors
+
 - Use classes over generic element tag for optimum rendering performance.
 - Avoid using several attribute selectors (e.g., `[class^="..."]`) on commonly occuring components. Browser performance is known to be impacted by these.
 - Keep selectors short and strive to limit the number of elements in each selector to three.
 - Scope classes to the closest parent **only** when necessary (e.g., when not using prefixed classes).
 
-#### Organization
+### Organization
+
 - Organize sections of code by component.
 - Develop a consistent commenting hierarchy.
 - Use consistent white space to your advantage when separating sections of code for scanning larger documents.
@@ -376,7 +389,8 @@ It's also useful to apply many of these same rules when creating Sass and Less v
 .element-heading { ... }
 ```
 
-#### Editor preferences
+### Editor preferences
+
 Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:
 - Use soft-tabs set to two spaces.
 - Trim trailing white space on save.
@@ -387,7 +401,8 @@ Consider documenting and applying these preferences to your project's .editorcon
 
 ---
 
-#### CSS3 Transforms
+### CSS3 Transforms
+
 CSS3 transforms allow you to translate, rotate, scale, and skew elements.  
 A transformation is an effect that lets an element change shape, size, and position.  
 CSS3 supports 2D and 3D transformations. Let's take a look at the rotate transformation:
