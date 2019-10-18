@@ -160,3 +160,5 @@ This where the interview will start shooting technical questions at you.
 - [12 Mistakes You Have to Avoid if You Want to Get Hired in Tech](https://skillcrush.com/2016/02/16/common-tech-job-interview-mistakes/)
 - [How to Answer the 31 Most Common Interview Questions](https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions)
 - [22 Most Common Interview Questions and Best Answers (With Tips)](https://www.indeed.com/career-advice/interviewing/top-interview-questions-and-answers)
+- [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+- [Top 85 JavaScript Interview Questions & Answers](https://www.guru99.com/javascript-interview-questions-answers.html)
