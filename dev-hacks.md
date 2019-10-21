@@ -238,3 +238,12 @@ youtube-dl.exe - https://rg3.github.io/youtube-dl/download.html
 
 ### git:
 - http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course
+
+
+---
+
+## SNIPPETS
+Do not index/rank page in search engine
+```html
+<meta name="robots" content="NOINDEX, NOFOLLOW">
+```
