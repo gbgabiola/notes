@@ -1,13 +1,17 @@
 # Windows Subsystem Linux Setup for Development
 
 ## WSL Development Environment Setup
+- [An In Depth Tutorial on Linux Development on Windows with WSL and Visual Studio Code](https://devblogs.microsoft.com/commandline/an-in-depth-tutorial-on-linux-development-on-windows-with-wsl-and-visual-studio-code/)
+- [Windows Web-dev bootstrap](https://blog.scottspence.me/wsl-bootstrap-2019)
+- [Windows Subsystem Linux setup](https://dev.to/spences10/windows-subsystem-linux-setup-1gb5)
+- [Dev on Windows with WSL | Elegantly developed with WSL on Windows](https://spencerwoo.com/dowww)
 - [How to Install Zsh and Oh My Zsh on Windows 10](https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html)
 - [Shell Configuration: Hack Your ZSH](https://blog.apptension.com/2018/08/30/shell-configuration-hack-your-zsh/?utm_source=reddit.com&utm_medium=social&utm_campaign=reddit_zsh)
-- [[Guide] Developing on Windows 10 using WSL](https://discourse.roots.io/t/guide-developing-on-windows-10-using-wsl/9380)
+- [A beginners guide to setting up a modern web development environment on Windows 10](https://medium.com/@mfosullivan/a-beginners-guide-to-setting-up-a-modern-web-development-environment-on-windows-10-4d75cd94cde8)
+- [Guide Developing on Windows 10 using WSL](https://discourse.roots.io/t/guide-developing-on-windows-10-using-wsl/9380)
 - [Webdev on Windows with WSL and VS Code](https://daverupert.com/2018/04/developing-on-windows-with-wsl-and-visual-studio-code/)
 - [My Windows 10 Dev Setup](https://medium.com/@dariuszparys/my-windows-10-dev-setup-67d7aecb63a6)
 - [How to set up the perfect modern dev environment on Windows](https://char.gd/blog/2017/how-to-set-up-the-perfect-modern-dev-environment-on-windows)
-- [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
 - [My WSL Setup for Development](https://github.com/lloydstubber/my-wsl-setup)
 - [Hyper.js + Oh My ZSH as Ubuntu on Windows (WSL) Terminal](https://medium.com/@ssharizal/hyper-js-oh-my-zsh-as-ubuntu-on-windows-wsl-terminal-8bf577cdbd97)
 - [WSL / Ubuntu / ZSH and Hyper Terminal](https://fcbrossard.net/blog/wsl-ubuntu-zsh-hyper-terminal)
@@ -15,6 +19,7 @@
 - [Windows Subsystem for Linux w/ zsh, tmux & Docker](https://blog.questionable.services/article/windows-subsystem-linux-zsh-tmux-docker/)
 - [Setting up Windows Subsystem for Linux with zsh + oh-my-zsh + ConEmu](https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/)
 - [How to Use Zsh (or Another Shell) in Windows 10](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/)
+- [Bash on Ubuntu on Windows: The (Almost) Complete set up](https://medium.com/@jrcharney/bash-on-ubuntu-on-windows-the-almost-complete-set-up-1dd3cb89b794)
 - [How to Set up Bash on Ubuntu on Windows, Zsh, and Hyper Terminal](https://davidtranscend.com/blog/windows-terminal-workflow-guide/)
 - [Epic Development Environment using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61)
 - [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
@@ -22,21 +27,65 @@
 - [Bashing Windows](https://www.herebedragons.io/bashing-windows)
 - [Use Windows Subsystem for Linux as integrated terminal](https://github.com/Microsoft/vscode/issues/22317)
 - [How do I use Bash on Ubuntu on Windows (WSL) for my VS Code terminal?](https://stackoverflow.com/questions/44450218/how-do-i-use-bash-on-ubuntu-on-windows-wsl-for-my-vs-code-terminal)
-- [How to install updates via command line?](https://askubuntu.com/questions/196768/how-to-install-updates-via-command-line/196777#196777)
-- [A tutorial about how to run desktop environment inside Windows Subsystem for Linux](https://github.com/QMonkey/wsl-tutorial)
-- [dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows](https://github.com/voku/dotfiles)
-- [Personal dotfiles for mac and wsl](https://github.com/ridhwaans/dotfiles)
-- [💎 Dev on Windows with WSL 👨‍💻| Developed gracefully with WSL on Windows https://spencerwoo.com/2018/10/01/WSL/](https://github.com/spencerwoo98/Dev-on-Windows-with-WSL#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C)
-- [Windows development in 2018: Setting up a coding environment using Windows Subsystems for Linux (WSL), Hyper, and Visual Studio Code (vscode) with Python.
-](https://gist.github.com/Voronoff/059c50f9fd354386c305c55af1f3a61f)
 - [Quick development setup for Windows Linux Subsystem with oh-my-zsh](https://github.com/baamenabar/codeBlog/blob/master/articulos/Quick-development-setup-for-Windows-Linux-Subsystem-with-oh-my-zsh.md)
 - [How to Install Zsh and Oh My Zsh on Windows 10](https://github.com/evdokimovm/evdokimovm.github.io/blob/c5e4eccfc779499bc5e47d82ee4e169c6919d01f/_posts/2017-02-24-how-to-install-zsh-and-oh-my-zsh-on-windows-10.md)
-- [Settings for my development environments](https://github.com/joelnet/development-environment)
 - [Data Science On WSL](https://github.com/joshpeng/Data-Science-On-WSL)
-- [WSL as a Development Environment](https://github.com/hsab/WSL-config
+- [WSL as a Development Environment](https://github.com/hsab/WSL-config)
 - [Install Ruby On Rails on Windows 10](https://gorails.com/setup/windows/10)
+- [Setting up Windows Subsystem for Linux](https://dev.to/micahshute/setting-up-windows-subsytem-for-linux-3b7n)
 - [Installing Ruby on Rails in Windows 10 w/Bash & PostgreSQL](https://medium.com/@colinrubbert/installing-ruby-on-rails-in-windows-10-w-bash-postgresql-e48e55954fbf)
 - [Windows-Subsystem-For-Linux-Setup-Guide](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide)
+- [How to setup a nice looking terminal with WSL in Windows 10 Creators Update](https://medium.com/@Andreas_cmj/how-to-setup-a-nice-looking-terminal-with-wsl-in-windows-10-creators-update-2b468ed7c326)
+- [Web Development and Advanced Techniques with Linux on Windows (WSL)](https://www.hanselman.com/blog/WebDevelopmentAndAdvancedTechniquesWithLinuxOnWindowsWSL.aspx)
+- [Setup Go Development Environment with VS Code and WSL on Windows](https://medium.com/@betakuang/setup-go-development-environment-with-vs-code-and-wsl-on-windows-62bd4625c6a7)
+- [Install MongoDB with WSL for Windows](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/MongoDB.md)
+- [Install PostgreSQL using WSL](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/PostgreSQL.md)
+
+- [Get Started with Windows Subsystem for Linux](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux)
+
+- [Linux on Windows: Windows Subsystem for Linux (WSL) Youtube](https://www.youtube.com/watch?v=AVl_KMuTd7w)
+
+### WSL with GUI
+- [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/)
+- [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
+
+### WSL with Python
+- [My Python Development Environment, 2018 Edition](https://jacobian.org/2018/feb/21/python-environment-2018/)
+- [Windows vscode uses python in wsl](http://blog.plusls.cn/windows/vscode-using-python-in-wsl/)
+
+### WSL with PHP
+- [Setting Up A Windows 10 Development Environment with WSL, PHP & Laravel](https://dev.to/jackabox/setting-up-a-windows-10-development-environment-with-wsl-php--laravel-4e18)
+
+### WSL 2
+- [Setting up a node.js development environment in WSL 2](https://github.com/noejon/wsl2_setup)
+- [INSTALL WSL 2 ON WINDOWS 10](https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/)
+- [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
+
+
+### WSL Git
+- [Setup Git in WSL](https://peteoshea.co.uk/setup-git-in-wsl/)
+- [Setting Up Git in WSL](https://techlog.keanenguyen.com/post/setting-up-git-in-wsl/)
+
+- [Getting Crazy with Windows Subsystem for Linux](https://www.brianketelsen.com/getting-crazy-with-windows-subsystem-for-linux)
+- [WSL: One Home to host them all](http://wslcorsair.blogspot.com/2018/03/wsl-one-home-to-host-them-all.html)
+- [Going Overboard with WSL metadata](https://www.brianketelsen.com/going-overboard-with-wsl-metadata/)
+
+
+### WSL with GUI
+- [Windows development in 2018: Setting up a coding environment using Windows Subsystems for Linux (WSL), Hyper, and Visual Studio Code (vscode) with Python.
+](https://gist.github.com/Voronoff/059c50f9fd354386c305c55af1f3a61f)
+- [A tutorial about how to run desktop environment inside Windows Subsystem for Linux](https://github.com/QMonkey/wsl-tutorial)
+
+
+## Customize Shell | Terminals
+- [Badass Terminal: FCU WSL Edition (oh-my-zsh, powerlevel9k, tmux, and more!)](https://jessicadeen.com/badass-terminal-fcu-wsl-edition-oh-my-zsh-powerlevel9k-tmux-and-more/)
+- [How to install Fonts on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/how-to-install-fonts-on-ubuntu-18-04-bionic-beaver-linux)
+- [Sharing Windows fonts with WSL](https://token2shell.com/howto/x410/sharing-windows-fonts-with-wsl/)
+- [Nerd Fonts: How to install, configure, and remove programming fonts on a mac](https://medium.com/the-code-review/nerd-fonts-how-to-install-configure-and-remove-programming-fonts-on-a-mac-178833b9daf3)
+- [Get PowerLevel9k - The Most Cool Linux Shell EVER!](https://medium.com/@alex285/get-powerlevel9k-the-most-cool-linux-shell-ever-1c38516b0caa)
+- [iTerm2, Zsh with Powerlevel9K?-?Power up your terminal's colour scheme and productivity level!](https://medium.com/the-code-review/make-your-terminal-more-colourful-and-productive-with-iterm2-and-zsh-11b91607b98c)
+
+- [How you can style your terminal like Medium, freeCodeCamp, or any way you want](https://medium.freecodecamp.org/how-you-can-style-your-terminal-like-medium-freecodecamp-or-any-way-you-want-f499234d48bc)
 
 ---
 
@@ -48,6 +97,9 @@
 - https://github.com/anishathalye/dotfiles
 - [Git Documentation](https://git-scm.com/doc)
 - [dotfiles / Your unofficial guide to dotfiles on GitHub.](https://dotfiles.github.io/)
+- [Personal dotfiles for mac and wsl](https://github.com/ridhwaans/dotfiles)
+- [dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows](https://github.com/voku/dotfiles)
+- [Settings for my development environments](https://github.com/joelnet/development-environment)
 
 ---
 
@@ -80,7 +132,8 @@
 - moving files `mv ~/projectName /mnt/c-or-d/projectName`
 - install and configure `eslint` and `.editorConfig` will help with the formatting and style of your code.
 - create a file .editorConfig
-- ```.editorConfig
+
+```editorConfig
 root = true
 [*]
 charset = utf-8
@@ -93,20 +146,23 @@ indent_size = 2
 indent_size = 4
 ```
 
-```bash
+```sh
 npm install --save-dev eslint-config-airbnb-base`
 ```
+
 That's for when you're doing React
 
-```bash
+```sh
 (
   export PKG=eslint-config-airbnb-base;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
+
 - I just copy pasted that from here just so you know how I came up with that :stuck_out_tongue: https://www.npmjs.com/package/eslint-config-airbnb-base#eslint-config-airbnb-base-1
 - create a file `.eslintrc.js`
-```.eslintrc.js
+
+```js
 'use strict';
 
 module.exports = {
@@ -144,7 +200,10 @@ module.exports = {
 - `git add -A .`
 - `git commit -m "initial commit"`
 - create a file `.gitignore`
+
+
 # Compiled source #
+
 ```
 ###################
 *.com
@@ -200,6 +259,7 @@ node_modules/
 ```
 
 - create a file `.nvmrc`
+
 ```
 9.11.1
 ```
@@ -293,14 +353,36 @@ these are what u need for MERN dev
 - TODO Parser
 - VS live share
 
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+- [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+
+
+
 npm global package:
+
+```sh
 npm i -g nodemon
 npm i -g @angular/cli
+```
+
 https://www.npmjs.com/package/@angular/cli
 
 
 ### git bash for VSCode terminal
-```
+
+```json
 "terminal.integrated.shell.windows": "C:\\Users\\Algorithm\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
     "terminal.external.windowsExec": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Node.js",
 ```
@@ -323,7 +405,7 @@ Ubuntu 16.04 comes with both Python 2.7 and Python 3.5 by default. You can insta
 
 1. Open terminal via Ctrl+Alt+T or searching for “Terminal” from app launcher. When it opens, run command to add the PPA:
 
-```
+```sh
 sudo add-apt-repository ppa:jonathonf/python-3.6
 ```
 
@@ -331,7 +413,7 @@ Type in your password (no visual feedback due to security reason) when it asks a
 
 2. Then check updates and install Python 3.6 via commands:
 
-```
+```sh
 sudo apt-get update
 
 sudo apt-get install python3.6
@@ -342,7 +424,7 @@ Now you have three Python versions, use `python` command for version 2.7, `pytho
 
 3. To make `python3` use the new installed python 3.6 instead of the default 3.5 release, run following 2 commands:
 
-```
+```sh
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
 
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
@@ -350,19 +432,19 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
 
 Finally switch between the two python versions for `python3` via command:
 
-```
+```sh
 sudo update-alternatives --config python3
 ```
 
 After selecting version 3.6:
 
-```
+```sh
 python3 -V // or python3 --version
 ```
 
 **UPDATE**: due to this [bug](https://bugs.launchpad.net/ubuntu/+source/python3.6/+bug/1631367), gnome-terminal won’t launch after step 3, a workaround is running following commands to recreate the symlink:
 
-```
+```sh
 sudo rm /usr/bin/python3
 
 sudo ln -s python3.5 /usr/bin/python3
@@ -380,12 +462,14 @@ sudo ln -s python3.5 /usr/bin/python3
 - Run `sudo apt-get install zsh`
 - Open bash profile `nano ~/.bashrc`
 - Set ZSH as default:
+
 ```sh
 # Launch zsh
 if [ -t 1 ]; then
 exec zsh
 fi
 ```
+
 or `bash -c zsh`
 
 ## Install a framework for ZSH
@@ -398,6 +482,7 @@ or `bash -c zsh`
 
 ## Fix the ls and cd colours
 Out of the box when you `ls` or `cd` + `Tab` you get a ugly background colours on the directories. To fix this, open ~/.zshrc file and add this to the end:
+
 ```sh
 #Change ls colours
 LS_COLORS="ow=01;36;40" && export LS_COLORS
@@ -418,9 +503,11 @@ compinit
 - Copy your key from the terminal and paste it into your Github keys
 
 ## Install Node Version Manager
- It is a little slow but is a known issue. To make the startup time a little faster:
- ```sh
- # Defer initialization of nvm until nvm, node or a node-dependent command is
+
+It is a little slow but is a known issue. To make the startup time a little faster:
+
+```sh
+# Defer initialization of nvm until nvm, node or a node-dependent command is
 # run. Ensure this block is only run once if .bashrc gets sourced multiple times
 # by checking whether __init_nvm is a function.
 if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(whence -w __init_nvm)" = function ]; then
@@ -440,6 +527,7 @@ fi
 
 ## How to Uninstall (or Reinstall) Windows 10’s Ubuntu Bash Shell
 ### How to Uninstall the Ubuntu Environment and Keep Your Home Folder
+
 To remove the downloaded Bash environment, open a Command Prompt window and run the following command. This will uninstall and delete the Ubuntu user environment from your system, including any Linux applications you downloaded and installed with apt-get or by compiling them from source.
 
 `lxrun /uninstall`
@@ -532,4 +620,32 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
+```sh
+rm -rf mongod
+mkdir data
+echo "mongod --dbpath=data --nojournal" > mongod # Create data folder to store databases
+chmod a+x mongod # Change the permission
+```
+
+Dubugging:
+- [Ubuntu 18.04 gpg dirmngr IPC connect call failed](https://github.com/Microsoft/WSL/issues/3286)
+
+```sh
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+
+# Getting these errors
+Executing: /tmp/apt-key-gpghome.FMOcC95S7T/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+gpg: connecting dirmngr at '/tmp/apt-key-gpghome.FMOcC95S7T/S.dirmngr' failed: IPC connect call failed
+gpg: keyserver receive failed: No dirmngr
+
+
+# converted to:
+curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9DA31620334BD75D9DCB49F368818C72E52529D4" | sudo apt-key add
+```
+
 ---
+
+
+## Resources
+
+- [Setting Up Visual Studio Code For Front_End_Development!!](https://blog.skylinee.me/setting-up-visual-studio-code-for-front_end_development-ck0sitozj0080kls1aa7y14ic)
