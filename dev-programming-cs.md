@@ -1,43 +1,6 @@
 # Web Development, Programming, Computer Science
 
-## Experienced/blog
-### Learning
-- [Learning From the Feynman Technique](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230)
-- [The Feynman Technique: The Best Way to Learn Anything](https://fs.blog/2012/04/learn-anything-faster-with-the-feynman-technique/)
-- [Forget About Setting Goals. Focus on This Instead](https://jamesclear.com/goals-systems)
-- [How to Study Smarter Not Harder and Retain More in Less Time](https://medium.com/swlh/how-to-study-smarter-not-harder-and-retain-more-in-less-time-3767c5621d0a)
-- [How to Learn Anything Faster That Will Make You Thrive in a Competitive World](https://medium.com/swlh/how-to-learn-anything-faster-that-will-make-you-thrive-in-a-competitive-world-d125a16fce7b)
-- [How to learn on your own](https://metacademy.org/roadmaps/rgrosse/learn_on_your_own)
-- [Developers that constantly want to learn new things, here’s a tip!](https://codeburst.io/developers-that-constantly-want-to-learn-new-things-heres-a-tip-7a16e42302e4)
-- [How To Acquire Knowledge](https://medium.com/@emilwallner/how-to-acquire-knowledge-6b00bcdb6179)
-- [Should you learn programming? Yes.](https://sivers.org/prog)
-- [Letter to aspiring web developers](https://medium.com/@francesco.agnoletto/letter-to-aspiring-web-developers-c5a3c2395a1)
-- [Actionable advice to start learning to code](https://medium.freecodecamp.org/actionable-advice-to-start-learning-to-code-256833f16f78)
-- [How to Go From Hobbyist to Professional Developer](https://freecodecamp.libsyn.com/ep-14-how-to-go-from-hobbyist-to-professional-developer)
-- [How to be an uncommonly good web developer](https://coder-coder.com/uncommonly-good-web-developer/)
-- [Essential skills every developer should master (besides coding)](https://medium.freecodecamp.org/3-essential-skills-every-developer-should-master-besides-coding-80e40e084241)
-- [A Mind for Numbers - by Barbara Oakley](https://sivers.org/book/MindForNumbers)
-- [Why Full Stack Development is Too Good For You in 2017](https://medium.com/dev-bits/why-full-stack-development-is-too-good-for-you-in-2017-3fd6fe207b34)
-- [Things I Wish Someone Had Told Me When I Was Learning How to Code](https://medium.freecodecamp.org/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329)
-- [How To Code your mind into Coding](https://medium.com/@adesso21/how-to-code-your-mind-into-coding-dc650ba9c304)
-- [Lessons from my month-long GitHub commit streak](https://medium.freecodecamp.org/lessons-from-my-month-long-github-commit-streak-b8f3167d34ac)
-- [Wanna be a developer? Here is what you need to take into account.](https://medium.freecodecamp.org/wanna-be-a-developer-here-is-what-you-need-to-take-into-account-7f59a059f39)
-- [“How much math do I need to know to program?” Not That Much, Actually.](https://inventwithpython.com/blog/2012/03/18/how-much-math-do-i-need-to-know-to-program-not-that-much-actually/)
-- [Every developer should have a blog. Here’s why, and how to stick with it.](https://medium.freecodecamp.org/every-developer-should-have-a-blog-heres-why-and-how-to-stick-with-it-5fd55a247fbf)
-- [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)
-- [The Developer’s Edge: How To Become A Senior Developer](https://hackernoon.com/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45)
-- [How to get started with coding](https://kalob.io/blog/how-to-start-coding/)
-- [Beginning programming](https://metacademy.org/roadmaps/rgrosse/basic_programming)
-- [Learn to code in 2018, get hired, and have fun along the way](https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a)
-- [Pseudo-code, humor, and the art of Googling](https://medium.com/@josephcardillo/pseudo-code-humor-and-the-art-of-googling-71f6b5e8ce2e/)
-- [How to Not Suck at Coding, Part 1](https://codeburst.io/how-to-not-suck-at-coding-part-1-bf00502326b0)
-- [Learning to Code: When It Gets Dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd)
-- [Which programming language should I learn?](https://hackernoon.com/which-programming-language-should-i-learn-8694cf757407)
-- [WHAT IS THE BEST PROGRAMMING LANGUAGE FOR ME?](http://www.bestprogramminglanguagefor.me/)
-- [The One Reason why People Fail at Learning to Code and How to Avoid it](https://hackernoon.com/the-one-reason-why-people-fail-at-learning-to-code-and-how-to-avoid-it-e7a2f4d29dc0)
-- [I worry that I won't be able to retain the skills I'm learning on Free Code Camp long enough to master them. How can I overcome this?](https://www.quora.com/I-worry-that-I-wont-be-able-to-retain-the-skills-Im-learning-on-Free-Code-Camp-long-enough-to-master-them-How-can-I-overcome-this/answer/Quincy-Larson)
-- [Here’s a new way to learn coding tools and concepts right when you need them](https://medium.freecodecamp.org/heres-a-new-way-to-learn-coding-tools-and-concepts-right-when-you-need-them-ee82d15c576d)
-- [How to Get Hired](https://sivers.org/gethired)
+## EXPERIENCE/BLOG
 
 #### Space Repition
 - [Memorizing a programming language using spaced repetition software](https://sivers.org/srs)
@@ -67,27 +30,33 @@
 - [If You Want To Succeed In 2018, You Must Learn To Focus](https://medium.com/personal-growth/if-you-want-to-achieve-more-in-2018-youll-need-to-learn-to-focus-33529316418)
 - [7 Ways To Stay Motivated Long Enough To Replicate Success (Over And Over Again)](https://artplusmarketing.com/7-ways-to-stay-motivated-long-enough-to-replicate-success-over-and-over-again-386796fa28a8)
 - [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/)
+- [How I learn any front-end framework](https://dev.to/imm9o/how-i-learn-any-front-end-framework-29a2)
 - [How to Learn a New Programming Language or Framework](https://hackernoon.com/how-to-learn-a-new-programming-language-faster-dc31ec8367cb)
 - [How I went from not knowing how to code to shipping 9 projects in 9 months — all before my 15th birthday](https://medium.freecodecamp.org/how-i-went-from-not-knowing-how-to-code-to-shipping-9-projects-in-9-months-all-before-my-15th-7ec3666072c3)
+- [How I went from complete beginner to software developer — and how you can too](https://medium.freecodecamp.org/how-i-went-from-complete-beginner-to-software-developer-and-how-you-can-too-dd36ed08e11b)
 - [Lessons from 7 self-taught coders who now work full time as software developers](https://medium.freecodecamp.org/inspirational-success-stories-from-self-taught-web-developers-4f6f375cf17d)
+- [I just don’t want to be a software developer anymore](https://medium.com/@melissamcewen/i-just-dont-want-to-be-a-software-developer-anymore-a371422069a1)
 - [How I got a second degree and earned 5 developer certifications in just one year, while working and raising two kids](https://medium.freecodecamp.org/how-i-got-a-second-degree-and-earned-5-developer-certifications-in-just-one-year-while-working-and-2b902ee291ab)
 - [Job offer accepted! 20K more than current salary - thanks FCC! (Story of how I did it)](https://forum.freecodecamp.org/t/job-offer-accepted-20k-more-than-current-salary-thanks-fcc-story-of-how-i-did-it/113848)
+- [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.org/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331)
+- [What I learned in my first year as a Software Engineer in a startup](https://medium.com/@clementb/what-i-learned-in-my-first-year-as-a-software-engineer-in-a-startup-c078161e5a8e)
 - [Interview tips that will give you confidence and help you land a dev job](https://medium.freecodecamp.org/interview-tips-that-will-give-you-confidence-and-help-you-land-a-dev-job-5ef43c1ae422)
 - [Things you should never say when interviewing for a developer role](https://hackernoon.com/things-you-should-never-say-when-interviewing-for-a-developer-role-138609321d7b)
+- [Software Roles and Titles](https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c)
 - [How to be a good programmer](https://codeburst.io/how-to-be-a-good-programmer-b7a96f3ce02b)
 - [How to think like a programmer — lessons in problem solving](https://dev.to/richardreeze/how-to-think-like-a-programmerlessons-in-problem-solving-5096)
 - [How to get a web development job in four steps](https://simplestepscode.com/how-to-get-a-web-development-job-in-four-steps/)
 - [How to Get a Software Engineer Job at Google and Other Top Tech Companies](https://medium.freecodecamp.org/how-to-get-a-software-engineer-job-at-google-and-other-top-tech-companies-efa235a33a6d)
 - [How to be a successful software engineer](https://medium.freecodecamp.org/how-to-be-a-successful-software-engineer-6f82a5b1a82e)
+- [Notes to Myself on Software Engineering](https://medium.com/s/story/notes-to-myself-on-software-engineering-c890f16f4e4d)
 - [How I went from failure to success in programming and what got me there](https://medium.freecodecamp.org/how-i-went-from-failure-to-success-in-programming-and-what-got-me-there-7bfe151b30ef)
 - [How I got my first developer job](https://medium.com/chingu/yet-another-article-on-the-first-dev-job-c5f14a6ab0)
 - [Getting a Developer Job](https://forum.freecodecamp.org/t/job-offer-accepted-20k-more-than-current-salary-thanks-fcc-story-of-how-i-did-it/113848)
-- [How to Get a Software Engineer Job at Google and Other Top Tech Companies](https://medium.freecodecamp.org/how-to-get-a-software-engineer-job-at-google-and-other-top-tech-companies-efa235a33a6d)
 - [How to Get a Developer Job in Less Than a Year](https://medium.freecodecamp.org/how-to-get-a-developer-job-in-less-than-a-year-c27bbfe71645)
 - [How I went from mopping floors at a tanning salon to becoming a Software Developer](https://codeburst.io/how-i-went-from-mopping-floors-at-a-tanning-salon-to-becoming-a-software-developer-7dc4d2e8d21a)
 - [Computer Science VS Software Engineering — Which Major Is Best For You?](https://medium.freecodecamp.org/computer-science-vs-software-engineering-which-one-is-a-better-major-88482c38446b)
 - [How I went from newbie to Software Engineer in 9 months while working full time](https://medium.freecodecamp.org/how-i-went-from-newbie-to-software-engineer-in-9-months-while-working-full-time-460bd8485847)
-- [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27)
+
 
 ### Python
 - [What exactly can you do with Python? Here are Python’s 3 main applications.](https://medium.freecodecamp.org/what-can-you-do-with-python-the-3-main-applications-518db9a68a78)
@@ -107,6 +76,7 @@
 - [These JavaScript methods will boost your skills in just a few minutes](https://medium.freecodecamp.org/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f)
 - [The beginning of an adventure: 13 Weeks of JavaScript](https://medium.com/@___aerox___/the-beginning-of-an-adventure-13-weeks-of-javascript-78107605d533)
 - [Zero to One: How I mastered JavaScript and how you can too](https://hashnode.com/post/zero-to-one-how-i-mastered-javascript-and-how-you-can-too-ciuwmrw9j00r50q539clhhdj7)
+- [Mistakes I made when learning to code](https://medium.com/zerotomastery/mistakes-i-made-when-learning-to-code-2aa25f8ab7c1)
 - [5 Common mistakes that every new JavaScript programmer does](https://codeburst.io/5-common-mistakes-that-every-new-javascript-programmer-does-d0559770d345)
 - [You are learning JS wrong](https://hackernoon.com/you-are-learning-js-wrong-a004746d2ff5)
 - [Best courses to learn Javascript in 2017](https://codeburst.io/best-courses-to-learn-javascript-in-2017-fc3a254638cc)
@@ -128,7 +98,11 @@
 - [Understanding JavaScript OOP](http://robotlolita.me/2011/10/09/understanding-javascript-oop.html)
 - [What I know about testing in JavaScript!](https://medium.com/yazanaabed/what-i-know-about-testing-in-javascript-6657d2188c3a)
 - [An Introduction to Service Workers in JavaScript](https://codeburst.io/an-introduction-to-service-workers-in-javascript-27d6376460c2)
+- [Understanding JSON in JavaScript](https://itnext.io/understanding-json-in-javascript-5098876d0915)
+
+#### React
 - [How to Learn React - A roadmap from beginner to advanced](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6)
+- [A way to learn React](https://itnext.io/a-way-to-learn-react-b95056eafebb)
 - [Learn React tutorials for beginners](https://reactgo.com/)
 - [How to React](https://blog.kentcdodds.com/how-to-react-%EF%B8%8F-9e87f48414d2)
 - [React DevTools](https://blog.kentcdodds.com/react-devtools-c2d56a901f37)
@@ -149,7 +123,8 @@
 - [Developing your eye for design](https://medium.com/@JonathanZWhite/developing-your-eye-for-design-cce944bbeae4)
 - [7 PRINCIPLES OF DESIGN YOU SHOULD KNOW AS A CODER](https://learntocodewith.me/posts/7-principles-of-design/)
 - [12 Best Responsive Web Design Tutorial to Get You Started](https://codeburst.io/12-best-responsive-web-design-tutorial-to-get-you-started-fb0513bd75)
-
+- [Before you can master design, you must first master the fundamentals](https://medium.freecodecamp.org/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda)
+- [Typography can make or break your design: a process for choosing type](https://medium.freecodecamp.org/typography-can-make-your-design-or-break-it-7be710aadcfe)
 - [8 CSS gotchas to start your morning off right](https://medium.com/@isaaclyman/8-css-gotchas-to-start-your-morning-off-right-c5daade0731d)
 - [JT is a CSS Guru](https://jgthms.com/)
 - [Jonathan Z. White Blog Design in Medium](https://medium.freecodecamp.org/@JonathanZWhite)
@@ -159,21 +134,16 @@
 - [How to layout and design a website (without any design skills)](https://medium.freecodecamp.org/how-to-layout-and-design-a-website-without-any-design-skills-86d94e40b55a)
 
 
-- [A Practical Guide to FreeCodeCamp certifications](https://medium.com/thenodeguy/a-practical-guide-to-freecodecamp-certifications-d4efcc58d8f5)
-- [Don’t listen to those productivity gurus: why waking up at 6am won’t make you successful](https://medium.com/swlh/dont-listen-to-those-productivity-gurus-why-waking-up-at-6am-won-t-make-you-successful-b3c77921d9fd)
 
-- [Augmented Reality from A to Z — know your Metas from your Moverios](https://medium.freecodecamp.org/augmented-reality-from-a-to-z-know-your-metas-from-your-moverios-5db550fc6e98)
+
+
 - [How I automated my job search by building a web crawler from scratch](https://medium.freecodecamp.org/how-i-built-a-web-crawler-to-automate-my-job-search-f825fb5af718)
 
-- [5 Real Examples of Freelance Projects Junior Developers Should Apply to](https://hackernoon.com/5-real-examples-of-freelance-projects-junior-developers-should-apply-to-9e67f7bdfd5e)
-- [5 Real Examples of Freelance Projects Junior Developers Should Definitely Avoid](https://hackernoon.com/5-real-examples-of-freelance-projects-junior-developers-should-definitely-avoid-1185b974561d)
+
 - [The secret to being a top developer is building things! Here’s a list of fun apps to build!](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
 - [Want to be a top developer? You should build things. Here’s another list to get you started.](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)
-- [Where to Find the Best Freelance Projects for Junior Developers](https://medium.com/microverseinc/where-to-find-the-best-freelance-projects-for-junior-developers-3584bdb56926)
 - [70+ Job Find Websites For Developers & Other Tech Professionals](https://medium.com/@traversymedia/70-job-find-websites-for-developers-other-tech-professionals-34cdb45518be)
-- [Why You Should Break Free and Become a Freelance Developer Today](https://medium.com/microverseinc/why-you-should-break-free-and-become-a-freelance-developer-today-3c6c792a9256)
-- [HOW TO MAKE YOUR FIRST $1,000 THROUGH FREELANCING](https://learntocodewith.me/posts/start-website-business/)
-- [17 Tips & Tricks to Create a Kick-Ass Web Developer Profile in Freelancer.com](https://medium.com/microverseinc/17-tips-tricks-to-create-a-kick-ass-freelancer-com-profile-a1f85335edb5)
+
 - [The Software Developer’s Guide to Building an Online Reputation](https://hackernoon.com/the-software-developers-guide-to-building-an-online-reputation-2cb206185af2)
 - [The Ultimate List of Resources for Remote Workers](https://hackernoon.com/the-ultimate-list-of-resources-for-remote-workers-aefb24529c4f)
 
@@ -195,11 +165,12 @@
 ---
 
 
-## Resources
+## RESOURCES
 - [Programming - Learn. Love. Code.](https://medium.com/learn-love-code/tagged/programming)
 - [25 Free Resources for New JavaScript Developers](https://medium.freecodecamp.org/25-free-resources-for-new-javascript-developers-11342cf1f4df)
 - [100+ FREE Resources to Learn Full Stack Web Development](https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2)
 - [Public Roadmaps](https://metacademy.org/roadmaps/)
+- [DATA SCIENCE MASTER'S](http://davidventuri.com/data-science-masters)
 - [The 2018 Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d)
 - [The Ultimate Guide to Learning Full Stack Web Development in 6 months, for $30](https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458)
 - [2018 Full Stack Developer Road Map: Part 1 – Front End Development](http://fullbit.ca/2018-full-stack-developer-road-map-part-1-front-end-development/)
@@ -207,10 +178,10 @@
 - [Full-Stack Web Development - the Complete Roadmap](https://hackernoon.com/full-stack-web-development-the-complete-roadmap-9fe43ec0ba32)
 - [The JavaScript Learning Landscape in 2018](https://css-tricks.com/javascript-learning-landscape-2018/)
 - [JavaScript Is Sexy - Master JavaScript and Frontend Development](http://javascriptissexy.com/)
-- [Learn JavaScript: Best JavaScript tutorials & best JavaScript books 2018](https://reactdom.com/javascript)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-- [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
-- [Learn Computer Science in 5 Months](https://github.com/llSourcell/Learn_Computer_Science_in_5_Months)
+- [Learn JavaScript: Best JavaScript tutorials & best JavaScript books 2018](https://reactdom.com/javascript
+- [The JavaScript Developer's Reading List](https://dev.to/twhite/the-javascript-developers-reading-list-3fmp)
+- [Books that Junior Developers should read in 2019](https://medium.freecodecamp.org/9-books-for-junior-developers-in-2019-e41fc7ecc586?fbclid=IwAR27P8exz752z5hItwxOdDAfb9Rwqgl_cmNa3lD48_L-9wVIdFEB0gv54kI)
+- [The JavaScript Developer's Reading List](https://github.com/twhite96/js-dev-reads)
 - [600 Free Online Programming & Computer Science Courses You Can Start in January](https://medium.freecodecamp.org/600-free-online-programming-computer-science-courses-you-can-start-in-january-3d4b1ed473aa)
 - [530 Free Online Programming & Computer Science Courses You Can Start in May](https://medium.freecodecamp.org/530-free-online-programming-computer-science-courses-you-can-start-in-may-5e82f5307867)
 - [370 Online Courses With Real College Credit That You Can Access For Free](https://medium.freecodecamp.org/370-online-courses-with-real-college-credit-that-you-can-access-for-free-4fec5a28646)
@@ -224,155 +195,409 @@
 - [Python resources](https://www.reddit.com/r/learnpython/wiki/index#wiki_new_to_programming.3F)
 - [BEST RESOURCES FOR WEB DESIGN AND DEVELOPMENT WITH HTML5 & CSS3](http://www.chaudo.com/best-resources-for-web-design-and-development-with-html5-css3/)
 - [CSbooks](https://mega.nz/#F!EwAmBTCC!Tria60rjBtKFe2jB3i1d6A!84QWyRbY)
-- [dribbble](https://dribbble.com/)
-- [Behance](https://www.behance.net/)
-- [awwwards](https://www.awwwards.com/)
 - [A free guide to HTML](https://htmlreference.io/)
 - [A free visual guide to CSS](https://cssreference.io/)
 - [RECOMMENDED RESOURCES AND TOOLS FOR BEGINNERS](https://learntocodewith.me/tools/)
 - [The Front-End Design Checklist](https://codeburst.io/the-front-end-design-checklist-4dd15828fad)
 - [25 HTML & CSS Tutorials](https://codeburst.io/25-html-css-tutorials-6a864f387185)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [My rules coding for HTML, CSS and JavaScript development](https://github.com/LFeh/coding-style)
 - [Web Development Tools | Tools and programs I use every day as a developer.](https://kalob.io/blog/web-development-tools/)
 - [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [Beginning JavaScript: Introduction to Functional Programming](https://training-6b9ec.firebaseapp.com/)
 - https://www.in5days.tech/
+- https://react-index.com/
 
 ### Full Stack Developer path
 - [Full Stack Web Developer Path](https://github.com/shovanch/fullstack-web-developer-path)
 - https://github.com/Syknapse/My-Learning-Tracker
+- [Interneting Is Hard](https://internetingishard.com)
+- [GIS Programming Roadmap](https://github.com/petedannemann/GIS-Programming-Roadmap)
 
 
-- [Free PSD](https://365psd.com/free-psd)
 
-- [How to learn JavaScript](https://sivers.org/learn-js)
 - [Derek Banas](http://www.newthinktank.com)
 - [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - a highly technical documentation of all things front-end
-- [w3schools](http://www.w3schools.com/)
-- [stackoverflow](http://stackoverflow.com/)
-- [HTML Validator](https://validator.w3.org/) - tool to check markup accuracy
-- [CSS Lint](http://csslint.net/) - tool to check CSS accuracy
-- [JSLint](http://jslint.com/) - tool to check JS code quality
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US) - a highly technical documentation of all things front-end
+- [w3schools](http://www.w3schools.com)
+- [stackoverflow](http://stackoverflow.com)
+- [HTML Validator](https://validator.w3.org) - tool to check markup accuracy
+- [CSS Lint](http://csslint.net) - tool to check CSS accuracy
+- [JSLint](http://jslint.com) - tool to check JS code quality
 
-### Online Editors
-- [Cloud9 IDE](https://c9.io/)
-- [codeanywhere](https://codeanywhere.com/)
-- [codeenvy](https://codenvy.io/)
-- [Codepen](http://codepen.io/)
+
+## RESOURCES FOR WEB DESIGN and WEB DEVELOPMENT
+- [20 Most Useful Tools For Programmers And Developers](https://www.technotification.com/2019/03/most-helpful-tools-for-programmmers.html/amp)
+- [Top tools for junior frontend developer](https://dev.to/robmatyszewski/top-tools-for-junior-frontend-developer-49b1)
+- [Darkmode.Js](https://darkmodejs.learn.uno) - Add a dark-mode / night-mode to your website in a few seconds
+
+### REFERENCE
+- [MDN Web Docs](https://developer.mozilla.org/en-US) | Resources for developers, by developers.
+- [DevDocs API Documentation](https://devdocs.io) | Organized Docs for all Popular Web Technologies 
+- [World Wide Web Consortium (W3C)](https://www.w3.org)
+- [W3Schools Online Web Tutorials](https://www.w3schools.com)
+- [Can I use...](https://caniuse.com) Support tables for HTML5, CSS3, etc
+- [CSS Reference](https://cssreference.io) - A free visual guide to CSS
+- [CSS3 Please!](http://css3please.com) The Cross-Browser CSS3 Rule Generator
+- [Object-oriented CSS](http://oocss.org)
+- [An Introduction To Object Oriented CSS (OOCSS)](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss)
+- [Public API Resources](https://github.com/public-apis/public-apis) | A collective list of free APIs for use in software and web development.
+
+### HTML5 RESOURCES
+- [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) by MDN
+- [HTML Cheat Sheet](https://websitesetup.org/html5-cheat-sheet) (with new HTML5 tags)
+- [Glyphs](https://css-tricks.com/snippets/html/glyphs) | HTML Entity Reference by CSS-Tricks
+- [HTML Entity Lookup](http://entity-lookup.leftlogic.com)
+- [Emmet Documentation](https://docs.emmet.io/cheat-sheet/)
+
+### CSS RESOURCES
+- [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) by MDN
+- [CSS reference](https://tympanus.net/codrops/css_reference) by Codrops
+- [Can I use](https://caniuse.com)... Support tables for HTML5, CSS3, etc
+- [The 30 CSS Selectors You Must Memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048) by Tutsplus
+- [CSS for People Who Hate CSS](http://paulcpederson.com/articles/css-for-people-who-hate-css)
+- [Media Queries](https://tympanus.net/codrops/css_reference/media-queries) | Codrops CSS Reference
+- Cool things you can do with [Google Chrome Developer Tools](http://www.labnol.org/solware/chrome-dev-tools-tutorial/28131)
+- [Specificity Calculator](https://specificity.keegan.st)
+- [Clippy](https://bennettfeely.com/clippy) - CSS clip-path maker
+- [Cubic-bezier function generator](https://cubic-bezier.com/#.17,.67,.83,.67)
+- [CSS easing functions](https://easings.net/en)
+
+### JAVASCRIPT RESOURCES
+- [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) by MDN
+- [JavaScript Operator Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table/)
+- [JavaScript Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events/)
+- [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
+- [JavaScript Keyboard Codes Reference](http://keycodes.atjayjo.com/)
+- [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
+- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) A book by Addy Osmani
+
+### NODE.JS DEVELOPMENT
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express Reference](https://expressjs.com/en/4x/api.html)
+- [The MongoDB Manual](https://docs.mongodb.com/manual/)
+- [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)
+- [Node.js Best Practices](https://github.com/i0natan/nodebestpractices)
+- [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs)
+- [Node Weekly Newsletter](https://nodeweekly.com/)
+
+### WEB DESIGN
+- [Design course in form of articles](https://hackdesign.org/lessons)
+- [Learn more about flat design](http://www.webdesignerdepot.com/2013/12/infographic-flat-design-vsskeuomorphism)
+- [Periodic Table](https://www.newdesigngroup.ca/website-design/web-design-process-infographic) of Web Design Process
+- [Codrops](https://tympanus.net/codrops) | Useful resources and inspiration for creative minds
+- Huge list of [front-end development](https://github.com/dypsilon/frontend-dev-bookmarks) resources
+- Curated resources for everything [creative](http://oozled.com)
+- [Ideas for Subtle Hover Effects](https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects)
+- [CSS Button Generator](http://css3buttongenerator.com)
+- [CSS WAND](https://www.csswand.dev) | Easy Copy-Paste Beautiful CSS
+
+### TYPOGRAPHY
+- [Google Fonts](https://fonts.google.com): tons of free, easy to use webfonts
+- [FONT SQUIRREL](https://www.fontsquirrel.com): Free Fonts! Legit Free & Quality
+- [MyFonts](https://www.myfonts.com/) (PREMIUM)
+- [CSS Font Stack](https://www.cssfontstack.com): Web Safe and Web Font Family with HTML and CSS code.
+- [FontPair](http://fontpair.co) - Helps you pair Google Fonts together
+- Design Beautiful Typography with [TYPETESTER](https://www.typetester.org/)
+- [Unicode character table](https://unicode-table.com)
+- [17 Best Logo Fonts for Beginners](https://www.renderforest.com/blog/best-logo-fonts-2019)
+- [50 Logo Fonts Every Designer Should Know About](https://www.designhill.com/design-blog/50-logo-fonts-every-designer-should-know-about/)
+- [List of best free fonts for designers](https://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380)
+- [A Pocket Guide to Master Every Day's Typographic Adventures](http://typogui.de)
+- [The Art Of Mixing Typefaces Google Fonts Edition](http://www.fastprint.co.uk/blog/the-art-of-mixing-typefaces.html)
+
+### COLORS
+- [Color Hex Color Codes](https://www.color-hex.com)
+- [HTML COLOR CODES](https://htmlcolorcodes.com)
+- [Flat UI Colors 280](https://flatuicolors.com)
+- [UI Colors](http://getuicolors.com) - Get Awesome UI Colors for Your Website
+- Material Design Color Palette Generator - [Material Palette](https://www.materialpalette.com/)
+- [Color Hunt](https://colorhunt.co/) - Color Palettes for Designers and Artists
+- [LOL Colors](https://www.webdesignrankings.com/resources/lolcolors/) - Curated color palette inspiration
+- [uiGradients](https://uigradients.com) - Beautiful colored gradients
+- [Paletton](http://paletton.com) - The Color Scheme Designer
+- [0to255](http://www.0to255.com): Color Picker Tool
+- [Random A11y Color Palettes](https://randoma11y.com)
+- [Colordot](https://color.hailpixel.com) - A color picker for humans
+- Get Color Schemes of Websites in [Stylify Me](http://stylifyme.com)
+- [COOLORS](https://coolors.co) - The super fast color schemes generator
+- [ColorZilla](https://www.colorzilla.com) - Eyedropper, Color Picker, Gradient Generator and more
+- [Ultimate CSS Gradient Generator](https://www.colorzilla.com/gradient-editor)
+- [CSS colour names](http://colours.neilorangepeel.com)
+- [Adobe Color CC](https://color.adobe.com/create/color-wheel)
+- [Social Media Colours](https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb) - Hex and RGB Colours of the Web
+- [An Introduction to Color Theory for Web Designers](https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437)
+
+### IMAGES AND VIDEOS
+- Free Stock Photos from [Pexels](https://www.pexels.com)
+- [Unsplash](https://unsplash.com): Beautiful Free Images & Pictures with Great API
+- [THE STOCKS](http://thestocks.im) - Best royalty free stock photos, videos, mockups, icons and fonts
+- [ISO Republic](https://isorepublic.com/) - Free High Resolution Photos & Videos
+- [Pixaby](https://pixabay.com/) -  Stunning Free Images to Use Anywhere
+- [Food Pictures](http://foodiesfeed.com)
+- [IM FREE](http://www.imcreator.com/free) - A curated collection of free web design resources
+- [The Pattern Library](http://thepatternlibrary.com)
+- [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns) | Free textures for your next web project
+- [iStock](https://www.istockphoto.com/) | Stock Images, Royalty-Free Pictures, Illustrations & Videos (PREMIUM)
+- [Free PSD](https://365psd.com/free-psd)
+- [Freepik](https://www.freepik.com): Free Vectors, Photos and PSD Downloads
+- [Unsplash Source](https://source.unsplash.com): A Simple API for Embedding Dummy Image Placeholders
+- [Placeholder.com](https://placeholder.com): Dummy Image Placeholders
+- [Mazwai](http://mazwai.com): Download free creative commons HD video clips & footages.
+- [Random User Generator](https://randomuser.me/)
+- [coverr](https://coverr.co/) | Beautiful, Free Stock Video Footage For Your Homepage
+- [Startup Stock Photos](https://startupstockphotos.com/) | Free Tech Stock Photos
+- [PlaceIt](https://placeit.net/) | Make Mockups, Logos, Videos and Designs in Seconds
+- [Canva](https://www.canva.com/)
+- [Design Considerations: Text on Images](https://css-tricks.com/design-considerations-text-images)
+- [404 illustrations](https://www.kapwing.com/404-illustrations) | - Trendy, ready to use images for your 404 page
+
+### BEST ICONS
+- [Font Awesome](https://fontawesome.com): The world's most popular and easiest to use icon
+- [Ionicons](http://ionicons.com): Beautifully crafted open source icons
+- [FLATICON](https://www.flaticon.com/) Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons
+- [iconmonstr](http://iconmonstr.com): Free simple icons
+- [icon8](https://icons8.com/) | Download free icons, music, stock photos, vectors (PREMIUM)
+- [icon54](https://icon54.com/) | Vector line and solid Icons collection pack for iOS, Android, Websites & Apps (PREMIUM)
+- [Fontastic](http://fontastic.me/) | Free Icon Font Generator
+- [IcoMoon](https://icomoon.io/) | Icon Font & SVG Icon Sets
+- [Entypo+](http://entypo.com): Another beautiful icon set
+- [ICONFINDER](https://www.iconfinder.com): Free Icons!
+
+### RESPONSIVENESS
+- [Media Queries](https://mediaqueri.es)
+- [Liquidapsive](http://www.liquidapsive.com)
+- [Responsinator](http://www.responsinator.com): is designed to test responsive websites on different device resolutions.
+- [What's My Browser Size](https://www.webpagefx.com/tools/whats-my-browser-size)
+- [Blueprint CSS](https://blueprintcss.dev) - CSS Grid and Layout Library
+- [Responsive Grid System](http://www.responsivegridsystem.com)
+- [960 Grid System](https://960.gs)
+
+### JQUERY PLUGINS / ANIMATION
+- [Animate.css](https://daneden.github.io/animate.css/)
+- [WEBAPPERS Tooltips](https://www.webappers.com/category/components/tooltips)
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup): Responsive jQuery Lightbox Plugin
+- [Tooltipster](https://iamceege.github.io/tooltipster) - The jQuery Tooltip Plugin
+- [jQuery One Page Scroll](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)
+
+### USER EXPERIENCE
+- [UX Crash Course](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals): 31 Fundamentals
+- [UI tricks](http://www.goodui.org) that can lead to higher conversion rates
+
+### DESIGN INSPIRATION
+- [Dribbble](https://dribbble.com/): Discover the World's Top Designers & Creative Professionals
+- [Land-book](https://land-book.com/) - the finest hand-picked website inspirations
+- [One Page Love](https://onepagelove.com/): Website Inspiration and Templates
+- [siteInspire](https://www.siteinspire.com/): Web Design Inspiration
+- [Calltoidea](https://calltoidea.com/) - Light up your imagination
+- [Codrops](https://tympanus.net/codrops/) | Useful resources and inspiration for creative minds
+- [Behance](https://www.behance.net/)
+- [awwwards](https://www.awwwards.com/)
+- [Admire The Web](http://www.admiretheweb.com/): The very best in web design inspiration
+- [PatternTap](http://patterntap.com/patterntap/) 
+- [Google fonts](http://femmebot.github.io/google-type/) inspiration
+- [Bootsnipp](https://bootsnipp.com/) | Home of free code snippets for Bootstrap
+
+Some amazing designers on Dribble:
+- https://dribbble.com/victorerixon
+- https://dribbble.com/benske
+- https://dribbble.com/peterfinlan
+- https://dribbble.com/Radium
+
+### OPTIMIZATION, VALIDATION & COMPATIBILITY
+- [Minify](https://www.minifier.org) - JavaScript and CSS minifier
+- [Code Beautify](https://codebeautify.org): Free Online Tools For Developers
+- [CSS Compressor & Minifier](http://www.minifycss.com/css-compressor)
+- [JavaScript Compressor](http://www.minifyjavascript.com)
+- [Diffchecker](https://www.diffchecker.com) - Online diff tool to compare text to find the difference between two text files
+- [Markup Validation Service](http://validator.w3.org)
+- [Validate CSS](https://jigsaw.w3.org/css-validator)
+- [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6)
+- [A Web Designer’s SEO Checklist (Including Portable Formats)](https://webdesign.tutsplus.com/articles/a-web-designers-seo-checklist-including-portable-formats--webdesign-10740)
+- [Google Analytics](http://www.google.com/analytic)
+- [PageSpeedInsights](https://developers.google.com/speed/pagespeed/insights/)
+- [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/testmysite)
+- [woorank](https://www.woorank.com) | Website Review Tool & SEO Checke
+- [Prefixr](http://prefixr.com) | Cross-Browser CSS3 Prefix Generation Made Easy!
+- [Sizzy](https://sizzy.co/) | The browser for developers and designers
+- [Kinsta](https://kinsta.com/learn/page-speed/) | A Beginner’s Guide to Website Speed Optimization
+
+### IMAGE COMPRESSION
+- [Compress.ioo](https://compressor.io/compress) - Optimize and compress your images online.
+- [JPEG Optimizer](http://jpeg-optimizer.com) - Compress and Resize Your Digital Photos
+- [TinyPNG](https://tinypng.com) – Compress PNG images while preserving transparency
+
+### GENERATORS
+- [Lorem Ipsum](https://lipsum.com/) - Lipsum generator
+- The ultimate [favicon generator](https://favicon.io)
+- [favicon.ico Generator](https://www.favicon.cc/)
+- [Favicon Generator](https://realfavicongenerator.net/) for all platforms
+- Dynamic Drive [Favicon Generator](https://tools.dynamicdrive.com/favicon/)
+- [Mockaroo](https://mockaroo.com/) - Random Data Generator and API Mocking Tool
+- [QURB](https://qurb.rishimohan.me/) - Web-based free mockup generator
+- [MockUPhone](https://mockuphone.com/) - Free and simple screenshots device mockups generator
+- [Responsive Breakpoints](https://responsivebreakpoints.com/) | Responsive Image Breakpoints Generator
+- [hatchful](https://hatchful.shopify.com/) | Create stunning logos in seconds
+- [Logaster](https://www.logaster.com/): Logo Generator
+- [Online UUID Generator](https://www.uuidgenerator.net/)
+- [SHA256 Hash Generator](https://passwordsgenerator.net/sha256-hash-generator/)
+
+### CONVERTERS
+- [Babel REPL](https://babeljs.io/repl) - The compiler for next generation JavaScript
+- [SassMeister]https://www.sassmeister.com) | The Sass Playground!
+- [Useful Online Tools for Developers](http://webtoolkitonline.com)
+- [HTML2Jade](https://html2jade.org) - HTML to Jade/Pug Online Realtime Converter
+
+### SNIPPET TOOLS
+- [Github Gist](https://gist.github.com) | Snippet Manager 
+- [PASTEBIN](https://pastebin.com) - #1 paste tool since 2002! | Snippet Manager 
+
+### WIREFRAME
+- [Style Tiles](http://styletil.es) | A Visual Web Design Process for Clients & the Responsive Web
+- [Balsamiq. Rapid, effective and fun wireframing software.](https://balsamiq.com)
+- [Moqups](https://app.moqups.com) | Online Mockup, Wireframe & UI Prototyping Tool
+- [Wireframe.cc](https://wireframe.cc) - minimal (browser)wireframing tool
+
+### SPEED TEST
+- [Website Speed Test](https://tools.keycdn.com/speed)
+- [Pingdom Website Speed Test](https://tools.pingdom.com)
+- [Loader](https://loader.io) | Application Load Testing Tools for API Endpoints
+
+### DEVELOPER TOOLS
+- browsehappy
+- [Chrome](developers.google.com/web/tools/chrome-devtools)
+- [Firefox](developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
+- [Edge](developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devetools-guide)
+- [Safari](developer.apple.com/safari/tools)
+
+### ONELINE EDITORS
+- [Codepen](https://codepen.io) - Client Side Code
+- [CODEPLY](https://www.codeply.com/) | Bootstrap snippets, code examples and editor
+- [JSFiddle](https://jsfiddle.net) - Client Side Code
+- [Repl](https://repl.it) - Server Side Code
 - [JS Bin](https://jsbin.com/?html,css,output)
-- [JSFiddle](https://jsfiddle.net/)
-- [repl.it](https://repl.it/)
+- [Cloud9 IDE](https://c9.io)
+- [codeanywhere](https://codeanywhere.com)
+- [codeenvy](https://codenvy.io)
+- [Liveweave](http://liveweave.com) - Client Side Code
+- [StackEdit](https://stackedit.io) – In-browser Markdown editor
+- [Tinkerbin - JSter Javascript Catalog](http://jster.net/library/tinkerbin)
+- Node.js Playground | [Katacoda](https://www.katacoda.com/courses/nodejs/playground)
 
+### IDE / TEXT EDITORS
+- [Atom](https://atom.io): A hackable text editor for the 21st Century
+- [Bluefish](http://bluefish.openoffice.nl/download.html)
+- [Brackets](http://brackets.io) - A modern, open source text editor that understands web design.
+- [Eclipse](https://www.eclipse.org)
+- [Netbeans](https://netbeans.org)
+- [Notepad++](https://notepad-plus-plus.org)
+- [JetBrains](https://www.jetbrains.com): Developer Tools for Professionals and Teams
+- [Sublime Text](https://www.sublimetext.com/download) - A sophisticated text editor for code, markup and prose
+- [Visual Studio Code](https://code.visualstudio.com) - Code Editing. Redefined
 
-### Generators:
-- Text Content Generator - http://www.lipsum.com
-- Favicon Generator - http://tools.dynamicdrive.com/favicon
-- Data Generator - https://mockaroo.com/
-- Mobile Mockup Generator - https://mockuphone.com
-- Logo Generator - https://www.logaster.com
-- UUID Generator - https://www.uuidgenerator.net/
-- Hash Generator - https://passwordsgenerator.net/sha256-hash-generator/
+### FTP CLIENT
+- [FileZilla](https://filezilla-project.org) - The free FTP solution
+- [WinSCP](https://winscp.net/eng/index.php) :: Free SFTP and FTP client for Windows
+- [Cyberduck](https://cyberduck.io) | Libre server and cloud storage browser for Mac and Windows
 
-### IMAGE RESOURCES:
-- Free Stock Images - https://www.pexels.com
-- Free Stock Images With Great API - https://unsplash.com/
-- Free- Vectors, mockups - https://www.freepik.com
-- Dummy Image Placeholders - https://source.unsplash.com/
-- Dummy Image Placeholders - https://placeholder.com
-- Free Icons - https://www.iconfinder.com
-
-### CODE OPTIMIZATION:
-- Minify JS & CSS - http://minifier.org
-- Code Optimization Tools - https://codebeautify.org
-- Code Diff Checker - https://www.diffchecker.com
-
-### CONVERTERS:
-- ES6+ & JSX Compiler - https://babeljs.io/repl
-- Sass Converter - https://www.sassmeister.com/
-- Less Converter & More - http://www.webtoolkitonline.com
-- Markdown Editor - https://stackedit.io
-- Jade Converter - http://www.html2jade.org/
-
-### IMAGE COMPRESSION:
-- Compress All Images - https://compressor.io/compress
-- Compress JPG - http://jpeg-optimizer.com/
-- Compress PNG - https://tinypng.com/
-
-### VALIDATION & COMPATIBILITY:
-- Validate HTML - https://validator.w3.org
-- Validate CSS - https://jigsaw.w3.org/css-validator
-- Check Browser Compatibility - https://caniuse.com/
-- ES6+ Compatibility Table - https://kangax.github.io/compat-table/es6/
-
-### IN BROWSER CODING:
-- Client Side Code - https://codepen.io
-- Client Side Code - https://jsfiddle.net
-- Client Side Code - http://liveweave.com
-- Server Side Code - https://repl.it
-
-### SNIPPET TOOLS:
-- Snippet Manager - https://gist.github.com
-- Snippet Manager - https://pastebin.com
-
-### COLOR & DESIGN:
-- Create Color Schemes - https://color.hailpixel.com
-- Get Color Schemes of Websites - http://stylifyme.com
-- Create Gradients - https://uigradients.com
-- CSS Button Generator - http://css3buttongenerator.com
-- HTML Entity Lookup - http://entity-lookup.leftlogic.com/
-
-### RESPONSIVENESS:
-- Device Testing - http://www.responsinator.com
-- What's My Browser Size - https://www.webpagefx.com/tools/whats-my-browser-size/
-
-
-### WIREFRAME:
-- In Browser Wireframing - https://app.moqups.com
-- Very Basic In Browser Wireframing - https://wireframe.cc
-
-### SPEED TEST:
-- Speed & Performance Testing - https://tools.keycdn.com/speed
-- Pingdom Speed Test - https://tools.pingdom.com/
----
-
-
-## Hosting Tools
+### Hosting Tools
 - [Freenom](https://my.freenom.com/clientarea.php)
-- [InfinityFree](https://infinityfree.net/)
-- [DNSimple](https://dnsimple.com/)
-- [Host Your Website For Free](https://www.000webhost.com/)
-- [Firebase](https://firebase.google.com/)
+- [InfinityFree](https://infinityfree.net)
+- [DNSimple](https://dnsimple.com)
+- [Host Your Website For Free](https://www.000webhost.com)
+- [Firebase](https://firebase.google.com)
+
+### SOCIAL NETWORK
+- [Stack Overflow](https://stackoverflow.com)
+- webdev.slack
+
+#### MENTOR AND MENTORING:
+- [hack.pledge()](https://hackpledge.org) | A community of developers helping each other master software craftsmanship
+
+#### SOCIAL MEETING
+- [Meetup](https://www.meetup.com/): We are what we do
+- [Barcamp.org](http://barcamp.org)
+
+### KEEPING UP WITH THE WEB INDUSTRY
+- [Treehouse show](http://teamtreehouse.com/library/the-treehouse-show), weekly video about new things in webdesign and development
+- [Sidebar](https://sidebar.io): the 5 best design links, every day
+- [Webdesigner Depot](https://www.webdesignerdepot.com): Web Design Blog
+- [Smashing Magazine](https://www.smashingmagazine.com) - For Web Designers And Developers
+- [1stWebDesigner](https://1stwebdesigner.com) - Helping You Build a Better Web
+- [HeyDesigner](https://heydesigner.com/) - Design news. Curated daily.
+
+### REAL-WORLD STEPS TO A FUNCTIONAL WEBSITE
+1. Define your project (goal and audience)
+2. Plan out everything
+3. Sketch your ideas before you start designing
+4. Design and develop your website with HTML and CSS
+5. It’s not done yet: optimization
+6. Launch the masterpiece
+7. Site maintenance
 
 ### OTHER:
 - Public API Resources - https://github.com/toddmotto/public-apis?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+- [Bill Gates-1986](https://programmersatwork.wordpress.com/bill-gates-1986)
+
+### PROJECTS
+- [10 Great Programming Projects to Improve Your Resume and Learn to Program](https://medium.com/better-programming/10-great-programming-projects-to-improve-your-resume-and-learn-to-program-74b14d3e9e16)
+- [Want to build something fun? Here’s a list of sample web app ideas](https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a)
+- [The Secret to Being a Top Developer Is Building Things! Here’s a List of Fun Apps to Build!](https://medium.com/better-programming/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
+- [5 Real Examples of Freelance Projects Junior Developers Should Apply to](https://hackernoon.com/5-real-examples-of-freelance-projects-junior-developers-should-apply-to-9e67f7bdfd5e)
+- [Where to Find the Best Freelance Projects for Junior Developers](https://medium.com/microverseinc/where-to-find-the-best-freelance-projects-for-junior-developers-3584bdb56926)
+- [5 Real Examples of Freelance Projects Junior Developers Should Definitely Avoid](https://hackernoon.com/5-real-examples-of-freelance-projects-junior-developers-should-definitely-avoid-1185b974561d)
+- [JavaScript Code Along #1: create a todo list](https://albertomontalesi.github.io/javascript/JS-code-along-create-todo-list/)
+- [Omnifood](https://supanthapaul.github.io/Omnifood/)
+- [180 websites in 180 days](https://jenniferdewalt.com/)
+- [Curated list of project-based tutorials](https://github.com/tuvtran/project-based-learning)
+- [A curated list of project-based tutorials in C](https://github.com/rby90/Project-Based-Tutorials-in-C)
+- [build-your-own-x](https://github.com/danistefanovic/build-your-own-x#build-your-own-git)
+- [A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.](https://github.com/ericdouglas/app-specs)
+- [Open Source Society University API server](https://github.com/ossu/ossu-api)
+- [Mega Project List](https://github.com/karan/Projects)
+
+### FREELANCING
+- [10 Web Developer Portfolio Tips](https://medium.com/@traversymedia/10-web-developer-portfolio-tips-384491d408a8)
+- [17 Tips & Tricks to Create a Kick-Ass Web Developer Profile in Freelancer.com](https://medium.com/microverseinc/17-tips-tricks-to-create-a-kick-ass-freelancer-com-profile-a1f85335edb5)
+- [How to Brand Yourself as a Freelance Developer in 2019 (and Beyond)](https://medium.freecodecamp.org/how-to-brand-yourself-as-a-freelance-developer-in-2019-and-beyond-78a5d58ecd29)
+- [How to charge for a website the right way](https://medium.freecodecamp.org/how-to-charge-for-a-website-the-right-way-e3a4bbbadbcf?fbclid=IwAR1q7FPAIc8rUCkOM7Vw-SF61JoJyCQ8eyoUHUy19bvSr6zpwk3KSNPhIf0)
+- [How Much Should You Charge for a Website?](https://css-tricks.com/how-much-should-you-charge-for-a-website/)
+- [Why You Should Break Free and Become a Freelance Developer Today](https://medium.com/microverseinc/why-you-should-break-free-and-become-a-freelance-developer-today-3c6c792a9256)
+- [HOW TO MAKE YOUR FIRST $1,000 THROUGH FREELANCING](https://learntocodewith.me/posts/start-website-business/)
 
 ---
 
-## Bootcamps
-- https://studio.code.org/
-- [Flatiron School Free Bootcamp](https://learn.co)
-- [FullStack Academy](https://learn.fullstackacademy.com/)
-- [Rithm](https://www.rithmschool.com/)
-- [Hack Reactor](https://prep.hackreactor.com/courses/enrolled/118569)
-- [thinkster - A better way to learn](https://thinkster.io/)
-- [freeCodeCamp](https://www.freecodecamp.org/)
-- [Codecademy](https://www.codecademy.com/)
-- [The Odin Project](https://www.theodinproject.com/)
-- [Revature](https://revature.com)
-- [Lambda](https://lambdaschool.com)
-- [Fullstack Academy Bootcamp Prep](https://start.fullstackacademy.com/fullstack-academy-bootcamp-prep-at-your-own-pace?utm_campaign=LearnToCodeWithMe&utm_source=LearnToCodeWithMe&utm_medium=Email)
-- [Dash](https://dash.generalassemb.ly/)
-- [App Academy (No Job No Tuition)](https://www.appacademy.io/)
-- [RMOTR](https://rmotr.com/)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-- [SoloLearn](https://www.sololearn.com/)
-- [Brilliant - More on Math](https://brilliant.org)
+## CODE CHALLENGES
+- codekatas
+- projecteuler
+- Topcoder
+- Spoj
+- [Code Golf Stack Exchange](https://codegolf.stackexchange.com/)
+- code.org/learn
+- interactivepython.org/runestone/static/pythonds/index.html
+- try.github.io/levels/1/challenges/1
+- tryruby.org/levels/1/challenges/0
+- lifehacker.com/bento-showcases-the-best-resources-for-learning-to-code-1450016607
+
+### Beginner-Intemediate:
+- codecombat
+- codingame
+- coderbyte
+- codewars
+- codedefights
+- codingame
+
+### Intermediate-Advanced:
+- topcoder
+- hackerrank
+- leetcode
+- codechef
+- geeksforgeeks
+- codeforces
 
 
-## Courses & Docs
+
+## COURSES & DOCS
 - [Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn)
 - [Treehouse](https://teamtreehouse.com/tracks)
 - [Envato Tuts+](https://code.tutsplus.com/)
@@ -435,6 +660,10 @@
 - [CS50](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/)
 - [OSS University](https://ossu.firebaseapp.com/#/)
 - [Open Source Society University](https://github.com/ossu)
+- [Intro to Computer Science Terminology](https://codeburst.io/intro-to-computer-science-terminology-f9ae64e75d27)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
+- [Learn Computer Science in 5 Months](https://github.com/llSourcell/Learn_Computer_Science_in_5_Months)
 
 ### Others
 - [Basic Git(hub) usage](https://www.youtube.com/watch?v=cd-g06nA3ns&app=desktop)
@@ -443,7 +672,7 @@
 ---
 
 
-## Interactive Tutorials | Books
+## INTERACTIVE TUTORIALS | BOOKS
 
 ### WebDev/Programming
 - [Front-End Development Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
@@ -453,6 +682,7 @@
 - [Hack Club Workshops](https://hackclub.com/workshops/)
 
 ### JS
+- [9 Generic steps to becoming JS web developer](https://areknawo.com/9-generic-steps-to-becoming-js-web-developer/)
 - [Learn JS](https://www.learn-js.org/)
 - [JavaScript For Cats](http://jsforcats.com/)
 - [Human JavaScript](http://read.humanjavascript.com/ch01-introduction.html)
@@ -506,8 +736,6 @@
 - https://github.com/substack/stream-handbook#introduction
 - [NODE JSERA](https://nodejsera.com/)
 
-### Computer Science
-- 
 
 ### Python
 - [Introduction to Python](http://introtopython.org/)
@@ -595,14 +823,33 @@
 ---
 
 
-## Website/portfolio
+## WEBSITE & PORTPOLIO
+
+- [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
+- [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
+- [Building a Strong Portfolio As a Developer](https://www.codingdojo.com/blog/building-developer-portfolio)
+- http://www.pascalvangemert.nl/
+- http://seanhalpin.io/
+- https://ritwickdey.github.io
+- https://iamdesmondjr.com
 - [Resume](https://veerasundar.com/resume/)
 - [Resume](https://www.tiffanyrwhite.com/resume/)
+- https://ryanfitzgerald.ca/
+- https://kylegach.com/
+- http://doodledudes.github.io/portfolio/
+- https://merakireal.github.io/
 - http://findmatthew.com/
 - https://juliette.sh/
+- [Rafael Caferati](https://caferati.me/)
+- https://prayash.io/
 - http://jtom.me/
+- [Chris Dermody](https://chrisdermody.com/)
+- [Chris Dermody Portfolio Template](https://chippd.github.io/)
+- [SARAH DRASNER](https://sarahdrasnerdesign.com/)
+- https://www.jdeen.com/
+- http://emilehay.xyz
+- https://k-create.com/
 - http://raghibm.com/
-- https://caferati.me/
 - http://kyleledbetter.com/
 - http://jieverson.com/
 - https://andrewborstein.com/
@@ -623,13 +870,13 @@
 - https://asamshan.com/
 - https://davidpierre21.github.io/
 - https://syknapse.github.io/Syk-Houdeib/
-- https://sdabhi23.github.io/#home
+- [Shrey](https://sdabhi23.github.io/)
 - https://danaguinaldo.github.io/
 - https://www.klarafleischmann.de/
 - https://celest.in/
 - https://tareqanwar.com/
 - [Jem Young: Software Engineer](https://jemyoung.com/about/)
-- https://raivivek.in/ (raivivek.github.io)
+- https://raivivek.in/
 - https://www.austintackaberry.co/
 - http://www.jdpenuliar.com/
 - https://mrkaluzny.com/
@@ -641,7 +888,6 @@
 - https://devmount.de/
 - https://gezzalou88.github.io/
 - https://shgysk8zer0.github.io/
-- http://doodledudes.github.io/portfolio/
 - http://michaelschmitz.me/
 - https://sukhjinderarora.github.io/
 - http://kelvinsantos.github.io/
@@ -699,6 +945,7 @@
 - https://www.tiffanyrwhite.com/
 - https://www.dynanx.com/
 - https://www.myportfolio.com/
+- [Kristof Kovacs](https://kkovacs.eu/)  Software architect, consultant
 
 ### Photography / Design
 - https://zobelaerialphotography.com/
@@ -710,10 +957,14 @@
 - [Apps Craft](https://themeun.com/html/apps-craft/html/index.html)
 
 ### Blog
+- [Vojtech Ruzicka's Programming Blog](vojtechruzicka.com)
+- [prayash thapa](https://prayash.io/blog/)
 - [TUTORIALS FOR CODERS](https://flaviocopes.com/)
+- https://www.florin-pop.com/blog
 - https://tsaprailis.com/
+- https://nickymeuleman.netlify.com/
 - https://mtlynch.io/
-- [CODING LAWYER](https://codinglawyer.net/)
+- [CODING LAWYER](https://www.codinglawyer.io/)
 - [Program With Erik](https://www.programwitherik.com/)
 - [Awesome Dev Blogs](https://github.com/abdelhai/awesome-dev-blogs)
 - [Andrew Ray's Blog](https://blog.andrewray.me/)
@@ -739,6 +990,7 @@
 - https://zachholman.com/
 - [Ruben's Blog](https://vagr9k.me/)
 - [ZenDev](https://zendev.com/)
+- https://www.josephharveyangeles.com/
 - [Wolf Programmer](https://wolfprogrammer.com/)
 - https://www.kauress.me/
 - https://nikolaskama.me/
@@ -789,8 +1041,9 @@
 - https://blog.risingstack.com/
 - [Thoughts On Technology & Growth](https://blog.apptension.com/)
 
+---
 
-## Morning - Evening
+## Morning - Evening ROUTINE
 - Evening Journal
 - Review learnings or Problems before bed
 - Plan for tomorrow - todo list
@@ -808,19 +1061,7 @@
 - Make bed
 - Coffee, tea, propel
 
-
-## Projects
-- [Want to build something fun? Here’s a list of sample web app ideas](https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a)
-- [JavaScript Code Along #1: create a todo list](https://albertomontalesi.github.io/javascript/JS-code-along-create-todo-list/)
-- [Omnifood](https://supanthapaul.github.io/Omnifood/)
-- [180 websites in 180 days](https://jenniferdewalt.com/)
-- [project-based-learning](https://github.com/tuvtran/project-based-learning)
-- [build-your-own-x](https://github.com/danistefanovic/build-your-own-x#build-your-own-git)
-- [A curated list of applications specifications and implementations to practice new technologies, improve your portfolio and sharpen your skills.](https://github.com/ericdouglas/app-specs)
-- [Open Source Society University API server](https://github.com/ossu/ossu-api)
-
 ---
-
 
 ## [What are the growth stages of a programmer?](https://www.quora.com/What-are-the-growth-stages-of-a-programmer/answer/Frank-Taylor-5)
 
@@ -941,146 +1182,3 @@ More importantly, learn test-driven development.
 There's a difference between testing your code, and writing testable code.
 
 For me, The Pragmatic Programmer was a big help.
-
-
-
-
-
-
-## BEST RESOURCES FOR WEB DESIGN AND DEVELOPMENT WITH HTML5 & CSS3
-
-### WEBDESIGN BASICS
-#### INTRODUCTION TO WEBDESIGN
-- [Design course in form of articles](https://hackdesign.org/lessons)
-- [Learn more about flat design](http://www.webdesignerdepot.com/2013/12/infographic-flat-design-vsskeuomorphism/)
-
-#### TYPOGRAPHY
-- [Google fonts](https://www.google.com/fonts): tons of free, easy to use webfonts
-- [Fonts for free download](http://www.fontsquirrel.com/) 
-- [List of best free fonts for designers](http://www.crea.vebloq.com/graphic-design-.ps/best-free-fonts-fordesigners-1233380)
-- [Very good for finding good font combinations](http://www.fastprint.co.uk/blog/the-art-of-mixing-typefaces.html)
-- [Find even more good font combinations](http://fontpair.co/)
-- [Learn even more about typography](http://www.typogui.de/)
-
-#### COLORS
-- [Cool Flat UI colors](http://flatuicolors.com/)
-- [Even more cool colors](http://getuicolors.com/)
-- [Find variations of colors (very good)](http://www.0to255.com/)
-- [Adobe Color CC](https://color.adobe.com/create/color-wheel/), play around with colors
-- [Paletton](http://paletton.com), play around with colors
-- [Beautiful gradients for webdesign](http://uigradients.com/)
-- [Learn about colors](http://www.rocket-design.fr/color-template/)
-- [Learn even more about colors](http://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-webdesigners–webdesign-1437)
-
-#### WORKING WITH IMAGES
-- [Basically all free images in one place](http://thestocks.im/)
-- [Images from many sources](http://www.pexels.com/)
-- [Unsplash](https://unsplash.com/), a must see
-- [Food images](http://foodiesfeed.com/)
-- [A curated collection of free resources](http://www.imcreator.com/free)
-- [Huge pattern library](http://thepatternlibrary.com/)
-- [Subtle patterns](http://subtlepatterns.com/)
-- [Free videos](http://mazwai.com/)
-- [Techniques for working with images in CSS](http://css-tricks.com/design-considera.ons-text-images/)
-
-#### WORKING WITH ICONS
-- [Beautiful icon font](http://ionicons.com/)
-- [Another beautiful icon set](http://entypo.com/)
-- [Font awesome icons](http://fontawesome.io/icons/)
-- [Big collection of SVG fonts](http://iconmonstr.com/)
-- [Yet another icon font](http://icon-works.com/)
-
-#### USER EXPERIENCE
-- [UX crash course](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals) in 31 days
-- [UI tricks](http://www.goodui.org/) that can lead to higher conversion rates
-
-#### GETTING INSPIRED
-- [Find beautiful websites](http://www.siteinspire.com/)
-- [Dribble](https://dribbble.com/), show and tell for designers
-- [Behance](https://www.behance.net/)
-- [Inspiration](https://onepagelove.com/) for one-page websites
-- [Even more](http://www.admiretheweb.com/) webdesign inspiration
-- [Flat design](http://flatdsgn.com/) inspiration
-- Collection of specific [design elements and patterns](http://patterntap.com/) 
-- Another collection of [design elements](http://calltoidea.com/)
-- [Google fonts](http://femmebot.github.io/google-type/) inspiration
-
-Some amazing designers on Dribble:
-- https://dribbble.com/victorerixon
-- https://dribbble.com/benske
-- https://dribbble.com/peterfinlan
-- https://dribbble.com/Radium
-
-#### EVEN MORE RESOURCES
-- Huge list of [front-end development](https://github.com/dypsilon/frontend-dev-bookmarks) resources
-- Curated resources for everything [creative](http://oozled.com/)
-
-
-### DIVE INTO HTML
-- [HTML special characters](https://css-tricks.com/snippets/html/glyphs/)
-
-
-### FORMATTING WITH CSS
-- Complete [CSS reference](http://tympanus.net/codrops/css_reference/) (this is really good)
-- Important [CSS selectors](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize–
-net-16048)
-- Cool things you can do with [Google Chrome Developer Tools](http://www.labnol.org/solware/chrome-dev-tools-tutorial/28131/)
-
-
-### THE KILLER WEBSITE PROJECT
-#### REAL-WORLD STEPS TO A FUNCTIONAL WEBSITE
-1. Define your project (goal and audience)
-2. Plan out everything
-3. Sketch your ideas before you start designing
-4. Design and develop your website with HTML and CSS
-5. It’s not done yet: optimization
-6. Launch the masterpiece
-7. Site maintenance
-
-[Periodic table](http://www.newdesigngroup.ca/blog/web-design-process-infographic/) of web design process
-
-#### LINKS USED IN OUR PROJECT
-- Free, simple and easy-to-use [fluid grid](http://www.responsivegridsystem.com/)
-- Get [random user profiles](http://randomuser.me/)
-- [Subtle hover effects](http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/)
-- [Up-to-date browser support tables](http://caniuse.com/) for CSS and HTML
-- Using [Internet Explorer on a Mac](https://www.modern.ie)
-- [Social network colors](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/)
-
-
-### LET’S ADD SOME COOL EFFECTS
-#### LINKS USED IN THE COURSE
-- [Animate.css](http://daneden.github.io/animate.css/)
-
-#### COOL JQUERY PLUGINS
-- [Webappers](http://www.webappers.com/category/components/tool.ps/), huge list of plugins
-- [jQuery Rain](http://www.jqueryrain.com/), another huge list of plugins
-- [Magnific popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [Tooltipster](http://iamceege.github.io/tool.pster/#demos)
-- [Maplace.js](http://maplacejs.com/), google maps plugin
-- [Typer](http://cosmos.layervault.com/typer-js.html), a plugin that types
-- [OnePageScroll](http://www.thepetedesign.com/demos/onepage_scroll_demo.html)
-
-
-### OPTIMIZING AND LAUNCHING OUR WEBSITE
-- [Favicon Generator](http://realfavicongenerator.net/)
-- [Compress images](http://op.mizilla.com/)
-- [Minify CSS code](http://www.minifycss.com/css-compressor/)
-- [Minify JavaScript code](http://www.minifyjavascript.com/)
-- [HTML validation](http://validator.w3.org/)
-- [Preview your website](http://www.responsinator.com/) on multiple mobile devices at once
-- [SEO checklist](http://webdesign.tutsplus.com/ar.cles/a-web-designers-seo-checklist-includingportable-formats–webdesign-10740)
-- [Google analytics](http://www.google.com/analytics/)
-
-### KEEPING UP WITH THE WEB INDUSTRY
-- [Treehouse show](http://teamtreehouse.com/library/the-treehouse-show), weekly video about new things in webdesign and development
-- [Sidebar](http://sidebar.io/): the 5 best design links, every day
-- [Codrops](http://tympanus.net/codrops/), webdesign blog with lots of freebies
-- [Webdesignerdepot](http://www.webdesignerdepot.com/), webdesign blog
-- [Smashing magazine](http://www.smashingmagazine.com/), webdesign blog
-- [1st webdesigner](http://www.1stwebdesigner.com/), webdesign blog
-- [Hey designer](http://heydesigner.com/), curated list of webdesign articles:
-- [Sitepoint](http://www.sitepoint.com/), learn HTML, CSS and more
-
-## Good to Read
-- [Bill Gates-1986](https://programmersatwork.wordpress.com/bill-gates-1986/)
