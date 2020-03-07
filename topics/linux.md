@@ -1,169 +1,234 @@
 # Linux - Basic Comamands
 
-Print Working Directory
+- [Print working directory](#print-working-directory)
+- [List files and folders](#list-files-and-folders)
+- [Make directory](#make-directory)
+- [Change directory](#change-directory)
+- [Create a file](#create-a-file)
+- [Show the content of a file](#show-the-content-of-a-file)
+- [Rename or move file](#rename-or-move-file)
+- [Copy file to a different file](#copy-file-to-a-different-file)
+- [Move and copy to other location](#move-and-copy-to-other-location)
+- [Delete or remove a file](#delete-or-remove-a-file)
+- [Show files or folders location](#show-files-or-folders-location)
+- [Show the lists of commands you enter](#show-the-lists-of-commands-you-enter)
+- [Run as root user](#run-as-root-user)
+- [Get build info](#get-build-info)
+- [Get kernel version](#get-kernel-version)
+- [Get architecture](#get-architecture)
+- [See what Linux version](#see-what-linux-version)
+- [Show network information](#show-network-information)
+- [Show wireless network information](#show-wireless-network-information)
+- [Ping another machine](#ping-another-machine)
+- [Get build (Summary of the system)](#get-build-summary-of-the-system)
+- [Show hard drives](#show-hard-drives)
+- [Show the processes like task manager](#show-the-processes-like-task-manager)
+- [Show available and unavailable disk space](#show-available-and-unavailable-disk-space)
+- [Show the devices like USB hubs](#show-the-devices-like-usb-hubs)
+- [Show the PCI stuff](#show-the-pci-stuff)
+- [Install packages](#install-packages)
+- [Remove packages](#remove-packages)
+- [Check if there is available updates for packages on the system](#check-if-there-is-available-updates-for-packages-on-the-system)
+- [To shutdown the system](#to-shutdown-the-system)
+- [Force uninstall a package](#force-uninstall-a-package)
+
+
+## Print working directory
 
 ```sh
-$ pwd
+pwd
 ```
 
-List files and folders
+## List files and folders
 
 ```sh
-$ ls
-$ ls -a # show hidden and system files
-$ ls -l # show extra information
+ls
+ls -a # show hidden and system files
+ls -l # show extra information
 ```
 
-Make Directory
+## Make directory
 
 ```sh
-$ mkdir <folderName>
+mkdir <folderName>
 ```
 
-Change Directory
+## Change directory
 
 ```sh
-$ cd <folderName>
-$ cd .. # to go back 1 level
-$ cd / # root directory
-$ cd # go to home directory
-$ cd ~ # go to home directory
+cd <folderName>
+cd .. # to go back 1 level
+cd / # root directory
+cd # go to home directory
+cd ~ # go to home directory
 ```
 
-Create a file
+## Create a file
 
 ```sh
-$ touch <fileName>
+touch <fileName>
 ```
 
-Show the content of a file
+## Show the content of a file
 
 ```sh
-$ cat <fileName>
-$ less <fileName> # Show the content of a big file with page down
+cat <fileName>
+less <fileName> # Show the content of a big file with page down
 ```
 
-Rename or move file
+## Rename or move file
 
 ```sh
-$ mv <fileName> <newFileName>
+mv <fileName> <newFileName>
 ```
 
-Copy file to a different file
+## Copy file to a different file
 
 ```sh
-$ copy <fileName> <fileNameCopy>
+copy <fileName> <fileNameCopy>
 ```
 
-Move and copy to other location
+## Move and copy to other location
 
 ```sh
-$ cp <fileName> <locationPath/fileName>
+cp <fileName> <locationPath/fileName>
 ```
 
-Delete or remove a file
+## Delete or remove a file
 
 ```sh
-$ rm <fileName> # Remove a file
-$ rmdir <folderName> # Remove a folder
-$ rm -r <folderName> # Remove a folder that is not empty
+rm <fileName> # Remove a file
+rmdir <folderName> # Remove a folder
+rm -r <folderName> # Remove a folder that is not empty
 ```
 
-Show files or folders location
+## Show files or folders location
 
 ```sh
 $ which <fileName> # or <folderName>
 ```
 
-Show the lists of commands you enter
+## Show the lists of commands you enter
 
 ```sh
-$ history
+history
 ```
 
-Run as root user
+## Run as root user
 
 ```sh
-$ sudo <commands>
+sudo <commands>
 ```
 
-Show network information
+## Get build info
 
 ```sh
-$ ifconfig
+uname -a
+# Linux DESKTOP-KCGTGRV 4.4.0-43-Microsoft #1-Microsoft Wed Dec 31 14:42:53 PST 2014 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-Show wireless network information
+## Get kernel version
 
 ```sh
-$ iwconfig
+uname -r
 ```
 
-Ping another machine
+## Get architecture
 
 ```sh
-$ ping google.com
+dpkg --print-architecture
+# amd64
 ```
 
-Get build (Summary of the system)
+## See what Linux version
 
 ```sh
-$ uname -a
+cat /etc/issue
+# Debian GNU/Linux 9 \n \l
 ```
 
-Show hard drives
+## Show network information
 
 ```sh
-$ blkid
+ifconfig
 ```
 
-Show the processes like task manager
+## Show wireless network information
 
 ```sh
-$ top
+iwconfig
 ```
 
-Show available and unavailable disk space
+## Ping another machine
 
 ```sh
-$ df
+ping google.com
 ```
 
-Show the devices like USB hubs
+## Get build (Summary of the system)
 
 ```sh
-$ lsusb
+uname -a
 ```
 
-Show the PCI stuff
+## Show hard drives
 
 ```sh
-$ lspci
+blkid
 ```
 
-Install packages
+## Show the processes like task manager
 
 ```sh
-$ sudo apt-get install <packageName>
+top
 ```
 
-Remove packages
+## Show available and unavailable disk space
 
 ```sh
-$ sudo apt-get remove <packageName>
+df
 ```
 
-Check if there is available updates for packages on the system
+## Show the devices like USB hubs
 
 ```sh
-$ sudo apt-get update
+lsusb
 ```
 
-To shutdown the system
+## Show the PCI stuff
 
 ```sh
-$ sudo shutdown -h
-$ sudo shutdown -h 10 # with 10mins time
-$ sudo shutdown -h now # Shutdown right away
-$ sudo shutdown -r # Restart
+lspci
 ```
+
+## Install packages
+
+```sh
+sudo apt-get install <packageName>
+```
+
+## Remove packages
+
+```sh
+sudo apt-get remove <packageName>
+```
+
+## Check if there is available updates for packages on the system
+
+```sh
+sudo apt-get update
+```
+
+## To shutdown the system
+
+```sh
+sudo shutdown -h
+sudo shutdown -h 10 # with 10mins time
+sudo shutdown -h now # Shutdown right away
+sudo shutdown -r # Restart
+```
+
+## Force uninstall a package
+
+Nuclear option:
+https://askubuntu.com/questions/525088/how-to-delete-broken-packages-in-ubuntu
