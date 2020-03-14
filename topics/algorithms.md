@@ -18,6 +18,8 @@ To make solving problems easier, it can be helpful to break them down into many 
 - [Slice and Splice](#slice-and-splice)
 - [Falsy Bouncer](#falsy-bouncer)
 - [Where do I Belong](#where-do-i-belong)
+- [Mutations](#mutations)
+- [Chunky Monkey](#chunky-monkey)
 
 
 ## Convert Celsius to Fahrenheit
@@ -656,11 +658,86 @@ For example, `getIndexToIns([1,2,3,4], 1.5)` should return `1` because it is gre
 Likewise, `getIndexToIns([20,3,5], 19)` should return `2` because once the array has been sorted it will look like `[3,5,20]` and `19` is less than `20` (index 2) and greater than `5` (index 1).
 
 
-### Solution 1:
+### Solution 1: Using `for` loop and `sort()` method
 
 ```js
 function getIndexToIns(arr, num) {
-  return num;
+  // Step 1: Sort the array from lowest to higher, from left to right
+  arr.sort((a, b) => a - b);
+
+  // Step 2: Use loop to compare each item in the array
+  for (let i = 0; i < arr.length; i++) {
+    // Step 3: If item is greater than the current number, return the index
+    if (arr[i] >= num) return i;
+  }
+  // Step 4: Return the array length
+  return arr.length;
+}
+```
+
+### Solution 2: Using `while` loop and `sort()` method
+
+```js
+function getIndexToIns(arr, num) {
+  // Step 1: Sort the array from lowest to higher, from left to right
+  arr.sort((a, b) => a - b);
+
+  // Step 2: Use loop to iterate throught array and check if num is bigger
+  let i = 0;
+  while (num > arr[i]) {
+    // Step 3: Increment the i
+    i++;
+  }
+  // Step 4: Return the last element
+  return i;
+}
+```
+
+### Solution 3: Using `for` loop with count
+
+```js
+function getIndexToIns(arr, num) {
+  // Step 1: Create a count
+  let count = 0;
+
+  // Step 2: Use loop to compare each item in the array
+  for (let i = 0; i < arr.length; i++) {
+    // Step 3: If item is greater than the current number, increment the count
+    if (num > arr[i]) count++;
+  }
+  // Step 4: Return the count (numbers of arrays smaller than num)
+  return count;
+}
+```
+
+### Solution 4: Using `push()`, `sort()`, and `indexOf()` methods
+
+```js
+function getIndexToIns(arr, num) {
+  // Step 1: Push the num to the array which adds it to the end of the array
+  arr.push(num);
+  // Step 2: Sort the numbers in ascending order
+  arr.sort((a, b) => a - b);
+  // Step 3: Return the index of num in the array
+  return arr.indexOf(num);
+
+  // return arr.concat(num).sort((a, b) => a - b).indexOf(num);
+}
+```
+
+### Solution 5: Using `concat()`, `sort()`, and `indexOf()` methods
+
+```js
+function getIndexToIns(arr, num) {
+  return (
+    arr
+      // Step 1: Merge arr and num
+      .concat(num)
+      // Step 2: Sort the numbers in ascending order
+      .sort((a, b) => a - b)
+      // Step 3: Return the postion or index of num in the array
+      .indexOf(num)
+  );
 }
 ```
 
@@ -668,4 +745,114 @@ function getIndexToIns(arr, num) {
 
 ```js
 getIndexToIns([40, 60], 50); // 1
+```
+
+
+## Mutations
+
+Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+
+For example, `["hello", "Hello"]`, should return true because all of the letters in the second string are present in the first, ignoring case.
+
+The arguments `["hello", "hey"]` should return false because the string "hello" does not contain a "y".
+
+Lastly, `["Alien", "line"]`, should return true because all of the letters in "line" are present in "Alien".
+
+### Solution 1: Using `indexOf()` method
+
+```js
+// Procedural
+function mutation(arr) {
+  // Step 1: Convert the strings into lowercase
+  const word1 = arr[0].toLowerCase();
+  const word2 = arr[1].toLowerCase();
+
+  // Step 2: Loop through chars and if any of them is not found, return false, otherwise false 
+  for (let i = 0; i < word2.length; i++) {
+    if (word1.indexOf(word2[i]) < 0) return false;
+  }
+  return true;
+}
+```
+
+### Solution 2: Using `split()`, `every()`, and `indexOf()` methods
+
+```js
+// Declarative
+function mutation(arr) {
+  return (
+    // Step 1: Grab the second string and make it lowercase and turn it into an array using split
+    arr[1]
+      .toLowerCase()
+      .split('')
+      // Step 2: Use every method to check each letter and compare using indexOf
+      // Step 3: If current char is not found it will return -1, compare it -1 so it will return false
+      .every(letter => arr[0].toLowerCase().indexOf(letter) !== -1)
+  );
+}
+```
+
+**Test**:
+
+```js
+mutation(["hello", "hey"]); // false
+```
+
+
+## Chunky Monkey
+
+### Solution 1: Using `while` loop, `push()` and `splice()` methods
+
+```js
+function chunkArrayInGroups(arr, size) {
+  // Step 1: Create a new empty array
+  const newArr = [];
+
+  // Step 2: Use while until the array is greater than 0, here we can remove the (arr.length > 0)
+  while (arr.length) {
+    // Step 3: Each iteration it deletes size number of elements from the front of arr and push them as an arr at the end of newArr
+    newArr.push(arr.splice(0, size));
+  }
+  // Step 4: Return the value of newArr
+  return newArr;
+}
+```
+
+### Solution 2: Using `for` loop, `push()` and `slice()` methods
+
+```js
+function chunkArrayInGroups(arr, size) {
+  // Step 1: Create a new empty array
+  const newArr = [];
+
+  // Step 2: Use loop, increments each time by size and stops when reach length of arr
+  for (let i = 0; i < arr.length; i += size) {
+    // Step 3: Create each chunk using slice and push this value to newArr
+    newArr.push(arr.slice(i, i + size));
+  }
+  // Step 4: Return the value of newArr 
+  return newArr;
+}
+```
+
+### Solution 3: Using `while` loop, `push()` and `slice()` methods
+
+```js
+function chunkArrayInGroups(arr, size) {
+  // Step 1: Create a new empty array and variable i set to 0 for the while loop
+  const newArr = [];
+  let i = 0;
+
+  // Step 2: Use loop to until i greater than the length
+  while (i < arr.length) {
+    // Step 3: Push the sliced items to the newArr then add the size on i (i += size)
+    newArr.push(arr.slice(i, (i += size)));
+  }
+  // Step 4: Return the value of newArr
+  return newArr;
+}
+```
+
+```js
+chunkArrayInGroups(['a', 'b', 'c', 'd'], 2); // [['a', 'b'], ['c', 'd']]
 ```
