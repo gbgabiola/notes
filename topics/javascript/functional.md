@@ -1,4 +1,4 @@
-# [Functional Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming)
+# [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/)
 
 **Functional programming** is an approach to software development based around the evaluation of functions. Like mathematics, functions in programming map input to output to produce a result. You can combine basic functions in many ways to build more and more complex programs.
 
@@ -9,7 +9,6 @@ Functional programming follows a few core principles:
 - Functions have minimal side effects in the program
 
 The functional programming software development approach breaks a program into small, testable parts. This section covers basic functional programming principles in JavaScript.
-
 
 - [Learn About Functional Programming](#learn-about-functional-programming)
 - [Understand Functional Programming Terminology](#understand-functional-programming-terminology)
@@ -343,3 +342,7 @@ function impartial(x, y, z) {
 var partialFn = impartial.bind(this, 1, 2);
 partialFn(10); // Returns 13
 ```
+
+---
+
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)

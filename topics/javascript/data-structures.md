@@ -1,4 +1,4 @@
-# Data Structure
+# [Basic Data Structure](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/)
 
 Data can be stored and accessed in many different ways, both in JavaScript and other languages. This section will teach you how to manipulate arrays, as well as access and copy the information within them. It will also teach you how to manipulate and access the data within JavaScript objects, using both dot and bracket notation. When you're done with this section, you should understand the basic properties and differences between arrays and objects, as well as how to choose which to use for a given purpose.
 
@@ -402,3 +402,7 @@ In this statement, we defined a variable `user`, and as you can see, this variab
 ## Generate an Array of All Object Keys with `Object.keys()`
 
 We can also generate an array which contains all the keys stored in an object using the `Object.keys()` method and passing in an object as the argument. This will return an array with strings representing each property in the object. Again, there will be no specific order to the entries in the array.
+
+---
+
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)

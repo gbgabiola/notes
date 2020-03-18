@@ -1,4 +1,4 @@
-# Objet Oriented Programming in JavaScript
+# [Objet Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/)
 
 At its core, software development solves a problem or achieves a result with computation. The software development process first defines a problem, then presents a solution. Object oriented programming is one of several major approaches to the software development process.
 
@@ -790,3 +790,7 @@ The advantage of the `module` pattern is that all of the motion behaviors can be
 motionModule.glideMixin(duck);
 duck.glide();
 ```
+
+---
+
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)

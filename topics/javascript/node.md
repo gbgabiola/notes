@@ -1,4 +1,4 @@
-# Node <!-- omit in toc -->
+# Node
 
 - [Install and Update NVM](#install-and-update-nvm)
 - [Verify nvm has been installed](#verify-nvm-has-been-installed)
@@ -9,11 +9,13 @@
 - [Properly upgrade node using nvm](#properly-upgrade-node-using-nvm)
 - [NPM list of globally installed packages](#npm-list-of-globally-installed-packages)
 
+
 ## Install and Update NVM
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
+
 
 ## Verify nvm has been installed
 
@@ -32,6 +34,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
+
 ## Install nodejs
 
 To download and install the latest release of node
@@ -44,6 +47,7 @@ To install a specific version of node:
 nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
 ```
 
+
 ## List available node.js versions
 
 ```sh
@@ -55,12 +59,14 @@ stable -> 12.7 (-> v12.7.0) (default)
 iojs -> N/A (default)
 ```
 
+
 ## Show current node js version in use
 
 ```sh
 nvm current
 v10.16.3
 ```
+
 
 ## Set default version
 

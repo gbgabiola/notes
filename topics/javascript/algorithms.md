@@ -1,4 +1,4 @@
-# Algorithm
+# [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
 
 A computer algorithm is a sequence of steps that is followed to achieve a particular outcome. To write an algorithm, you must first understand a problem, and then solve it with coding.
 
@@ -856,3 +856,7 @@ function chunkArrayInGroups(arr, size) {
 ```js
 chunkArrayInGroups(['a', 'b', 'c', 'd'], 2); // [['a', 'b'], ['c', 'd']]
 ```
+
+---
+
+Credits to [freeCodeCamp](https://www.freecodecamp.org/)
