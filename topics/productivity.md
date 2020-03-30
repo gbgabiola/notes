@@ -1,6 +1,8 @@
 # Productivity
 
 - [9 Keys to Amplify Productivity & Get Ahead While Working At Home](#9-keys-to-amplify-productivity--get-ahead-while-working-at-home)
+- [7 things that will help you cope when working from home](#7-things-that-will-help-you-cope-when-working-from-home)
+- [A Routine to Help You When You Work From Home](#a-routine-to-help-you-when-you-work-from-home)
 
 
 ## 9 Keys to Amplify Productivity & Get Ahead While Working At Home
@@ -130,3 +132,27 @@ It can come from any direction
 - Coworker
 - Children
 - Self distraction
+
+
+## [7 things that will help you cope when working from home](https://businesstech.co.za/news/business/384439/7-things-that-will-help-you-cope-when-working-from-home/)
+
+1. Operate in a business-like manner. Set aside a separate, dedicated workspace, free from distractions, and customise it with the equipment and connectivity you need to be productive;
+2. Limit and manage disruptions and interruptions. Set down clear boundaries for family and friends and establish a routine;
+3. Keep to your daily routine. Get ready for work as you would on a normal day (don't work in your pajamas!) and don't be too comfortable and laid back – this will negatively impact your motivation and productivity. Make a to-do list at the beginning of the day, prioritise the tasks you need to accomplish, and plan your time accordingly;
+4. Stay "in the loop". When working from home, it is very easy to miss out on the casual exchange of "passage information" and to feel isolated. Keep up the corridor chat and tea-break conversations with colleagues in a virtual way – by phone, online chat or social media – and make the effort for daily check-ins with teams and co-workers using online work platforms or just a WhatsApp group. Technology makes it possible to stay connected as though we were sitting in our office, rather than at home;
+5. Stay professional and be connected. Use video-conferencing (set reminders to "show up" on time and remember to mute yourself when not talking), and make sure to be reachable and responsive during working hours;
+6. Maintain your physical and emotional health. Very diligent workers are at risk for burnout as the boundaries between work and home blur, and employees may also feel the need to "prove" that they are being trustworthy and productive. Set boundaries for when your workday starts and ends;
+7. Eat healthily, exercise regularly, keep to your sleeping routine, limit non-work-related screen time and connect with your family and friends, even if via phone, online chat or social media.
+
+
+## A Routine to Help You When You Work From Home
+
+- Set Working Hours and Wake Up on Time
+- Shower and Dress Up
+- Eat your meals
+- Create and Designate Your Own Workspace
+- Use A Planner and Check Your To-Do List
+- Stretch or do some exercise
+- Have Breaks and Leave The House
+- Do a hobby
+- Socialize (Don't Exclude Yourself From the Real World)
