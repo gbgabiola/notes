@@ -1,20 +1,18 @@
-# Web Design Cheetsheet and Guides
+# Web and Creative Design Guides
+
+- [Web Design Cheatsheet](#web-design-cheatsheet)
+- [15 banner ad design tips to get more clicks](#15-banner-ad-design-tips-to-get-more-clicks)
+- [Designing the perfect web banner ad: 50 examples to help you get it right](#designing-the-perfect-web-banner-ad-50-examples-to-help-you-get-it-right)
+
+
+## Web Design Cheatsheet
 
 The **Designer** creates the look and feel. The **Developer** builds it.
 
 **User Interface** is the presentation of a product, designing how it looks and feels. **User Experience** is the overall experience the user has with a product.
 
-- [Beatiful Typography](#beatiful-typography)
-- [Using Colors Like A Pro](#using-colors-like-a-pro)
-- [Working With Images](#working-with-images)
-- [Working With Icons](#working-with-icons)
-- [Spacing And Layout](#spacing-and-layout)
-- [Getting Inspired: The Secret Ingredient For Stunning Web Design](#getting-inspired-the-secret-ingredient-for-stunning-web-design)
-- [8 Super Effective Ways To Improve Your Website's Conversion](#8-super-effective-ways-to-improve-your-websites-conversion)
-- [Creating Effective Websites](#creating-effective-websites)
 
-
-## Beatiful Typography
+### Beautiful Typography
 
 Typography is the art and technique of arranging type to make written language readable and beautiful.
 
@@ -31,7 +29,7 @@ Typography is the art and technique of arranging type to make written language r
 7. Use only one font if possible
 
 
-## Using Colors Like A Pro
+### Using Colors Like A Pro
 
 1. Use only one base color
 2. Use a tool if you want to use more colors
@@ -39,7 +37,7 @@ Typography is the art and technique of arranging type to make written language r
 4. Never use black in your design
 5. Choose colors wisely
 
-### The Meaning Of Colors In Web Design
+#### The Meaning Of Colors In Web Design
 
 Picking a color for a website means more then picking your favorite color and turning it into a design. It means picking the right color in order to get the desired response from your audience. Color really makes a difference. This happens because there are psychological effects behind each color.
 
@@ -53,7 +51,7 @@ Picking a color for a website means more then picking your favorite color and tu
 - **Brown** is the color of relaxation and confidence. Brown means earthiness, nature, durability, comfort, and reliability.
 
 
-## Working With Images
+### Working With Images
 
 1. Put text directly on the image
 2. Overlay the image
@@ -61,7 +59,7 @@ Picking a color for a website means more then picking your favorite color and tu
 4. Blur the image
 5. The floor fade
 
-### Use CSS To Work With Images
+#### Use CSS To Work With Images
 
 To achieve the text-on-image effects, you can use CSS for your websites. Here is example CSS code for some of the effects. Please change it according to your needs.
 
@@ -96,7 +94,7 @@ Example: http://jsfiddle.net/qg83m36p/
 Example: http://jsfiddle.net/gRzPF/409/
 
 
-## Working With Icons
+### Working With Icons
 
 1. Use Icons to List Features/Steps
 2. Use Icons for Actions and Links
@@ -106,7 +104,7 @@ Example: http://jsfiddle.net/gRzPF/409/
 6. Use Icon Fonts Whenever Possible
 
 
-## Spacing And Layout
+### Spacing And Layout
 
 1. Put whitespace between your elements
 2. Put whitespace between your groups of elements
@@ -116,7 +114,7 @@ Example: http://jsfiddle.net/gRzPF/409/
 6. Use whitespace to build that flow
 
 
-## Getting Inspired: The Secret Ingredient For Stunning Web Design
+### Getting Inspired: The Secret Ingredient For Stunning Web Design
 
 Use other websites as inspiration to see what others leading designers are **doing right**.
 
@@ -127,7 +125,7 @@ Use other websites as inspiration to see what others leading designers are **doi
 - How were they builtin HTML and CSS? (Chrome devTools)
 
 
-## 8 Super Effective Ways To Improve Your Website's Conversion
+### 8 Super Effective Ways To Improve Your Website's Conversion
 
 1. Build trust with your future customer (giving a free ebook)
 2. Repeat your primary action (button for signup)
@@ -139,7 +137,7 @@ Use other websites as inspiration to see what others leading designers are **doi
 8. Use scarcity (Only 1 left in stock)
 
 
-## Creating Effective Websites
+### Creating Effective Websites
 
 - Keep it simple
 - Purpose
@@ -150,3 +148,76 @@ Use other websites as inspiration to see what others leading designers are **doi
 - Navigation
 - Call-to-actions
 - Videos
+
+
+## [15 banner ad design tips to get more clicks](https://99designs.com/blog/tips/14-design-tips-for-more-clickable-banner-ads/)
+
+1. Use the most effective, standard banner sizes
+2. Place your banner ads correctly
+3. Maintain hierarchy
+4. Keep it simple
+5. Use buttons appropriately
+6. Have a clearly defined frame
+7. Make your text instantly readable
+8. Use animation
+9. Complement, but stand out
+10. Be consistent with your brand
+11. Instill a sense of urgency
+12. Use imagery well (and only when you need it)
+13. Choose appropriate colors
+14. Keep your file sizes small
+15. Use the correct file formats
+
+
+## [Designing the perfect web banner ad: 50 examples to help you get it right](https://www.canva.com/learn/banner-ads/)
+
+1. Use Stylistic Typography and Image Pairings
+2. Create Hierarchy
+3. Use Relevant Icons
+4. Add in Unexpected Elements
+5. Incorporate Illustrations
+6. Adjust Your Layout
+7. Use Bright Colors
+8. Keep It Simple
+9. Stay Current
+10. Use Texture
+11. Appeal to Your Niche
+12. Show, Don’t tell
+13. Have a Clear Focal Point
+14. Make a Reference Using Imagery
+15. Let Your Product Shine
+16. Create Angles
+17. Use Overlays
+18. Set the Scene
+19. Be Creative With Your Type
+20. Use a Stylized Illustration
+21. Use Multiple Elements
+22. Make a Pop Culture Reference
+23. Keep It Loose
+24. Create a Relationship
+25. Create Contrast
+26. Create Symmetry
+27. Make a Reference to Your Target Market’s Lifestyle
+28. Use Motion
+29. Be Sharp and Edgy
+30. Create Depth
+31. Use a Unique Typeface
+32. Use a Variety of Beautiful Typography
+33. Use Simple Graphics
+34. Create Depth with Textural Dimension
+35. Use Accents of Color
+36. Don’t Just Try to Make a Sale
+37. Use Bold, Analogous Colors
+38. Use a Simple Drawing
+39. Create Movement
+40. Utilize Animation
+41. Create Geometric Texture
+42. Break Up the Space with an Interesting Shape
+43. Utilize Shadows
+44. Create a Pattern with Repeating Elements
+45. Use Monochromatic Blocks of Color to Break Up Photos
+46. Use Linear Accents
+47. Tell a Story
+48. Have a Sense of Humor
+49. Use a Simple Font Pairing
+50. Accentuate with Simple Shapes
