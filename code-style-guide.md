@@ -1,5 +1,9 @@
 # Code Style Guide
 
+- [HTML Guide](#html-guide)
+- [CSS Guide](#css-guide)
+
+
 ## HTML Guide
 
 ### Syntax
@@ -36,7 +40,7 @@ HTML attributes should come in this particular order for easier reading of code.
 - `data-*`
 - `src`, `for`, `type`, `href`, `value`
 - `title`, `alt`
-- `role`, `aria`-*
+- `role`, `aria-*`
 
 Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.
 
@@ -68,165 +72,165 @@ Classes make for great reusable components, so they come first. Ids are more spe
 - Lowercase all hex values, e.g., `#fff`. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.
 - Use shorthand hex values where available, e.g., `#fff` instead of `#ffffff`.
 - Quote attribute values in selectors, e.g., `input[type="text"]`. [They’re only optional in some cases](http://mathiasbynens.be/notes/unquoted-attribute-values#css), and it’s a good practice for consistency.
-- Avoid specifying units for zero values, e.g., `margin: 0`; instead of `margin: 0px;`.
+- Avoid specifying units for zero values, e.g., `margin: 0;` instead of `margin: 0px;`.
 
 ### Declaration Order
 
 Related property declarations should be grouped together following the order:
 
 1. Positioning
-     - position
-     - top
-     - right
-     - bottom
-     - left
-     - z-index
+   - position
+   - top
+   - right
+   - bottom
+   - left
+   - z-index
 
 2. Box model
-     - display
-     - float
-     - width
-     - height
-     - max-width
-     - max-height
-     - min-width
-     - min-height
-     - padding
-     - padding-top
-     - padding-right
-     - padding-bottom
-     - padding-left
-     - margin
-     - margin-top
-     - margin-right
-     - margin-bottom
-     - margin-left
-     - margin-collapse
-     - margin-top-collapse
-     - margin-right-collapse
-     - margin-bottom-collapse
-     - margin-left-collapse
-     - overflow
-     - overflow-x
-     - overflow-y
-     - clip
-     - clear
+   - display
+   - float
+   - width
+   - height
+   - max-width
+   - max-height
+   - min-width
+   - min-height
+   - padding
+   - padding-top
+   - padding-right
+   - padding-bottom
+   - padding-left
+   - margin
+   - margin-top
+   - margin-right
+   - margin-bottom
+   - margin-left
+   - margin-collapse
+   - margin-top-collapse
+   - margin-right-collapse
+   - margin-bottom-collapse
+   - margin-left-collapse
+   - overflow
+   - overflow-x
+   - overflow-y
+   - clip
+   - clear
 
 3. Typographic
-     - font
-     - font-family
-     - font-size
-     - font-smoothing
-     - osx-font-smoothing
-     - font-style
-     - font-weight
-     - hyphens
-     - src
-     - line-height
-     - letter-spacing
-     - word-spacing
-     - color
-     - text-align
-     - text-decoration
-     - text-indent
-     - text-overflow
-     - text-rendering
-     - text-size-adjust
-     - text-shadow
-     - text-transform
-     - word-break
-     - word-wrap
-     - white-space
-     - vertical-align
-     - list-style
-     - list-style-type
-     - list-style-position
-     - list-style-image
-     - pointer-events
-     - cursor
+   - font
+   - font-family
+   - font-size
+   - font-smoothing
+   - osx-font-smoothing
+   - font-style
+   - font-weight
+   - hyphens
+   - src
+   - line-height
+   - letter-spacing
+   - word-spacing
+   - color
+   - text-align
+   - text-decoration
+   - text-indent
+   - text-overflow
+   - text-rendering
+   - text-size-adjust
+   - text-shadow
+   - text-transform
+   - word-break
+   - word-wrap
+   - white-space
+   - vertical-align
+   - list-style
+   - list-style-type
+   - list-style-position
+   - list-style-image
+   - pointer-events
+   - cursor
   
 4. Visual
-     - background
-     - background-attachment
-     - background-color
-     - background-image
-     - background-position
-     - background-repeat
-     - background-size
-     - border
-     - border-collapse
-     - border-top
-     - border-right
-     - border-bottom
-     - border-left
-     - border-color
-     - border-image
-     - border-top-color
-     - border-right-color
-     - border-bottom-color
-     - border-left-color
-     - border-spacing
-     - border-style
-     - border-top-style
-     - border-right-style
-     - border-bottom-style
-     - border-left-style
-     - border-width
-     - border-top-width
-     - border-right-width
-     - border-bottom-width
-     - border-left-width
-     - border-radius
-     - border-top-right-radius
-     - border-bottom-right-radius
-     - border-bottom-left-radius
-     - border-top-left-radius
-     - border-radius-topright
-     - border-radius-bottomright
-     - border-radius-bottomleft
-     - border-radius-topleft
-     - content
-     - quotes
-     - outline
-     - outline-offset
-     - opacity
-     - filter
-     - visibility
-     - size
-     - zoom
-     - transform
-     - box-align
-     - box-flex
-     - box-orient
-     - box-pack
-     - box-shadow
-     - box-sizing
-     - table-layout
-     - animation
-     - animation-delay
-     - animation-duration
-     - animation-iteration-count
-     - animation-name
-     - animation-play-state
-     - animation-timing-function
-     - animation-fill-mode
-     - transition
-     - transition-delay
-     - transition-duration
-     - transition-property
-     - transition-timing-function
-     - background-clip
-     - backface-visibility
-     - resize
-     - appearance
-     - user-select
-     - interpolation-mode
-     - direction
-     - marks
-     - page
-     - set-link-source
-     - unicode-bidi
-     - speak
+   - background
+   - background-attachment
+   - background-color
+   - background-image
+   - background-position
+   - background-repeat
+   - background-size
+   - border
+   - border-collapse
+   - border-top
+   - border-right
+   - border-bottom
+   - border-left
+   - border-color
+   - border-image
+   - border-top-color
+   - border-right-color
+   - border-bottom-color
+   - border-left-color
+   - border-spacing
+   - border-style
+   - border-top-style
+   - border-right-style
+   - border-bottom-style
+   - border-left-style
+   - border-width
+   - border-top-width
+   - border-right-width
+   - border-bottom-width
+   - border-left-width
+   - border-radius
+   - border-top-right-radius
+   - border-bottom-right-radius
+   - border-bottom-left-radius
+   - border-top-left-radius
+   - border-radius-topright
+   - border-radius-bottomright
+   - border-radius-bottomleft
+   - border-radius-topleft
+   - content
+   - quotes
+   - outline
+   - outline-offset
+   - opacity
+   - filter
+   - visibility
+   - size
+   - zoom
+   - transform
+   - box-align
+   - box-flex
+   - box-orient
+   - box-pack
+   - box-shadow
+   - box-sizing
+   - table-layout
+   - animation
+   - animation-delay
+   - animation-duration
+   - animation-iteration-count
+   - animation-name
+   - animation-play-state
+   - animation-timing-function
+   - animation-fill-mode
+   - transition
+   - transition-delay
+   - transition-duration
+   - transition-property
+   - transition-timing-function
+   - background-clip
+   - backface-visibility
+   - resize
+   - appearance
+   - user-select
+   - interpolation-mode
+   - direction
+   - marks
+   - page
+   - set-link-source
+   - unicode-bidi
+   - speak
 
 Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.
 
@@ -403,8 +407,10 @@ Consider documenting and applying these preferences to your project's .editorcon
 
 ### CSS3 Transforms
 
-CSS3 transforms allow you to translate, rotate, scale, and skew elements.  
-A transformation is an effect that lets an element change shape, size, and position.  
+CSS3 transforms allow you to translate, rotate, scale, and skew elements.
+
+A transformation is an effect that lets an element change shape, size, and position.
+
 CSS3 supports 2D and 3D transformations. Let's take a look at the rotate transformation:
 
 ```css
