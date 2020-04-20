@@ -103,6 +103,41 @@
 
 ---
 
+
+## Install MongoDB in WSL
+
+### Install MongoDB Community Edition
+
+You can follow the installation documentation from the [mongodb official website](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and select the distro of your choice.
+
+1. Copy and paste this into your terminal `wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -` and operation should respond with an OK. This will import the public key used by the package management system
+2. Next, copy and paste this `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list` to create a list file for MongoDB.
+3. Reload local package database by typing `sudo apt-get update`.
+4. Finally, type `sudo apt-get install -y mongodb-org` to install the latest stable version of the MongoDB packages.
+
+### Add the data directory to store databases
+
+1. Make sure you are on the root of the WSL, type `pwd` it should output `/home/<user>/`. If not, type `cd ~`. 
+2. Create a `data`, by typing `mkdir data`.
+3. Type `echo "mongod --dbpath=data --nojournal" > mongod` to store the command to mongod.
+4. Lastly, type `chmod a+x mongod` to change the permission
+
+### Run mongod server and mongo shell
+
+1. Type `./mongod` to start mongod server.
+2. You can now open a new terminal and type `mongo` to launch mongo shell.
+3. Go the [Getting Stated Manual of MongoDB](https://docs.mongodb.com/manual/tutorial/getting-started) to try various examples for querying in the MongoDB shell.
+4. To exit the shell, press `ctrl + c`. You should get a neat message, then you'll be returned to your command line!
+
+**Resources**:
+
+- [Install MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+- [How to install MongoDB 3.6 on Windows 10 Subsystem for Linux](http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/)
+- [Install MongoDB with WSL for Windows Guide by @michaeltreat](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/MongoDB.md)
+
+
+## Install WSL
+
 - type `Windows features` in windows
 - ‘Turn Windows features on or off’
 - put a check next to ‘Windows Subsystem for Linux
@@ -133,7 +168,9 @@
 - install and configure `eslint` and `.editorConfig` will help with the formatting and style of your code.
 - create a file .editorConfig
 
-```editorConfig
+editorConfig
+
+```
 root = true
 [*]
 charset = utf-8
@@ -586,47 +623,6 @@ sudo apt install yarn
 ```
 
 
-### [How to install MongoDB 3.6 on Windows 10 Subsystem for Linux](http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/)
-
-[MongoDB doc](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
-
-1. Import the public key used by the package management system.
-
-```sh
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-```
-
-or 
-
-```sh
-curl -sL "https://www.mongodb.org/static/pgp/server-4.0.asc" | sudo apt-key add
-```
-
-2. Create a list file for MongoDB.
-
-```sh
-echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
-```
-
-3. Reload local package database.
-
-```sh
-sudo apt-get update
-```
-
-4. Install the MongoDB packages.
-
-```sh
-sudo apt-get install -y mongodb-org
-```
-
-```sh
-rm -rf mongod
-mkdir data
-echo "mongod --dbpath=data --nojournal" > mongod # Create data folder to store databases
-chmod a+x mongod # Change the permission
-```
-
 Dubugging:
 - [Ubuntu 18.04 gpg dirmngr IPC connect call failed](https://github.com/Microsoft/WSL/issues/3286)
 
@@ -641,6 +637,97 @@ gpg: keyserver receive failed: No dirmngr
 
 # converted to:
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9DA31620334BD75D9DCB49F368818C72E52529D4" | sudo apt-key add
+```
+
+To see fonts glyphs and Unicodes https://bluejamesbond.github.io/CharacterMap/
+
+
+Prettier — Code formatter
+Ruby
+DotENV
+Jest
+Auto Close Tag
+Import Cost
+ESLint. (Optional: run npm install -g eslint )
+
+
+Install PostgreSQL
+sudo apt install postgresql libpq-dev
+psql --version
+
+
+## Yarn Installation:
+
+```sh
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt-get update && sudo apt-get install --no-install-recommends yarn
+
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```
+
+
+## Rails Setup:
+
+```sh
+#### If you want to use SQLite (not recommended)
+rails new myapp
+
+#### If you want to use MySQL
+rails new myapp -d mysql
+
+#### If you want to use Postgres
+# Note that this will expect a postgres user with the same username
+# as your app, you may need to edit config/database.yml to match the
+# user you created earlier
+rails new myapp -d postgresql
+
+# Move into the application directory
+cd myapp
+
+# If you setup MySQL or Postgres with a username/password, modify the
+# config/database.yml file to contain the username/password that you specified
+
+
+
+# Create the database
+rake db:create
+
+rails server
+```
+
+Troubleshooting:
+
+- [rvm installation not working](https://stackoverflow.com/questions/9336596/rvm-installation-not-working-rvm-is-not-a-function)
+
+```sh
+# You need to run the following
+$ source ~/.rvm/scripts/rvm
+
+# then run this
+$ type rvm | head -n 1
+
+# and if you get
+
+rvm is a function
+
+# to see dependency requirements for your operating system
+$ user$ rvm requirements
+
+# put this code into you ~/.bashrc or ~/.zshrc file and you will not need to write this code again.
+```
+
+To permanently resolve this:
+
+```sh
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# From: ~/.bash_profile file
+# To: ~/.bashrc file
+
+# Reason this works is that .bashrc is executed each time you enter terminal, and .bash_profile each time you login. That is why solution /bin/bash --login works, but you have to do that each time you enter terminal. This way you are set until your next format, and you will forget all this by then :)
 ```
 
 ---
