@@ -162,3 +162,23 @@ const multiplyBy2 = num => num * 2;
 ## Handling Events
 
 ## Recommended Courses To Learn JavaScript
+
+---
+
+**Components** are the building blocks of any React app and a typical React app will have many of these.
+
+**Component** is a JavaScript class or function that optionally accepts inputs i.e. properties(props) and returns a React element that describes how a section of the UI (User Interface) should appear.
+
+A **component** in React is just a function that returns some JSX.
+
+**State** is basically an object that represents a part of an app that can change, which the UI _reacts_ to. State can be anything; objects, booleans, arrays, strings or integers
+
+The **useState** object gives us a variable with the **current value**, and a function that **lets us change that value**. When we call **useState** we can define an **initial** value.
+
+Whenever the components state changes, React will re-render the component with the new state.
+
+state belongs to the individual component, each component that renders is a copy, and has its own state/data.
+
+Think of **Props** as data that gets passed to a component, which the component can then use
+
+Mental Note: "Context is primarily used when some data needs to be accessible by many components at different nesting levels." - React Docs.
