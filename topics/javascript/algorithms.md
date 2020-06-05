@@ -45,24 +45,37 @@ convertToF(30); // 86
 
 You may need to turn the string into an array before you can reverse it and result must be a string.
 
+
+### Reverse a String with Built-In Methods
+
 ```js
-function reverseString(str) {
+// split str each char and will turn it into array, reverse it, then join the array back together by each char
+const reverseString = str => str.split('').reverse().join('');
+```
+
+### Reverse a String with a Decrementing Loop
+
+```js
+const reverseString = str => {
   // Create a an empty str to hold reversed str
   let newStr = '';
   // Start at the last char of the str, each iteration newStr gets concatenated with itself and current char
   for (let i = str.length - 1; i >= 0; i--) newStr += str[i];
-  return newStr; // Return final reversed str
-
-  // or
-  // split str each char and will turn it into array, reverse it, then join the array of char which joined back together by each char
-  return str.split('').reverse().join('');
+  return newStr;
 }
+```
+
+### Reverse a String with Recursion
+
+```js
+const reverseString = str =>
+  str === '' ? '' : reverseString(str.substr(1)) + str.charAt(0);
 ```
 
 **Test**:
 
 ```js
-reverseString('hello');
+reverseString('hello'); // olleh
 ```
 
 
