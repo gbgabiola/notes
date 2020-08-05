@@ -8,6 +8,7 @@
 
 ### Articles
 
+- [5 Important Learning Strategies for Programmers](https://medium.com/better-programming/5-important-learning-strategies-for-programmers-cdffa94a448d)
 - [5 things you can do to keep learning when things turn unexpectedly difficult](https://zellwk.com/blog/learning)
 - [5 top tips for speedy learning](https://www.creativebloq.com/advice/5-top-tips-for-speedy-learning)
 - [Learn well not fast](https://zellwk.com/blog/learn-fast/)
@@ -24,6 +25,9 @@
 - [How to learn on your own](https://metacademy.org/roadmaps/rgrosse/learn_on_your_own)
 - [How To Acquire Knowledge](https://medium.com/@emilwallner/how-to-acquire-knowledge-6b00bcdb6179/)
 - [Don’t listen to those productivity gurus: why waking up at 6am won't make you successful](https://medium.com/swlh/dont-listen-to-those-productivity-gurus-why-waking-up-at-6am-won-t-make-you-successful-b3c77921d9fd)
+- [My One Tip to Be Effective at Learning a New Programming Language](https://medium.com/better-programming/my-one-tip-to-be-effective-at-learning-a-new-programming-language-45789bacf730)
+- [Paths to Becoming a Software Engineer](https://medium.com/better-programming/the-different-paths-to-becoming-a-software-engineer-b602cae48ece)
+- [Tips to Improve Your Programming Skills to Become a Better Programmer](https://medium.com/better-programming/tips-to-improve-programming-skills-to-become-a-better-programmer-c4b66d9bc6dd)
 - [Why you learn when you teach](https://zellwk.com/blog/why-you-learn-when-you-teach/)
 
 ### Resources

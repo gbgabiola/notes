@@ -828,10 +828,16 @@ Some amazing designers on Dribble:
 - [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
 - [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 - [Building a Strong Portfolio As a Developer](https://www.codingdojo.com/blog/building-developer-portfolio)
+- [Khoa Thien Le](https://www.khoa165.com/)
+- [Kelly Vaughn](https://kellyvaughn.co/)
+- [KVLLY SHOP](https://kvlly.com/)
+- [Devon Stank](https://www.devonstank.com/) with resume, blog and shop
 - http://www.pascalvangemert.nl/
 - http://seanhalpin.io/
 - https://ritwickdey.github.io
+- [Phoebe](https://phoebevoongfadel.com/)
 - https://iamdesmondjr.com
+- [Erwin Agpasa - Software Developer](https://erwinagpasa.com/) built with wordpress
 - [Resume](https://veerasundar.com/resume/)
 - [Resume](https://www.tiffanyrwhite.com/resume/)
 - https://ryanfitzgerald.ca/
@@ -840,6 +846,7 @@ Some amazing designers on Dribble:
 - https://merakireal.github.io/
 - http://findmatthew.com/
 - https://juliette.sh/
+- [Rafaela Lucas](https://www.rafaelalucas.com/)
 - [Rafael Caferati](https://caferati.me/)
 - https://prayash.io/
 - http://jtom.me/
@@ -960,6 +967,7 @@ Some amazing designers on Dribble:
 - [Vojtech Ruzicka's Programming Blog](vojtechruzicka.com)
 - [prayash thapa](https://prayash.io/blog/)
 - [TUTORIALS FOR CODERS](https://flaviocopes.com/)
+- [Victoria Drake](https://victoria.dev/blog/)
 - https://www.florin-pop.com/blog
 - https://tsaprailis.com/
 - https://nickymeuleman.netlify.com/

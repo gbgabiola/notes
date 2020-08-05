@@ -100,41 +100,10 @@
 - [Personal dotfiles for mac and wsl](https://github.com/ridhwaans/dotfiles)
 - [dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows](https://github.com/voku/dotfiles)
 - [Settings for my development environments](https://github.com/joelnet/development-environment)
+- [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [Zell Liew Dotfiles](https://github.com/zellwk/dotfiles)
 
 ---
-
-
-## Install MongoDB in WSL
-
-### Install MongoDB Community Edition
-
-You can follow the installation documentation from the [mongodb official website](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and select the distro of your choice.
-
-1. Copy and paste this into your terminal `wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -` and operation should respond with an OK. This will import the public key used by the package management system
-2. Next, copy and paste this `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list` to create a list file for MongoDB.
-3. Reload local package database by typing `sudo apt-get update`.
-4. Finally, type `sudo apt-get install -y mongodb-org` to install the latest stable version of the MongoDB packages.
-
-### Add the data directory to store databases
-
-1. Make sure you are on the root of the WSL, type `pwd` it should output `/home/<user>/`. If not, type `cd ~`. 
-2. Create a `data`, by typing `mkdir data`.
-3. Type `echo "mongod --dbpath=data --nojournal" > mongod` to store the command to mongod.
-4. Lastly, type `chmod a+x mongod` to change the permission
-
-### Run mongod server and mongo shell
-
-1. Type `./mongod` to start mongod server.
-2. You can now open a new terminal and type `mongo` to launch mongo shell.
-3. Go the [Getting Stated Manual of MongoDB](https://docs.mongodb.com/manual/tutorial/getting-started) to try various examples for querying in the MongoDB shell.
-4. To exit the shell, press `ctrl + c`. You should get a neat message, then you'll be returned to your command line!
-
-**Resources**:
-
-- [Install MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
-- [How to install MongoDB 3.6 on Windows 10 Subsystem for Linux](http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/)
-- [Install MongoDB with WSL for Windows Guide by @michaeltreat](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/MongoDB.md)
-
 
 ## Install WSL
 
@@ -238,10 +207,7 @@ module.exports = {
 - `git commit -m "initial commit"`
 - create a file `.gitignore`
 
-
-# Compiled source #
-
-```
+```sh
 ###################
 *.com
 *.class
@@ -297,7 +263,7 @@ node_modules/
 
 - create a file `.nvmrc`
 
-```
+```sh
 9.11.1
 ```
 
@@ -347,30 +313,8 @@ Then try running `npm start`
 - configure webpack
 
 
+### VSCode Plugins/Extensions
 
-
-
-
-
----
-
-
-
-
-
----
-
-
-## **MERN stack** (MongoDB, Express, React, Node.js)
-MongoDB and Nodejs
-
-## Browser:
-- firefox/Chrome
-
-## Text Editor or IDE:
-- VSCode, Atom, SublimeText
-
-## VSCode Plugins/Extensions:
 - Angular v6 Snippets
 - Angular 6 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
 - Bracket Pair Colorizer
@@ -389,7 +333,6 @@ these are what u need for MERN dev
 - TODO Highlights
 - TODO Parser
 - VS live share
-
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
@@ -405,16 +348,12 @@ these are what u need for MERN dev
 - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 - [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
-
-
 npm global package:
 
 ```sh
 npm i -g nodemon
 npm i -g @angular/cli
 ```
-
-https://www.npmjs.com/package/@angular/cli
 
 
 ### git bash for VSCode terminal
@@ -427,12 +366,51 @@ https://www.npmjs.com/package/@angular/cli
 then you dont need to switch from one to another during your dev. process
 
 
----
+## Install MongoDB in WSL
 
-## [Docker Node](https://medium.com/@guillaumejacquart/node-js-docker-workflow-12febcc0eed8)
+### Install MongoDB Community Edition
+
+You can follow the installation documentation from the [mongodb official website](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and select the distro of your choice.
+
+1. Copy and paste this into your terminal `wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -` and operation should respond with an OK. This will import the public key used by the package management system
+2. Next, copy and paste this `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list` to create a list file for MongoDB.
+3. Reload local package database by typing `sudo apt-get update`.
+4. Finally, type `sudo apt-get install -y mongodb-org` to install the latest stable version of the MongoDB packages.
+
+### Add the data directory to store databases
+
+1. Make sure you are on the root of the WSL, type `pwd` it should output `/home/<user>/`. If not, type `cd ~`. 
+2. Create a `data`, by typing `mkdir data`.
+3. Type `echo "mongod --dbpath=data --nojournal" > mongod` to store the command to mongod.
+4. Lastly, type `chmod a+x mongod` to change the permission
+
+### Run mongod server and mongo shell
+
+1. Type `./mongod` to start mongod server.
+2. You can now open a new terminal and type `mongo` to launch mongo shell.
+3. Go the [Getting Stated Manual of MongoDB](https://docs.mongodb.com/manual/tutorial/getting-started) to try various examples for querying in the MongoDB shell.
+4. To exit the shell, press `ctrl + c`. You should get a neat message, then you'll be returned to your command line!
 
 
----
+```sh
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+
+# Getting these errors
+Executing: /tmp/apt-key-gpghome.FMOcC95S7T/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+gpg: connecting dirmngr at '/tmp/apt-key-gpghome.FMOcC95S7T/S.dirmngr' failed: IPC connect call failed
+gpg: keyserver receive failed: No dirmngr
+
+# converted to:
+curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9DA31620334BD75D9DCB49F368818C72E52529D4" | sudo apt-key add
+```
+
+**Resources**:
+
+- [Install MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+- [How to install MongoDB 3.6 on Windows 10 Subsystem for Linux](http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/)
+- [Install MongoDB with WSL for Windows Guide by @michaeltreat](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/MongoDB.md)
+- [Ubuntu 18.04 gpg dirmngr IPC connect call failed](https://github.com/Microsoft/WSL/issues/3286)
+
 
 ## [How to Install Python 3.6.1 in Ubuntu 16.04 LTS](http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/)
 
@@ -440,7 +418,7 @@ This quick tutorial is going to show you how to install the latest Python 3.6.1 
 
 Ubuntu 16.04 comes with both Python 2.7 and Python 3.5 by default. You can install Python 3.6 along with them via a [third-party PPA](https://launchpad.net/~jonathonf/+archive/ubuntu/python-3.6) by doing following steps:
 
-1. Open terminal via Ctrl+Alt+T or searching for “Terminal” from app launcher. When it opens, run command to add the PPA:
+1. Open terminal via Ctrl+Alt+T or searching for "Terminal" from app launcher. When it opens, run command to add the PPA:
 
 ```sh
 sudo add-apt-repository ppa:jonathonf/python-3.6
@@ -561,6 +539,247 @@ if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(whence -w __init_nvm)" = function ]; the
 fi
 ```
 
+## Install Ruby on Rails with rbenv
+
+### Step 1: Install rbenv and Dependencies
+
+```sh
+$ sudo apt update
+
+# install the dependencies required for ruby
+$ sudo apt install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+
+# Clone the rbenv repo into the directory ~/.rbenv
+$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+# Add ~/.rbenv/bin to $PATH to use the rbenv command line utility
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc # or ~/.zshrc
+
+# Add this script so that rbenv loads automatically
+$ echo 'eval "$(rbenv init -)"' >> ~/.bashrc # or ~/.zshrc
+
+# Next, apply the changes you made by:
+$ source ~/.bashrc # or ~/.zshrc
+
+# Verify if set up is succesful by using type command an rbenv:
+$ type rbenv
+
+# Install ruby-build plugin to simplify the installation process for new versions of ruby
+
+$ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
+### Step 2: Installing Ruby with ruby-build
+
+```sh
+# List all the available versions of Ruby:
+$ rbenv install -l
+
+# Install Ruby 2.5.1 (specific version):
+$ rbenv install 2.5.1
+
+Set it as default version of Ruby
+$ rbenv global 2.5.1
+
+# Verify that Ruby was properly installed
+$ ruby -v
+```
+
+### Step 3: Working with Gems
+
+Gems are the way Ruby libraries are distributed. You use the `gem` command to manage these gems. We’ll use this command to install Rails.
+
+When you install a gem, the installation process generates local documentation. This can add a significant amount of time to each gem’s installation process, so turn off local documentation generation by creating a file called `~/.gemrc` which contains a configuration setting to turn off this feature:
+
+```sh
+$ echo "gem: --no-document" > ~/.gemrc
+
+# Install bundler to manage gem dependencies for projects
+$ gem install bundler
+```
+
+
+You can use the `gem env` command (the subcommand `env` is short for `environment`) to learn more about the environment and configuration of gems. You can see where gems are being installed by using the `home` argument, like this:
+
+```sh
+$ gem env home
+
+# Output:
+/home/sammy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0
+```
+
+### Step 4: Installing Rails
+
+To install Rails, use the `gem install` command along with the `-v` flag to specify the version. For this tutorial, we will use version `5.2.0`:
+
+```sh
+$ gem install rails -v 5.2.0
+```
+
+The `gem` command installs the gem you specify, as well as every dependency. Rails is a complex web development framework and has many dependencies, so the process will take some time to complete. Eventually you’ll see a message stating that Rails is installed, along with its dependencies:
+
+```sh
+Output
+...
+Successfully installed rails-5.2.0
+38 gems installed
+```
+
+**Note**:
+
+If you would like to install a different version of Rails, you can list the valid versions of Rails by doing a search, which will output a long list of possible versions. We can then install a specific version, such as `4.2.7`:
+
+```sh
+$ gem search '^rails$' --all
+$ gem install rails -v 4.2.7
+```
+
+If you would like to install the latest version of Rails, run the command without a version specified:
+
+```sh
+$ gem install rails
+```
+
+rbenv works by creating a directory of **shims**, which point to the files used by the Ruby version that’s currently enabled. Through the `rehash` sub-command, rbenv maintains shims in that directory to match every Ruby command across every installed version of Ruby on your server. Whenever you install a new version of Ruby or a gem that provides commands, like Rails does, you should run:
+
+```sh
+$ rbenv rehash
+```
+
+Verify that Rails has been installed properly by printing its version, with this command:
+
+```sh
+$ rails -v
+```
+
+If it installed properly, you will see the version of Rails that was installed:
+
+```sh
+Output
+Rails 5.2.0
+```
+
+At this point, you can begin testing your Ruby on Rails installation and start to develop web applications. Let’s look at keeping rbenv up to date.
+
+### Step 5: Updating rbenv
+
+Since you installed rbenv manually using Git, you can upgrade your installation to the most recent version at any time by using the `git pull` command in the `~/.rbenv` directory:
+
+```sh
+$ cd ~/.rbenv
+$ git pull
+```
+
+### Step 6: Uninstalling Ruby versions
+
+As you download additional versions of Ruby, you may accumulate more versions than you would like in your `~/.rbenv/versions` directory. Use the `ruby-build` plugin's `uninstall` subcommand to remove these previous versions.
+
+```sh
+rbenv uninstall 2.1.3
+```
+
+### Step 7: Uninstalling rbenv
+
+Open your `~/.bashrc` or `~/.zshrc` file in your editor, then find and remove the following two lines from the file:
+
+```sh
+...
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+# Save the file and exit the editor
+# Remove rbenv and all installed Ruby versions
+rm -rf `rbenv root`
+
+# Log out and back in to apply the changes to your shell
+```
+
+**Resources**:
+
+- [How To Install Ruby on Rails with rbenv on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04)
+
+
+## Install PostgreSQL
+
+```sh
+$ sudo apt-get update
+
+# Install PostgreSQL and its development libraries
+$ sudo apt-get install postgresql postgresql-contrib libpq-dev
+
+# Check version
+psql --version
+```
+
+### Create Database User
+
+Create a PostgreSQL superuser user, change the `pguser`
+
+```sh
+$ sudo -u postgres createuser -s pguser
+```
+
+If you want to set a password for the database user, enter the PostgreSQL console with this command:
+
+```sh
+$ sudo -u postgres psql
+```
+
+The PostgreSQL console is indicated by the postgres=# prompt. At the PostgreSQL prompt, enter this command to set the password for the database user that you created:
+
+```sh
+postgres=# \password pguser
+```
+
+Enter your desired password at the prompt, and confirm it.
+
+Now you may exit the PostgreSQL console by entering this command:
+
+```sh
+postgres=# \q
+```
+
+**Resources**:
+
+- [How To Use PostgreSQL with Your Ruby on Rails Application on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-14-04)
+
+
+## Install MySQL
+
+```sh
+$ sudo apt-get update
+
+# Install MySQL and its development libraries
+$ sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+```
+
+When the installation is complete, we need to run some additional commands to get our MySQL environment set up securely. First, we need to tell MySQL to create its database directory structure where it will store its information. You can do this by typing:
+
+```sh
+$ sudo mysql_install_db
+
+# Run a security script to remove some dangerous defaults and lock down access to our database system
+$ sudo mysql_secure_installation
+```
+
+You will be asked to enter the password you set for the MySQL root account. Next, it will ask you if you want to change that password. If you are happy with your current password, type `n` at the prompt.
+
+For the rest of the questions, you should simply hit the "ENTER" key through each prompt to accept the default values. This will remove some sample users and databases, disable remote root logins, and load these new rules so that MySQL immediately respects the changes we have made.
+
+MySQL is now installed, but we still need to install the MySQL gem.
+
+### Install MySQL Gem
+
+`mysql2` gem provides provides a functionality to connect your Rails application to a MySQL server.
+
+```sh
+$ gem install mysql2
+```
+
+**Resources**:
+
+- [How To Use MySQL with Your Ruby on Rails Application on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-use-mysql-with-your-ruby-on-rails-application-on-ubuntu-14-04)
+
 
 ## How to Uninstall (or Reinstall) Windows 10’s Ubuntu Bash Shell
 ### How to Uninstall the Ubuntu Environment and Keep Your Home Folder
@@ -593,51 +812,32 @@ You can also run the following command yourself. This is the same command that b
 
 Whether you run `bash` or `lxrun /install`, the command will ask you to confirm your choice and enter a username and password for the user account in the Bash environment.
 
-To skip this process, you can run the following command instead. This command will automatically agree to the prompts, setting the “root” account as the default user account without a password. This is helpful if you want to automate the process of installing Bash in a script.
+To skip this process, you can run the following command instead. This command will automatically agree to the prompts, setting the "root" account as the default user account without a password. This is helpful if you want to automate the process of installing Bash in a script.
 
 `lxrun /install /y`
 
 ![install](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775b6a54bc16.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.O7ApTrPisX.png)
 
 ### How to Remove Windows 10’s Bash Tools Completely
-If you’d like to remove the bash.exe tool and the Windows Subsystem for Linux from your computer completely, you’ll need to revisit the “Turn Windows Features On or Off” dialog in the Control Panel.
+If you’d like to remove the bash.exe tool and the Windows Subsystem for Linux from your computer completely, you’ll need to revisit the "Turn Windows Features On or Off" dialog in the Control Panel.
 
 To find it, open the Control Panel and head to Programs > Turn Windows Features On or Off.
 
-Uncheck the “Windows Subsystem for Linux” option here and click OK. Windows will uninstall the Windows Subsystem for Linux, bash.exe, and lxrun.exe commands. You can always revisit the Windows Features dialog to reinstall them in the future.
+Uncheck the "Windows Subsystem for Linux" option here and click OK. Windows will uninstall the Windows Subsystem for Linux, bash.exe, and lxrun.exe commands. You can always revisit the Windows Features dialog to reinstall them in the future.
 
 ![remove completely](https://www.howtogeek.com/wp-content/uploads/2016/06/ximg_5775d5a6d9307.png.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic._PkHXdKHls.png)
 
 
-
-
----
-
-### Yarn Installation
+## Yarn Installation
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt install yarn
+sudo apt update && sudo apt install yarn
+# If using nvm you can avoid the node installation by doing:
+sudo apt update && sudo apt install --no-install-recommends yarn
 ```
 
-
-Dubugging:
-- [Ubuntu 18.04 gpg dirmngr IPC connect call failed](https://github.com/Microsoft/WSL/issues/3286)
-
-```sh
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-
-# Getting these errors
-Executing: /tmp/apt-key-gpghome.FMOcC95S7T/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
-gpg: connecting dirmngr at '/tmp/apt-key-gpghome.FMOcC95S7T/S.dirmngr' failed: IPC connect call failed
-gpg: keyserver receive failed: No dirmngr
-
-
-# converted to:
-curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9DA31620334BD75D9DCB49F368818C72E52529D4" | sudo apt-key add
-```
 
 To see fonts glyphs and Unicodes https://bluejamesbond.github.io/CharacterMap/
 
@@ -649,24 +849,6 @@ Jest
 Auto Close Tag
 Import Cost
 ESLint. (Optional: run npm install -g eslint )
-
-
-Install PostgreSQL
-sudo apt install postgresql libpq-dev
-psql --version
-
-
-## Yarn Installation:
-
-```sh
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-
-sudo apt-get update && sudo apt-get install --no-install-recommends yarn
-
-curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
-```
 
 
 ## Rails Setup:
@@ -729,6 +911,9 @@ To permanently resolve this:
 
 # Reason this works is that .bashrc is executed each time you enter terminal, and .bash_profile each time you login. That is why solution /bin/bash --login works, but you have to do that each time you enter terminal. This way you are set until your next format, and you will forget all this by then :)
 ```
+
+
+## [Node.js Docker workflow](https://medium.com/@guillaumejacquart/node-js-docker-workflow-12febcc0eed8)
 
 ---
 

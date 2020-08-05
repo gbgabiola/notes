@@ -135,6 +135,10 @@
 
 > "Good ideas are always crazy until they're not." - Larry Page
 
+> "Good performance is about the capacity to focus and concentrate." - Betty Buckley
+
+> "Balance is not something you find, it's something you create." - Jana Kingsford
+
 
 ## Inspiration
 
@@ -223,6 +227,22 @@
 > "We awaken in others the same attitude of mind we hold toward them." - Elbert Hubbard
 
 > "Nothing can dim the light which shines from within." - Maya Angelou
+
+> "It's not what happens to you, but how you react to it that matters." - Epictetus
+
+> "To escape criticism: do nothing, say nothing, be nothing." - Elbert Hubbard
+
+> "Much of the best work of the world has been done against seeming impossibilities." - Dale Carnegie
+
+> "Bravery is the solution to regret." - Robin Sharma
+
+> "So many of our dreams at first seem impossible. Then they seem improbable. And then, when we summon the will, they soon become inevitable." - Christopher Reeve
+
+> "Attitude is a choice. Think positive thoughts daily. Believe in yourself." - Pat Summitt
+
+> "I can accept failure, everyone fails at something. But I can't accept not trying." - Michael Jordan
+
+> "Hardships often prepare ordinary people for an extraordinary destiny." - C. S. Lewis
 
 
 ## Success
@@ -381,6 +401,14 @@
 
 > "We grow fearless when we do the things we fear." - Robin Sharma
 
+> "Always make a total effort, even when the odds are against you." - Arnold Palmer
+
+> "First say to yourself what you would be; and then do what you have to do." - Epictetus
+
+> "Keep your goals away from the trolls." - Unknown
+
+> "Nobody ever got ready by waiting. You only get ready by starting." - John C. Maxwell
+
 
 ## Intelligence
 
@@ -449,6 +477,10 @@
 > "Mystery creates wonder and wonder is the basis of our desire to understand." - Neil Armstrong
 
 > "Ask how something can be done rather than say it can't be done." - Bo Bennett
+
+> "There is virtue in work and there is virtue in rest. Use both and overlook neither." - Alan Cohen
+
+> "Know your body, know your mind, know your substance, know your source." - Erowid
 
 
 ## Life
@@ -563,6 +595,16 @@
 
 > "The fear of death follows from the fear of life. One who lives life fully is prepared to die at any time." - Mark Twain
 
+> "Our path through life can take strange turns" - Escher
+
+> "Life is a journey, not a destination." - Ralph Waldo Emerson, Philosopher
+
+> "What would life be if we had no courage to attempt anything?" - Vincent van Gogh
+
+> "The longer we dwell on our misfortunes, the greater is their power to harm us." - Voltaire
+
+> "You are a human with one life and it is up to you to make it the best life you can." - Dan Howell
+
 
 ## Happiness
 
@@ -589,6 +631,8 @@
 > "Laughter is the shortest distance between two people." - Victor Borge
 
 > "The happiness of this life depends less on what befalls you than the way in which you take it." - Elbert Hubbard
+
+> "Be a magnet for joy, love and abundance." - Unknown
 
 
 ## Minimalism
@@ -661,6 +705,8 @@
 > "Throughout the history of the human race, few things have been more profitable than selling both the poison and the cure."
 
 > "History will be kind to me for I intend to write it." - Winston S. Churchill
+
+> "Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric." - Bertrand Russell
 
 
 ## War
@@ -768,71 +814,23 @@ And then reason up from there." - Elon Musk
 
 > "May your choices reflect your hopes, not your fears." - Nelson Mandela
 
-
-
-
-
-
-
-
-
 > "Never dull your shine for somebody else." - Tyra Banks
-
 
 > "A little nonsense now and then is relished by the wisest people." - Roald Dahl
 
-
-> "It's not what happens to you, but how you react to it that matters." - Epictetus
-
-> "Always make a total effort, even when the odds are against you." - Arnold Palmer
-
-> "To escape criticism: do nothing, say nothing, be nothing." - Elbert Hubbard
-
-> "Much of the best work of the world has been done against seeming impossibilities." - Dale Carnegie
-
-> "Our path through life can take strange turns" - Escher
-
-> "Bravery is the solution to regret." - Robin Sharma
-
-> "So many of our dreams at first seem impossible. Then they seem improbable. And then, when we summon the will, they soon become inevitable." - Christopher Reeve
-
-> "First say to yourself what you would be; and then do what you have to do." - Epictetus
-
 > "Tough times never last, but tough people do." - Dr. Robert Schuller
-
-> "Good performance is about the capacity to focus and concentrate." - Betty Buckley
-
-> "Attitude is a choice. Think positive thoughts daily. Believe in yourself." - Pat Summitt
-
-> "Life is a journey, not a destination." - Ralph Waldo Emerson, Philosopher
-
-
-
-> "Be a magnet for joy, love and abundance."
-
-> "Balance is not something you find, it's something you create." - Jana Kingsford
-
-> "I can accept failure, everyone fails at something. But I can't accept not trying." - Michael Jordan
-
-> "Keep your goals away from the trolls." - Unknown
-
-> "What would life be if we had no courage to attempt anything?" - Vincent van Gogh
-
-> "Hardships often prepare ordinary people for an extraordinary destiny." - C. S. Lewis
-
-> "Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric." -Bertrand Russell
-
-> "Nobody ever got ready by waiting. You only get ready by starting." - John C. Maxwell
 
 > "It's not who you think you are that holds you back it's who you think you're not." - Unknown
 
-> "There is virtue in work and there is virtue in rest. Use both and overlook neither." - Alan Cohen
 
-> "The longer we dwell on our misfortunes, the greater is their power to harm us." - Voltaire
 
-> "Know your body, know your mind, know your substance, know your source."
 
-> "You are a human with one life and it is up to you to make it the best life you can." - Dan Howell
+
+
+
+
+
+
 
 > "Absorb what is useful. Discard what is not. Add what is uniquely your own." - Bruce Lee
 
@@ -1213,8 +1211,6 @@ street." - Doug Linder
 
 > "If you have built castles in the air, your work need not be lost; that is where they should be. Now put foundations under them." - Henry David Thoreau
 
-> "First say to yourself what you would be; and then do what you have to do." - Epictetus
-
 > "Any person capable of angering you becomes your master. They can anger you only when you permit yourself to be disturbed by them." - Epictetus
 
 > "The best functions are those with no parameters!" - Uncle Bob (Robert C. Martin)
@@ -1253,4 +1249,36 @@ street." - Doug Linder
 
 > "The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code - not in reams of trivial code that bores the reader to death." - Python creator Guido van Rossum
 
-> 
+> "You are the one that possesses the keys to your being. You carry the passport to your own happiness." - Diane von Furstenberg
+
+> "Programming is the only job I can think of where I get to be both an engineer and an artist. There's an incredible, rigorous, technical element to it, which I like because you have to do very precise thinking. On the other hand, it has a wildly creative side where the boundaries of imagination are the only real limitation." - Andy Hertzfeld
+
+> "An essential part of creativity is not being afraid to fail." - Edwin H. Land
+
+> "There are two great days in a person's life - the day we are born and the day we discover why." - William Barclay
+
+> "Teamwork begins by building trust. And the only way to do that is to overcome our need for invulnerability." - Patrick Lencioni
+
+> "One important key to success is self-confidence. An important key to self-confidence is preparation." - Arthur Ashe
+
+> "Coming together is a beginning. Keeping together is progress. Working together is a success." - Henry Ford
+
+> "Live and work but do not forget to play, to have fun in life and really enjoy it." - Eileen Caddy
+
+> “The mathematician's patterns, like those of the painter's or the poet's, the ideas, like the colours or words, must fit together in a harmonious way. There is no permanent place in this world for ugly mathematics.” - Godfrey Harold Hardy from "A Mathematician's Apology"
+
+> "In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists." - Eric Hoffer
+
+> "Most people get ahead during the time that others waste." - Henry Ford
+
+> "We should not judge people by their peak of excellence, but by the distance, they have travelled from the point where they started." - Henry Ward Beecher
+
+> "To achieve great things, two things are needed: a plan, and not quite enough time." - Leonard Bernstein
+
+> "The moment you become selfish, you do less." - David Almirol Jr.
+
+> "Try the impossible to show that it can be done." - Terry Fox
+
+> "Tension is who you think you should be. Relaxation is who you are." - Unknown
+
+> "The master has failed more times than the beginner has even tried." - Stephen McCranie

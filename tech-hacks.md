@@ -13,7 +13,7 @@
 - [Turn on AutoComplete in Windows Command Prompt](#turn-on-autocomplete-in-windows-command-prompt)
 - [Modify /etc/hosts on Windows](#modify-etchosts-on-windows)
 - [Recover files](#recover-files)
-- [Show "Most Used Apps" Option Grayed Out in Windows 10 Start Settings](#show-%22most-used-apps%22-option-grayed-out-in-windows-10-start-settings)
+- [Show "Most Used Apps" Option Grayed Out in Windows 10 Start Settings](#show-most-used-apps-option-grayed-out-in-windows-10-start-settings)
 - [How to Access the BIOS on a Windows 10 PC](#how-to-access-the-bios-on-a-windows-10-pc)
 - [Tips to improve PC performance in Windows 10](#tips-to-improve-pc-performance-in-windows-10)
 - [How to Bypass Age Restrictions on YouTube Videos](#how-to-bypass-age-restrictions-on-youtube-videos)
@@ -27,7 +27,9 @@
 - [How to make image transparent](#how-to-make-image-transparent)
 - [HOW TO CROP A CIRCLE IN PHOTOSHOP](#how-to-crop-a-circle-in-photoshop)
 - [How to Remove Unwanted Things from Images in Photoshop](#how-to-remove-unwanted-things-from-images-in-photoshop)
-- [How to Fix ERR_CONNECTION_RESET in Google Chrome | The Site Can't Be Reached](#how-to-fix-errconnectionreset-in-google-chrome--the-site-cant-be-reached)
+- [How to Fix ERR_CONNECTION_RESET in Google Chrome | The Site Can't Be Reached](#how-to-fix-err_connection_reset-in-google-chrome--the-site-cant-be-reached)
+- [Improve low resolution images quality in Photoshop](#improve-low-resolution-images-quality-in-photoshop)
+- [Add Users from CMD](#add-users-from-cmd)
 
 
 ## [Remove 3D Objects folder under This PC in Windows 10](http://www.thewindowsclub.com/remove-3d-objects-folder-winows-10)
@@ -484,6 +486,44 @@ Type Preferred DNS Server: `1.1.1.1` and Alternate DNS Server: `1.0.0.1`
 5. Type `exit`, then press Enter Key.
 6 Once you execute all cmds, Restart your PC/Laptop to apply changes.
 
+
+## Improve low resolution images quality in Photoshop
+
+- Image -> image size
+  - reach 3000 at least  with height or width
+  - check resample: Automatic
+- duplicate the layer to keep a reference to campare later
+- Filter -> Camera Raw Filter -> Detail Tab
+  - Sharpening all to 0
+  - Luminance: 65
+  - Luminance Details: 0
+  - Luminance Contrast: 0
+  - Color: 100
+  - Color Detail: 0
+  - Color Smoothness: 100
+  - Sharpening
+  - Amount: 100
+  - Radius: 1.5
+  - Detail: 10
+  - Masking: 0
+- Image -> Ajustments -> Hue/Saturation
+  - Saturation: +6
+  
+
+## [Add Users from CMD](https://www.wikihow.com/Add-Users-from-CMD)
+
+1. **Open Start**. Click the Windows logo in the bottom-left corner of the screen.
+2. **Search for Command Prompt**. Type in `command prompt` to do so.
+3. **Right-click Command Prompt**. It should be at the top of the Start window. Right-clicking it prompts a drop-down menu.
+4. **Click `Run as administrator`**. This is in the drop-down menu.
+5. **Click `Yes` when prompted**. Doing so opens the Command Prompt window.
+6. **Type in the "add user" command**. The "add user" command uses the `net user username password /add` format, where "username" is the name you want to use for the user and "password" is the password you want to assign to the account.
+  - For example, to add a user named "Michael" with the password "hello123", you would enter `net user Michael hello123 /add` here.
+  - If you don't want to use a password for the account, don't type in a password, just enter `net user username /add` instead.
+7. **Press Enter**. Doing so runs the command and begins creating the user account.
+  - Once you see the phrase "The command completed successfully" appear, your user has been added.
+8. **Grant the user administrator permissions**. If you want to turn the user account into an administrator account, type `net localgroup administrators username /add` into Command Prompt, making sure to replace "username" with the name of the account you want to change and press **Enter**.
+  - For example, to make a user account named "Michael" an administrator, you would type in `net localgroup administrators Michael /add` and press **Enter**.
 
 ---
 

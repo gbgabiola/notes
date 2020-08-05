@@ -7,6 +7,7 @@
 
 ## Articles
 
+- [5 JavaScript Tips to Make You a Better Programmer](https://medium.com/better-programming/5-javascript-tips-to-make-you-a-better-coder-f5de38cf782b)
 - [10 minute JavaScript: Library development in ES6 with Babel, Mocha and npm scripts](https://blog.hellojs.org/10-minute-javascript-library-development-in-es6-with-babel-mocha-and-npm-scripts-9f08b22e69c3#.md5zhgdln)
 - [12 Things You Need To Know About ECMAScript 6](https://medium.com/@victorleungtw/12-things-you-need-to-know-about-ecmascript-6-31ae1589e47c)
 - [A Quick, Practical Use Case for ES6 Generators: Building an Infinitely Repeating Array](https://itnext.io/a-quick-practical-use-case-for-es6-generators-building-an-infinitely-repeating-array-49d74f555666)

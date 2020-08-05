@@ -3,6 +3,9 @@
 - [Rubyist Style](#rubyist-style)
 - [Common Enumerables](#common-enumerables)
 - [Symbols](#symbols)
+- [Default Arguments](#default-arguments)
+- [Option Hashes](#option-hashes)
+- [Splat Operator](#splat-operator)
 
 
 ## Rubyist Style
@@ -299,3 +302,189 @@ p person[:pet]   #=> "dog
 ```
 
 This shortcut is only allowed when initializing the symbols in the hash. When getting a value from the hash after initialization, we must always put the colon on the left like normal. `hash[:key]` is the correct syntax. Writing `hash[key:]` is invalid.
+
+
+## Default Arguments
+
+We can assign a default value in the parameter list when writing methods.
+
+```rb
+# Let's make num an optional parameter.
+# By default, num will have the value of 1
+def repeat(message, num=1)
+  message * num
+end
+
+p repeat("hi") # => "hi"
+p repeat("hi", 3) # => "hihihi"
+```
+
+The `repeat` method above has an optional `num` argument. If we call `repeat` without explicitly passing in a value for `num`, `num` will be implicitly passed in with the value 1. This is useful for implementing methods with a default behavior.
+
+We are free to use any default value for an optional argument, so the possibilities are endless. A fairly common design pattern is to set an arg to `nil` by default and have logic based on that scenario:
+
+```rb
+def greet(person_1, person_2=nil)
+  if person_2.nil?
+    p "Hey " + person_1
+  else
+    p "Hey " + person_1 + " and " + person_2
+  end
+end
+
+greet("John") # => "Hey John"
+greet("John", "Arthur") # => "Hey John and Arthur"
+```
+To avoid confusion, it's best practice to have optional parameters listed after the required ones. If we stick to this convention, we can always expect arguments to be taken in the same order we pass them in. So avoid writing code like this:
+
+```rb
+def greet(person_1="default", person_2)
+  p person_1 + " and " + person_2
+end
+
+greet("John") # => "default and John"
+```
+
+The method above is not intuitive because although `"John"` is first argument passed in, `person_2` will be assigned `"John"`. Avoid this by only assigning default values at the end of the parameter list.
+
+
+## Option Hashes
+
+If you have a method that accepts a hash as an argument, you can omit the braces when passing in the hash:
+
+```rb
+def method(hash)
+  p hash  # {"location"=>"SF", "color"=>"red", "size"=>100}
+end
+
+method({ "location" => "SF", "color" => "red", "size" => 100 })
+
+# this also works:
+method("location" => "SF", "color" => "red", "size" => 100)
+```
+
+This can really clean things up when you have other arguments before the hash:
+
+```rb
+def modify_string(str, options)
+  str.upcase! if options["upper"]
+  p str * options["repeats"]
+end
+
+# less readable
+modify_string("bye", {"upper"=>true, "repeats"=>3}) # => "BYEBYEBYE"
+
+# more readable
+modify_string("bye", "upper"=>true, "repeats"=>3)   # => "BYEBYEBYE"
+```
+
+Combining this with the default arguments we covered in the previous section can make our code even more flexible:
+
+```rb
+def modify_string(str, options = { "upper" => false, "repeats" => 1 })
+  str.upcase! if options["upper"]
+  p str * options["repeats"]
+end
+
+modify_string("bye")   # => "bye"
+modify_string("bye", "upper" => true, "repeats" => 3)   # => "BYEBYEBYE"
+```
+
+
+## Splat Operator
+
+There are few different ways to use the splat (`*`) operator in Ruby.
+
+### Using splat to accept additional arguments
+
+Ruby methods are pretty strict in that we must pass in the exact number of arguments that a method expects. If we pass in too many, we will receive an error:
+
+```rb
+def method(arg_1, arg_2)
+  p arg_1
+  p arg_2
+end
+
+method("a", "b", "c", "d", "e") # ArgumentError: wrong number of arguments (given 5, expected 2)
+```
+
+Building upon the code above, if we want our method to have the ability to accept at least two arguments with potentially more, we can add a splat parameter. The additional arguments will be gathered into an array for us to use as we see fit:
+
+```rb
+def method(arg_1, arg_2, *other_args)
+  p arg_1         # "a"
+  p arg_2         # "b"
+  p other_args    # ["c", "d", "e"]
+end
+
+method("a", "b", "c", "d", "e")
+```
+
+If we pass in exactly two arguments, then `other_args` will be an empty array:
+
+```rb
+def method(arg_1, arg_2, *other_args)
+  p arg_1         # "a"
+  p arg_2         # "b"
+  p other_args    # []
+end
+
+method("a", "b")
+```
+
+Notice that in any scenario, the arguments are passed in positionally. This means that in the example above, `arg_1` is assigned "a", `arg_2` is assigned "b", and there is no additional data being passed, so `other_args` is empty.
+
+As a best practice, we should use splat at the end of the parameter list to avoid confusion. So avoid writing code like this:
+
+```rb
+# Avoid doing this, it's confusing:
+def method(*other_args, required_arg)
+  p other_args    # ["a", "b"]
+  p required_arg  # "c"
+end
+
+method("a", "b", "c")
+```
+
+### Using splat to decompose an array
+
+We can also use splat to decompose or unpack elements of an array. Let's say we had an array containing some elements, but we wanted each individual element to become an argument:
+
+```rb
+def greet(first_name, last_name)
+  p "Hey " + first_name + ", your last name is " + last_name
+end
+
+names = ["grace", "hopper"]
+greet(names)    # ArgumentError: wrong number of arguments (given 1, expected 2)
+```
+
+The code above does not work because we are passing in the full array as the `first_name`, making `last_name` a missing argument. Thankfully we can use a splat to unpack this array:
+
+```rb
+def greet(first_name, last_name)
+  p "Hey " + first_name + ", your last name is " + last_name
+end
+
+names = ["Grace", "Hopper"]
+greet(*names)    # => "Hey Grace, your last name is Hopper"
+```
+
+When using splat to unpack an array, you can imagine that the `*` will remove the brackets (`[]`) that enclose the array. This leaves us with a simple comma separated list, perfect for passing in arguments. If you imagine `*` as removing the brackets around an array, we can figure out some other creative ways to use this tool:
+
+```rb
+arr_1 = ["a", "b"]
+arr_2 = ["d", "e"]
+arr_3 = [ *arr_1, "c", *arr_2 ]
+p arr_3 # => ["a", "b", "c", "d", "e"]
+```
+
+### Using splat to decompose a hash
+
+We can use a double splat (`**`) to perform a similar unpacking of a hash's key-value pairs. Double splat will only work with hashes where the keys are symbols:
+
+```rb
+old_hash = { a: 1, b: 2 }
+new_hash = { **old_hash, c: 3 }
+p new_hash # => {:a=>1, :b=>2, :c=>3}
+```

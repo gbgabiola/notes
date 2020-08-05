@@ -7,6 +7,7 @@
 
 ## Articles
 
+- [7 Pieces of Advice to be a Successful Software Engineer](https://medium.com/better-programming/7-pieces-of-advice-to-be-a-successful-software-engineer-ef827af6a462)
 - [12 resolutions for programmers](http://matt.might.net/articles/programmers-resolutions/)
 - [15 Fundamental Laws of Software Development](https://www.exceptionnotfound.net/fundamental-laws-of-software-development/) 
 - [23 guidelines for writing readable code](https://alemil.com/guidelines-for-writing-readable-code)
@@ -68,13 +69,3 @@
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/contents.html)
 - [Personality Patterns of Problematic Projects](https://neilonsoftware.com/books/personality-patterns-of-problematic-projects/)
 - [Programming Principles](http://webpro.github.io/programming-principles/)
-
-
-
-
-
-
-
-
-
-
