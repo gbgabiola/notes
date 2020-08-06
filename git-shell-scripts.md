@@ -506,7 +506,7 @@ $ npm cache clean --force
 
 lets say for example you trying to install webpack
 ```sh
-sudo npm install -g webpack@4.25.1
+$ sudo npm install -g webpack@4.25.1
 ```
 
 and get an error `Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/webpack/node_modules/fsevents/build'`
@@ -514,11 +514,19 @@ and get an error `Error: EACCES: permission denied, mkdir '/usr/local/lib/node_m
 then try again to install it but with this at the end `--unsafe-perm=true --allow-root`
 
 ```sh
-sudo npm install -g webpack@4.25.1 --unsafe-perm=true --allow-root
+$ sudo npm install -g webpack@4.25.1 --unsafe-perm=true --allow-root
 ```
 
 
-###
+### [yarn install: Couldn't find package "package-name" on the "npm" registry](https://github.com/yarnpkg/yarn/issues/6029)
+
+```sh
+$ npm login
+
+# or
+$ yarn --registry https://registry.npmjs.org
+```
+
 
 ---
 
