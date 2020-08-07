@@ -494,6 +494,43 @@ This creates a symlink with the Windows `known_hosts` for better sharing in the 
 
 ## NPM
 
+### [Upgrading npm dependencies](https://www.carlrippon.com/upgrading-npm-dependencies/)
+
+Check the dependencies that are out of date
+
+```sh
+$ npm outdated
+```
+
+All the dependencies can be safely updated to the minor _wanted_ version using:
+
+```sh
+$ npm update
+```
+
+Updating all dependencies with major changes, multiple packages can be listed also:
+
+```sh
+$ npm install <packagename>@latest <packagename>@latest
+```
+
+Update all dependencies, including major version changes using npm-check-updates package:
+
+```sh
+$ npm install -g npm-check-updates # install ncu
+$ ncu # check new dependencies
+$ ncu -u # update package.json
+$ npm install # install new versions
+```
+
+Check and update global packages:
+
+```sh
+$ ncu -g
+$ ncu -g -u # update global packages
+```
+
+
 ### [npm ERR! Unexpected end of JSON input while parsing...](https://github.com/trufflesuite/ganache-cli/issues/505)
 
 ```sh

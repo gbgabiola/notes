@@ -1282,3 +1282,7 @@ street." - Doug Linder
 > "Tension is who you think you should be. Relaxation is who you are." - Unknown
 
 > "The master has failed more times than the beginner has even tried." - Stephen McCranie
+
+> "First, solve the problem. Then, write the code." - John Johnson
+
+> 
