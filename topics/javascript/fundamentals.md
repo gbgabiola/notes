@@ -1,5 +1,7 @@
 # Modern JavaScript Fundamentals
 
+- [What is JavaScript?](#what-is-javascript)
+- [Why Learn JavaScript?](#why-learn-javascript)
 - [Using the Console](#using-the-console)
 - [Variables - var, let, const](#variables---var-let-const)
 - [Data Types in JavaScript](#data-types-in-javascript)
@@ -12,10 +14,29 @@
 - [Dates - Times](#dates---times)
 - [If Statements - Comparison Operators](#if-statements---comparison-operators)
 - [Switches](#switches)
-- [Function Declarations - Expressions](#function-declarations---expressions)
+- [Functions](#functions)
+- [Constructor Functions & Prototypes](#constructor-functions--prototypes)
+- [ES6 Classes](#es6-classes)
 - [General Loops](#general-loops)
-- [WINDOW METHODS / OBJECTS / PROPERTIES](#window-methods--objects--properties)
+- [Window Methods / Objects / Properties](#window-methods--objects--properties)
 - [Block Scope With let const](#block-scope-with-let-const)
+
+
+## What is JavaScript?
+
+- high level, interpreted programming language
+- conforms to the **ECMAScript** specification
+- multi-paradigm
+- runs on the client/browser as well as on the server (Node.js)
+
+
+## Why Learn JavaScript?
+
+- it is the programming language of the browser
+- build very interactive user interfaces with frameworks like React, Vue, and Angular
+- used in building very fast server side and full stack applications
+- used in mobile development (React Native, NativeScript, Ionic)
+- used in desktop application development (Electron JS)
 
 
 ## Using the Console
@@ -130,8 +151,8 @@ const hobbies = ['movies', 'music'];
 
 // Object Literal
 const address = {
-    city: 'London',
-    state: 'England'
+  city: 'London',
+  state: 'England'
 }
 
 // Date
@@ -221,7 +242,7 @@ val = num1 - num2; // 50
 val = num1 / num2; // 2
 val = num1 * num2; // 0
 
-// Math Object
+// Math object
 val = Math.PI; // 3.14159265
 val = Math.E; // 2.71828182
 val = Math.round(2.4); // 2
@@ -257,7 +278,7 @@ val = firstName + lastName; // WilliamJohnson
 // Concatenation
 val = firstName + ' ' + lastName; // William Johnson
 
-//  Append
+// Append
 val = 'Genesis '; // Genesis
 val += 'Gabiola'; // Genesis Gabiola
 
@@ -331,26 +352,24 @@ html = '<ul>' +
        '</ul>';
 
 function hello() {
-    return 'hello';
+  return 'hello';
 }
 // With template strings (es6)
 html = `
-    <ul>
-        <li>Name: ${name}</li>
-        <li>Age: ${age}</li>
-        <li>Job: ${job}</li>
-        <li>City: ${city}</li>
-        <li>${2 + 2}</li>
-        <li>${hello()}</li>
-        <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
-    </ul>
+  <ul>
+    <li>Name: ${name}</li>
+    <li>Age: ${age}</li>
+    <li>Job: ${job}</li>
+    <li>City: ${city}</li>
+    <li>${2 + 2}</li>
+    <li>${hello()}</li>
+    <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
+  </ul>
 `;
 
 document.body.innerHTML = html;
 ```
 
-
-___
 
 ## Arrays - Array Methods
 
@@ -379,7 +398,8 @@ numbers[2] = 100; // [43, 56, 100, 23, 5]
 // Find index of value
 val = numbers.indexOf(36); // 5
 
-// MUTATING ARRAYS
+// Mutating arrays
+
 // Add on to end
 numbers.push(250); // [..., 23, 5, 250]
 // Add on to front
@@ -402,17 +422,17 @@ val = numbers.sort(); // sort the first number
 
 // Use the "compare function"
 val = numbers.sort(function(x, y) {
-    return x - y;
+  return x - y;
 });
 
 // Reverse sort
 val = numbers.sort(function(x, y) {
-    return y - x;
+  return y - x;
 });
 
 // Find
 function under50(num){
-    return num < 50;
+  return num < 50;
 }
 
 val = numbers.find(under50);
@@ -422,24 +442,23 @@ console.log(val);
 ```
 
 
-
 ## Object Literals
 
 ```js
 const person {
-    firstName: 'Steve',
-    lastName: 'Smith',
-    age: 30,
-    email: 'steve@aol.com',
-    hobbies: ['music', 'sports'],
-    address: {
-        city: 'Miami',
-        state: 'FL'
-    }
-    getBirthYear: function(){
-        return 2017 - this.age; // 1987
-        // Use this keyword to access inside the object
-    }
+  firstName: 'Steve',
+  lastName: 'Smith',
+  age: 30,
+  email: 'steve@aol.com',
+  hobbies: ['music', 'sports'],
+  address: {
+    city: 'Miami',
+    state: 'FL'
+  },
+  getBirthYear: function() {
+    return 2017 - this.age; // 1987
+    // Use this keyword to access inside the object
+  }
 }
 let val;
 
@@ -457,13 +476,13 @@ val = person.getBirthYear(); // 1987
 console.log(val);
 
 const people = [
-    {name: 'John', age: 30},
-    {name: 'Mike', age: 23},
-    {name: 'Nancy', age: 40}
+  { name: 'John', age: 30 },
+  { name: 'Mike', age: 23 },
+  { name: 'Nancy', age: 40 }
 ];
 
-for(let i = 0; i < people.length; i++){
-    console.log(people[i].name);
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i].name);
 }
 ```
 
@@ -502,94 +521,94 @@ console.log(birthday);
 ## If Statements - Comparison Operators
 
 ```js
-// If(something){
-//     do something
+// if (something) {
+//   do something
 // } else {
-//     do something else
+//   do something else
 // }
 const id = 100;
 
-// EQUAL TO
-if(id == 101){
-    console.log('CORRECT');
+// Equal to
+if (id == 101) {
+  console.log('CORRECT');
 } else {
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 } // INCORRECT
 
-// NOT EQUAL TO
-if(id != 101){
-    console.log('CORRECT');
+// Not equal to
+if(id != 101) {
+  console.log('CORRECT');
 } else {
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 } // CORRECT
 
-// EQUAL TO VALUE & TYPE
-if(id === 100){
-    console.log('CORRECT');
+// Equal to value & type
+if (id === 100) {
+  console.log('CORRECT');
 } else {
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 } // CORRECT
 
-// NOT EQUAL TO VALUE & TYPE
-if(id !== 100){
-    console.log('CORRECT');
+// Not equal to value & type
+if (id !== 100) {
+  console.log('CORRECT');
 } else {
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 } // INCORRECT
 
 // Test if undefined
-if(typeof id !== 'undefined'){
-    console.log(`The ID is ${id}`);
+if (typeof id !== 'undefined') {
+  console.log(`The ID is ${id}`);
 } else {
-    console.log('NO ID');
+  console.log('NO ID');
 } // NO ID
 
-// Greater OR LESS THAN
-if(id > 200){
-    console.log('CORRECT');
+// Greater or less than
+if (id > 200) {
+  console.log('CORRECT');
 } else {
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 } // INCORRECT
 
-// IF ELSE
+// if else
 const color = 'yellow';
 
-if(color === 'red'){
-    console.log('Color is red');
-} else if(color === 'blue'){
-    console.log('Color is blue');
+if (color === 'red'){
+  console.log('Color is red');
+} else if (color === 'blue') {
+  console.log('Color is blue');
 } else {
-    console.log('Color is not red or blue');
+  console.log('Color is not red or blue');
 }
 
-// LOGICAL OPERATORS
+// Logical Operators
 const name = 'Steve';
 const age = 4;
 
 // AND &&
-if(age > 0 && age < 12){
-    console.log(`${name} is a child`);
-} else if(age >= 13 && age <= 19){
-    console.log(`${name} is a teenager`);
+if (age > 0 && age < 12) {
+  console.log(`${name} is a child`);
+} else if (age >= 13 && age <= 19) {
+  console.log(`${name} is a teenager`);
 } else {
-    console.log(`${name} is an adult`);
+  console.log(`${name} is an adult`);
 } // Steve is a child
 
 // OR ||
-if(age < 16 || age > 65){
-    console.log(`${name} can not run in race`)
+if (age < 16 || age > 65) {
+  console.log(`${name} can not run in race`)
 } else {
-    console.log(`${name} is registered for the race`);
+  console.log(`${name} is registered for the race`);
 } // Steve can not run in race
 
-// TERNARY OPERATOR
+// Ternary Operator
 console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
 
-// WITHOUT BRACES
-if(id === 100)
-    console.log('CORRECT');
+// Without braces
+if (id === 100)
+  console.log('CORRECT');
 else
-    console.log('INCORRECT');
+  console.log('INCORRECT');
 ```
 
 
@@ -598,88 +617,92 @@ else
 ```js
 const color = 'red';
 
-switch(color){
-    case 'red':
-        console.log('Color is red');
-        break;
-    case 'blue':
-        console.log('Color is blue');
-        break;
-    default:
-        console.log('Color is not red or blue');
-        break;
+switch (color) {
+  case 'red':
+    console.log('Color is red');
+    break;
+  case 'blue':
+    console.log('Color is blue');
+    break;
+  default:
+    console.log('Color is not red or blue');
+    break;
 }
 
 let day;
 
-switch(new Date().getDay()){
-    case: 0:
-        day = 'Sunday';
-        break;
-    case: 1:
-        day = 'Monday';
-        break;
-    case: 2:
-        day = 'Tuesday';
-        break;
-    case: 3:
-        day = 'Wednesday';
-        break;
-    case: 4:
-        day = 'Thursday';
-        break;
-    case: 5:
-        day = 'Friday';
-        break;
-    case: 6:
-        day = 'Saturday';
-        break;
+switch (new Date().getDay()) {
+  case: 0:
+    day = 'Sunday';
+    break;
+  case: 1:
+    day = 'Monday';
+    break;
+  case: 2:
+    day = 'Tuesday';
+    break;
+  case: 3:
+    day = 'Wednesday';
+    break;
+  case: 4:
+    day = 'Thursday';
+    break;
+  case: 5:
+    day = 'Friday';
+    break;
+  case: 6:
+    day = 'Saturday';
+    break;
 }
 
 console.log(`Today is ${day}`);
 ```
 
 
-## Function Declarations - Expressions
+## Functions
 
 ```js
-// FUNCTION DECLARATIONS
-function greet(firstName = 'John', lastName = 'Doe'){
-    // ES5
-    // if(typeof firstName === 'undefined'){firstName = 'John'}
-    // if(typeof lastName === 'undefined'){lastName = 'Doe'}
-    // console.log('Hello');
-    return 'Hello ' + firstName + ' ' + lastName;
+// Function Declarations
+function greet(firstName = 'John', lastName = 'Doe') {
+  // ES5
+  // if (typeof firstName === 'undefined') { firstName = 'John'; }
+  // if (typeof lastName === 'undefined') { lastName = 'Doe'; }
+  // console.log('Hello');
+  return 'Hello ' + firstName + ' ' + lastName;
 }
 
 console.log(greet('Steve', 'Smith')); // Hello Steve Smith
 
-// FUNCTION EXPRESSIONS
-const square = function(x){
-    return x * x;
-}; // 64
-console.log(square(8));
+// Function Expressions
+const square = function(num) {
+  return num * num;
+};
+console.log(square(8)); // 64
 
-// IMMIDIATELY INVOKABLE FUNCTION EXPRESSIONS - IIFEs
-function(){
-    console.log('IIFE Ran..');
+// Arrow Function
+const square = (num) => num * num; // 64
+
+// Immediately Invokable Function Expressions - IIFEs
+function() {
+  console.log('IIFE Ran..');
 })();
 
-function(name){
-    console.log('Hello ' + name);
+function(name) {
+  console.log('Hello ' + name);
 })('Genesis'); // Hello Genesis
 
-// PROPERTY METHODS
+// Property Methods
 const todo = {
-    add: function(){
-        console.log('Add todo..');
-    },
-    edit: function(id){
-        console.log(`Edit todo ${id}`);
-    }
-}
-todo.delete = function(){
-    console.log('Delete todo..');
+  add: function() {
+    console.log('Add todo..');
+  },
+  edit: function(id){
+    console.log(`Edit todo ${id}`);
+  }
+};
+
+todo.delete = function() {
+  console.log('Delete todo..');
 }
 
 todo.add();
@@ -688,78 +711,131 @@ todo.delete();
 ```
 
 
+## Constructor Functions & Prototypes
+
+```js
+function Person(firstName, lastName, dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+}
+
+Person.prototype.getBirthYear = function() {
+  return this.dob.getFullYear();
+}
+
+Person.prototype.getFullName = function() {
+  return `${this.firstName} ${this.lastName}`;
+}
+
+// Instantiate object
+const person1 = new Person('John', 'Doe', '4-3-1980');
+console.log(person1.getBirthYear());
+console.log(person1.getFullName());
+```
+
+
+## ES6 Classes
+
+```js
+class Person {
+  constructor(firstName, lastName, dob) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+  }
+
+  getBirthYear() {
+    return this.dob.getFullYear();
+  }
+
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+}
+
+// Instantiate object
+const person1 = new Person('John', 'Doe', '4-3-1980');
+console.log(person1.getBirthYear());
+console.log(person1.getFullName());
+```
+
+
 ## General Loops
 
 ```js
-// FOR LOOP
-for(let i = 0; i < 10; i++){
-    if(i === 2){
-        console.log('2 is my favorite number');
-        continue;
-    }
-    if(i === 5){
-        console.log('Stop the loop');
-        break;
-    }
-    console.log('Number ' + i);
+// for loop
+for (let i = 0; i < 10; i++) {
+  if (i === 2) {
+    console.log('2 is my favorite number');
+    continue;
+  }
+  if (i === 5) {
+    console.log('Stop the loop');
+    break;
+  }
+  console.log('Number ' + i);
 }
 
-// WHILE LOOP
+// while loop
 let i = 0;
-while(i < 10;){
-    console.log('Number ' + i);
-    i++;
+while (i < 10;) {
+  console.log('Number ' + i);
+  i++;
 }
 
-// DO WHILE
+// do while loop
 let i = 0;
 do {
-    console.log('Number ' + i);
-    i++;
-}
-while(i < 10);
+  console.log('Number ' + i);
+  i++;
+} while (i < 10);
 
-// LOOP THROUGH ARRAY
+// loop through array
 const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
-
-for(let i = 0; i < cars.length; i++){
-    console.log(cars[i]);
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i]);
 }
 
-// FOREACH
-cars.forEach(function(car, index, array){
-    console.log(`${index} : ${car}`);
-    console.log(array);
+// forEach
+cars.forEach(function(car, index, array) {
+  console.log(`${index} : ${car}`);
+  console.log(array);
 });
 
-// MAP
+
 const users = [
-    {id: 1, name: 'John'},
-    {id: 2, name: 'Sara'},
-    {id: 3, name: 'Karen'},
-    {id: 4, name: 'Steve'}
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Sara' },
+  { id: 3, name: 'Karen' },
+  { id: 4, name: 'Steve' }
 ];
 
-const ids = users.map(function(){
-    return user.id;
+// map
+const ids = users.map(function() {
+  return user.id;
 });
-
 console.log(ids);
 
-// FOR IN LOOP
-const user = {
-    firstName: 'John',
-    lastName: 'Does',
-    age: 40
-}
+// filter
+const username = users.filter(function(user) {
+  return user.name === 'Sara';
+});
 
-for(let x in user){
-    console.log(`${x} : ${user[x]}`);
+// for in loop
+const user = {
+  firstName: 'John',
+  lastName: 'Does',
+  age: 40
+};
+
+for (let x in user) {
+  console.log(`${x} : ${user[x]}`);
 }
 ```
 
 
-## WINDOW METHODS / OBJECTS / PROPERTIES
+## Window Methods / Objects / Properties
 
 ```js
 // Alert
@@ -770,10 +846,10 @@ const input = prompt();
 alert(input);
 
 // Confirm
-if(confirm('Are you sure')){
-    console.log('YES');
+if (confirm('Are you sure')) {
+  console.log('YES');
 } else {
-    console.log('NO');
+  console.log('NO');
 }
 
 let val;
@@ -797,7 +873,7 @@ val = window.location.href;
 val = window.location.search;
 
 // Redirect
-window.location.href = 'http://google.com';
+window.location.href = 'https://google.com';
 
 // Reload
 window.location.reload();
@@ -827,25 +903,25 @@ var a = 1;
 let b = 2;
 const c = 3;
 
-function test(){
-    var a = 4;
-    let b = 5;
-    const c = 6;
-    console.log('Function Scope: ', a, b, c);
+function test() {
+  var a = 4;
+  let b = 5;
+  const c = 6;
+  console.log('Function Scope: ', a, b, c);
 }
 
 test();
 
-if(true){
-    // Block Level Scope
-    var a = 4;
-    let b = 5;
-    const c = 6;
-    console.log('If Scope: ', a, b, c);
+if (true) {
+  // Block Level Scope
+  var a = 4;
+  let b = 5;
+  const c = 6;
+  console.log('If Scope: ', a, b, c);
 }
 
-for(let a = 0; a < 10; a++) {
-    console.log(`Loop: ${a}`);
+for (let a = 0; a < 10; a++) {
+  console.log(`Loop: ${a}`);
 }
 
 console.log('Global Scope: ', a, b, c);
