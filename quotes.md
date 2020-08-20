@@ -71,6 +71,10 @@
 
 > "Shipping beats perfection." - Unknown
 
+> "If the automobile had followed the same development cycle as the computer, a Rolls-Royce would today cost $100, get a million miles per gallon, and explode once a year, killing everyone inside." - Robert Cringely
+
+> "If having a coffee in the morning doesn't wake you up, try deleting a table in a production database instead." - Juozas Kaziukenas
+
 
 ## Debugging
 
@@ -94,6 +98,8 @@
 > "There is no cloud, just other people's computers"
 
 > "The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards." - Gene Spafford
+
+> "Security is always excessive until it's not enough." - Robbie Sinclair
 
 
 ## Mathematics
@@ -138,6 +144,10 @@
 > "Good performance is about the capacity to focus and concentrate." - Betty Buckley
 
 > "Balance is not something you find, it's something you create." - Jana Kingsford
+
+> "You can't use up creativity. The more you use, the more you have." - Maya Angelou
+
+> "People who are crazy enough to think they can change the world, are the ones who do." - Apple Computers
 
 
 ## Inspiration
@@ -243,6 +253,18 @@
 > "I can accept failure, everyone fails at something. But I can't accept not trying." - Michael Jordan
 
 > "Hardships often prepare ordinary people for an extraordinary destiny." - C. S. Lewis
+
+> "If we did all the things we are capable of, we would literally astound ourselves." - Thomas Edison
+
+> "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence." - Helen Keller
+
+> "Courage is not the absence of fear, but simply moving on with dignity despite that fear." - Pat Riley
+
+> "The struggle ends when the gratitude begins." - Neale Donald Walsch
+
+> "Do or do not, there is no try." - Yoda
+
+> "Passion is energy. Feel the power that comes from focusing what excites you." - Oprah Winfrey
 
 
 ## Success
@@ -408,6 +430,12 @@
 > "Keep your goals away from the trolls." - Unknown
 
 > "Nobody ever got ready by waiting. You only get ready by starting." - John C. Maxwell
+
+> "Absorb what is useful. Discard what is not. Add what is uniquely your own." - Bruce Lee
+
+> "Decide that you want it more than you are afraid of it." - Unknown
+
+> "I hated every minute of training, but I said, "Don't quit. Suffer now and live the rest of your life as a champion." - Muhammad Ali
 
 
 ## Intelligence
@@ -604,6 +632,10 @@
 > "The longer we dwell on our misfortunes, the greater is their power to harm us." - Voltaire
 
 > "You are a human with one life and it is up to you to make it the best life you can." - Dan Howell
+
+> "If I quit now, I will soon be back to where I started. And when I started I was desperately wishing to be where I am now." - Unknown
+
+> "If you want your life to be a magnificent story, then begin by realising that you are the author." - Mark Houlahan
 
 
 ## Happiness
@@ -832,41 +864,9 @@ And then reason up from there." - Elon Musk
 
 
 
-> "Absorb what is useful. Discard what is not. Add what is uniquely your own." - Bruce Lee
-
-> "If I quit now, I will soon be back to where I started. And when I started I was desperately wishing to be where I am now." - Unknown
-
-> "If the automobile had followed the same development cycle as the computer, a Rolls-Royce would today cost $100, get a million miles per gallon, and explode once a year, killing everyone inside." - Robert Cringely
-
-> "You can't use up creativity. The more you use, the more you have." - Maya Angelou
-
-> "If we did all the things we are capable of, we would literally astound ourselves." - Thomas Edison
-
-> "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence." - Helen Keller
-
-> "If you want your life to be a magnificent story, then begin by realising that you are the author." - Mark Houlahan
 
 
 
-> "Decide that you want it more than you are afraid of it." - Unknown
-
-
-
-> "I hated every minute of training, but I said, "Don't quit. Suffer now and live the rest of your life as a champion." - Muhammad Ali
-
-> "Courage is not the absence of fear, but simply moving on with dignity despite that fear." - Pat Riley
-
-> "If having a coffee in the morning doesn't wake you up, try deleting a table in a production database instead." - Juozas Kaziukenas
-
-> "The struggle ends when the gratitude begins." - Neale Donald Walsch
-
-> "Passion is energy. Feel the power that comes from focusing what excites you." - Oprah Winfrey
-
-> "People who are crazy enough to think they can change the world, are the ones who do." - Apple Computers
-
-> "Do or do not, there is no try." - Yoda
-
-> "Security is always excessive until it's not enough." - Robbie Sinclair
 
 > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."  - Martin Fowler, 2008
 
@@ -1177,8 +1177,6 @@ street." - Doug Linder
 
 > "In theory, there's no difference between theory and practice. In practice, there is." - Benjamin Brewster
 
-> "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence." - Helen Kell
-
 > "We are all failures. At least the best of us are." - JM. Barrie
 
 > "To teach is to learn twice" - Joseph Joubert
@@ -1284,5 +1282,19 @@ street." - Doug Linder
 > "The master has failed more times than the beginner has even tried." - Stephen McCranie
 
 > "First, solve the problem. Then, write the code." - John Johnson
+
+> "We shall do a much better programming job, provided we approach the task with a full appreciation of its tremendous difficulty, provided that we respect the intrinsic limitations of the human mind and approach the task as very humble programmers." - Alan Turing
+
+> "Progress lies not in enhancing what is, but in advancing toward what will be." - Khalil Gibran
+
+> "Wanting to be someone else is a waste of who you are." - Anonymous
+
+> "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie
+
+> "The biggest mistake people make in life is not trying to make a living at doing what they most enjoy." - Malcolm Forbes
+
+> "Never waste a minute thinking about people you don't like." - Dwight D. Eisenhower
+
+> "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." - Cargill's Rule
 
 > 
