@@ -130,3 +130,4 @@ A blog is a public personal journal of everything that you have accomplished in 
 - [JavaScript Projects for Learning Node and React](https://medium.com/@george.af.field/javascript-projects-for-learning-node-and-react-5bd38a857f40)
 - [100+ JavaScript Projects for Beginners!](https://jsbeginners.com/javascript-projects-for-beginners/)
 - [10 Coding Prompts for Your Portfolio](https://medium.com/madhash/10-coding-prompts-for-your-portfolio-4a5266d86ede)
+- [Web Project Ideas](https://theshareideas.com/idea/8940721630)
