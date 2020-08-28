@@ -828,6 +828,7 @@ Some amazing designers on Dribble:
 - [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
 - [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 - [Building a Strong Portfolio As a Developer](https://www.codingdojo.com/blog/building-developer-portfolio)
+- [RMK](http://www.rijinmk.com/)
 - [Khoa Thien Le](https://www.khoa165.com/)
 - [Kelly Vaughn](https://kellyvaughn.co/)
 - [KVLLY SHOP](https://kvlly.com/)
@@ -964,6 +965,7 @@ Some amazing designers on Dribble:
 - [Apps Craft](https://themeun.com/html/apps-craft/html/index.html)
 
 ### Blog
+- [Josh Comeau](https://joshwcomeau.com/)
 - [Vojtech Ruzicka's Programming Blog](vojtechruzicka.com)
 - [prayash thapa](https://prayash.io/blog/)
 - [TUTORIALS FOR CODERS](https://flaviocopes.com/)

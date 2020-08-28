@@ -75,6 +75,12 @@
 
 > "If having a coffee in the morning doesn't wake you up, try deleting a table in a production database instead." - Juozas Kaziukenas
 
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."  - Martin Fowler, 2008
+
+> "One person's 'paranoia' is another person's 'engineering redundancy.'" - Marcus J. Ranum
+
+> "A great lathe operator commands several times the wage of an average lathe operator, but a great writer of software code is worth 10,000 times the price of an average software writer." - Bill Gates
+
 
 ## Debugging
 
@@ -265,6 +271,12 @@
 > "Do or do not, there is no try." - Yoda
 
 > "Passion is energy. Feel the power that comes from focusing what excites you." - Oprah Winfrey
+
+> "Don't let the success of others discourage you. Let it inspire you." - Unknown
+
+> "Courage is like a muscle. We strengthen it by use." - Ruth Gordon
+
+> "The only limit to our realization of tomorrow, will be our doubts of today." - Franklin D. Roosevelt
 
 
 ## Success
@@ -637,6 +649,7 @@
 
 > "If you want your life to be a magnificent story, then begin by realising that you are the author." - Mark Houlahan
 
+> "Change your life today. Don't gamble on the future, act now, without delay." - Simone de Beauvoir
 
 ## Happiness
 
@@ -864,25 +877,7 @@ And then reason up from there." - Elon Musk
 
 
 
-
-
-
-
-> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."  - Martin Fowler, 2008
-
-> "Don't let the success of others discourage you. Let it inspire you." - Unknown
-
-> "Change your life today. Don't gamble on the future, act now, without delay." - Simone de Beauvoir
-
-> "One person's 'paranoia' is another person's 'engineering redundancy.'" - Marcus J. Ranum
-
-> "A great lathe operator commands several times the wage of an average lathe operator, but a great writer of software code is worth 10,000 times the price of an average software writer." - Bill Gates
-
 > "Go forth and make awesomeness." - Unknown
-
-> "Courage is like a muscle. We strengthen it by use." - Ruth Gordon
-
-> "The only limit to our realization of tomorrow, will be our doubts of today." - Franklin D. Roosevelt
 
 > "Whenever you see a successful business, someone once made a courageous decision." - Peter Drucker
 
@@ -1296,5 +1291,33 @@ street." - Doug Linder
 > "Never waste a minute thinking about people you don't like." - Dwight D. Eisenhower
 
 > "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." - Cargill's Rule
+
+> "It is costly wisdom that is bought by experience." - Roger Ascham
+
+> "One must learn by doing the thing; for though you think you know it, you have no certainty, until you try." - Sophocles
+
+> "There is no duty we so much underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world." - Robert Louis Stevenson
+
+> "There are two ways of spreading light: to be the candle or the mirror that reflects it." - Edith Wharton
+
+> "Build your skills, not your resume." - Sheryl Sandberg
+
+> "Skills make you rich, not theories." - Robert Kiyosaki
+
+> "I never dreamed about success. I worked for it." - Estee Lauder
+
+> "Nothing we learn in this world is ever wasted." - Eleanor Roosevelt
+
+> "There's nothing more dangerous than a resourceful idiot." - Scott adams
+
+> "Mentors are someone who allows you to see hope inside yourself." - Oprah Winfrey
+
+> "There is no right time, there is just time and what you choose to do with it." - Alex Karev, Grey's Anatomy
+
+> "If you don't get out of the box you’ve been raised in, you won't understand how much big the world is." - Angelina Jolie
+
+> "The act of discovering who we are will force us to accept that we can go further than we think." - Paulo Coelho
+
+> "Because those who are crazy enough to think that they can change the world are the ones who do." - Steve Jobs
 
 > 

@@ -1,5 +1,88 @@
 # Git
 
+- **Version Control System (VCS)** manages the changes to documents, computer programs, large web sites, and other collections of information
+  - distributed version control
+  - coordinates work between multiple developers
+  - who made what changes and when
+  - revert back at any time
+  - local & remote repos
+- **Git** is a free and open source version control system
+  - keeps track of code history
+  - takes "snapshots" of your files
+  - you decide when to take a snapshot by making a "commit"
+  - you can visit any snapshots at any time
+  - you can stage files before committing
+- git commands:
+  - `init` => initialize local hit repo
+  - `status` => check status of working tree
+  - `clone` => copy repo from the internet (remote repo like Github) to your local machine
+  - `add` -> track your files and changes with Git
+  - `commit` -> save your changes into Git
+  - `push` -> upload your changes (commit) to your remote repo on Github (or another website)
+  - `pull` -> download changes from remote repo to your local machine
+
+
+## Table of Contents <!-- omit in toc -->
+
+- [Add a new repo from your machine to GitHub](#add-a-new-repo-from-your-machine-to-github)
+- [Latest changes from repo to your machine](#latest-changes-from-repo-to-your-machine)
+- [Add tracking information to your work](#add-tracking-information-to-your-work)
+- [What branch](#what-branch)
+- [Create a local branch and push it to GitHub](#create-a-local-branch-and-push-it-to-github)
+- [Create a PR [Pull Request]](#create-a-pr-pull-request)
+- [Check remotes](#check-remotes)
+- [Sync a remote fork on your machine](#sync-a-remote-fork-on-your-machine)
+- [Sync a remote fork on Github](#sync-a-remote-fork-on-github)
+- [2fa](#2fa)
+- [Change `origin` url](#change-origin-url)
+- [Add code on your machine to new repo](#add-code-on-your-machine-to-new-repo)
+- [Delete branches](#delete-branches)
+- [Merge master branch into feature branch](#merge-master-branch-into-feature-branch)
+- [Merge two repos](#merge-two-repos)
+- [Stop tracking a file](#stop-tracking-a-file)
+- [Stop tracking a previously tracked folder](#stop-tracking-a-previously-tracked-folder)
+- [Start tracking a previously un-tracked file](#start-tracking-a-previously-un-tracked-file)
+- [Cloning a repo from someone else's GitHub and pushing it to a repo on my GitHub](#cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github)
+- [Remove an `upstream` repository](#remove-an-upstream-repository)
+- [How can I delete file from remote git repository? I have a file that is just deleted from working copy local repository, and I want delete it from corresponding remote repository.](#how-can-i-delete-file-from-remote-git-repository-i-have-a-file-that-is-just-deleted-from-working-copy-local-repository-and-i-want-delete-it-from-corresponding-remote-repository)
+- [Clone a repo and give it a different name](#clone-a-repo-and-give-it-a-different-name)
+- [Using Husky?](#using-husky)
+- [How to read last commit comment?](#how-to-read-last-commit-comment)
+- [Remove commit from pull request](#remove-commit-from-pull-request)
+- [How to revert a Git repository to a previous commit](#how-to-revert-a-git-repository-to-a-previous-commit)
+- [Adding more changes to your last commit](#adding-more-changes-to-your-last-commit)
+- [Show `.gitconfig` details](#show-gitconfig-details)
+- [Conflicts between Windows Git and WSL Git?](#conflicts-between-windows-git-and-wsl-git)
+- [If you want to rename a branch while pointed to any branch, do:](#if-you-want-to-rename-a-branch-while-pointed-to-any-branch-do)
+- [Git ref log](#git-ref-log)
+- [If you know the last commit message of the deleted branch you can do this:](#if-you-know-the-last-commit-message-of-the-deleted-branch-you-can-do-this)
+- [Use SSH in place of HTTPS](#use-ssh-in-place-of-https)
+- [How to authenticate with GitHub using SSH](#how-to-authenticate-with-github-using-ssh)
+- [Use multiple SSH keys](#use-multiple-ssh-keys)
+- [Re-use SSH keys, from one machine to another](#re-use-ssh-keys-from-one-machine-to-another)
+- [Filename too long in git for windows](#filename-too-long-in-git-for-windows)
+- [Using SSH over the HTTPS port](#using-ssh-over-the-https-port)
+- [Specify multiple users for myself in .gitconfig?](#specify-multiple-users-for-myself-in-gitconfig)
+- [Cant remember what your last git commit said?](#cant-remember-what-your-last-git-commit-said)
+- [Rebase changes](#rebase-changes)
+- [Rebase accept incoming in bulk](#rebase-accept-incoming-in-bulk)
+- [See differences between two branches](#see-differences-between-two-branches)
+- [See differences between two files](#see-differences-between-two-files)
+- [Squash a series of commits and rewrite the history by writing them as one](#squash-a-series-of-commits-and-rewrite-the-history-by-writing-them-as-one)
+- [Take a commit that lives in a separate branch and apply the same changes on the current branch](#take-a-commit-that-lives-in-a-separate-branch-and-apply-the-same-changes-on-the-current-branch)
+- [Restore the status of a file to the last commit (revert changes)](#restore-the-status-of-a-file-to-the-last-commit-revert-changes)
+- [Show a pretty graph of the commit history](#show-a-pretty-graph-of-the-commit-history)
+- [Get a prettier log](#get-a-prettier-log)
+- [Get a shorter status](#get-a-shorter-status)
+- [Checkout a pull request locally](#checkout-a-pull-request-locally)
+- [List the commits that involve a specific file](#list-the-commits-that-involve-a-specific-file)
+- [List the commits that involve a specific file, including the commits content](#list-the-commits-that-involve-a-specific-file-including-the-commits-content)
+- [List the repository contributors ordering by the number of commits](#list-the-repository-contributors-ordering-by-the-number-of-commits)
+- [Undo the last commit you pushed to the remote](#undo-the-last-commit-you-pushed-to-the-remote)
+- [Pick every change you haven’t already committed and create a new branch](#pick-every-change-you-havent-already-committed-and-create-a-new-branch)
+- [Stop tracking a file, but keep it in the file system](#stop-tracking-a-file-but-keep-it-in-the-file-system)
+- [Get the name of the branch where a specific commit was made](#get-the-name-of-the-branch-where-a-specific-commit-was-made)
+
 ## Add a new repo from your machine to GitHub
 
 ```sh

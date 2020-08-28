@@ -59,3 +59,14 @@
   - `-g` or `--global`
   - `i` or `install`
   - `-D` or `--save-dev`
+
+
+## Semantic Versioning
+
+- 8.2.6 package version
+- Major (8) version changes breaks the API
+- Minor (2) version presents new features and does not break API
+- Patch (6) is for bug fixes
+- caret (`^`) symbol will install the latest minor version
+- tilde (`~`) symbol will keep the minor version and only update the latest patch version
+- asterisk (`*`) symbol will install the latest version of the package
