@@ -36,7 +36,8 @@
 - [2fa](#2fa)
 - [Change `origin` url](#change-origin-url)
 - [Add code on your machine to new repo](#add-code-on-your-machine-to-new-repo)
-- [Delete branches](#delete-branches)
+- [Delete Branch Locally](#delete-branch-locally)
+- [Delete Branch Remotely](#delete-branch-remotely)
 - [Merge master branch into feature branch](#merge-master-branch-into-feature-branch)
 - [Merge two repos](#merge-two-repos)
 - [Stop tracking a file](#stop-tracking-a-file)
@@ -232,6 +233,7 @@ If you want to change the origin url you can use the `set-url` command
 git remote set-url origin https://github.com/user/new-repo-name
 ```
 
+
 ## Add code on your machine to new repo
 
 Via terminal navigate to your code folder.
@@ -263,22 +265,39 @@ git push origin master
 
 For more info check out: [adding an existing project to github using the command line](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line/)
 
-## Delete branches
 
-Delete local branch.
+## Delete Branch Locally
+
+`-d` option alias for `--delete`, which deletes the branch if it has already been merged in its upstream branch. `-D` option alias for `--delete --force` which deletes the branch irrespective of its merged status.
+
 ```sh
-git branch -D branch-name
+# git branch -d <branch-name>
+git branch -d feature/login
 ```
 
 Remove local branches that are not on the `remote`.
+
 ```sh
-git remote prune origin
+git remote prune <remote-name>
 ```
 
 Remove local branches that were created from remote branches.
+
 ```sh
 git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
 ```
+
+
+## Delete Branch Remotely
+
+```sh
+# git push <remote-name> :<branch-name>
+# git push <remote-name> --delete <branch-name>
+# git push <remote-name> -d <branch-name>
+
+git push origin -d feature/login
+```
+
 
 ## Merge master branch into feature branch
 
