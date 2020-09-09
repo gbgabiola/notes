@@ -3,6 +3,8 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Git Basics](#git-basics)
+- [Git Commands](#git-commands)
+- [GitHub flow](#github-flow)
 - [Add a new repo from your machine to GitHub](#add-a-new-repo-from-your-machine-to-github)
 - [Clone a repo and give it a different name](#clone-a-repo-and-give-it-a-different-name)
 - [Latest changes from repo to your machine](#latest-changes-from-repo-to-your-machine)
@@ -83,14 +85,29 @@
 - **fork**: a copy of a repository on Github owned by a different user
 - **pull request**: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
 - **HEAD**: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using `git checkout`
-- git commands:
-  - `init` initialize a local git repository
-  - `status` check status of working tree
-  - `clone` copy a repository from the Github to your local machine
-  - `add` track your files and changes with Git
-  - `commit` save your changes into Git
-  - `push` upload your changes (commit) to your remote repository on Github
-  - `pull` download changes from remote repository to your local machine
+
+
+## Git Commands
+
+- `git init` initializes a brand new Git repository locally
+- `git status` shows the status of changes as untracked, modified, or staged
+- `git clone` copy a repository from the Github to your local machine
+- `git add` track your files and changes with Git
+- `git commit` save your changes into Git
+- `git branch` shows the branches being worked on locally
+- `git push` upload your changes (commit) to your remote repository on Github
+- `git pull` download changes from remote repository to your local machine
+- `git merge` merges combine changes made on two distinct branches
+
+
+## GitHub flow
+
+1. Create a branch
+2. Add commits
+3. Open a pull request
+4. Discuss and review code
+5. Merge
+6. Deploy
 
 
 ## Add a new repo from your machine to GitHub
@@ -334,9 +351,7 @@ $ git push origin -d feature/login
 
 ## Merge master branch into feature branch
 
-How to merge the master branch into the feature branch? This will come
-up often if you are workingon a team with other devs and you want to
-update your feature branch to include the latest changes:
+How to merge the master branch into the feature branch? This will come up often if you are working on a team with other devs and you want to update your feature branch to include the latest changes:
 
 ```sh
 # checkout your feature branch
@@ -362,8 +377,7 @@ $ git remote remove project-b
 
 ## Stop tracking a file
 
-If you have `.env` files that are tracked by Git and want to ignore
-them so your API keys don't get added to GitHub use:
+If you have `.env` files that are tracked by Git and want to ignore them so your API keys don't get added to GitHub use:
 
 ```sh
 $ git update-index --assume-unchanged <FILE>
@@ -372,8 +386,7 @@ $ git update-index --assume-unchanged <FILE>
 
 ## Stop tracking a previously tracked folder
 
-Add the folder first to your `.gitignore` then remove the folder from
-your local git tracking with:
+Add the folder first to your `.gitignore` then remove the folder from your local git tracking with:
 
 ```sh
 $ git rm -r --cached <folder>
@@ -390,8 +403,7 @@ $ git update-index --no-assume-unchanged <FILE>
 
 ## Cloning a repo from someone else's GitHub and pushing it to a repo on my GitHub
 
-So you make a clone, make some changes then realise that you need to
-add it to your GitHub account before making a pull:
+So you make a clone, make some changes then realise that you need to add it to your GitHub account before making a pull:
 
 ```sh
 $ git remote -v
@@ -399,8 +411,7 @@ origin  https://github.com/OtherUser/OtherUserRepo (fetch)
 origin  https://github.com/OtherUser/OtherUserRepo (push)
 ```
 
-You just need to set the `origin` to yours then add the `upstream` as
-the original `origin` make sense?
+You just need to set the `origin` to yours then add the `upstream` as the original `origin` make sense?
 
 So change `origin` to yours:
 
@@ -427,8 +438,7 @@ upstream        https://github.com/OtherUser/OtherUserRepo (push)
 
 ## Remove an `upstream` repository
 
-If you no longer need a reference to a forked repository then remove
-it with the following:
+If you no longer need a reference to a forked repository then remove it with the following:
 
 ```sh
 $ git remote rm upstream
