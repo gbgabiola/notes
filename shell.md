@@ -16,6 +16,7 @@
 - [How do I hide the “user@hostname” info](#how-do-i-hide-the-userhostname-info)
 - [zsh compinit: insecure directories and files, run compaudit for list.](#zsh-compinit-insecure-directories-and-files-run-compaudit-for-list)
 - [Folder permission "Insecure completion-dependent directories detected](#folder-permission-insecure-completion-dependent-directories-detected)
+- [WSL2 DNS stops working](#wsl2-dns-stops-working)
 
 
 ## Basic Scripting
@@ -380,3 +381,24 @@ This makes only your username to appear. If you don't want that too, just commen
 
 Set `ZSH_DISABLE_COMPFIX=true` in your zshrc file, before oh-my-zsh.sh is sourced, and update OMZ to the latest version. It should ignore these permission issues and load the completion system normally.
 
+
+## [WSL2 DNS stops working](https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021)
+
+1. Create a file: `/etc/wsl.conf`
+2. Put the following lines in the file:
+
+  ```sh
+  [network]
+  generateResolvConf = false
+  ```
+
+3. In a `cmd` window, run `wsl --shutdown`
+4. Restart WSL2
+5. Create a file: `/etc/resolv.conf`. If it exists, replace existing one with this new file.
+6. Put the following lines in the file
+
+  ```sh
+  nameserver 8.8.8.8
+  ```
+
+7. Repeat step 3 and 4. You will see `git` working fine now.
