@@ -7,12 +7,21 @@
 - [Best way to learn a new technology](#best-way-to-learn-a-new-technology)
 - [How to Learn a New Programming Language or Framework](#how-to-learn-a-new-programming-language-or-framework)
 - [7 Habits I Wish Every (Junior) Programmer Should Have](#7-habits-i-wish-every-junior-programmer-should-have)
+- [9 Habits I Wish I Had as a Junior Developer](#9-habits-i-wish-i-had-as-a-junior-developer)
+- [Books that Junior Developers should read](#books-that-junior-developers-should-read)
+- [How to survive and thrive in your first junior developer job](#how-to-survive-and-thrive-in-your-first-junior-developer-job)
 - [3 Things I've Learned as a Programmer](#3-things-ive-learned-as-a-programmer)
 - [Learn by Doing: The 8 Best Interactive Coding Websites](#learn-by-doing-the-8-best-interactive-coding-websites)
+- [Full-Stack Web Development — the Complete Roadmap](#full-stack-web-development--the-complete-roadmap)
+- [2018 Full Stack Developer Road Map: Part 1 - Front End Development](#2018-full-stack-developer-road-map-part-1---front-end-development)
+- [2018 Full Stack Developer Road Map: Part 2 - Back End Development](#2018-full-stack-developer-road-map-part-2---back-end-development)
+- [100+ FREE Resources to Learn Full Stack Web Development](#100-free-resources-to-learn-full-stack-web-development)
 - [What skills do self-taught programmers commonly lack? What should a self-taught programmer study to get up to speed with his/her formally-educated peers?](#what-skills-do-self-taught-programmers-commonly-lack-what-should-a-self-taught-programmer-study-to-get-up-to-speed-with-hisher-formally-educated-peers)
+- [The Software Developer's Guide to Building an Online Reputation](#the-software-developers-guide-to-building-an-online-reputation)
 - [How to get the most out of freeCodeCamp](#how-to-get-the-most-out-of-freecodecamp)
 - [How to be a successful software engineer](#how-to-be-a-successful-software-engineer)
 - [How I went from failure to success in programming and what got me there](#how-i-went-from-failure-to-success-in-programming-and-what-got-me-there)
+- [Mistakes I made when learning to code](#mistakes-i-made-when-learning-to-code)
 - [I spent 3 months applying to jobs after a coding bootcamp. Here's what I learned.](#i-spent-3-months-applying-to-jobs-after-a-coding-bootcamp-heres-what-i-learned)
 - [How to get a web development job in four steps](#how-to-get-a-web-development-job-in-four-steps)
 - [How to become a developer and get your first job as quickly as possible](#how-to-become-a-developer-and-get-your-first-job-as-quickly-as-possible)
@@ -161,6 +170,64 @@
 7. Watch conference videos
 
 
+## [9 Habits I Wish I Had as a Junior Developer](https://www.freecodecamp.org/news/good-habits-for-junior-developers/)
+
+1. Volunteer for Things You Don't Know
+2. Ask to Pair Up
+3. Talk about What You're Doing (and What You're Not Doing)
+4. Write a Blog
+5. Have a Notebook and a System
+6. Keep Notes about Your Wins
+7. Have a Time Slot for Important Tasks
+8. When Stuck, Take a Break
+9. Don't Chase Silver Bullets
+10. Build Those Habits!
+
+
+## [Books that Junior Developers should read](https://www.freecodecamp.org/news/9-books-for-junior-developers-in-2019-e41fc7ecc586/)
+
+1. Clean Code by Robert C. Martin (Uncle Bob)
+2. The Clean Coder by Robert C. Martin (Uncle Bob)
+3. Refactoring by Martin Fowler
+4. Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, & John Vlissides
+5. Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans
+6. Soft Skills: The Software Developer's Life Manual by John Sonmez
+7. Clean Architecture by Robert C. Martin (Uncle Bob)
+8. The Effective Engineer by Edmond Lau
+9. The Pragmatic Programmer by Andrew Hunt & David Thomas
+10. Additional Resources
+    - [Surviving Your First Junior Developer Job [Guide]](https://univjobs.ca/blog/developer-guides/ultimate-guide-for-first-junior-developer-job-success/)
+    - [Refactoring.guru](https://refactoring.guru/)
+    - [SOLID Design Principles](https://stackify.com/solid-design-principles/)
+    - [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+    - [NodeJS and Good Practices](https://blog.codeminer42.com/nodejs-and-good-practices-354e7d763626/)
+    - [Implementing the SOLID and the onion architecture in Node.js](https://dev.to/remojansen/implementing-the-onion-architecture-in-nodejs-with-typescript-and-inversifyjs-10ad)
+    - [Better Software Design with Clean Architecture](https://fullstackmark.com/post/11/better-software-design-with-clean-architecture)
+    - [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+
+## [How to survive and thrive in your first junior developer job](https://www.freecodecamp.org/news/how-to-survive-and-thrive-in-your-first-junior-developer-job-52deffddbe9c/)
+
+- Really Understand Git and Semantic Versioning
+  - Pull Requests (or PRs as they're known on GitHub)
+  - Merge Requests (this is what GitLab calls PRs)
+  - Merging
+  - Rebasing
+  - squashing commits
+  - Semver (semantic versioning)
+- Come prepared to your standup meetings
+  - what you accomplished the previous day
+  - what you're working on today
+  - what's blocking you
+- Learn how to ask for help
+  - Asking for help in person
+  - Asking for help over instant messenger
+- When receiving help
+- Make sure that you manually test your code
+- Learn to write testable code and how to write tests for them
+- Constantly be learning
+
+
 ## [3 Things I've Learned as a Programmer](https://medium.com/@robert.claudio96/3-things-ive-learned-as-a-programmer-d1d624183d3b)
 
 1. Everything Has More than One Solution
@@ -188,6 +255,112 @@
   - [The Netflix Tech Blog](https://netflixtechblog.com/): Advanced architecture and scaling topics
 
 
+## [Full-Stack Web Development — the Complete Roadmap](https://hackernoon.com/full-stack-web-development-the-complete-roadmap-9fe43ec0ba32)
+
+- Foundations (HTML/CSS/JS)
+- Frameworks
+  - Bootstrap and jQuery
+- WordPress
+- Domain Names and Hosting
+- Backend Frameworks
+  - Django, Ruby on Rails, and Node/Express
+- Node and Express
+- Frontend Frameworks
+  - React
+- DevOps
+  - Docker
+
+
+## [2018 Full Stack Developer Road Map: Part 1 - Front End Development](https://fullbit.ca/2018-full-stack-developer-road-map-part-1-front-end-development/)
+
+1. Learn HTML
+2. Learn CSS
+3. Learn Javascript
+4. Learn CSS Preprocessors
+5. Learn a Single Page Application Framework
+   - ReactJS
+   - VueJS
+   - Angular 5
+6. Misc. Topics
+   - Git (Version Control)
+   - Unit Testing (Javascript)
+   - Javascript Tool Libraries
+     - jQuery
+     - Lodash
+   - CSS/Style Frameworks
+     - Bootstrap
+     - Foundation
+     - Semantic UI
+     - Material Design
+7. Practice, Practice, Practice
+
+
+## [2018 Full Stack Developer Road Map: Part 2 - Back End Development](https://fullbit.ca/full-stack-developer-road-map-part-2-back-end-development/)
+
+1. Choose Your Weapon (Language)
+   - Python
+   - Javascript (NodeJS)
+   - Ruby
+   - Java
+   - Other Languages to Consider
+     - PHP
+     - C#
+     - TypeScript
+     - Go
+2. Learn a Relational Database
+   - Postgres
+   - MySQL
+   - MS SQL
+3. Learn Version Control (Git)
+4. Learn  Web Application Framework(s)
+   - Flask (Python)
+   - Django (Python)
+   - Express (Javascript)
+   - Ruby On Rails (Ruby)
+5. Misc. Topics
+   - NoSQL
+     - Redis
+     - MongoDB
+     - Memcached
+   - DevOps
+     - Build Tools
+     - Continuous Integration / Continuous Deployment
+     - Scripting
+     - Cloud Technology
+     - Linux Administration
+     - Monitoring Tools
+     - Configuration Management
+   - HTTP
+   - REST API Development
+   - Data structures and Algorithms
+
+
+## [100+ FREE Resources to Learn Full Stack Web Development](https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2)
+
+1. Start Here
+2. How to learn
+3. What is the Most Useful CS Bookmark You have
+4. Programs & Classes
+5. Learn HTML
+6. Learn CSS
+7. Learn JavaScript
+8. Learn React.js
+9. Full Stack Tutorials
+10. Learn Node.js
+11. Learn Python
+12. Learn APIs
+13. Learn Databases
+14. Learn Authentication
+15. Learn Git
+16. Games & Challenge Websites
+17. Free Programming Books
+18. Open Source Contribution Opportunities
+19. Am I Ready to be a Developer?
+20. Software Developer Success Stories
+21. Resume's, Portfolio's, LinkedIn, Interview Prep, & Salary
+22. Information
+
+
 ## [What skills do self-taught programmers commonly lack? What should a self-taught programmer study to get up to speed with his/her formally-educated peers?](https://www.quora.com/What-skills-do-self-taught-programmers-commonly-lack-What-should-a-self-taught-programmer-study-to-get-up-to-speed-with-his-her-formally-educated-peers/answer/Frank-M-Taylor-1)
 
 - Humility
@@ -196,6 +369,18 @@
 - Programming Paradigms
 - Data Structures
 - Testing
+
+
+## [The Software Developer's Guide to Building an Online Reputation](https://hackernoon.com/the-software-developers-guide-to-building-an-online-reputation-2cb206185af2)
+
+- Personal portfolio
+- Articles
+- LinkedIn
+- Twitter
+- Stack Overflow
+- Open Source
+- GitHub
+- Conferences
 
 
 ## [How to get the most out of freeCodeCamp](https://www.freecodecamp.org/news/how-to-get-the-most-out-of-free-code-camp-afc646073746/)
@@ -220,6 +405,17 @@
 - Desire
 - Purpose
 - Motivation
+
+
+## [Mistakes I made when learning to code](https://medium.com/zerotomastery/mistakes-i-made-when-learning-to-code-2aa25f8ab7c1)
+
+- Selecting the wrong teacher/mentor
+- Trying to learn everything at once
+- Striving for perfection
+- Selecting the wrong tool
+- Swimming in tutorial purgatory
+- Relax you will get there
+- Ask questions
 
 
 ## [I spent 3 months applying to jobs after a coding bootcamp. Here's what I learned.](https://www.freecodecamp.org/news/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331/)
