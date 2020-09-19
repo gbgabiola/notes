@@ -96,6 +96,12 @@
 
 > "If debugging is the process of removing bugs, then programming must be the process of putting them in." - Edsger W. Dijkstra
 
+> "Even perfect program verification can only establish that a program meets its specification. Much of the essence of building a program is in fact the debugging of the specification." - Fred Brooks
+
+> "An elusive creature living in a program that makes it incorrect. The activity of "debugging", or removing bugs from a program, ends when people get tired of doing it, not when the bugs are removed." - Datamation
+
+> "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
+
 
 ## Privacy
 
@@ -154,6 +160,8 @@
 > "You can't use up creativity. The more you use, the more you have." - Maya Angelou
 
 > "People who are crazy enough to think they can change the world, are the ones who do." - Apple Computers
+
+> "Fear leads to self-doubt which is the worst enemy of creativity." - David Ogilvy
 
 
 ## Inspiration
@@ -277,6 +285,12 @@
 > "Courage is like a muscle. We strengthen it by use." - Ruth Gordon
 
 > "The only limit to our realization of tomorrow, will be our doubts of today." - Franklin D. Roosevelt
+
+> "The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires." - William Arthur Ward
+
+> "When I let go of what I am, I become what I might be." - Lao Tzu
+
+> "There is never enough time to do everything, but there is always enough time to do the most important thing." - Brian Tracy
 
 
 ## Success
@@ -447,7 +461,23 @@
 
 > "Decide that you want it more than you are afraid of it." - Unknown
 
-> "I hated every minute of training, but I said, "Don't quit. Suffer now and live the rest of your life as a champion." - Muhammad Ali
+> "I hated every minute of training, but I said, Don't quit. Suffer now and live the rest of your life as a champion." - Muhammad Ali
+
+> "Whenever you see a successful business, someone once made a courageous decision." - Peter Drucker
+
+> "The best way to predict the future is to invent it." - Alan Kay
+
+> "Failure will never overtake me if my determination to succeed is strong enough." - Og Mandino
+
+> "Soon is not as good as now." - Seth Godin
+
+> "You can't cross the sea merely by standing and staring at the water." - Rabindranath Tagore
+
+> "Don't be pushed by your problems. Be led by your dreams." - Ralph Waldo Emerson
+
+> "You can feel sore tomorrow or you can feel sorry tomorrow. You choose." Unknown
+
+> "Decide whether or not the goal is worth the risks involved. If it is, stop worrying." - Amelia Earhart
 
 
 ## Intelligence
@@ -651,6 +681,15 @@
 
 > "Change your life today. Don't gamble on the future, act now, without delay." - Simone de Beauvoir
 
+> "The patterns of our lives reveal us. Our habits measure us." - Mary Oliver
+
+> "Challenges are what make life interesting and overcoming them is what makes life meaningful." - Joshua J. Marine
+
+> "There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them." - Denis Waitley
+
+> "Today is the most important day of our lives." - Thich Nhat Hanh
+
+
 ## Happiness
 
 > "The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one's negative experience is itself a positive experience." - Mark Manson
@@ -679,6 +718,8 @@
 
 > "Be a magnet for joy, love and abundance." - Unknown
 
+> "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom." - Marcel Proust
+
 
 ## Minimalism
 
@@ -699,6 +740,8 @@
 > "A good traveler has no fixed plans and is not intent on arriving." - Lao Tzu
 
 > "Don't underestimate the value of doing nothing, of just going along, listening to all the things you can't hear, and not bothering." - Winnie the Pooh
+
+> "Simplicity is prerequisite for reliability." - Edsger W. Dijkstra
 
 
 ## Friends
@@ -753,6 +796,12 @@
 
 > "Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric." - Bertrand Russell
 
+> "The past is done. The future has plenty of room for change." - Anonymous
+
+> "The work of today is the history of tomorrow, and we are its makers." - Juliette Gordon Low
+
+> "The general principle that any problem you face, no matter how big, can be broken down into smaller and easier to solve problems, recursively, is the most important idea in human history."
+
 
 ## War
 
@@ -791,70 +840,11 @@ And then reason up from there." - Elon Musk
 > "Be yourself. Everyone else is already taken." - Oscar Wilde
 
 
-
 ## Related
 
 - [Awesome IT quotes](https://github.com/victorlaerte/awesome-it-quotes#readme)
 - [Goodreads popular quotes](https://www.goodreads.com/quotes)
 - [Interesting quotes](https://ebzzry.io/en/quotes/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 > "May your choices reflect your hopes, not your fears." - Nelson Mandela
@@ -867,73 +857,11 @@ And then reason up from there." - Elon Musk
 
 > "It's not who you think you are that holds you back it's who you think you're not." - Unknown
 
-
-
-
-
-
-
-
-
-
-
 > "Go forth and make awesomeness." - Unknown
-
-> "Whenever you see a successful business, someone once made a courageous decision." - Peter Drucker
-
-> "The best way to predict the future is to invent it." - Alan Kay
-
-> "Failure will never overtake me if my determination to succeed is strong enough." - Og Mandino
-
-> "The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires." - William Arthur Ward
-
-> "The patterns of our lives reveal us. Our habits measure us." - Mary Oliver
-
-> "Soon is not as good as now." - Seth Godin
-
-> "You can't cross the sea merely by standing and staring at the water." - Rabindranath Tagore
 
 > "God is consciousness without the sense of self"
 
-> "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
-
-> "When I let go of what I am, I become what I might be."
-
-> "The past is done. The future has plenty of room for change." - Anonymous
-
-> "Challenges are what make life interesting and overcoming them is what makes life meaningful." - Joshua J. Marine
-
-> "There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them." - Denis Waitley
-
-> "You can feel sore tomorrow or you can feel sorry tomorrow. You choose." Unknown
-
-> "Today is the most important day of our lives." - Thich Nhat Hanh
-
-> "The work of today is the history of tomorrow, and we are its makers." - Juliette Gordon Low
-
-> "Fear leads to self-doubt which is the worst enemy of creativity." - David Ogilvy
-
-> "Simplicity is prerequisite for reliability." - Edsger W. Dijkstra
-
-> "There is never enough time to do everything, but there is always enough time to do the most important thing." - Brian Tracy
-
-> "The general principle that any problem you face, no matter how big, can be broken down into smaller and easier to solve problems, recursively, is the most important idea in human history."
-
-> "The first gulp from the glass of natural sciences will turn you into an atheist, but at the bottom of the glass God is waiting for you." - Heisenberg
-
-> "It's all either order or chaos. You momentarily ordered what was already there in a more structured way. Then when you deleted it, that specific order disappeared. Like a plant assembling itself out of minerals and water and atmospheric compounds, and the dying and decomposing back into them again. The underlying elements are still there, but the structure is gone."
-
-> "A penny saved is a penny earned." - Benjamin Franklin
-
-> "One man's debt is another man's financial asset"
-
-> I used to work at McDonald's making minimum wage. You know what that means when someone pays you minimum wage? You know what your boss was trying to say? It's like, "Hey, if I could pay you less, I would, but it's against the law" - Chris Rock
-
 > "To be wronged is nothing unless you continue to remember it." - Confucius
-
-> "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom." - Marcel Proust
-
-
 
 > Joke: Why did the programmer quit his job? Because he didn't get arrays.
 
@@ -941,13 +869,7 @@ And then reason up from there." - Elon Musk
 
 
 
-> "Decide whether or not the goal is worth the risks involved. If it is, stop worrying." - Amelia Earhart
 
-> "Even perfect program verification can only establish that a program meets its specification. Much of the essence of building a program is in fact the debugging of the specification." - Fred Brooks
-
-> "An elusive creature living in a program that makes it incorrect. The activity of "debugging", or removing bugs from a program, ends when people get tired of doing it, not when the bugs are removed." - Datamation
-
-> "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
 
 > "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." - Brian Kernighan, co-creator of the C language
 
@@ -976,15 +898,9 @@ And then reason up from there." - Elon Musk
 
 > "What makes you different or weird, that's your strength." - Meryl Streep
 
-
-
-
-
 > "Kindness is the sunshine in which virtue grows." - Robert Green Ingersoll
 
 > "To understand and be understood, those are among life's greatest gifts, and every interaction is an opportunity to exchange them." - Maria Popova
-
-
 
 > "I like the look of agony, because I know it's true;" - Emily Dickinson
 
@@ -1319,5 +1235,125 @@ street." - Doug Linder
 > "The act of discovering who we are will force us to accept that we can go further than we think." - Paulo Coelho
 
 > "Because those who are crazy enough to think that they can change the world are the ones who do." - Steve Jobs
+
+> "Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind." - Dr.Seuss
+
+> "Take the first step in faith. You don't have to see the whole staircase. Just take the first step." - Martin Luther King Jr
+
+> "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth." - Marcus Aurelius
+
+> "We all get what we tolerate. All the problems in the world is always just fear." - Tony Robbins
+
+> "Because wherever your heart is, that is where you'll find your treasure." - The Alchemist, Paulo Coelho
+
+> "Let us not grow weary in doing good, for in due season, we shall reap, if we do not lose heart." - Galatians 6:9
+
+> "If you are distressed by anything external, the pain is not due to the thing itself, but your estimate of it; and this you have the power to revoke at any moment." - Marcus Aurelius
+
+> "We are more often frightened than hurt; and we suffer more from imagination than from reality." - Seneca the Younger
+
+> "Why fit in when you born to stand out?" - Dr.Seuss
+
+> "Excuses are born out of fear. Eliminate your fear and there will be no excuses." - Unknown
+
+> "A surplus of effort could overcome a deficit of confidence." - Sonia Sotomayor
+
+> "In any given moment we have two options: to step forward into growth or back into safety." - Abraham Maslow
+
+> "If you are still looking for that one person who will change your life, take a look in the mirror." - Roman Price
+
+> "Other people's opinion of you does not have to become your reality." - Les Brown
+
+> "Muddy water is best cleared by leaving it alone." - Alan Watts
+
+> "If you want something you've never had, you must be willing to do something you've never done." - Unknown
+
+> "People may hear your words, but they feel your attitude." - John C. Maxwell
+
+> "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that." - Martin Luther King Jr.
+
+> "What you do makes a difference, and you have to decide what kind of difference you want to make." - Jane Goodall
+
+> "Always forgive your enemies - nothing annoys them so much." - Oscar Wilde
+
+> "Everyone may not be good, but there's always something good in everyone. Never judge anyone shortly because every saint has a past and every sinner has a future." - Oscar Wilde
+
+> "As long as you are breathing, there is more right with you than wrong with you no matter what is wrong." - Jon Kabet-Zinn
+
+> "You can't stop the waves, but you can learn to surf." - Jon Kabet-Zinn
+
+> "Maybe the fear is that we are less than we think we are, when the actuality of it is that we are much much more." - Jon Kabet-Zinn
+
+> "Be careful with your words. Once they are said they can only be forgiven, not forgetten." - Unknown
+
+> "All the things we think are so important in our lives are utterly insignificant in reality." - Marcus Aurelius
+
+> "Jump into the middle of things, get your hands dirty, fall flat on your face, and then reach for the stars." - Ben Stein
+
+> "The one who follows the crowd will usually go no further than the crowd. The one who walks alone is likely to find themselves in places no one had ever been." - Albert Einstein
+
+> "Study what interests you the most in the most undisciplined, irrelavant and original manner possible." - Richard Feynman
+
+> "Everything is difficult until you know how to do it." - Anonymous
+
+> "Continuous improvement is better than delayed perfection." - Mark Twain
+
+> "For me, mathematics is a collection of examples; a theorem is a statement about a collection of examples and the purpose of proving theorems is to classify and explain the examples." - John B. Conway
+
+> "He begins working calculus problems in his head as soon as he awakens. He did calculus while driving in his car, while sitting in the living room, and while lying in bed at night." - Mary Louise Bell divorce complaint
+
+> "I think a life properly lived is just learn, learn, learn all the time." - Charlie Munger
+
+> "Launch and learn. Everything is progress." - Danielle LaPorte
+
+> "The problem is not the problem. The problem is your attitude about the problem." - Captain Jack Sparrow
+
+> "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid." - Albert Einstein
+
+> "Computer Programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, especially because it produces objects of beauty." - Donald Knuth, 1974
+
+> "Approach the game with no preset agendas and you'll probably come away surprised at your overall efforts." - Phil Jackson
+
+> "I never took a day off in my 20's. Not One." - Bill Gates
+
+> "Don't fear moving slowly. Fear standing still." - Chinese Proverb
+
+> "All happy companies are different: Each one earns a monopoly by solving a unique problem. All failed companies are the same: They failed to escape competition." - Competition Is for Losers, Peter Thiel
+
+> "Strength does not come from winning. Your struggles develop your strengths." - Arnold Schwarzenegger
+
+> "Great ideas often receive violent opposition from mediocre minds." - Albert Einstein
+
+> "They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety." - Benjamin Franklin
+
+> "I've missed more than 9000 shots in my career. I've lost almost 300 games. Twenty-six times I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed." - Michael Jordan
+
+> "Transmission of documents via telephone wires is possible in principle, but the apparatus required is so expensive that it will never become a practical proposition." - Dennis Gabor, British physicist and author of Inventing the Future, 1962
+
+> "There is no reason anyone would want a computer in their home." - Ken Olson, president, chairman and founder of Digital Equipment Corp. (DEC)
+
+> "There is practically no chance communications space satellites will be used to provide better telephone, telegraph, television, or radio service inside the United States." - T. Craven, FCC Commissioner, 1961 (the first commercial communications satellite went into service in 1965)
+
+> "The world potential market for copying machines is 5000 at most." - IBM , to the eventual founders of Xerox, saying the photocopier had no market large enough to justify production, 1959
+
+> "I have traveled the length and breadth of this country and talked with the best people, and I can assure you that data processing is a fad that won't last out the year." - The editor in charge of business books for Prentice Hall, 1957
+
+> "Computers in the future may weigh no more than 1.5 tons." - Popular Mechanics, "predicting" the relentless march of technology, 1949
+
+> "Television won't last because people will soon get tired of staring at a plywood box every night." - Darryl Zanuck, movie producer, 20th Century Fox, 1946
+
+> "I think there is a world market for maybe five computers." - Thomas Watson, chairman of IBM, 1943
+
+> "Flight by machines heavier than air is unpractical and insignificant, if not utterly impossible." - Simon Newcomb, Canadian-born American astronomer, 1902
+
+> "Less than 10% of the code has to do with the ostensible purpose of the system. The rest deals with input-output, data validation, data structure maintenance, and other housekeeping." - Mary Shaw
+
+> "If you have a dream, don’t just sit there. Gather courage to believe that you can succeed and leave no stone unturned to make it a reality." - Dr Roopleen
+
+> "You can’t connect the dots looking forward; you can only connect them looking backwards. So, you have to trust that the dots will somehow connect in your future." - Steve Jobs, Stanford commencement speech
+
+> "The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code - not in reams of trivial code that bores the reader to death." - Guido van Rossum
+
+> "Data is not information. Information is not knowledge. Knowledge is not understanding. Understanding is not wisdom." - Gary Schubert & Cliff Stoll
 
 > 
