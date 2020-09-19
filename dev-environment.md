@@ -88,17 +88,44 @@
 
 - [How you can style your terminal like Medium, freeCodeCamp, or any way you want](https://medium.freecodecamp.org/how-you-can-style-your-terminal-like-medium-freecodecamp-or-any-way-you-want-f499234d48bc)
 
+
+## [Shell Configuration: Hack Your ZSH](https://apptension.com/blog/2018/08/30/shell-configuration-hack-your-zsh/)
+
+1. Z Shell Stack
+   - Configuration Structure
+     - Zshrc configuration
+     - ZPlug configuration
+2. Brew, zplugs and gems: tap the best soft
+   - Brew
+   - ZPlugins
+     - Vimode for zsh
+     - Zsh magic
+     - Better system navigation
+     - Parsing outputs
+     - Gopass
+   - Gems
+3. Git: may the –force be with you
+   - Few tricks from the config
+   - Aliases
+   - Git integrate
+4. How to exit Vim and come back
+   - Vim experience
+   - Vim configuration
+5. Your editor – keep it remote
+6. Graceful shell usage
+   - Terminal multiplexing
+   - Shell tricks
+     - Managing directories
+     - Extracting archives and files
+     - Caching shell sessions
+     - Repeating commands and standard variables
+
 ---
 
 ## Managing Dotfiles
-- [In Unix, files beginning with a . (a period) are hidden files.](https://plus.google.com/+RobPikeTheHuman/posts/R58WgWwN9jp)
-- [Managing Your Dotfiles](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
-- [Learn How to Manage Dotfiles](https://hackernoon.com/learn-how-to-manage-dotfiles-b8b62c6c5491)
-- [Getting Started With Dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
-- https://github.com/anishathalye/dotfiles
-- [Git Documentation](https://git-scm.com/doc)
-- [dotfiles / Your unofficial guide to dotfiles on GitHub.](https://dotfiles.github.io/)
-- [Personal dotfiles for mac and wsl](https://github.com/ridhwaans/dotfiles)
+
+
+- 
 - [dotfiles for Bash (Linux) / ZSH (Linux) / Git Bash (Windows) / Cygwin (Windows) / Bash on Ubuntu on Windows](https://github.com/voku/dotfiles)
 - [Settings for my development environments](https://github.com/joelnet/development-environment)
 - [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
