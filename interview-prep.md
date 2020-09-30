@@ -89,10 +89,10 @@ This where the interview will start shooting technical questions at you.
   - `var animal = Animal()`
   - `var animal = new Animal()`
 - **What's the difference between host objects and native objects?**
-- **What’s a typical use case for anonymous functions?**
+- **What's a typical use case for anonymous functions?**
 - **Explain how JavaScript prototypal inheritance works.**
 - **What is a closure, and how/why would you use one?**
-- **What’s the difference between `null` and `undefined`?**
+- **What's the difference between `null` and `undefined`?**
 - **What is the difference between `==` and `===`?**
 - **What is Webpack? What problems does it solve?**
 - **Have you ever used a front-end framework or library? Which one?**
@@ -128,11 +128,11 @@ This where the interview will start shooting technical questions at you.
 
 - **Why and when might you want to create static class members?**
 - **What are the differences between variables created using `let`, `var` or `const`?**
-- **What happens when you go to a website? What’s a DNS?**
+- **What happens when you go to a website? What's a DNS?**
 - **What is the V8 Engine? Who uses it?**
 - **What does `$` in JavaScript code refer to?**
 - **Explain the difference between layout, painting, and compositing.**
-- **What are some ways you may improve your website’s scrolling performance?**
+- **What are some ways you may improve your website's scrolling performance?**
 - **What is the output of the following code?**
 
     ```js
@@ -152,6 +152,28 @@ This where the interview will start shooting technical questions at you.
     ```
 
 - **What is the event loop in JavaScript and what does it do?**
+
+
+## [Interview tips that will give you confidence and help you land a dev job](https://www.freecodecamp.org/news/interview-tips-that-will-give-you-confidence-and-help-you-land-a-dev-job-5ef43c1ae422/)
+
+1. Be comfortable with your experience and abilities
+2. Don't be afraid to say "I don't know"
+3. Ask questions. Lots of them
+
+
+## [Things you should never say when interviewing for a developer role](https://hackernoon.com/things-you-should-never-say-when-interviewing-for-a-developer-role-138609321d7b)
+
+- "That is a stupid framework/technology/language — why would anyone still use it today."
+- "Code reviews are a waste of time. Everyone should just write good code."
+- "I would rather write new features from scratch than fix other people's bugs."
+- "I just get testers to do testing for me."
+- "I'll go with whatever what my development manager or tech lead chooses."
+- "Sorry I can't write code by hand; on a piece of paper or a whiteboard."
+- "I don't have dedicated time for learning, I just learn something when I have to use it at work."
+- "I don't want to use [software/technology/design pattern] ever."
+- "I have not used your product(s) before."
+- "It's in my CV. Have you seen it?"
+- "I don't have any question. Are we done now?"
 
 
 ## Resources
