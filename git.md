@@ -43,6 +43,7 @@
 - [See differences between two branches](#see-differences-between-two-branches)
 - [See differences between two files](#see-differences-between-two-files)
 - [Squash a series of commits and rewrite the history by writing them as one](#squash-a-series-of-commits-and-rewrite-the-history-by-writing-them-as-one)
+- [Squash my last X commits together using Git](#squash-my-last-x-commits-together-using-git)
 - [Take a commit that lives in a separate branch and apply the same changes on the current branch](#take-a-commit-that-lives-in-a-separate-branch-and-apply-the-same-changes-on-the-current-branch)
 - [Restore the status of a file to the last commit (revert changes)](#restore-the-status-of-a-file-to-the-last-commit-revert-changes)
 - [Show a pretty graph of the commit history](#show-a-pretty-graph-of-the-commit-history)
@@ -740,6 +741,16 @@ $ git rebase -i
 this puts you in the interactive rebasing tool.
 
 Type `s` to apply `squash` to a commit with the previous one. Repeat the `s` command for as many commits as you need.
+
+
+## [Squash my last X commits together using Git](https://stackoverflow.com/a/5201642/9385262)
+
+Squash the last 3 commits and write new commit message from scratch:
+
+```sh
+$ git reset --soft HEAD~3 &&
+git commit
+```
 
 
 ## Take a commit that lives in a separate branch and apply the same changes on the current branch
