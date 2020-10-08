@@ -753,6 +753,8 @@ Some amazing designers on Dribble:
 - [RMK](http://www.rijinmk.com/)
 - [iamjrp](https://www.iamjrp.com/)
 - [Brittany Chiang](https://brittanychiang.com/)
+- [Brylle Mutia](http://brylle-mutia.herokuapp.com/)
+- [Praveen Kumar](https://praveen.science/)
 - [Khoa Thien Le](https://www.khoa165.com/)
 - [Kelly Vaughn](https://kellyvaughn.co/)
 - [KVLLY SHOP](https://kvlly.com/)
