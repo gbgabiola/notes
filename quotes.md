@@ -17,7 +17,7 @@
 - [Politics](#politics)
 - [History](#history)
 - [War](#war)
-- [Personal](#personal)
+- [Others](#others)
 - [Related](#related)
 
 
@@ -102,6 +102,12 @@
 
 > "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
 
+> "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." - Brian Kernighan, co-creator of the C language
+
+> "Given enough eyeballs, all bugs are shallow." - Eric S. Raymond
+
+> "The last bug isn't fixed until the last user is dead." - Sidney Markowitz
+
 
 ## Privacy
 
@@ -162,6 +168,18 @@
 > "People who are crazy enough to think they can change the world, are the ones who do." - Apple Computers
 
 > "Fear leads to self-doubt which is the worst enemy of creativity." - David Ogilvy
+
+> "Art is never finished, only abandoned." - Leonardo da Vinci
+
+> "Anyone who has never made a mistake has never tried anything new." - Albert Einstein
+
+> "Art washes away from the soul the dust of everyday life." - Pablo Picasso
+
+> "As long as you're being a copycat, you will never be the best copycat." - Dr. Eric Thomas
+
+> "The power of imagination makes us infinite." - John Muir
+
+> "Technical skill is mastery of complexity, while creativity is mastery of simplicity." - Christopher Zeeman
 
 
 ## Inspiration
@@ -291,6 +309,12 @@
 > "When I let go of what I am, I become what I might be." - Lao Tzu
 
 > "There is never enough time to do everything, but there is always enough time to do the most important thing." - Brian Tracy
+
+> "Light tomorrow with today." - Elizabeth Barrett Browning
+
+> "Do one thing every day that scares you." - Eleanor Roosevelt
+
+> "What makes you different or weird, that's your strength." - Meryl Streep
 
 
 ## Success
@@ -479,6 +503,12 @@
 
 > "Decide whether or not the goal is worth the risks involved. If it is, stop worrying." - Amelia Earhart
 
+> "If I have seen further it is by standing on the shoulders of giants" - Isaac Newton
+
+> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do." - Pele
+
+> "Perfection is not attainable, but if we chase perfection, we can catch excellence." - Vince Lombardi
+
 
 ## Intelligence
 
@@ -551,6 +581,8 @@
 > "There is virtue in work and there is virtue in rest. Use both and overlook neither." - Alan Cohen
 
 > "Know your body, know your mind, know your substance, know your source." - Erowid
+
+> "Those who know how to learn... know enough." - Henry Adams
 
 
 ## Life
@@ -720,6 +752,8 @@
 
 > "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom." - Marcel Proust
 
+> "To understand and be understood, those are among life's greatest gifts, and every interaction is an opportunity to exchange them." - Maria Popova
+
 
 ## Minimalism
 
@@ -742,6 +776,8 @@
 > "Don't underestimate the value of doing nothing, of just going along, listening to all the things you can't hear, and not bothering." - Winnie the Pooh
 
 > "Simplicity is prerequisite for reliability." - Edsger W. Dijkstra
+
+> "Give thanks for a little and you will find a lot." - Hansa Proverb
 
 
 ## Friends
@@ -812,7 +848,7 @@
 > "If wars can be started by lies, they can be stopped by truth." - Julian Assange
 
 
-## Personal
+## Others
 
 > Resilience?—?the capacity of a system to tolerate disturbance without collapsing, to withstand shocks, to rebuild itself when necessary, and to improve itself when possible.
 
@@ -838,6 +874,12 @@ And then reason up from there." - Elon Musk
 > "If you get tired, learn to rest, not to quit." - Banksy
 
 > "Be yourself. Everyone else is already taken." - Oscar Wilde
+
+> "I like the look of agony, because I know it's true;" - Emily Dickinson
+
+> "Kindness is the sunshine in which virtue grows." - Robert Green Ingersoll
+
+> "Enjoy the little things, for one day you may look back and realize they were the big things." - Robert Brault
 
 
 ## Related
@@ -871,50 +913,28 @@ And then reason up from there." - Elon Musk
 
 
 
-> "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." - Brian Kernighan, co-creator of the C language
-
-> "Given enough eyeballs, all bugs are shallow." - Eric S. Raymond
-
-> "The last bug isn't fixed until the last user is dead." - Sidney Markowitz
-
-> "The most exciting phrase to hear in science, the one that heralds discoveries, is not 'Eureka!' but 'Now that's funny...'" - Isaac Asimov
-
-> "Art is never finished, only abandoned." - Leonardo da Vinci
-
-> "Light tomorrow with today." - Elizabeth Barrett Browning
-
-> "Do one thing every day that scares you." - Eleanor Roosevelt
-
-> "Anyone who has never made a mistake has never tried anything new." - Albert Einstein
-
-> "If I have seen further it is by standing on the shoulders of giants" - Isaac Newton
-
-> "Art washes away from the soul the dust of everyday life." - Pablo Picasso
-
-> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do." - Pele
 
 
-> "As long as you're being a copycat, you will never be the best copycat." - Dr. Eric Thomas
 
-> "What makes you different or weird, that's your strength." - Meryl Streep
 
-> "Kindness is the sunshine in which virtue grows." - Robert Green Ingersoll
 
-> "To understand and be understood, those are among life's greatest gifts, and every interaction is an opportunity to exchange them." - Maria Popova
 
-> "I like the look of agony, because I know it's true;" - Emily Dickinson
 
-> "The power of imagination makes us infinite." - John Muir
 
-> "Give thanks for a little and you will find a lot." - Hansa Proverb
 
-> "Enjoy the little things, for one day you may look back and realize they were the big things." - Robert Brault
 
-> "Technical skill is mastery of complexity, while creativity is mastery of simplicity." - Christopher Zeeman
 
-> "Perfection is not attainable, but if we chase perfection, we can catch excellence." - Vince Lombardi
 
-> "Those who know how to learn... know enough." - Henry Adams
+
+
+
+
+
+
+
+
+
+
 
 > "By seeking and blundering we learn." - Johann Wolfgang von Goethe
 
@@ -1355,5 +1375,13 @@ street." - Doug Linder
 > "The joy of coding Python should be in seeing short, concise, readable classes that express a lot of action in a small amount of clear code - not in reams of trivial code that bores the reader to death." - Guido van Rossum
 
 > "Data is not information. Information is not knowledge. Knowledge is not understanding. Understanding is not wisdom." - Gary Schubert & Cliff Stoll
+
+> "The only way of finding the limits of the possible is by going beyond them into the impossible." - Arthur C. Clarke
+
+> "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code." - Dan Salomon
+
+> "Don’t be afraid to give up the good to go for the great." - John D. Rockefeller
+
+> "Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." - Donald Knuth
 
 > 
