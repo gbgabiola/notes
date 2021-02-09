@@ -750,6 +750,7 @@ Some amazing designers on Dribble:
 - [15 Web Developer Portfolios to Inspire You](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
 - [Building a Strong Portfolio As a Developer](https://www.codingdojo.com/blog/building-developer-portfolio)
 - [Matheus Fantinel](https://fantinel.dev/)
+- [Marc Backes](https://marc.dev/)
 - [RMK](http://www.rijinmk.com/)
 - [iamjrp](https://www.iamjrp.com/)
 - [Brittany Chiang](https://brittanychiang.com/)
