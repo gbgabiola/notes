@@ -17,6 +17,7 @@
 - [zsh compinit: insecure directories and files, run compaudit for list.](#zsh-compinit-insecure-directories-and-files-run-compaudit-for-list)
 - [Folder permission "Insecure completion-dependent directories detected](#folder-permission-insecure-completion-dependent-directories-detected)
 - [WSL2 DNS stops working](#wsl2-dns-stops-working)
+- [WSL2 automatically release disk space back to the host OS](#wsl2-automatically-release-disk-space-back-to-the-host-os)
 
 
 ## Basic Scripting
@@ -402,3 +403,35 @@ Set `ZSH_DISABLE_COMPFIX=true` in your zshrc file, before oh-my-zsh.sh is source
   ```
 
 7. Repeat step 3 and 4. You will see `git` working fine now.
+
+
+## WSL2 automatically release disk space back to the host OS
+
+### [Windows 10 Pro](https://github.com/microsoft/WSL/issues/4699#issuecomment-635673427)
+
+```sh
+### Optimize (shrink) WSL 2 .vhdx
+## Must be run in PowerShell as Administrator user
+# DistroFolder found at: $env:LOCALAPPDATA\Packages\
+# Examples:
+#   CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+#   CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc
+
+cd $env:LOCALAPPDATA\Packages\REPLACE_ME_WITH_TARGET_DISTRO_FOLDERNAME\LocalState\
+wsl --shutdown
+optimize-vhd -Path .\ext4.vhdx -Mode full
+#Run `wsl` or your favorite terminal to resume use
+```
+
+### [Windows 10 Home](https://github.com/microsoft/WSL/issues/4699#issuecomment-627133168)
+
+```sh
+wsl --shutdown
+diskpart
+# open window Diskpart
+select vdisk file="C:\WSL-Distros\…\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit
+```
