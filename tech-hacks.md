@@ -6,6 +6,7 @@
 - [Windows 10 Login Bypass (for forgotten password)](#windows-10-login-bypass-for-forgotten-password)
 - [Office repeatedly prompts you to activate on a new PC](#office-repeatedly-prompts-you-to-activate-on-a-new-pc)
 - [Windows Master Control Panel (God Menu)](#windows-master-control-panel-god-menu)
+- [How to Find Your Windows 10 Product Key Using the Command Prompt](#how-to-find-your-windows-10-product-key-using-the-command-prompt)
 - [Can Connect to Wireless Router, but not to the Internet?](#can-connect-to-wireless-router-but-not-to-the-internet)
 - [How To Find Wi-Fi Password Using CMD Of All Connected Networks](#how-to-find-wi-fi-password-using-cmd-of-all-connected-networks)
 - [The 7 common PLDT Default passwords & usernames](#the-7-common-pldt-default-passwords--usernames)
@@ -30,6 +31,10 @@
 - [How to Fix ERR_CONNECTION_RESET in Google Chrome | The Site Can't Be Reached](#how-to-fix-err_connection_reset-in-google-chrome--the-site-cant-be-reached)
 - [Improve low resolution images quality in Photoshop](#improve-low-resolution-images-quality-in-photoshop)
 - [Add Users from CMD](#add-users-from-cmd)
+- [Update Windows 10 1709 to 20H2](#update-windows-10-1709-to-20h2)
+- [Get Windows 10 Product Key](#get-windows-10-product-key)
+- [Display Windows Script Host](#display-windows-script-host)
+- [Windows 10 activation Guide](#windows-10-activation-guide)
 
 
 ## [Remove 3D Objects folder under This PC in Windows 10](http://www.thewindowsclub.com/remove-3d-objects-folder-winows-10)
@@ -137,6 +142,12 @@ Update the registry to remove the Office 365 activation prompt
 - create a folder anywhere and rename it to the following string `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
 
 
+## [How to Find Your Windows 10 Product Key Using the Command Prompt](https://www.howtogeek.com/660517/how-to-find-your-windows-10-product-key-using-the-command-prompt/)
+
+Open Command Prompt and "Run As Administrator”.
+Once open, copy and paste the following command and then hit the Enter key: `wmic path softwarelicensingservice get OA3xOriginalProductKey`
+
+
 ## [Can Connect to Wireless Router, but not to the Internet?](https://helpdeskgeek.com/networking/can-connect-to-wireless-router-but-not-to-the-internet/)
 
 - Method 1 – Reset TCP/IP Stack
@@ -149,6 +160,7 @@ Update the registry to remove the Office 365 activation prompt
 - Method 6 – Internet Connection Troubleshooter
 - Method 7 – Reset Windows PC
 - Method 8 – Check Proxy Server Settings
+
 
 ## [How To Find Wi-Fi Password Using CMD Of All Connected Networks](https://fossbytes.com/find-wifi-password-connected-networks-cmd-windows/)
 
@@ -524,8 +536,131 @@ Type Preferred DNS Server: `1.1.1.1` and Alternate DNS Server: `1.0.0.1`
   - Once you see the phrase "The command completed successfully" appear, your user has been added.
 8. **Grant the user administrator permissions**. If you want to turn the user account into an administrator account, type `net localgroup administrators username /add` into Command Prompt, making sure to replace "username" with the name of the account you want to change and press **Enter**.
   - For example, to make a user account named "Michael" an administrator, you would type in `net localgroup administrators Michael /add` and press **Enter**.
+  
+  
+## Update Windows 10 1709 to 20H2
+
+1. Download and Run Creation Media Tool
+2. Select Upgrade
+
+
+## Get Windows 10 Product Key
+
+1. Press `Windows key + X`
+2. Click Command Prompt (Admin)
+3. At the command prompt, type: `wmic path SoftwareLicensingService get OA3xOriginalProductKey`
+
+[Alternative](https://www.techspot.com/articles-info/1760/images/Win10KeyFinder.txt): Save this script as `.vbs` file
+
+```
+Option Explicit
+Dim objshell,path,DigitalID, Result
+Set objshell = CreateObject("WScript.Shell")
+'Set registry key path
+Path = "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\"
+'Registry key value
+DigitalID = objshell.RegRead(Path & "DigitalProductId")
+Dim ProductName,ProductID,ProductKey,ProductData
+'Get ProductName, ProductID, ProductKey
+ProductName = "Product Name: " & objshell.RegRead(Path & "ProductName")
+ProductID = "Product ID: " & objshell.RegRead(Path & "ProductID")
+ProductKey = "Installed Key: " & ConvertToKey(DigitalID)
+ProductData = ProductName & vbNewLine & ProductID & vbNewLine & ProductKey
+'Show messbox if save to a file
+If vbYes = MsgBox(ProductData & vblf & vblf & "Save to a file?", vbYesNo + vbQuestion, "BackUp Windows Key Information") then
+Save ProductData
+End If
+'Convert binary to chars
+Function ConvertToKey(Key)
+Const KeyOffset = 52
+Dim isWin8, Maps, i, j, Current, KeyOutput, Last, keypart1, insert
+'Check if OS is Windows 8
+isWin8 = (Key(66) \ 6) And 1
+Key(66) = (Key(66) And &HF7) Or ((isWin8 And 2) * 4)
+i = 24
+Maps = "BCDFGHJKMPQRTVWXY2346789"
+Do
+Current= 0
+j = 14
+Do
+Current = Current* 256
+Current = Key(j + KeyOffset) + Current
+Key(j + KeyOffset) = (Current \ 24)
+Current=Current Mod 24
+j = j -1
+Loop While j >= 0
+i = i -1
+KeyOutput = Mid(Maps,Current+ 1, 1) & KeyOutput
+Last = Current
+Loop While i >= 0
+
+If (isWin8 = 1) Then
+keypart1 = Mid(KeyOutput, 2, Last)
+insert = "N"
+KeyOutput = Replace(KeyOutput, keypart1, keypart1 & insert, 2, 1, 0)
+If Last = 0 Then KeyOutput = insert & KeyOutput
+End If
+ConvertToKey = Mid(KeyOutput, 1, 5) & "-" & Mid(KeyOutput, 6, 5) & "-" & Mid(KeyOutput, 11, 5) & "-" & Mid(KeyOutput, 16, 5) & "-" & Mid(KeyOutput, 21, 5)
+End Function
+'Save data to a file
+Function Save(Data)
+Dim fso, fName, txt,objshell,UserName
+Set objshell = CreateObject("wscript.shell")
+'Get current user name
+UserName = objshell.ExpandEnvironmentStrings("%UserName%")
+'Create a text file on desktop
+fName = "C:\Users\" & UserName & "\Desktop\WindowsKeyInfo.txt"
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set txt = fso.CreateTextFile(fName)
+txt.Writeline Data
+txt.Close
+End Function
+```
+
+
+## Display Windows Script Host
+
+1. Press `Windows key + X`
+2. Click Command Prompt (Admin)
+3. At the command prompt, type: `slmgr /dlv`
+4. or type: `slmgr/dli`
+
+
+## Windows 10 activation Guide
+
+### Method 1
+
+1. Type `regedit` then click OK to open `Registry`, and open `cmd` as Admin
+  - Paste `Computer\HKEY_CURRENT_USER\Control Panel\Desktop` in registry address bar
+  - Change the value to `4`
+2. Type `gpupdate /force` in `cmd`
+  - `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc`
+  - @start change value to `4`
+  - under `svsvc` right click then type `KMS`
+  - then under `KMS`, type `kms_4` in value `data` field then enter
+  - Type `gpupdate /force` again in `cmd`
+3. Type `slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX` in `cmd`
+4. Type `slmgr /skms kms8.msguides.com` in `cmd`
+5. Type `slmgr /ato` in `cmd`
+6. Paste `Computer\HKEY_CURRENT_USER\Control Panel\Desktop` in registry address bar
+  - Chnage value back to `0`
+  - Type `gpupdate /force` in `cmd`
+
+
+[Win10 KMS client setup KEYs](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys)
+
+
+### Method 2
+
+1. Open `cmd` as an Administrator
+2. Type `dism /Online /Get-TargetEditions`
+3. Type `sc config LicenseManager start= auto & net start LicenseManager`
+4. Type `sc config wuauserv start= auto & net start wuauserv`
+5. Type `changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T`
+6. Don't turn off your PC, it will restart and upgrade it successfully
 
 ---
+
 
 <!-- ## [Lynda.com 60days PREMIUM account FREE](https://discuss.freetutorials.eu/t/get-lynda-com-60days-premium-account-free/7102)
 
