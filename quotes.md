@@ -1,5 +1,7 @@
 # Quotes from different topics
 
+## Table of Contents <!-- omit in toc -->
+
 - [Computer Programming](#computer-programming)
 - [Debugging](#debugging)
 - [Privacy](#privacy)
@@ -80,6 +82,19 @@
 > "One person's 'paranoia' is another person's 'engineering redundancy.'" - Marcus J. Ranum
 
 > "A great lathe operator commands several times the wage of an average lathe operator, but a great writer of software code is worth 10,000 times the price of an average software writer." - Bill Gates
+
+> "One of my most productive days was throwing away 1000 lines of code." - Ken Thompson
+
+> Atwood's Law: "Any application that can be written in javaScript will eventually be written in javaScript." - Jeff Atwood
+
+> "Optimism is an occupational hazard of programming. Testing is the treatment." - Kent Beck
+
+> "Most good programmers do programming not because they expect to get paid or get
+adulation by the public, but because it is fun to program." - Linus Torvalds
+
+> "Like me, the author is having trouble with the fact that 199 out of 200 applicants for every programming job can't write code at all. I repeat: they can’t write any code whatsoever." - Jeff Artwood
+
+> "A good programmer is someone who always looks both ways before crossing a one-way street." - Doug Linder
 
 
 ## Debugging
@@ -316,6 +331,40 @@
 
 > "What makes you different or weird, that's your strength." - Meryl Streep
 
+> "The secret of change is to focus all of your energy, not on fighting the old but on building the new." - Dan Millman
+
+> "Don't waste your time chasing butterflies. Mend your garden, and the butterflies will come." - Mario Quintana
+
+> "Light tomorrow with today." - Elizabeth Barrett Browning
+
+> "Opportunity is missed by people because it is dressed in overalls and looks like work." - Thomas Alva Edison
+
+> "Those who say it cannot be done should not interrupt the person doing it." - Unknown
+
+> "Be kind whenever possible. It is always possible." - Dalai Lama
+
+> "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree." - Martin Luther
+
+> "If things start happening, don't worry, don't stew, just go right along and you'll start happening too." - Dr. Seuss
+
+> "Do your little bit of good where you are; it's those little bits of good put together that overwhelm the world." - Desmond Tutu
+
+> "What are the most powerful words in the universe? The ones you use to talk to yourself." - Karen Salmansohn
+
+> "All things are difficult before they are easy." - Chinese Proverb
+
+> "You cannot swim for new horizons until you have courage to lose sight of the shore." - William Faulkner
+
+> "Stay away from negative people. They have a problem for every solution." - Albert Einstein
+
+> "You are never too old to set another goal, or to dream a new dream." - C.S. Lewis
+
+> "You miss 100 percent of the shots you don't take." - Wayne Gretzky
+
+> "Give whatever you are doing and whoever you are with the gift of your attention." - Jim Rohn
+
+> "When you show deep empathy toward others, their defensive energy goes down, and positive energy replaces it." - Stephen Covey
+
 
 ## Success
 
@@ -509,6 +558,26 @@
 
 > "Perfection is not attainable, but if we chase perfection, we can catch excellence." - Vince Lombardi
 
+> "You don't have to see the whole staircase. Just take the first step." - Martin Luther King
+
+> "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things." - Leonardo da Vinci
+
+> "Be a yardstick of quality. Some people aren't used to an environment where excellence is expected." - Steve Jobs
+
+> "Never confuse a single defeat with a final defeat." - F. Scott Fitzgerald
+
+> "The best revenge is massive success." - Frank Sinatra
+
+> "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time." - Thomas A. Edison
+
+> "Arise, Awake and Stop not until the goal is reached." - Swami Vivekananda
+
+> "It does not matter how slowly you go as long as you do not stop." - Confucius
+
+> "By failing to prepare, you are preparing to fail." - Benjamin Franklin
+
+> "Perseverance is failing 19 times and succeeding the 20th." - Julie Andrews
+
 
 ## Intelligence
 
@@ -583,6 +652,22 @@
 > "Know your body, know your mind, know your substance, know your source." - Erowid
 
 > "Those who know how to learn... know enough." - Henry Adams
+
+> "By seeking and blundering we learn." - Johann Wolfgang von Goethe
+
+> "the highest form of intelligence is the ability to observe without evaluating." - Jiddu Krishnamurti
+
+> "That is the essence of science: ask an impertinent question, and you are on the way to a pertinent answer." - Jacob Bronowski
+
+> "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life." - Confucius
+
+> "Play is the highest form of research." - Albert Einstein
+
+> "Education: the path from cocky ignorance to miserable uncertainty." - Mark Twain
+
+> "Don't let mental blocks control you. Set yourself free. Confront your fear and turn the mental blocks into building blocks." - Dr Roopleen
+
+> "The tools we use have a profound and devious influence on our thinking habits, and therefore on our thinking abilities." - Edsger Dijkstra
 
 
 ## Life
@@ -721,6 +806,14 @@
 
 > "Today is the most important day of our lives." - Thich Nhat Hanh
 
+> "Once in your life, try something. Work hard at something. Try to change. Nothing bad can happen" - Jack Ma
+
+> "Those who do not archive the past are condemned to retype it!" - Garfinkel and Spafford
+
+> "Even if you're on the right track, you'll get run over if you just sit there." - Will Rogers
+
+> "With the new day comes new strength and new thoughts." - Eleanor Roosevelt
+
 
 ## Happiness
 
@@ -754,6 +847,8 @@
 
 > "To understand and be understood, those are among life's greatest gifts, and every interaction is an opportunity to exchange them." - Maria Popova
 
+> "Independence is happiness" - Susan B. Anthony
+
 
 ## Minimalism
 
@@ -779,6 +874,8 @@
 
 > "Give thanks for a little and you will find a lot." - Hansa Proverb
 
+> "We are what we believe we are." - C. S. Lewis
+
 
 ## Friends
 
@@ -794,6 +891,8 @@
 > "I didn't learn to talk from a linguist, I learned to talk from hearing other people talk" - Anonymous
 
 > "A language isn't something you learn so much as something you join." - Anonymous
+
+> "Obsessed is a word that the lazy use to describe the dedicated." - Unknown
 
 
 ## Writing
@@ -858,7 +957,6 @@
 With first principles you boil things down to the most fundamental truths… 
 And then reason up from there." - Elon Musk
 
-
 > "Always do what you are afraid to do." - Ralph Waldo Emerson
 
 > "It is not uncommon for people to spend their whole life waiting to start living." - Eckhart Tolle
@@ -880,6 +978,16 @@ And then reason up from there." - Elon Musk
 > "Kindness is the sunshine in which virtue grows." - Robert Green Ingersoll
 
 > "Enjoy the little things, for one day you may look back and realize they were the big things." - Robert Brault
+
+> "A leader is one who knows the way, goes the way, and shows the way." - John C. Maxwell
+
+> "The best way out is always through." - Robert Frost
+
+> "Never underestimate the ability of a small group of dedicated people to change the world. Indeed, it is the only thing that ever has." - Margaret Mead
+
+> "People do not seem to realize that their opinion of the world is also a confession of character." - Ralph Waldo Emerson
+
+> "Watch carefully the magic that occurs when you give a person just enough comfort to be themselves." - Atticus
 
 
 ## Related
@@ -936,114 +1044,39 @@ And then reason up from there." - Elon Musk
 
 
 
-> "By seeking and blundering we learn." - Johann Wolfgang von Goethe
 
-> "One of my most productive days was throwing away 1000 lines of code." - Ken Thompson
 
-> "You don't have to see the whole staircase. Just take the first step." - Martin Luther King
 
-> "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things." - Leonardo da Vinci
 
-> "Be a yardstick of quality. Some people aren't used to an environment where excellence is expected." - Steve Jobs
 
-> "the highest form of intelligence is the ability to observe without evaluating." - Jiddu Krishnamurti
 
-> "Once in your life, try something. Work hard at something. Try to change. Nothing bad can happen" - Jack Ma
 
-> "The secret of change is to focus all of your energy, not on fighting the old but on building the new." - Dan Millman
 
-> "A leader is one who knows the way, goes the way, and shows the way." - John C. Maxwell
-
-> "The best way out is always through." - Robert Frost
-
-> "Even if you're on the right track, you'll get run over if you just sit there." - Will Rogers
-
-> "Those who do not archive the past are condemned to retype it!" - Garfinkel and Spafford
-
-> "Never confuse a single defeat with a final defeat." - F. Scott Fitzgerald
-
-> "That is the essence of science: ask an impertinent question, and you are on the way to a pertinent answer." - Jacob Bronowski
-
-> "Watch carefully the magic that occurs when you give a person just enough comfort to be themselves." - Atticus
-
-> "You miss 100 percent of the shots you don't take." - Wayne Gretzky
-
-> "Light tomorrow with today." - Elizabeth Barrett Browning
-
-> "Don't waste your time chasing butterflies. Mend your garden, and the butterflies will come." - Mario Quintana
 
 > "Have no fear of perfection - you'll never reach it." - Salvador Dalí
 
-> "The best revenge is massive success." - Frank Sinatra
 
-> "We are what we believe we are." - C. S. Lewis
-
-> Atwood's Law: "Any application that can be written in javaScript will eventually be written in javaScript." - Jeff Atwood
-
-> "Our greatest weaknes liest in giving up. The most certain way to succeed is always to try just one more time." - Thomas A. Edison
-
-> "Arise, Awake and Stop not until the goal is reached." - Swami Vivekananda
-
-> "Opportunity is missed by people because it is dressed in overalls and looks like work." - Thomas Alva Edison
-
-
-
-
-
-> "It does not matter how slowly you go as long as you do not stop." - Confucius
-
-> "By failing to prepare, you are preparing to fail." - Benjamin Franklin
-
-> "Those who say it cannot be done should not interrupt the person doing it." - Unknown
 
 > "Someday is not a day of the week." - Denise Brennan-Nelson
-
-> "Optimism is an occupational hazard of programming. Testing is the treatment." - Kent Beck
-
-
-
-> "Independence is happiness" - Susan B. Anthony
-
 
 
 > "Truth isn't all about what actually happens but more about how what has happened is interpreted." - Byron Pulsifer
 
 > "Can you imagine what I would do if I could do all I can?" - Sun Tzu
 
-> "Be kind whenever possible. It is always possible." - Dalai Lama
 
-> "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree." - Martin Luther
-
-> "If things start happening, don't worry, don't stew, just go right along and you'll start happening too." - Dr. Seuss
-
-> "Perseverance is failing 19 times and succeeding the 20th." - Julie Andrews
-
-> "Do your little bit of good where you are; it's those little bits of good put together that overwhelm the world." - Desmond Tutu
 
 > "The cure for pain is in the pain" - Rumi
 
-> "What are the most powerful words in the universe? The ones you use to talk to yourself." - Karen Salmansohn
-
-> "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life." - Confucius
-
-
-> "Play is the highest form of research." - Albert Einstein
 
 
 
-> "All things are difficult before they are easy." - Chinese Proverb
-
-> "You cannot swim for new horizons until you have courage to lose sight of the shore." - William Faulkner
-
-> "Stay away from negative people. They have a problem for every solution." - Albert Einstein
-
-> "Only put off until tomorrow what you are willing to die having left undone." - Pablo Picasso
 
 
 
-> "You are never too old to set another goal, or to dream a new dream." - C.S. Lewis
 
-> "With the new day comes new strength and new thoughts." - Eleanor Roosevelt
+
+
 
 
 
@@ -1057,17 +1090,6 @@ And then reason up from there." - Elon Musk
 
 
 
-> "People do not seem to realize that their opinion of the world is also a confession of character." - Ralph Waldo Emerson
-
-
-
-> "Obsessed is a word that the lazy use to describe the dedicated." - Unknown
-
-
-
-
-
-> "Never underestimate the ability of a small group of dedicated people to change the world. Indeed, it is the only thing that ever has." - Margaret Mead
 
 
 
@@ -1075,28 +1097,20 @@ And then reason up from there." - Elon Musk
 
 
 
-> "Education: the path from cocky ignorance to miserable uncertainty." - Mark Twain
 
 
 
 
-> "Don't let mental blocks control you. Set yourself free. Confront your fear and turn the mental blocks into building blocks." - Dr Roopleen
 
-> “The tools we use have a profound (and devious!) influence on our thinking habits, and, therefore, on our thinking abilities.” - Edsger Dijkstra
 
-> "Give whatever you are doing and whoever you are with the gift of your attention." - Jim Rohn
 
-> "Most good programmers do programming not because they expect to get paid or get
-adulation by the public, but because it is fun to program." - Linus Torvalds
 
-> "Like me, the author is having trouble with the fact that 199 out of 200
-applicants for every programming job can’t write code at all. I repeat: they can’t write any
-code whatsoever." - Jeff Artwood
 
-> "A good programmer is someone who always looks both ways before crossing a one-way
-street." - Doug Linder
 
-> "When you show deep empathy toward others, their defensive energy goes down, and positive energy replaces it." - Stephen Covey
+
+
+
+
 
 > "Don't go through life, grow through life." - Eric Butterworth
 
@@ -1383,5 +1397,61 @@ street." - Doug Linder
 > "Don’t be afraid to give up the good to go for the great." - John D. Rockefeller
 
 > "Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." - Donald Knuth
+
+> "Privacy is not for the passive." - Jeffrey Rosen
+
+> "When feeling overwhelmed by a faraway goal, repeat the following: I have it within me right now, to get me to where I want to be later." - Karen Salmansohn
+
+> "If you never did, you should. These things are fun and fun is good." - Dr. Seuss
+
+> "Life shrinks or expands in proportion to one's courage." - Anaïs Nin
+
+> "Life has no limitations, except the ones you make." - Les Brown
+
+> "It's not about where your starting point is, but your end goal and the journey that will get you there." - Unknown
+
+> "Lead with your strengths, not your weaknesses." - Unknown
+
+> "You can pipe anything to anything else, and usually it'll do something. With most of the standard Linux tools, it'll even do what you expect." - Scott Simpson
+
+> "Programming isn’t about what you know. It’s about what you can figure out." - Chris Pine
+
+> "It is not the load that breaks you down. It's the way you carry it." - Lou Holtz
+
+> "To be beautiful means to be yourself. You don't need to be accepted by others. You need to be yourself." - Thich Nhat Hanh
+
+> "The Domain Name Server (DNS) is the Achilles heel of the Web. The important thing is that it's managed responsibly." - Tim Berners-Lee, inventor of the World Wide Web
+
+> "Simple can be harder than complex. You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end, because once you get there you can move mountains." - Steve Jobs
+
+> "Maybe it's better not to be the best. Then you can lose and it's OK." - Bobby Fischer
+
+> "Some people make your laugh a little louder, your smile a little brighter and your life a little better. Try to be one of those people." - Unknown
+
+> "On your journey through life, make sure your biography has at least one extraordinary chapter." - Unknown
+
+> "People tend to overestimate what can be done in one year and to underestimate what can be done in five or ten years." - JCR Licklider, co-creator of the internet
+
+> "Never be limited by other people’s limited imaginations." - Mae Jemison
+
+> "We don't see things as they are, we see them as we are." - Anaïs Nin
+
+> "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." - Albert Einstein
+
+> "You can, you should, and if you’re brave enough to start, you will." - Stephen King
+
+> "Human beings are not accustomed to being perfect, and few areas of human activity demand it. Adjusting to the requirement for perfection is, I think, the most difficult part of learning to program." - Fred Brooks
+
+> "If you have everything under control, you're not moving fast enough." - Mario Andretti
+
+> "Discipline is the bridge between goals and accomplishment" - Jim Rohn
+
+> "Go beyond yourself rather than beyond others." - Unknown
+
+> "I am convinced, the way one plays chess always reflects the player's personality. If something defines his character, then it will also define his way of playing." - Vladimir Kramnik
+
+> "The golden rule of level design - finish your first level last." - John Romero (co-creator of DOOM)
+
+> "The beginning is perhaps more difficult than anything else, but keep heart, it will turn out all right." - Vincent van Gogh
 
 > 
