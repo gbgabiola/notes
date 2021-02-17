@@ -16,6 +16,7 @@
 - [How do I hide the “user@hostname” info](#how-do-i-hide-the-userhostname-info)
 - [zsh compinit: insecure directories and files, run compaudit for list.](#zsh-compinit-insecure-directories-and-files-run-compaudit-for-list)
 - [Folder permission "Insecure completion-dependent directories detected](#folder-permission-insecure-completion-dependent-directories-detected)
+- [Timing All ZSH Plugins Programmatically](#timing-all-zsh-plugins-programmatically)
 - [WSL2 DNS stops working](#wsl2-dns-stops-working)
 - [WSL2 automatically release disk space back to the host OS](#wsl2-automatically-release-disk-space-back-to-the-host-os)
 
@@ -381,6 +382,28 @@ This makes only your username to appear. If you don't want that too, just commen
 ## [Folder permission "Insecure completion-dependent directories detected](https://github.com/robbyrussell/oh-my-zsh/issues/6835#issuecomment-390216875)
 
 Set `ZSH_DISABLE_COMPFIX=true` in your zshrc file, before oh-my-zsh.sh is sourced, and update OMZ to the latest version. It should ignore these permission issues and load the completion system normally.
+
+
+## [Timing All ZSH Plugins Programmatically](https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#timing-all-plugins-programmatically)
+
+Update `~/.oh-my-zsh/oh-my-zsh.sh`
+
+```sh
+# Load all of the plugins that were defined in ~/.zshrc
+for plugin ($plugins); do
+  timer=$(($(python3 -c 'from time import time; print (int(round(time() * 1000)))')))
+  #timer=$(($(python -c 'from time import time; print int(round(time() * 1000))')))
+  if [ -f $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh ]; then
+    source $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh
+  elif [ -f $ZSH/plugins/$plugin/$plugin.plugin.zsh ]; then
+    source $ZSH/plugins/$plugin/$plugin.plugin.zsh
+  fi
+  now=$(($(python3 -c 'from time import time; print (int(round(time() * 1000)))')))
+  #now=$(($(python -c 'from time import time; print int(round(time() * 1000))')))
+  elapsed=$(($now-$timer))
+  echo $elapsed":" $plugin
+done
+```
 
 
 ## [WSL2 DNS stops working](https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021)
