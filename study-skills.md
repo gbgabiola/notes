@@ -3,6 +3,7 @@
 - [Taking Notes](#taking-notes)
 - [Reading Assignments](#reading-assignments)
 - [Memory](#memory)
+- [Remembering Information](#remembering-information)
 
 ## Taking Notes
 
@@ -126,3 +127,107 @@
    - What does stick moves into short-term or working memory
      - working memory can only handle 4-7 bits of items of information at a time
 2. Why we forget things
+
+
+## Remembering Information
+
+- **Repetition**
+  - through writing
+  - through speaking
+- **Mnemonics**
+  - device or code to assist memory
+  - can be a song, sentence, or set of words
+  1. **Acronyms**
+     - combination of parts of words
+     - initialisms
+     - may include numbers
+     - **PINA:**
+       - Prenatal
+       - Infancy
+       - Neonatal
+       - Adolescence
+     - **5W's 1H**:
+       - Who
+       - What
+       - When
+       - Where
+       - Why
+       - How
+     - **IdEgSu**:
+       - Id
+       - Ego
+       - Superego
+  2. **Abbreviations**
+     - Latin "brevis" means shorts
+     - represents a longer term or word
+     - e.g. = exempli gratia (for example)
+     - i.e. = id est (that is)
+  3. **Pegwords**
+     - rhyme of numbers and words
+     - build associations numbers
+     - may also be used as codes
+  4. **Keywords**
+     - familiars words to learn new terms or definitions
+     - clues or hints to remember
+  5. **Rhymes**
+     - words with similar sounds
+     - usually a poem, song, or jingle
+  6. **Graphic Organizers**
+     - visual representations of organized information
+- **Highlighting**
+  - emphasize important information in the text
+  - **Double Lines** for Important Ideas
+  - **Single Line** for Details
+  - **Different Line** for Main-Idea Sentence
+- **Note Taking**
+  - jotting down pieces of information
+  - systematic
+  - separate sheets
+  - condense ideas
+  1. **SQ3R Method (Rowntree)**
+     - Survey
+     - Question
+     - Read
+     - Recall
+     - Review
+  2. **PQ5R Method textbooks**
+     - Preview
+     - Question
+     - Read (Stop&Go)
+     - Record (Flag)
+     - Recite
+     - Review
+     - Reflect
+  3. **Anotating**
+     - includes underlining and notations: selection of salient points beyond marks plus _written comments_, _questions_, and _keywords_
+     - Anotations:
+       - Comments
+       - Explanations
+       - Unit Summaries
+       - External Remarks
+       - Meta Data
+  4. **Cornell Method**
+     - Walter Pauk, Cornell University 
+     - division of paper in two columns
+     - first for keywords & second for facts and ideas
+     - space below for summaries
+     - 6R:
+       - Record
+       - Reduce
+       - Recite (own words)
+       - Reflect
+       - Review
+       - Recapitulate
+  5. **Concept & Mind Map**
+     - **Mind Map**: hierarchical trees
+     - **Concept Map**: design tool to visualize relationships between concepts
+  6. **Charting**
+     - summarize central ideas
+     - categories
+     - table with columns
+     - columns: for conceprts
+     - rows: for text
+  7. **Outlining**
+     - short verbal sketch in skeleton form for pattern of ideas
+     - draft for writing and speaking 
+     - contains main and sub ideasindentions, numbers, and letters to emphasize level of importance
