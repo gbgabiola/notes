@@ -6,6 +6,7 @@
 - [Windows 10 Login Bypass (for forgotten password)](#windows-10-login-bypass-for-forgotten-password)
 - [Add Users from CMD](#add-users-from-cmd)
 - [Update Windows 10 1709 to 20H2](#update-windows-10-1709-to-20h2)
+- [Enable long paths on Windows 10 and Git](#enable-long-paths-on-windows-10-and-git)
 - [Get Windows 10 Product Key](#get-windows-10-product-key)
 - [How to Find Your Windows 10 Product Key Using the Command Prompt](#how-to-find-your-windows-10-product-key-using-the-command-prompt)
 - [Display Windows Script Host](#display-windows-script-host)
@@ -110,6 +111,15 @@ If your PC is running slowly, the following suggestions might help speed things 
 
 1. Download and Run Creation Media Tool
 2. Select Upgrade
+
+
+## Enable long paths on Windows 10 and Git
+
+- Windows 10 Home users could change `Registry` to enable Long Paths.
+  - Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem` in `regedit` and set `LongPathsEnabled` to `1`.
+- Windows 10 Pro or Enterprise users could also edit `Local Group Policies`.
+  - Go to `Computer Configuration > Administrative Templates > System > Filesystem` in `gpedit.msc`, open `Enable Win32 long paths` and set it to `Enabled`.
+- In git, we can do: `git config --system core.longpaths true`
 
 
 ## Get Windows 10 Product Key
