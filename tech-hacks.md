@@ -5,6 +5,7 @@
 - [Steps to fix the issue- Laptop Touchpad Not Working:](#steps-to-fix-the-issue--laptop-touchpad-not-working)
 - [Windows 10 Login Bypass (for forgotten password)](#windows-10-login-bypass-for-forgotten-password)
 - [Office repeatedly prompts you to activate on a new PC](#office-repeatedly-prompts-you-to-activate-on-a-new-pc)
+- [Your input can't be opened: VLC is unable to open the MRL](#your-input-cant-be-opened-vlc-is-unable-to-open-the-mrl)
 - [Windows Master Control Panel (God Menu)](#windows-master-control-panel-god-menu)
 - [How to Find Your Windows 10 Product Key Using the Command Prompt](#how-to-find-your-windows-10-product-key-using-the-command-prompt)
 - [Can Connect to Wireless Router, but not to the Internet?](#can-connect-to-wireless-router-but-not-to-the-internet)
@@ -134,6 +135,22 @@ Update the registry to remove the Office 365 activation prompt
 7. After the key is backed up, select **Edit**>**Delete**.
 8. Repeat steps 3-7 for the following key: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Common\OEM`
 9. Close the Registry Editor and start Office again.
+
+
+## Your input can't be opened: VLC is unable to open the MRL
+
+1. Right-click the video, click `Properties`, and then click the `Security`
+2. Click the `Advanced` button, then `Advanced Security Settings` window will appear
+3. Click `Change` link, next to the `Owner:` label, the Select User or Group window will appear
+4. Select the user account via the `Advanced` button or just type your user account in the area which says `Enter the object name to select` and click `OK`. Add the `Everyone`
+5. Optionally, to change the owner of all subfolders and files inside the folder, select the checkbox `Replace owner on subcontainers and objects` in the `Advanced Security Settings` window. Click `OK` to change the ownership
+
+### If no Security Tab
+
+1. Go to `Details Tab`
+2. Click `Remove Properties and Personal Information`
+3. Tick `Create a copy with all possible properties removed`
+4. Click `OK`
 
 
 ## Windows Master Control Panel (God Menu)
