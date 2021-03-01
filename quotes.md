@@ -271,8 +271,6 @@ adulation by the public, but because it is fun to program." - Linus Torvalds
 
 > "Tough times don't last; tough people do." - Gregory Peck
 
-> "The work of today is the history of tomorrow, and we are its makers." - Juliette Gordon Low
-
 > "Always remember that you are absolutely unique. Just like everyone else." - Margaret Mead
 
 > "Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says I'll try again tomorrow." - Mary Anne Radmacher
@@ -1453,5 +1451,17 @@ And then reason up from there." - Elon Musk
 > "The golden rule of level design - finish your first level last." - John Romero (co-creator of DOOM)
 
 > "The beginning is perhaps more difficult than anything else, but keep heart, it will turn out all right." - Vincent van Gogh
+
+> "For all its power, the computer is a harsh taskmaster. Its programs must be correct, and what we wish to say must be said accurately in every detail." - Alan Perlis
+
+> "Forever is composed of nows." - Emily Dickinson
+
+> "The past cannot be changed. The future is yet in your power." - Confucius
+
+> "Do not go gentle into that good night. Rage, rage against the dying of the light." - Dylan Thomas
+
+> "Find what you love and let it kill you." - Charles Bukowski
+
+> "Forget safety. Live where you fear to live. Destroy your reputation. Be notorious." - Rumi
 
 > 
