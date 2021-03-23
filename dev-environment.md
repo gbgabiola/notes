@@ -45,10 +45,6 @@
 
 - [Linux on Windows: Windows Subsystem for Linux (WSL) Youtube](https://www.youtube.com/watch?v=AVl_KMuTd7w)
 
-### WSL with GUI
-- [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/)
-- [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
-
 ### WSL with Python
 - [My Python Development Environment, 2018 Edition](https://jacobian.org/2018/feb/21/python-environment-2018/)
 - [Windows vscode uses python in wsl](http://blog.plusls.cn/windows/vscode-using-python-in-wsl/)
@@ -72,9 +68,10 @@
 
 
 ### WSL with GUI
-- [Windows development in 2018: Setting up a coding environment using Windows Subsystems for Linux (WSL), Hyper, and Visual Studio Code (vscode) with Python.
-](https://gist.github.com/Voronoff/059c50f9fd354386c305c55af1f3a61f)
+- [Windows development in 2018: Setting up a coding environment using Windows Subsystems for Linux (WSL), Hyper, and Visual Studio Code (vscode) with Python.](https://gist.github.com/Voronoff/059c50f9fd354386c305c55af1f3a61f)
 - [A tutorial about how to run desktop environment inside Windows Subsystem for Linux](https://github.com/QMonkey/wsl-tutorial)
+- [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/)
+- [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
 
 
 ## Customize Shell | Terminals
@@ -492,10 +489,6 @@ sudo rm /usr/bin/python3
 
 sudo ln -s python3.5 /usr/bin/python3
 ```
-
-
-## Get your terminal
-- Download Hyper.js [here](https://hyper.is/)
 
 ## Automatically open the terminal in Bash
 - Open up Hyper and type `Ctrl` + `,`
@@ -943,7 +936,43 @@ To permanently resolve this:
 
 ## [Node.js Docker workflow](https://medium.com/@guillaumejacquart/node-js-docker-workflow-12febcc0eed8)
 
+
+## WSL with GUI
+
+```sh
+sudo apt-get purge xrdp
+sudo apt install -y xrdp
+sudo apt install -y xfce4
+sudo apt install -y xfce4-goodies
+
+sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+echo xfce4-session > ~/.xsession
+
+sudo nano /etc/xrdp/startwm.sh
+
+# !comment these lines to:
+#test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+#exec /bin/sh /etc/X11/Xsession
+
+
+# !add these lines:
+# xfce
+startxfce4
+
+sudo /etc/init.d/xrdp start
+```
+
+!Now in Windows, use Remote Desktop Connection
+`localhost:3390`
+
+!Then login using your Ubuntu username and password
+
 ---
+
+
 
 
 ## Resources
