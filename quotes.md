@@ -1464,4 +1464,28 @@ And then reason up from there." - Elon Musk
 
 > "Forget safety. Live where you fear to live. Destroy your reputation. Be notorious." - Rumi
 
+> "Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter." - Eric Raymond
+
+> "Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them." - William Shakespeare
+
+> "There is no passion to be found playing small, in settling for a life that is less than the one you are capable of living." - Nelson Mandela
+
+> "To iterate is human, to recurse divine." - Peter Deutsch
+
+> "A secure system is one that does what it is supposed to do, and nothing more." - John B. Ippolito
+
+> "When you have exhausted all possibilities, remember this: you haven't." - Thomas Edison
+
+> "Weeks of programming can save you hours of planning." - Unknown
+
+> "Believe you can and you're halfway there." - Theodore Roosevelt
+
+> "You don't learn to walk by following rules. You learn by doing, and by falling over." - Richard Branson
+
+> "Wisdom is not a product of schooling but of the lifelong attempt to acquire it." - Albert Einstein
+
+> "The fastest algorithm can frequently be replaced by one that is almost as fast and much easier to understand." - Douglas W. Jones
+
+> "Every project is an opportunity to learn, to figure out problems and challenges, to invent and reinvent." – David Rockwell, architect and Tony Award-winning musical set designer
+
 > 
