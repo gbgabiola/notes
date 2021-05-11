@@ -34,7 +34,7 @@
 - [Adding more changes to your last commit](#adding-more-changes-to-your-last-commit)
 - [Show `.gitconfig` details](#show-gitconfig-details)
 - [Conflicts between Windows Git and WSL Git?](#conflicts-between-windows-git-and-wsl-git)
-- [Rename a branch while pointed to any branch](#rename-a-branch-while-pointed-to-any-branch)
+- [Change default branch from master to main](#change-default-branch-from-master-to-main)
 - [If you know the last commit message of the deleted branch you can do this:](#if-you-know-the-last-commit-message-of-the-deleted-branch-you-can-do-this)
 - [Filename too long in git for windows](#filename-too-long-in-git-for-windows)
 - [Specify multiple users for myself in .gitconfig?](#specify-multiple-users-for-myself-in-gitconfig)
@@ -581,21 +581,37 @@ $ git config --list --show-origin
 Remove any conflicting settings then try again.
 
 
-## Rename a branch while pointed to any branch
+## Change default branch from master to main
+
+### 1. Create main branch locally, taking the history from master
+
+`-m` is for _move_ (or `mv`), to rename files
 
 ```sh
-$ git branch -m <OLD_NAME> <NEW_NAME>
+git branch -m master main
 ```
 
-To rename the current branch, do:
+### 2. Push the new local main branch to the remote repo (GitHub) 
 
 ```sh
-$ git branch -m <NEW_NAME>
+git push -u origin main
 ```
 
-A way to remember this, is `-m` is for "move" (or `mv`), which is how
-you rename files.
+### 3. Switch the current HEAD to the main branch
 
+```sh
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+```
+
+### 4. Change the default branch on GitHub to main
+
+https://docs.github.com/en/github/administering-a-repository/setting-the-default-branch
+
+### 5. Delete the master branch on the remote
+
+```sh
+git push origin --delete master
+```
 
 ## If you know the last commit message of the deleted branch you can do this:
 
