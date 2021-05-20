@@ -6,6 +6,7 @@
 - [Introduction](#introduction)
 - [Variables, Constants, Data Types](#variables-constants-data-types)
 - [Arrays](#arrays)
+- [Loops](#loops)
 
 
 ## Introduction
@@ -103,3 +104,24 @@
   - Multi-dimensional
     - nested arrays: arrays inside an array
     - e.g., `$cars = array(array('Honda', 20, 10), array('Toyota', 30, 20), array('Ford', 23, 12));`
+
+
+## Loops
+
+- loops execute code set number of times
+- 4 types of loop
+  - For
+    - usually used when you know the number of times its going to be executed
+    - params: initializer, condition, increment
+    - e.g., `for ($i = 0; $i < 10; $i++) { }`
+  - While
+    - params: condition
+    - e.g., `while ($i < 10) { }`
+  - Do...While
+    - always going to run at least once
+    - params: condition
+    - e.g., `do { } while($i < 10)`
+  - Foreach
+    - used for arrays
+    - Indexed: e.g., `foreach ($people as $person) { }`
+    - Associative: e.g., `foreach ($people as $person => $email) { }`
