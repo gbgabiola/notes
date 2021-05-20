@@ -7,6 +7,7 @@
 - [Variables, Constants, Data Types](#variables-constants-data-types)
 - [Arrays](#arrays)
 - [Loops](#loops)
+- [Functions](#functions)
 
 
 ## Introduction
@@ -125,3 +126,22 @@
     - used for arrays
     - Indexed: e.g., `foreach ($people as $person) { }`
     - Associative: e.g., `foreach ($people as $person => $email) { }`
+
+
+## Functions
+
+- function is a block of code that can be repeatedly called
+- name convention
+  - camelCase: `myFunction()`
+  - lower_case: `my_function()`
+  - PascalCase: `MyFunction()`, mostly used for classes
+- create a function using `function` keyword then name of a function with parenthesis
+  - e.g., `function myFunction() { }`
+- call or run a function by calling its name with parenthesis
+  - e.g., `myFunction();`
+- function accepts
+  - parameters are variable inside a function parenthesis
+    - can add default value
+  - arguments are the values passed into the parenthesis when calling a function
+- `return` keyword returns the value instead of just printing it
+- passed by reference by adding `&` in front parameter
