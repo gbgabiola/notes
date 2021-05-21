@@ -1,13 +1,13 @@
 # PHP Fundamentals
 
 
-### Table of Contents
-
 - [Introduction](#introduction)
 - [Variables, Constants, Data Types](#variables-constants-data-types)
 - [Arrays](#arrays)
 - [Loops](#loops)
 - [Functions](#functions)
+- [Conditionals & Comparison](#conditionals--comparison)
+- [Dates & Timestamps](#dates--timestamps)
 
 
 ## Introduction
@@ -145,3 +145,88 @@
   - arguments are the values passed into the parenthesis when calling a function
 - `return` keyword returns the value instead of just printing it
 - passed by reference by adding `&` in front parameter
+
+
+## Conditionals & Comparison
+
+- conditional
+  - using `if`, `elseif` and `else` statements
+    ```php
+    if ($num > 0) {
+      # code...
+    } elseif ($num < 0) {
+      # code...
+    } else {
+      # code...
+    }
+    ```
+  - nesting if statements
+    ```php
+    if ($num > 5) {
+      # code...
+      if ($Num < 10) {
+        # code...
+      }
+    }
+    ```
+  - switch statements used for multiple conditions
+    ```php
+    switch ($favColor) {
+      case 'red':
+        echo 'Your favorite color is red';
+        break;
+      default:
+        echo 'Your favorite color is something else';
+    }
+    ```
+- comparison operators
+  - `==` equal to
+  - `===` equal value and equal type
+  - `!=` not equal
+  - `<>` not equal
+  - `!==` not equal value or not equal type
+  - `>` greater than
+  - `<` less than
+  - `>=` greater than or equal to
+  - `<=` less than or equal to
+  - `?` ternary operator
+- logical operators
+  - `&&` And `and`
+  - `||` Or `or`
+  - `!`	Not
+  - `xor` Xor: one has to be true but not both
+
+
+## Dates & Timestamps
+
+- date
+  - `d`: day
+  - `m`: Month
+  - `Y`: Year
+  - `l`: Day of the Week
+- timestamps
+  - `h`: Hour
+  - `i`: Minute
+  - `s`: Seconds
+  - `a`: AM or PM
+- timezones
+  - `date_default_timezone_get()` gets the timezone
+  - `date_default_timezone_set('Asia/Manila')` sets the timezone
+  - Unix timestamp is a long integer containing the number of seconds between the Unix Epoch (January 1 1970 00:00:00 GMT) and the time specified.
+- `mktime()` returns the Unix timestamp of the arguments given
+- `strtotime()` takes a string and convert it into Unix timestamp
+- [php date link](https://www.php.net/manual/en/function.date.php)
+  ```php
+  echo date('Y/m/d');
+  date_default_timezone_set('Asia/Manila');
+  echo date_default_timezone_get();
+  echo date('h:i:sa');
+
+  $timestamp = mktime(3, 17, 43, 2, 14, 1993);
+
+  $timestamp2 = strtotime('7:00pm March 22 2016');
+  $timestamp3 = strtotime('tomorrow');
+  $timestamp4 = strtotime('next Sunday');
+  $timestamp5 = strtotime('+2 Days');
+  echo date('m/d/Y h:i:sa', $timestamp5);
+  ```
