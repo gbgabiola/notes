@@ -122,6 +122,33 @@ Tutorials:
 
 ## Lists of Curated Projects
 
+- [7 Fun Side Projects To Expand Your Skill Set](https://levelup.gitconnected.com/7-fun-side-projects-to-expand-your-skill-set-9ad6d15d46ed)
+  1. Social Media Dashboard
+     - Web development basics, like HTML5 and CSS
+     - Fetching data from an API
+     - Filtering the data based on certain criteria
+     - You could go the extra mile by keeping track of your interests and which authors to follow and which not
+  2. Whiteboard
+     - Web development basics, like HTML5, and canvas
+     - Listening to mouse events from the user
+     - Working with sockets
+  3. Space Game
+     - Game development
+     - The detection of key presses
+     - Parallax scrolling
+     - Implementing different behaviors for NPCs
+     - If you need a bigger challenge you could add collision detection
+  4. Building a Pipeline
+     - Setting up a pipeline
+     - CI/CD basics
+     - While adding extra steps you'll learn lots of different things like configuring a linter and running tests
+  5. Wine Quality
+     - You'll get a grasp of machine learning
+  6. Knight's Tour
+     - You'll learn about algorithms is and how to implement them
+     - If you want to go the extra mile you could implement different algorithms to solve this problem. For example, a backtracking algorithm and a brute force one
+  7. Emojify
+     - Some of the basics of deep learning
 - [Curated list of project-based tutorials](https://github.com/tuvtran/project-based-learning)
 - [A curated list of project-based tutorials in C](https://github.com/rby90/Project-Based-Tutorials-in-C)
 - [A curated list of awesome DIY software](https://github.com/cweagans/awesome-diy-software)
@@ -199,7 +226,7 @@ Tutorials:
   26. Guess My Sketch (game)
   27. You Write Like
   28. Idea Board
-- [The Secret to Being a Top Developer Is Building Things! Here’s a List of Fun Apps to Build!](https://medium.com/better-programming/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
+- [The Secret to Being a Top Developer Is Building Things! Here's a List of Fun Apps to Build!](https://medium.com/better-programming/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c)
   1. Trello Clone
      - Routing
      - Drag and drop
@@ -241,7 +268,7 @@ Tutorials:
      - How native apps work
      - How layouts work in native
      - Routing for native apps
-- [Want to be a top developer? You should build things. Here’s another list to get you started](https://medium.com/better-programming/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)
+- [Want to be a top developer? You should build things. Here's another list to get you started](https://medium.com/better-programming/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)
   1. GraphQL powered Node.js Backend
      - Setup a Node.js express server with MongoDB and graphQL
      - Ability to create, read, update, delete (CRUD) data
