@@ -8,6 +8,7 @@
 - [Functions](#functions)
 - [Conditionals & Comparison](#conditionals--comparison)
 - [Dates & Timestamps](#dates--timestamps)
+- [Include & Require](#include--require)
 
 
 ## Introduction
@@ -230,3 +231,16 @@
   $timestamp5 = strtotime('+2 Days');
   echo date('m/d/Y h:i:sa', $timestamp5);
   ```
+
+
+## Include & Require
+
+
+- `include()` statement will only generate a PHP warning but allow script execution to continue
+- `require()` statement will generate a fatal error and stops the script execution
+  - use this if you don't want to continue the script
+- `require_one()` is identical to `require()` except PHP will check if the file has already been included, it will not include it again
+- `include`, `require`, and `require_once` allows us to insert codes into another php file
+  - usually used for template files
+  - minimize the population of codes in a single file
+  - e.g., `include 'inc/header.php';`
