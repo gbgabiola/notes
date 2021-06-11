@@ -3,6 +3,8 @@
 - [Web Design Cheatsheet](#web-design-cheatsheet)
 - [15 banner ad design tips to get more clicks](#15-banner-ad-design-tips-to-get-more-clicks)
 - [Designing the perfect web banner ad: 50 examples to help you get it right](#designing-the-perfect-web-banner-ad-50-examples-to-help-you-get-it-right)
+- [6 UI Concepts That Will Make You a Front End Ninja](#6-ui-concepts-that-will-make-you-a-front-end-ninja)
+- [8 UX Principles You Should Know as a Frontend Developer](#8-ux-principles-you-should-know-as-a-frontend-developer)
 
 
 ## Web Design Cheatsheet
@@ -182,7 +184,7 @@ Use other websites as inspiration to see what others leading designers are **doi
 9. Stay Current
 10. Use Texture
 11. Appeal to Your Niche
-12. Show, Don’t tell
+12. Show, Don't tell
 13. Have a Clear Focal Point
 14. Make a Reference Using Imagery
 15. Let Your Product Shine
@@ -197,7 +199,7 @@ Use other websites as inspiration to see what others leading designers are **doi
 24. Create a Relationship
 25. Create Contrast
 26. Create Symmetry
-27. Make a Reference to Your Target Market’s Lifestyle
+27. Make a Reference to Your Target Market's Lifestyle
 28. Use Motion
 29. Be Sharp and Edgy
 30. Create Depth
@@ -206,7 +208,7 @@ Use other websites as inspiration to see what others leading designers are **doi
 33. Use Simple Graphics
 34. Create Depth with Textural Dimension
 35. Use Accents of Color
-36. Don’t Just Try to Make a Sale
+36. Don't Just Try to Make a Sale
 37. Use Bold, Analogous Colors
 38. Use a Simple Drawing
 39. Create Movement
@@ -221,3 +223,25 @@ Use other websites as inspiration to see what others leading designers are **doi
 48. Have a Sense of Humor
 49. Use a Simple Font Pairing
 50. Accentuate with Simple Shapes
+
+
+## [6 UI Concepts That Will Make You a Front End Ninja](https://javascript.plainenglish.io/6-ui-concepts-that-makes-you-a-frontend-ninja-c6c0a29fa954)
+
+1. Hierarchy is Everything
+2. Stop Using Grey Text Everywhere
+3. Using Labels
+4. Semantics are Secondary
+5. Overlapping Elements
+6. Using Empty Spaces
+
+
+## [8 UX Principles You Should Know as a Frontend Developer](https://javascript.plainenglish.io/8-ux-principles-you-should-know-as-a-frontend-developer-9416a24294d2)
+
+1. Don't Use More than Two Typefaces
+2. Use System Native Fonts
+3. Depict Information Hierarchy With Type Size
+4. Use a Default Size for Body Copy
+5. Using Drop-Down Menu
+6. Using Pagination When Content is Finite
+7. Use Consistent Icons
+8. Use Breadcrumb Navigation
