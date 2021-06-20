@@ -1,4 +1,4 @@
-# React
+# JavaScript Needer for React
 
 <!-- ## ES5 vs ES6
 ### variable
