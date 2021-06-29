@@ -4,6 +4,7 @@
 - [Programming](#programming)
 - [Writing Code](#writing-code)
 - [Get Information from Computers](#get-information-from-computers)
+- [What can Computer's do](#what-can-computers-do)
 
 
 ## Programming
@@ -75,3 +76,24 @@
       - Text-based games/simple programs
   - Tends to be hidden away behind the scenes
   - Don't try and implement the console in the final product
+
+
+## What can Computer's do
+
+- Math
+  - Knows how to do **simple arithmetic**
+    - Addition, Subtraction, Multiplication, and Division
+  - Print the result of any math operation
+  - May seem useless, but comes in handy _extremely often_
+- Modulus %
+  - Most programming languages has an additional operator known as **modulus** (`%`)
+  - Allows us to get the _remainder_ of divisional operation
+  - Useful when determining if a number is **even** or **odd**
+    - if a number modulo 2 is 0 -> The number is _even_
+    - if a number modulo 2 is 1 -> The number is _odd_
+- Strings
+  - Another way of saying _text_
+  - _Anything enclosed by quotation marks_
+- String and Number Dilemma
+  - "4" is treated as a _STRING_
+  - 4 is treated as a _INTEGER_
