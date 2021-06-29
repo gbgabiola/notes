@@ -3,6 +3,7 @@
 
 - [Programming](#programming)
 - [Writing Code](#writing-code)
+- [Get Information from Computers](#get-information-from-computers)
 
 
 ## Programming
@@ -54,3 +55,23 @@
     - How to set up certain functions
   - Syntax for each programming languages are _unique_
   - Breaking programming rules will result in an _error_
+
+
+## Get Information from Computers
+
+- The Console
+  - Programmers keep track of their progress by looking at **the console**
+    - A _text interface_ within the computer that programmers can use for a variety of purpose
+- How to Use the Console
+  - Main use of the _console_ is to output text from the program using **code**
+    - **Print statement** _prints_ text to the _console_ for the programmers viewing pleasure
+- Using the print Statement
+  - Simply instruct the console to print, and include it _inside the parenthesis_
+    - Using _python_, e.g., `print ("Hello Word")
+  - Print statement is also usef for viewing and interpreting the computer's output from a program
+- A Background Tool
+  - The console is mainly a _Developer Tool_
+    - Not usually meant to be used and interacted with by the end user except in very **abstract cases**
+      - Text-based games/simple programs
+  - Tends to be hidden away behind the scenes
+  - Don't try and implement the console in the final product
