@@ -2,6 +2,7 @@
 
 
 - [Programming](#programming)
+- [Writing Code](#writing-code)
 
 
 ## Programming
@@ -29,3 +30,27 @@
   - **Low-level** programming languages: Assembly or C
   - **High-level** programming languages: Java or Python
   - Lower the level -> More similar to machine code
+
+
+## Writing Code
+
+- IDE's (**Integrate Development Environments**)
+  - A place to write, run, debug code and converts it to machine code
+  - IDE's are like any other program on our computer except used for the facilitation of code, e.g., (NetBeans, IntelliJ, Visual Studios)
+  - Looks: Usually has central area for writing code, console, project hierarchy, preview screens, etc.
+- IDE Functionality
+  - Built-in _Error-checking_
+  - Auto-fill for frequently used words
+  - Project Hierarchy
+- Learning Languages
+  - Learning a computer language can be very similar to learning a real language
+  - All programming languages have a **set of rules** to follow when writing code in that language, just like in real languages
+    - In computer science it is called _syntax_
+  - Similar to grammar in real life languages
+- **Syntax**
+  - Rules we must follow if we want our program to run correctly
+    - How we type out certain functions
+    - What to put at the end of each line of code
+    - How to set up certain functions
+  - Syntax for each programming languages are _unique_
+  - Breaking programming rules will result in an _error_
