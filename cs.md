@@ -5,6 +5,7 @@
 - [Writing Code](#writing-code)
 - [Get Information from Computers](#get-information-from-computers)
 - [What can Computer's do](#what-can-computers-do)
+- [Variables](#variables)
 
 
 ## Programming
@@ -97,3 +98,42 @@
 - String and Number Dilemma
   - "4" is treated as a _STRING_
   - 4 is treated as a _INTEGER_
+
+
+## Variables
+
+- What is it
+  - Something that can store information
+    - Can be _referenced_ and _manipulated_
+- Basics
+  - Each variable has a _type_, _a name_, and _a piece of information_ stored inside of it
+    - Name is simply a name for the variable
+- Types
+  - **Primitive type variables**
+    - _Integers_, _booleans_, _floats_, _doubles_, _Strings_, and _Chars_
+- Integers
+  - A variable that can store an integer value, e.g., -2, 147, 648
+  - _CAN'T_ and _WILL NOT_ hold any decimal values
+- Booleans
+  - Can _ONLY_ store and hold a value of either _true_ or _false_
+- Floats and Doubles
+  - Both are types of **floating point data types**
+    - Can store numbers with decimal places
+  - **Float Variables** can store up to 32 bits of information
+  - **Double Variables** can store up to 64 bits of information
+- Strings
+  - Useful for displaying text and storing **input information**
+    - Information the user puts into our program
+  - Also useful for outputting information in a readable format for the user
+- Chars
+  - Each hold _one_ character
+  - Useful when a programmer wants to read one button press of one character in a string without using a String variable, e.g., Game controlled by keyboard
+  - **Tip**: We can store char's in a String variable, but not String longer than 1 character in a char variable
+- Usefulness
+  - track of things, i.e., user's _name_ or _score_
+    - store this information in a variable and then _reference_, _add to_, or _modify it_
+  - Other important uses for variables
+    - Taking input from the user
+    - Making our program have **variability**
+      - Have it change based on _certain factors_
+    - Manipulating variables is necessary for many tasks in programming
