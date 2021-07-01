@@ -6,6 +6,7 @@
 - [Get Information from Computers](#get-information-from-computers)
 - [What can Computer's do](#what-can-computers-do)
 - [Variables](#variables)
+- [Manipulating Variables](#manipulating-variables)
 
 
 ## Programming
@@ -137,3 +138,37 @@
     - Making our program have **variability**
       - Have it change based on _certain factors_
     - Manipulating variables is necessary for many tasks in programming
+
+
+## Manipulating Variables
+
+- What happens when we define a variable
+  - Create a space in memory that stores variable name and its content, e.g., `int x = 10;`
+- Blank Variable
+  - Reasons to do this:
+    - We want to store the information  in the variable down the road
+    - We are going to use it to store information given to us by the user
+  - Trying to _reference_ a blank variable will result in a _NULLPointerException_ (which we want to avoid)
+- Dual Pointed Variables
+  - 2 Variable names that points to the same contents which is String "NullPointerException"
+  - We do this to save space in our code for the things we know that will have the same value
+- Updating Variables
+  - Game character has different stats
+    - Life = 100 -> 85
+    - Potion = 80 -> 64
+    - Armor = 20 -> 16
+- Fate of Variables
+  - After code has run its course, variables are deleted in memory
+- Other Ways of Manipulating Variables
+  - Integer, Float, and double variables can be
+    - Added
+    - Subtracted
+    - Multiplied
+    - Divided
+    - Modulused
+  - String variables
+    - Added
+  - Char's and Boolean's can't be operated on
+- Naming Convention
+  - **One big rule**: _MUST_ be one continuous String
+  - **camelCase**, e.g., `firstName`
