@@ -7,6 +7,7 @@
 - [What can Computer's do](#what-can-computers-do)
 - [Variables](#variables)
 - [Manipulating Variables](#manipulating-variables)
+- [Conditional Statements](#conditional-statements)
 
 
 ## Programming
@@ -172,3 +173,36 @@
 - Naming Convention
   - **One big rule**: _MUST_ be one continuous String
   - **camelCase**, e.g., `firstName`
+
+
+## Conditional Statements
+
+- Conditional Statements makes our code do different things
+- If Statement
+  - If True do this, otherwise do something else
+  - Most programming languages uses **parenthesis `()`**
+    - Inside parenthesis will be evaluated as either _true_ or _false_
+  - If the statement is true, whatever is _enclosed inside a set of curly braces_ directly after the if statement will run
+- Booleans
+  - Each condition is evaluated as a **boolean**: _True_ or _False_
+- Else-If Statement
+  - Will only be evaluated if the preceding if (or else-if) statement is false
+- Else Statement
+  - Will only run if all previous cases are not true
+- Running through If-Else Statements
+  - Check initial statement
+    - If true, run that segment of code and move on with the program
+  - If false
+    - Move to any else if statements and evaluate those   conditional Statements
+  - If any of them are not true
+    - Run that segment of code in else statement and move on
+- Switch Statement
+  - An easily collapsible way to write many if-else statements
+    - Input a variable, then determine which _"Cases"_ that variable could be
+  - Uses colon (`:`) instead of curly braces
+  - Each switch statement alseo includes a "default" case (Else statement)
+- Usefulness of Conditional Statements
+  - Adds **variability** to programming
+    - Program runs differently based on _user input_
+  - If a user does something, we want to be able to _adapt_ accordingly
+  - Without, a program would run the same way every time
