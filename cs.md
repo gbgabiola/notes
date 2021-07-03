@@ -8,6 +8,7 @@
 - [Variables](#variables)
 - [Manipulating Variables](#manipulating-variables)
 - [Conditional Statements](#conditional-statements)
+- [Arrays](#arrays)
 
 
 ## Programming
@@ -206,3 +207,44 @@
     - Program runs differently based on _user input_
   - If a user does something, we want to be able to _adapt_ accordingly
   - Without, a program would run the same way every time
+
+
+## Arrays
+
+- Where do Variables Fail
+  - Can only store _singular bits of information_
+  - Not able to hold _more than one_ piece of data
+- Arrays
+  - _List_ of **something**
+    - Integers
+    - Strings
+    - Even _other array's_
+  - All information in an array is _related_
+  - Like columns in Google Sheets
+- Referencing Arrays
+  - _Most important thing about arrays is_ **how we reference each element inside of it**
+    - In programming we use **Indexes**
+      - Indexing _begins at 0_
+  - Referencing the 10th element using 10 instead of 9 
+    - Would result in an _"Out of Bounds"_ error
+- Creating Arrays
+  - Populate First
+    - Insert the elements in the array _immediately_
+  - Populate Later
+    - Create an array with specific size, but choose to _add elements later_
+- Array Sizes
+  - When we create array their size are _FINAL_
+    - Cannot be _increased_ or _decreased_ in size through conventional methods
+    - This is what allows us to easily access their indexes
+- Array Types
+  - When initializing an array, we must determine its type _then and there_
+    - e.g., **String array**, **Integer Array**, **Double Array**, etc.
+  - They all have to be the same type
+- 2D Arrays
+  - Putting an _array inside an array_ is known as a **2-Dimensional Array**
+    - Similar to Matrices in math/physics classes
+  - Each index in the array is _actually another array with it's own set of indexes_
+- Indexing 2D Arrays
+  - To index 2D arrays we use **2 numbers**
+    - _First number_ for _row_
+    - _Second number_ for _column_
