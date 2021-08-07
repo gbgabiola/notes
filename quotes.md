@@ -363,6 +363,10 @@ adulation by the public, but because it is fun to program." - Linus Torvalds
 
 > "When you show deep empathy toward others, their defensive energy goes down, and positive energy replaces it." - Stephen Covey
 
+> "If you want to master something, teach it." - Richard Feynman
+
+> "Learning is an experience, everything else is just information." - Albert Einstein
+
 
 ## Success
 
@@ -1488,4 +1492,110 @@ And then reason up from there." - Elon Musk
 
 > "Every project is an opportunity to learn, to figure out problems and challenges, to invent and reinvent." – David Rockwell, architect and Tony Award-winning musical set designer
 
-> 
+> "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less." - Marie Curie
+
+> "It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe." - Muhammad Ali
+
+> "In many ways, Python is a dull language. It borrows solid old concepts from many other languages: boring syntax, unsurprising semantics, few automatic coercions. But that's one of the things I like about Python." - Tim Peters, Author of "Zen of Python" and creator of the Timsort sorting algorithm
+
+> "When in doubt, use brute force." - Ken Thompson
+
+> "You can't trust code that you did not totally create yourself." - Ken Thompson
+
+> "If you want to go somewhere, goto is the best way to get there." - Ken Thompson
+
+> "That brings me to Dennis Ritchie. Our collaboration has been a thing of beauty." - Ken Thompson
+
+> "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity." -  Dennis Ritchie
+
+> "For infrastructure technology, C will be hard to displace." -  Dennis Ritchie
+
+> "I've done a reasonable amount of travelling, which I enjoyed, but not for too long at a time." - Dennis Ritchie
+
+> "C++ and Java, say, are presumably growing faster than plain C, but I bet C will still be around." - Dennis Ritchie
+
+> "I think it would be a tragic statement of the universe if Java was the last language that swept through." - James Gosling
+
+> "People think of security as a noun, something you go buy. In reality, it's an abstract concept like happiness. Openness is unbelievably helpful to security." - James Gosling
+
+> "It makes my head explode when there are people who think you can do everything in HTML." - James Gosling
+
+> "With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme controls the users, and the developer controls the programme, then the programme is an instrument of unjust power." - Richard Stallman
+
+> "Sharing is good, and with digital technology, sharing is easy." - Richard Stallman
+
+> "The computer industry is the only industry that is more fashion-driven than women's fashion." - Richard Stallman
+
+> "Free software is software that respects your freedom and the social solidarity of your community. So it's free as in freedom." - Richard Stallman
+
+> "If you want to accomplish something in the world, idealism is not enough - you need to choose a method that works to achieve the goal." - Richard Stallman
+
+> "If programmers deserve to be rewarded for creating innovative programs, by the same token they deserve to be punished if they restrict the use of these programs." - Richard Stallman
+
+> "Facebook collects a lot of data from people and admits it. And it also collects data which isn't admitted. And Google does too. As for Microsoft, I don't know. But I do know that Windows has features that send data about the user." - Richard Stallman
+
+> "Value your freedom or you will lose it, teaches history. 'Don't bother us with politics', respond those who don't want to learn." - Richard Stallman
+
+> "Control over the use of one's ideas really constitutes control over other people's lives; and it is usually used to make their lives more difficult." - Richard Stallman
+
+> "The desire to be rewarded for one's creativity does not justify depriving the world in general of all or part of that creativity." - Richard Stallman
+
+> "The interesting thing about cloud computing is that we've redefined cloud computing to include everything that we already do." - Richard Stallman
+
+> "If you use a proprietary program or somebody else's web server, you're defenceless. You're putty in the hands of whoever developed that software." - Richard Stallman
+
+> "One reason you should not use web applications to do your computing is that you lose control." - Richard Stallman
+
+> "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
+
+> "Don't comment bad code-rewrite it." - Brian W. Kernighan, The Elements of Programming Style
+
+> "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway." - Brian W. Kernighan
+
+> "Clearly, I reject the view that there is one way that is right for everyone and for every problem." - Bjarne Stroustrup
+
+> "Certainly not every good program is object-oriented, and not every object-oriented program is good." - Bjarne Stroustrup
+
+> "The standard library saves programmers from having to reinvent the wheel." - Bjarne Stroustrup
+
+> "Thus, the standard library will serve as both a tool and as a teacher." - Bjarne Stroustrup
+
+> "Independence is happiness." - Susan B. Anthony
+
+> "Do one thing every day that scares you." - Eleanor Roosevelt
+
+> "There is only one corner of the universe you can be certain of improving, and that's your own self." - Aldous Huxley
+
+> "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails." - William Arthur Ward
+
+> "Nothing is impossible, the word itself says "I'm possible"!" - Audrey Hepburn
+
+> "Light tomorrow with today" - Elizabeth Barrett Browning
+
+> "Good judgement comes from experience, and a lot of that comes from bad judgement." - Will Rogers
+
+> "It always seems impossible until it's done." - 
+
+> "Adapt what is useful, reject what is useless, and add what is specifically your own." - Bruce Lee
+
+> "History has taught us: never underestimate the amount of money, time, and effort someone will expend to thwart a security system. It's always better to assume the worst. Assume your adversaries are better than they are. Assume science and technology will soon be able to do things they cannot yet. Give yourself a margin for error. Give yourself more security than you need today. When the unexpected happens, you'll be glad you did." - Bruce Schneier, Security Researcher
+
+> "If everyone is moving forward together then success takes care of itself." - Henry Ford
+
+> "An Organization’s ability to learn and translate that learning into action rapidly is the ultimate competitive advantage." - Jack Welch
+
+> "The only thing of real importance that leaders do is to create and manage culture." - Edgar Schein
+
+> "Intellectual growth should commence at birth and cease only at death." - Albert Einstein
+
+> "Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create." - Albert Einstein
+
+> "Don't wish it were easier, wish you were better." - Jim Rohn
+
+> "The automation for carrying coffee across the world is better and more reliable than the kind of tools we use to ship software between computers." - Solomon Hykes in 2013, explaining what inspired him to create Docker
+
+> "It's easy to shoot your foot off with Git. But it's also easy to revert to a previous foot, then merge it with your current leg." - Jack William Bell, Software Engineer and Git user
+
+> "Talent is a pursued interest. Anything that you're willing to practice, you can do." - Bob Ross
+
+> "Information flow is what the internet is about. Information sharing is power. If you don't share your ideas, smart people can't do anything about them, and you'll remain anonymous and powerless." - Vint Cerf, co-inventor of the internet
