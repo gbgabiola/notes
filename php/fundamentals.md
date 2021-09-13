@@ -9,6 +9,7 @@
 - [Expressions](#expressions)
 - [Operators](#operators)
 - [Control Structures](#control-structures)
+- [Functions](#functions)
 
 
 ## Introduction
@@ -318,22 +319,56 @@
   - `if` expression evaluates to `true`, PHP will execute statement
   - `else` extends an `if` statement and only executes it when all statements evaluates to `false`
   - `elseif` executes a different statement in case the original `if` expression evaluates to `false`
-  - **Note**: alternative syntax, `if (condition): ?>` then `endif;`
 - **Loops**
   - `while` loop execute the statement(s) repeatedly, as long as the expression evaluates to `true`
-    - alternative syntax: `while (condition):` then `endwhile;`
   - `for` loop has 3 expressions, 1st is initialization, 2nd is conditional, 3rd is increment
     - loop continues as long the expression evaluates to `true`, if the expression evaluates to `false`, the execution of the loop ends
-    - alternative syntax: `for (condition):` then `endfor;`
   - `do-while` loop like `while` loop, except that it's guaranteed to run at least once even of the expression evaluates to `false` right from the beginning
-  - `break` ends execution of the current loop
-  - `continue` skips the loop iteration and continue execution at the condition evaluation and then the beginning of the next iteration
   - `foreach` construct works only on arrays and objects
-    - alternative syntax: `foreach(condition):` then `endforeach;`
     - `json_encode` returns the JSON representation of a value
     - `implode` joins array elements with a string
   - **Note**: performance issue arise when calling function in a conditional expression, store it in a variable then call the variable instead
-  - `switch` statement is similar to a series of `if` statements
-    - **Note**: does loose comparison
-  - `match` expression branches evaluation based on an identity check (`===`) of a value
+- `break` ends execution of the current loop
+- `continue` skips the loop iteration and continue execution at the condition evaluation and then the beginning of the next iteration
+- `switch` statement is similar to a series of `if` statements
+  - **Note**: does loose comparison
+- `match` expression branches evaluation based on an identity check (`===`) of a value
+- `return` returns program control to the calling module
+  - if called within a function, it immediately ends execution of the current function
+  - if called from global scope, then execution of the current script file is ended
+- `declare` construct is used to set execution directives for a block of code
+  - `ticks` directive 
+  - `encoding` directive
+  - `strict_types` directive affects type coercion
+- alternative syntax format: `<?php if (conditional): ?>` then `<?php endif; ?>`
+- `include` expression includes and evaluates the specified file
+- `include_once` 
+- `require` is identical to `include` except upon failure it will not display the output and gives an error
+- `require_once` 
 
+
+## Functions
+
+- functions is a block of code that can optionally take an input, and return a value
+  - need not be defined before referencing, except when a function  is conditionally defined
+  - all functions/classes have global scope even if defined inside functions/classes
+  - functions within functions
+    - functions inside can be access as long as the parent function is called first
+  - **Note**: Not recommended to define function conditionally or inside a function
+- **Function Return**
+  - any **type** may be returned, including arrays and objects
+  - if `return` is omitted the value `null` will be returned
+  - `mixed` type which value can be any value
+- **Function arguments**
+  - arguments are information passed to a function
+  - parameters vs arguments
+    - parameters are passed to a function definition
+    - arguments are actual value passed to a function execution
+  - **Note**: use `strict_types` to avoid confusion with types
+  - every parameters requires arguments or else error
+  - optional parameters must be defined after non-optional parameters
+  - arguments by default are passed by values
+  - **Argument unpacking** refers to an operation that consists of assigning an iterable of values to a list of variables in a single assignment statement
+    - using **Splat** (`...`) operator
+  - **Variadic** functions accepts variable number of arguments
+  - **Named arguments** allow passing arguments to a function based on the parameter name, rather than the parameter position
