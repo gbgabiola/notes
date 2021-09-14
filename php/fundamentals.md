@@ -4,12 +4,13 @@
 - [Introduction](#introduction)
 - [Web Server & Setup](#web-server--setup)
 - [PHP Syntax](#php-syntax)
-- [Constants & Variable variables](#constants--variable-variables)
+- [Constants & Variables](#constants--variables)
 - [Data Types & Type Casting](#data-types--type-casting)
 - [Expressions](#expressions)
 - [Operators](#operators)
 - [Control Structures](#control-structures)
 - [Functions](#functions)
+- [Dates & Times](#dates--times)
 
 
 ## Introduction
@@ -111,7 +112,7 @@
   - `/* */` for multi-line comment
 
 
-## Constants & Variable variables
+## Constants & Variables
 
 - **Constant**
   - variables that cannot be changed
@@ -131,7 +132,14 @@
   - **Magic constants** are predefined constants that can change on the basis of their use
     - starts and ends with double underscore (`__`)
 - **Variable variables** takes the value of a variable and treats that as the name of a variable
-
+- **Variable Scope** is the context within which it is defined and can be accessed
+  - global variables spans included and required files as well
+  - local variables are declared inside a function which their scope is only in that particular function, 3 ways to access variables from global scope
+    - define the same variable name
+    - define as parameter and pass as argument
+    - **Note**: avoid using `global`, `$GLOBALS` superglobals as much as possible
+      - makes the code harder to read, maintain, and can introduce lots of bugs
+  - static variables exists only in a local function scope, but it does not lose its value when program execution leaves this scope
 
 ## Data Types & Type Casting
 
@@ -207,8 +215,50 @@
         - keys are not required, but PHP will automatically assign an integer key
       - **Multi-Dimensioal Arrays** are arrays inside an array
         - can be access by keys and index
+      - `array_chunk` function splits an array into chunks
+        - 1st param: array
+        - 2nd param: int of length
+        - 3rd param: bool to preserve keys (optional)
+      - `array_combine` function creates an array by using one array for keys and another for its values
+        - 1st param: array of keys
+        - 2nd param: array of values
+      - `array_filter` function filters elements of an array using a callback function
+        - 1st param: array
+        - 2nd param: callback
+        - 3rd param: int for mode flag
+          - `ARRAY_FILTER_USE_KEY` pass key as the only argument to callback instead of the value
+          - `ARRAY_FILTER_USE_BOTH` pass both value and key as arguments to callback instead of the value
+          - default is 0 which will pass value as the only argument to callback instead
+          - `array_values` returns all the values of an array
+            - can be used to reindexed array when there's gap
+      - `array_keys` returns all keys of an array
+      - `array_map` applies the callback to the elements of the given arrays
+        - 1st param: callback
+        - 2nd param: array
+        - 3rd param: int for mode flag
+      - `array_merge` merges one or more arrays
+      - `array_reduce` iteratively reduce the array to a single value using a callback function
+        - 1st param: array
+        - 2nd param: callback
+        - 3rd param: mixed for initial
+      - `array_search` searches the array for a given value and returns the first corresponding key if successful
+        - 1st param: mixed for needle
+        - 2nd param: array for haystack
+        - 3rd param: bool for strict
+        - `in_array` checks if a value exists in an array
+      - `array_diff` computes the difference of arrays
+      - `array_diff_assoc` computes the difference of arrays with additional index check
+      - `array_diff_key` computes the difference of arrays using keys for comparison
+      - `asort` sorts an array in ascending order and maintain index association
+      - `ksort` sorts an array by key in ascending order
+      - `usort` sort an array by values using a user-defined comparison function
+        - 1st param: array of reference
+        - 2nd param: callback
+      - `list` assigns variables as if they were an array
+      - array destructring
     - **object**
-    - **callable**
+    - **callable** is anything which can be called
+      - always requires 2 values: argument list and return type
     - **iterable**
   - **2 Special Types**
     - **resource**
@@ -372,3 +422,28 @@
     - using **Splat** (`...`) operator
   - **Variadic** functions accepts variable number of arguments
   - **Named arguments** allow passing arguments to a function based on the parameter name, rather than the parameter position
+- **Variable Function** tries to find a function whose name corresponds to value of the variable and executes it
+  - won't work with language constructs, e.g., `echo`, `print`, `unset()`, `isset()`, `empty()`, `include`, `require`
+    - utilize wrapper functions to make use of any of these constructs as variable functions
+- **Anonymous Function** (closures or lamdba function) allows a function to have no names
+  - must end with semi
+  - can be assigned to a variable
+  - can be passed as arguments to another functions and even return them from another functions
+- **Callback Function** is a function passed to another function as an argument and called within that function
+  - built-in functions thats expects callback function as an argument: `array_map`, `filter`, `usort`
+- **Arrow Function** is a cleaner syntax of an Anonymous Function
+  - can always access variables from the parent scope
+  - only has a single expression and returns the value of that expression
+
+
+## Dates & Times
+
+- `time` function returns current time in seconds since the Unix Epoch (January 1 1970 00:00:00 GMT
+- `date` function returns formatted local time/date
+  - timestamp is option defaults to the value of `time()`
+- `date_default_timezone_set` function sets the default timezone used by all date/time functions in a script
+- `date_default_timezone_get` function gets the default timezone used by all date/time functions in a script
+- `mktime` function returns the Unix timestamp corresponding to the arguments given
+- `strtotime` function parse about any English textual datetime description into a Unix timestamp
+- `date_parse` function returns associative array with detailed info about given date/time
+- `date_parse_from_format` function gets info about given date formatted according to the specified format
