@@ -11,6 +11,7 @@
 - [Control Structures](#control-structures)
 - [Functions](#functions)
 - [Dates & Times](#dates--times)
+- [Error Handling & Error Handlers](#error-handling--error-handlers)
 
 
 ## Introduction
@@ -447,3 +448,16 @@
 - `strtotime` function parse about any English textual datetime description into a Unix timestamp
 - `date_parse` function returns associative array with detailed info about given date/time
 - `date_parse_from_format` function gets info about given date formatted according to the specified format
+
+
+## Error Handling & Error Handlers
+
+- `error_reporting` use `E_ALL` for both development and production
+- `E_ERROR` is a fatal error and will stop the script execution
+- `E_WARNING` displays a warning and will not stop the script execution
+- `E_NOTICE`
+- `E_USER_ERROR` are generated manually by using the `trigger_error` function
+- `E_USER_WARNING`
+- `display_errors` turn off in production to avoid displaying sensitive information and internal errors to the user
+- `error_log` to displays the log manually
+- `restore_error_handler` restores the previous error handler function
