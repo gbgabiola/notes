@@ -12,6 +12,7 @@
 - [Functions](#functions)
 - [Dates & Times](#dates--times)
 - [Error Handling & Error Handlers](#error-handling--error-handlers)
+- [PHP File System](#php-file-system)
 
 
 ## Introduction
@@ -461,3 +462,35 @@
 - `display_errors` turn off in production to avoid displaying sensitive information and internal errors to the user
 - `error_log` to displays the log manually
 - `restore_error_handler` restores the previous error handler function
+
+
+## PHP File System
+
+- **Directory Functions**
+  - `chdir`
+  - `chroot`
+  - `closedir`
+  - `copy`
+  - `dir`
+  - `getcwd`
+  - `opendir`
+  - `readdir`
+  - `rewinddir`
+  - `scandir` lists files and directories inside the specified path
+- **Filesystem Functions**
+  - `clearstatcache` clears file status cache
+  - `fclose`
+  - `fgetcsv` gets line from file pointer and parse for CSV fields
+  - `fgets` gets line from file pointer and strip HTML tags
+  - `fopen`
+  - `file_exists`
+  - `file_get_contents`
+  - `file_put_contents`
+  - `filesize`
+  - `is_dir`
+  - `is_file`
+  - `mkdir`
+  - `rename`
+  - `rmdir`
+  - `unlink` deletes a file
+- `__DIR__` magic constant 

@@ -3,7 +3,8 @@
 - [Linux Introduction](#linux-introduction)
 - [Linux Distributions](#linux-distributions)
 - [Linux Directory Structure](#linux-directory-structure)
-- [Linux Commands](#linux-commands)
+- [The Shell](#the-shell)
+- [Basic Linux Commands](#basic-linux-commands)
 
 
 ## Linux Introduction
@@ -98,13 +99,41 @@
 - common practice `/opt/companyName`
 
 
-## Linux Commands
+## The Shell
 
-### Print working directory
+- The default interface to Linux
+- A program that accepts and executes commands 
+- Also called as command line interpreter
+- **Command Line Interface (CLI)** vs **Graphic User Interface (GUI)**
+  - CLI can do everything a GUI can do
+  - Server distros do not include GUIs
+  - Desktop distros have GUIs and CLIs
+- **The Prompt**
+  - Displays current user and name of Linux system
+  - `$` current user is a normal user
+  - `#` current user is Superuser (root)
+  - `~` represents home directory
+  - **Tilde Expansion**
+    - `~username` -> `/home/username`
+    - `~root` -> `/root`
+    - `~ftp` -> `/srv/ftp`
+- **Root, the Superuser**
+  - Root access is typically restricted to system administrators
+  - Root access may be required to _install_, _start_, or _stop_ an application
 
-```sh
-pwd
-```
+
+## Basic Linux Commands
+
+- `ls` Lists directory contents
+  - `-l` long listing format
+- `cd` Changes the current directory
+- `pwd` Displays or print the current working directory
+- `cat` Concatenates and displays files
+- `echo` Displays arguments to the screen
+- `man` Displays the online manual
+- `exit` Exits shell or current session
+- `clear` Clears the screen
+
 
 ### List files and folders
 
